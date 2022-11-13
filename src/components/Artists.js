@@ -1,8 +1,9 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const Artists = () => {
     return(
-        <div>this is where the artists go</div>
+        <NavBar />
     )
 }
 
