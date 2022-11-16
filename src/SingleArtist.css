@@ -1,0 +1,20 @@
+.artist-top-div {
+    margin-top: 10vh;
+    display: flex;
+    height: 25vh;
+}
+
+.artist-info-container {
+    margin: 10px;
+    background-color: #6CB4C2;
+}
+@media only screen and (max-width: 600px) {
+    .home-blurb-container{
+        margin: 10px;
+        background-color: #6CB4C2;
+    }
+    .home-blurb {
+        margin: 2px;
+        color: #805E7C;
+    }
+}

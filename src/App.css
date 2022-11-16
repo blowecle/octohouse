@@ -1,4 +1,47 @@
 body{
   background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
   background-size: cover;
+  display: flex;
+}
+
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+
+.before-after-slider-container{
+  width: 90vw;
+  min-height: 800px;
+}
+
+.before-after-slider {
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-image-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .house-image-main {
+    max-width: 90vw;
+    max-height: 100vh;
+  }
+  .home-blurb-container{
+    margin: 10px;
+    background-color: #6CB4C2;
+  }
+  .home-blurb {
+    margin: 2px;
+    color: #805E7C;
+  }
+  .carousel {
+    max-width: 100vw;
+  }
 }

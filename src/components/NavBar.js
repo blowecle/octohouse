@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav} from 'rsuite';
 import { Link } from 'react-router-dom';
-import GroupIcon from '@rsuite/icons/legacy/Group';
-import HomeIcon from '@rsuite/icons/legacy/Home';
 import '../Nav.css'
 import '../../node_modules/rsuite/dist/rsuite.min.css'
 
@@ -21,7 +19,7 @@ const NavBar = () => {
           </Nav.Item>
           <Nav.Item className='navbar-item' eventKey="2">
           <Link to='/artists'>
-            Meet the Team!
+            Meet the Team! 
           </Link>
           </Nav.Item>
         </Nav>
