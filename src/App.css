@@ -1,6 +1,4 @@
 body{
-  background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
-  background-size: cover;
   display: flex;
 }
 
@@ -10,7 +8,8 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10vh;
+  background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
+  background-size: cover;
 }
 
 
@@ -25,7 +24,10 @@ body{
 
 @media only screen and (max-width: 600px) {
   .main-image-container {
-    margin: 10px;
+    margin-top: 11vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
   }

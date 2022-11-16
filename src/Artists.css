@@ -1,0 +1,23 @@
+body {
+    background-color: #1C7097;
+}
+
+.artist-content-container {
+    margin-top: 11vh;
+}
+
+.artist-button {
+    background-color: #6CB4C2;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.artist-list-item {
+    padding: 5px;
+    margin: 5px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: #6CB4C2;
+}
