@@ -4,6 +4,14 @@ body {
 
 .artist-content-container {
     margin-top: 11vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #6CB4C2;
 }
 
 .artist-button {
@@ -13,11 +21,14 @@ body {
     margin-left: 5px;
 }
 
-.artist-list-item {
+.card {
     padding: 5px;
     margin: 5px;
     border-color: black;
     border: 1px;
     border-style: solid;
     background-color: #6CB4C2;
+    border-radius: 10px;
+    width: 27vw;
+    max-width:30vw;
 }

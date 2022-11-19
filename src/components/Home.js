@@ -1,7 +1,5 @@
 import React from 'react'
 import NavBar from './NavBar';
-// import ReactBeforeSliderComponent from 'react-before-after-slider-component';
-// import 'react-before-after-slider-component/dist/build.css';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../App.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -9,72 +7,57 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Home = () => {
 
-    // const FIRST_IMAGE = {
-    //     imageUrl: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg'
-    //   };
-    //   const SECOND_IMAGE = {
-    //     imageUrl: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg'
-    //   };
-
-    //   const delimiterIconStyles = {
-    //     width: '50px',
-    //     height: '50px',
-    //     backgroundSize: 'cover',
-    //     borderRadius: 'none',
-    //     backgroundImage: 'url(https://res.cloudinary.com/ddqp7dojc/image/upload/v1668441400/octo-house/octopus_s5gbs5.png)'
-    //  }
-
     return (<>
         <NavBar/>
             <div className='home-container'>
                 <div className='main-image-container'>
                     <img className='house-image-main' alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg'/>
                 </div>
+                <div className='carousel-title'>Exterior Images:</div>
                 <Carousel className='carousel'>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180515015_1_lyvmvb.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_182504428_l8uyjw.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_182701408_jjqamq.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180534962_u5e9vq.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180631279_elsz08.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
-                <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                </div>
-                
             </Carousel>
+            <div className='carousel-title'>Interior Images:</div>
             <Carousel className='carousel'>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>  {/*this is where a note about each photo lives */}
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_181015020_zvp8rs.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_181144236_rjfjbp.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                </div>
-                <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                </div>
-                <div>
-                    <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                </div>
-                
+                    <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859070/octo-house/PXL_20221118_180955889_noovam.jpg' />
+                    <p className='carousel-details'>this is a test paragraph</p>
+                </div>  
             </Carousel>
             <div className='before-after-slider'>
                 <ReactCompareSlider
-                itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg' />}
+                itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859070/octo-house/PXL_20221118_180356659_a2gwg9.jpg' />}
                 itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
                 position={1}
                 />

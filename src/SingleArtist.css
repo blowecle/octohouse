@@ -1,10 +1,26 @@
-.artist-top-div {
+.artist-name {
+    display: flex;
+    justify-content: center;
     margin-top: 10vh;
+    color: #6CB4C2;
+}
+
+.artist-top-div {
     display: flex;
     height: 25vh;
+    justify-content: space-between;
 }
 
 .artist-info-container {
+    margin: 10px;
+    background-color: #6CB4C2;
+}
+
+.artist-info {
+    padding: 5px;
+}
+
+.artist-blurb-container {
     margin: 10px;
     background-color: #6CB4C2;
 }

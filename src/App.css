@@ -9,7 +9,7 @@ body{
   flex-direction: column;
   justify-content: center;
   background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
-  background-size: cover;
+  background-size: 70vh;
 }
 
 
@@ -23,6 +23,14 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+  .carousel-details {
+    padding-top: 5px;
+  }
+  .carousel-title {
+    font-size: 20px;
+    color: #6CB4C2;
+    padding-left: 10px;
+  }
   .main-image-container {
     margin-top: 11vh;
     margin-left: 10px;

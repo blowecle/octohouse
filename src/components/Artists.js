@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "./NavBar";
 import '../Artists.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Link } from "react-router-dom";
+import ArtistCard from "./ArtistCard";
+import SingleArtist from "./SingleArtist";
 
 const Artists = () => {
-
-    const [open, setOpen] = useState(false);
 
     const artists = [{
         id: 1,
@@ -20,7 +20,7 @@ const Artists = () => {
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
-                'social2',
+        'social2',
                 'social3'],
         additional: 'additional info',
     },
@@ -55,32 +55,163 @@ const Artists = () => {
                 'social2',
                 'social3'],
         additional: 'additional info',
-    }]
-
-    const handleClick = () => {
-        setOpen(!open);
-    }
+    },
+    {
+        id: 4,
+        company: 'company four',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 5,
+        company: 'company five',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 6,
+        company: 'company six',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 7,
+        company: 'company seven',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 8,
+        company: 'company eight',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 9,
+        company: 'company nine',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 10,
+        company: 'company ten',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 11,
+        company: 'company eleven',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },
+    {
+        id: 12,
+        company: 'company twelve',
+        names: ['artist1',
+                'artist2',
+                'artist3'],
+        images: ['url1',
+                'url2',
+                'url3'],
+        work: 'this is what the artist worked on',
+        blurb: 'this is the artist blurb',
+        social: ['social1',
+                'social2',
+                'social3'],
+        additional: 'additional info',
+    },]
 
     return(
         <>
             <NavBar />
             <div className='artist-content-container'>
-                <div className='artist-button' onClick={handleClick}>Show/Hide Artists</div>
-                {open ? (
+                {
                     artists.map((artist) => (
-                    <Link key={artist.id} to={artist.id}>
-                    <div key={artist.id} className='artist-list-item'>
-                        <div className='company-name'>{artist.company}</div>
-                        {artist.names.map((name) => (
-                            <div className='artist-name'>{name}</div>
-                        ))}
-                        <div className='artist-filler'></div>
-                    </div>
+                    <Link key={artist.id} to={`/artists/${artist.id}`} state={artist}>
+                        <ArtistCard key={artist.id} artist={artist}/>
                     </Link>
                     ))
-                ) : (
-                    null
-                )}
+                }
             </div>
         </>
         )
