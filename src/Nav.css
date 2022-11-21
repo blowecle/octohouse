@@ -1,8 +1,3 @@
-@font-face {
-	font-family: water-font;
-	src: url('./ulove.TTF');
-}
-
 .navbar-container {
     position: fixed;
     top: 0;
@@ -12,12 +7,12 @@
 }
 
 .navbar-content {
-    font-family: water-font;
     background-color: #6CB4C2;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 10vh;
+    width: 100vw;
     max-width: 100vw;
     align-items: center;
 }

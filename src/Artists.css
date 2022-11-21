@@ -31,19 +31,22 @@ body {
     width: 40vw;
     max-width: 40vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
 }
 
 .card-back {
-    
     background-color: #6CB4C2;
 }
 
 .isActive {
     min-width: 90vw;
+    min-height: 80vh;
     z-index: 20;
     position: fixed;
 }
 
-.flippy-container.isActive {
-    position: absolute;
+.card-image {
+    max-height: 40vw;
+    max-width: 20vh;
 }

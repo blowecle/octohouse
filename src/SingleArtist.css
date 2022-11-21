@@ -7,7 +7,7 @@
 
 .artist-top-div {
     display: flex;
-    height: 25vh;
+    height: 30vh;
     justify-content: space-between;
 }
 
@@ -22,8 +22,14 @@
 
 .artist-blurb-container {
     margin: 10px;
+    padding: 10px;
     background-color: #6CB4C2;
 }
+
+.single-carousel {
+    max-height: 20vh;
+}
+
 @media only screen and (max-width: 600px) {
     .home-blurb-container{
         margin: 10px;

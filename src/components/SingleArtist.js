@@ -18,30 +18,16 @@ const SingleArtist = () => {
                         <div className='artist-info'>{artist.work}</div>
                     </div>
                     <div className='artist-blurb-container'>
-                        <div className='artist-blurb'>blurb goes here</div>
+                        <div className='artist-blurb'>{artist.blurb}</div>
                     </div>
                 </div>
                 <div className='artist-bottom-div'>
                     <Carousel className='carousel'>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        <div>
-                            <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png' />
-                        </div>
-                        
+                        {artist.images.map((image) => (
+                            <div className='single-carousel'>
+                                <img className='single-carousel-image' alt='' src={`${image}`} />
+                            </div>
+                        ))}
                     </Carousel>
                     <div className='artist-social-links'>social media goes here</div>
                 </div>

@@ -6,24 +6,23 @@ import { Link } from "react-router-dom";
 import ArtistCard from "./ArtistCard";
 import SingleArtist from "./SingleArtist";
 import Flippy, { FrontSide, BackSide } from 'react-flippy'
+import CardBack from "./CardBack";
 
 const Artists = () => {
 
     const artists = [{
         id: 1,
-        company: 'company one',
-        names: ['artist1',
-                'artist2',
-                'artist3'],
-        images: ['url1',
-                'url2',
-                'url3'],
-        work: 'this is what the artist worked on',
-        blurb: 'this is the artist blurb',
-        social: ['social1',
-        'social2',
-                'social3'],
-        additional: 'additional info',
+        company: 'Blue Moon Glassworks',
+        names: ['Jim Berry'],
+        images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180631279_elsz08.jpg',
+                'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',],
+        cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+        work: ['Stained glass octopus tentacle',
+                'Stained glass starfish'],
+        blurb: 'It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.',
+        social: ['Austinbluemoon.com',
+        'Facebook: Blue Moon Glassworks',],
+        additional: null,
     },
     {
         id: 2,
@@ -34,6 +33,8 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -50,7 +51,8 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
-        work: 'this is what the artist worked on',
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
                 'social2',
@@ -66,6 +68,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -82,6 +85,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -98,6 +102,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -114,6 +119,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -130,6 +136,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -146,6 +153,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -162,6 +170,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -178,6 +187,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -194,6 +204,7 @@ const Artists = () => {
         images: ['url1',
                 'url2',
                 'url3'],
+                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -211,12 +222,11 @@ const Artists = () => {
                         <Flippy flipOnClick={true}
                         flipDirection='vertical'>
                             <FrontSide className='card-front'
-                            style={{padding: '1vw', zIndex: '-1'}}>
+                            style={{padding: '1vw'}}>
                                 <ArtistCard key={artist.id} artist={artist}/>
                             </FrontSide>
                             <BackSide>
-                                <div className='card-back'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
-                                {artist.id}
+                                    <CardBack artist={artist} />
                             </BackSide>
                         </Flippy>
                     ))
