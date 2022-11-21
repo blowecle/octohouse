@@ -1,5 +1,5 @@
 import React from "react";
-import '../Artists.css';
+import '../css/Artists.css';
 
 const ArtistCard = ({artist}) => {
 console.log(artist)

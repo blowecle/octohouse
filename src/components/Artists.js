@@ -1,10 +1,9 @@
 import React from "react";
 import NavBar from "./NavBar";
-import '../Artists.css'
+import '../css/Artists.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Link } from "react-router-dom";
-import ArtistCard from "./ArtistCard";
-import SingleArtist from "./SingleArtist";
+import CardFront from "./CardFront";
 import Flippy, { FrontSide, BackSide } from 'react-flippy'
 import CardBack from "./CardBack";
 
@@ -17,6 +16,7 @@ const Artists = () => {
         images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180631279_elsz08.jpg',
                 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',],
         cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+        backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: ['Stained glass octopus tentacle',
                 'Stained glass starfish'],
         blurb: 'It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.',
@@ -32,7 +32,7 @@ const Artists = () => {
                 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_182444250_zgk61f.jpg',
                 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859070/octo-house/PXL_20221118_180955889_noovam.jpg'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg',
-
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg',
         work: ['Exterior Mural Concept & Collaboration',
                 'Interior Design'],
         blurb: `During our first meetings with Joey, he expressed a strong desire to create a house that would be a gathering place for his family, neighbors, and the community.  However, the original form of the spec house was closed, even hostile towards the street.  I had a hunch that landscaping and a standard re-paint wouldn't be the cure needed.  Assembling the team of builders, designers, and craftspeople to collaborate on the transformation of the house from spec to an underwater fantasy was great fun!   Each new person brought onto the team caught the infectious joy of the project!  We all could feel the FUN and WONDER radiating from the house onto the street to every passerby.`,
@@ -49,6 +49,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
                 work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -66,6 +67,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -83,6 +85,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -100,6 +103,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -117,6 +121,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -134,6 +139,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -151,6 +157,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -168,6 +175,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -185,6 +193,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -202,6 +211,7 @@ const Artists = () => {
                 'url2',
                 'url3'],
                 cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
+                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
         work: 'this is what the artist worked on',
         blurb: 'this is the artist blurb',
         social: ['social1',
@@ -220,7 +230,7 @@ const Artists = () => {
                         flipDirection='vertical'>
                             <FrontSide className='card-front'
                             style={{padding: '1vw'}}>
-                                <ArtistCard key={artist.id} artist={artist}/>
+                                <CardFront key={artist.id} artist={artist}/>
                             </FrontSide>
                             <BackSide>
                                     <CardBack artist={artist} />

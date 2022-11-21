@@ -1,28 +1,29 @@
-body{
-  display: flex;
-}
-
-
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
-  background-size: 70vh;
-}
-
-
-.before-after-slider-container{
-  width: 90vw;
-  min-height: 80vh;
-}
-
-.before-after-slider {
-  min-height: 40vh;
-}
-
 @media only screen and (max-width: 600px) {
+  body{
+    display: flex;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/ddqp7dojc/image/upload/v1668027202/octo-house/bubble1_guxnpp.gif');
+    background-size: 70vh;
+  }
+  
+  .before-after-slider-container{
+    width: 90vw;
+    min-height: 80vh;
+  }
+  
+  .before-after-slider {
+    min-height: 40vh;
+  }
+  
+  .carousel {
+    max-width: 50vw;
+  }
+
   .carousel-details {
     color:white;
     padding-top: 2vh;

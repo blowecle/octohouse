@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import '../SingleArtist.css'
+import '../css/SingleArtist.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { useLocation } from 'react-router-dom'

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav} from 'rsuite';
 import { Link } from 'react-router-dom';
-import '../Nav.css'
+import '../css/Nav.css'
 import '../../node_modules/rsuite/dist/rsuite.min.css'
 
 
