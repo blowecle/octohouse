@@ -23,12 +23,27 @@ body {
 
 .card {
     padding: 5px;
-    margin: 5px;
     border-color: black;
     border: 1px;
     border-style: solid;
     background-color: #6CB4C2;
     border-radius: 10px;
-    width: 27vw;
-    max-width:30vw;
+    width: 40vw;
+    max-width: 40vw;
+    height: 20vh;
+}
+
+.card-back {
+    
+    background-color: #6CB4C2;
+}
+
+.isActive {
+    min-width: 90vw;
+    z-index: 20;
+    position: fixed;
+}
+
+.flippy-container.isActive {
+    position: absolute;
 }

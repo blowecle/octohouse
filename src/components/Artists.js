@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Link } from "react-router-dom";
 import ArtistCard from "./ArtistCard";
 import SingleArtist from "./SingleArtist";
+import Flippy, { FrontSide, BackSide } from 'react-flippy'
 
 const Artists = () => {
 
@@ -207,9 +208,17 @@ const Artists = () => {
             <div className='artist-content-container'>
                 {
                     artists.map((artist) => (
-                    <Link key={artist.id} to={`/artists/${artist.id}`} state={artist}>
-                        <ArtistCard key={artist.id} artist={artist}/>
-                    </Link>
+                        <Flippy flipOnClick={true}
+                        flipDirection='vertical'>
+                            <FrontSide className='card-front'
+                            style={{padding: '1vw', zIndex: '-1'}}>
+                                <ArtistCard key={artist.id} artist={artist}/>
+                            </FrontSide>
+                            <BackSide>
+                                <div className='card-back'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+                                {artist.id}
+                            </BackSide>
+                        </Flippy>
                     ))
                 }
             </div>
