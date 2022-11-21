@@ -15,16 +15,17 @@ body{
 
 .before-after-slider-container{
   width: 90vw;
-  min-height: 800px;
+  min-height: 80vh;
 }
 
 .before-after-slider {
-  min-height: 400px;
+  min-height: 40vh;
 }
 
 @media only screen and (max-width: 600px) {
   .carousel-details {
-    padding-top: 5px;
+    color:white;
+    padding-top: 2vh;
   }
   .carousel-title {
     font-size: 20px;
