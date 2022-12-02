@@ -22,11 +22,13 @@
   
   .carousel {
     max-width: 50vw;
+    padding: 1vw;
   }
 
   .carousel-details {
     color:white;
     padding-top: 2vh;
+    margin-bottom: 3vh;
   }
   .carousel-title {
     font-size: 20px;
@@ -41,6 +43,7 @@
     display: flex;
     justify-content: center;
     background-color: #6CB4C2;
+    border-radius: 5vw;
   }
   .house-image-main {
     max-width: 100%;

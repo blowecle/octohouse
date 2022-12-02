@@ -12,16 +12,8 @@ const SingleArtist = () => {
     console.log('these are the props: ',artist)
         return (<>
             <NavBar />
-            <div className='artist-name'>{artist.company}</div>
                 <div className='artist-top-div'>
-                    <div className='artist-info-container'>
-                        <div className='artist-info'>{artist.work}</div>
-                    </div>
-                    <div className='artist-blurb-container'>
-                        <div className='artist-blurb'>{artist.blurb}</div>
-                    </div>
-                </div>
-                <div className='artist-bottom-div'>
+                        <div className='artist-name'>{artist.company}</div>
                     <Carousel className='carousel'>
                         {artist.images.map((image) => (
                             <div className='single-carousel'>
@@ -30,6 +22,14 @@ const SingleArtist = () => {
                         ))}
                     </Carousel>
                     <div className='artist-social-links'>social media goes here</div>
+                </div>
+                <div className='artist-bottom-div'>
+                    <div className='artist-info-container'>
+                        <div className='artist-info'>{artist.work}</div>
+                    </div>
+                    <div className='artist-blurb-container'>
+                        <div className='artist-blurb'>{artist.blurb}</div>
+                    </div>
                 </div>
             </>)
 }

@@ -1,14 +1,12 @@
 .artist-name {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
     color: #6CB4C2;
 }
 
 .artist-top-div {
-    display: flex;
+    margin-top: 10vh;
     height: 30vh;
-    justify-content: space-between;
 }
 
 .artist-info-container {

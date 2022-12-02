@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "./NavBar";
 import '../css/Artists.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Link } from "react-router-dom";
 import CardFront from "./CardFront";
 import Flippy, { FrontSide, BackSide } from 'react-flippy'
 import CardBack from "./CardBack";
@@ -41,16 +40,14 @@ const Artists = () => {
     },
     {
         id: 3,
-        company: 'company three',
-        names: ['artist1',
-                'artist2',
-                'artist3'],
+        company: 'Nelson Rockwood',
+        names: [],
         images: ['url1',
                 'url2',
                 'url3'],
-                cardImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1669055700/octo-house/PXL_20221118_180823038_1_yrfqzv.jpg',
-                backImage: 'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg',
-                work: 'this is what the artist worked on',
+                cardImage: null,
+                backImage: null,
+                work: '',
         blurb: 'this is the artist blurb',
         social: ['social1',
                 'social2',
@@ -233,12 +230,13 @@ const Artists = () => {
                                 <CardFront key={artist.id} artist={artist}/>
                             </FrontSide>
                             <BackSide>
-                                    <CardBack artist={artist} />
+                                <CardBack artist={artist} />
                             </BackSide>
                         </Flippy>
                     ))
                 }
             </div>
+            <div></div>
         </>
         )
 }

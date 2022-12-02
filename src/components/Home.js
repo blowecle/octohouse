@@ -4,6 +4,8 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import '../css/App.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
+import StudioA from './StudioA/StudioA';
 
 const Home = () => {
 
@@ -68,6 +70,9 @@ const Home = () => {
                 </p>
             </div>
         </div>
+        <Link to='/artists/test' element={<StudioA />}>
+            test
+        </Link>
     </>
   )
 }

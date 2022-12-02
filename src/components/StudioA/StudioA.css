@@ -1,0 +1,30 @@
+.top-div {
+    margin-top: 11vh;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.blurb {
+    background-color: #6CB4C2;
+    border-radius: 2vw;;
+    padding: 2vw;
+    width: 95vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+
+.portrait-image {
+    border-radius: 2vw;
+    max-width: 100%;
+}
+
+.social-link {
+    color: white;
+    margin: 2vw;
+}
+
+.carousel-details {
+    margin-bottom: 3vh;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Navbar, Nav} from 'rsuite';
 import { Link } from 'react-router-dom';
 import '../css/Nav.css'
