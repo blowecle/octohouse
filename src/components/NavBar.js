@@ -9,7 +9,7 @@ const NavBar = () => {
 
 
     return (
-      <Navbar className='navbar-container'>
+      <Navbar  className='navbar-container'>
         <Nav  className='navbar-content'>
           <Nav.Item className='navbar-item'>
             <Link to='/'>
