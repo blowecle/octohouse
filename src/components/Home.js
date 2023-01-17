@@ -10,7 +10,6 @@ import StudioA from './StudioA/StudioA';
 const Home = () => {
 
     return (<>
-        <NavBar/>
             <div className='home-container'>
                 <div className='main-image-container'>
                     <img className='house-image-main' alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg'/>
@@ -70,9 +69,6 @@ const Home = () => {
                 </p>
             </div>
         </div>
-        <Link to='/artists/test' element={<StudioA />}>
-            test
-        </Link>
     </>
   )
 }
