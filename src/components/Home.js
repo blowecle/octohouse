@@ -20,9 +20,9 @@ const Home = () => {
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180515015_1_lyvmvb.jpg' />
                     <p className='carousel-details'>Mermaid statue by: Daniel Hornung and Pyrology</p>
                 </div>
-                <div>
+                <div> 
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_182504428_l8uyjw.jpg' />
-                    <p className='carousel-details'>this is a test paragraph</p>
+                    <p className='carousel-details'>this is a test paragraph 1</p>
                 </div>
                 <div>
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_182701408_jjqamq.jpg' />
