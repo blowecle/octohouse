@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div> 
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_182504428_l8uyjw.jpg' />
-                    <p className='carousel-details'>this is a test paragraph 1</p>
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_182701408_jjqamq.jpg' />
