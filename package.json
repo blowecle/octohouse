@@ -27,7 +27,7 @@
     "name": "octopus-house",
     "description": "A website dedicated to the Octopus House of Austin, TX.",
     "version": "1.0.0",
-    "node": "16.15.0 || 18.x",
+    "node": "16.15.0",
     "react": "16.x || 17.x || 18.x"
   },
   "eslintConfig": {
