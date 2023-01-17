@@ -13,6 +13,7 @@
     "react-compare-slider": "^2.2.0",
     "react-dom": "^18.2.0",
     "react-flippy": "^1.1.0",
+    "react-parallax": "^3.5.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
@@ -26,6 +27,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "name": "octopus-house",
+  "description": "A website dedicated to the Octopus House of Austin, TX.",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  }
   },
   "eslintConfig": {
     "extends": [
