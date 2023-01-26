@@ -11,7 +11,7 @@ const Home = () => {
 
     return (<>
             <div className='home-container'>
-                <div className='main-image-container'>
+                {/* <div className='main-image-container'>
                     <img className='house-image-main' alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg'/>
                 </div>
                 <div className='carousel-title'>Exterior Images:</div>
@@ -41,7 +41,7 @@ const Home = () => {
             <Carousel className='carousel'>
                 <div>
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180840811_dkfgkj.jpg' />
-                    <p className='carousel-details'>this is a test paragraph</p>  {/*this is where a note about each photo lives */}
+                    <p className='carousel-details'>this is a test paragraph</p>
                 </div>
                 <div>
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859071/octo-house/PXL_20221118_181015020_zvp8rs.jpg' />
@@ -55,19 +55,65 @@ const Home = () => {
                     <img alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859070/octo-house/PXL_20221118_180955889_noovam.jpg' />
                     <p className='carousel-details'>this is a test paragraph</p>
                 </div>  
-            </Carousel>
-            <div className='before-after-slider'>
+            </Carousel> */}
+            <img src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1674759564/octo-house/island_abz6pf.jpg' className='top-image' alt='island'/>
+            <div className='aos-container'>
+                <div 
+                className='story-div story-div-right story-div-1' 
+                data-aos='fade-left' 
+                data-aos-duration='1500' 
+                data-aos-once='true'
+                data-aos-offset='200'
+                >What do you think about when you think of Austin culture?
+                </div>
+                <div className='story-div story-img-center'
+                data-aos='flip-up'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://lostinaustin.org/wp-content/uploads/2021/03/texsueno-05-large.jpg' alt='tacos' className='story-img'/>
+                Is it the tacos?</div>
+                <div className='story-div story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://d4o3oxzf7m9sj.cloudfront.net/O0yjfd0drLtEh5YMegqwGyQh6lc=/1200x630/smart/https://media.data.statesman.com/restaurants/images/LGC_Tacos-11.JPG' alt='mural' className='story-img'/>
+                </div>
+                <div className='story-div story-div-right'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >Is it all the beautiful street murals?
+                </div>
+                <div className='story-div story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://mymodernmet.com/wp/wp-content/uploads/2019/08/things-to-do-in-austin-1.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='story-div story-img-right'
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://images.squarespace-cdn.com/content/v1/5d78842dc0dde5786b44bd3c/fd1a52cf-6b74-4237-8137-7bc668be58a0/Bumble-Mural.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='filler'/>
+            </div>
+            {/* <div className='before-after-slider'>
                 <ReactCompareSlider
-                itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859070/octo-house/PXL_20221118_180356659_a2gwg9.jpg' />}
+                itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}
                 itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
                 position={1}
                 />
-            </div>
-            <div className='home-blurb-container'>
-                <p className='home-blurb'>
-                    In 2020, Joey Trevino returned to his birthplace in Austin, TX after 30 years in Silicon Valley.  Shortly after, Joey purchased the octopus house, except there were no octopi to be found just yet.  Over the course of the next 2-3 years he collaborated with local talent to transform the house into something that is one of a kind.  This website exists as a tribute to those artists and craftspeople that poured their blood, sweat, and tears into this house, and helped keep Austin weird!
-                </p>
-            </div>
+            </div> */}
         </div>
     </>
   )
