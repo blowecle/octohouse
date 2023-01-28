@@ -48,6 +48,10 @@
     margin-top: 400px;
   }
 
+  .story-div-2 {
+    font-size: 32px;
+  }
+
   .story-div-right {
     max-width: 60vw;
     align-self: flex-end;
@@ -96,6 +100,7 @@
     font-size: 32px;
     padding: 2px;
     color: white;
+    text-align: center;
   }
 
   .story-img {

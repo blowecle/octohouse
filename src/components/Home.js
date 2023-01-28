@@ -6,6 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 import StudioA from './StudioA/StudioA';
+import Tacos from '../images/texsueno-05-large.jpeg'
 
 const Home = () => {
 
@@ -72,7 +73,7 @@ const Home = () => {
                 data-aos-once='true'
                 data-aos-offset='400'
                 >
-                    <img src='https://lostinaustin.org/wp-content/uploads/2021/03/texsueno-05-large.jpg' alt='tacos' className='story-img story-img-center'/>
+                    <img src={Tacos} alt='tacos' className='story-img story-img-center'/>
                 Is it the tacos?</div>
                 <div className='story-div story-img-left'
                 data-aos='fade-right'
@@ -155,14 +156,18 @@ const Home = () => {
                 >
                     <img src='https://radseason.com/wp-content/uploads/2017/06/Austin-City-Limits-Music-Festival.-Photo-by-Katrina-Barber.jpg' alt='mural' className='story-img'/>
                 </div>
-                <div className='story-div'>
+                <div className='story-div story-div-2'
+                data-aos='zoom-in'
+                data-aos-duration='500'
+                data-aos-once='true'
+                data-aos-offset='400'>
                 From the annual South by 
 Southwest festival, which attracts artists from around the world, to the vibrant street art 
-and murals that can be found throughout the city, there is no shortage of artistic expression 
-in Austin.  This culture is what makes Austin what it is: an amazing place to live and visit, which
+and murals that can be found throughout the city, there is no shortage of artistic expression in Austin.
+{/*This culture is what makes Austin what it is: an amazing place to live and visit, which
 is the motivation behind building and designing this unique and artistic house. By utilizing some 
 of the best local talent Austin has to offer, a beautiful and creative addition to the Austin
-art scene has been created.
+art scene has been created. */}
                 </div>
                 <div className='filler'/>
             </div>
