@@ -113,6 +113,22 @@ const Home = () => {
                 >
                     <img src='https://do512family.com/wp-content/uploads/2018/01/DSC_8986.jpg' alt='mural' className='story-img'/>
                 </div>
+                <div className='story-div story-img-center'
+                data-aos='zoom-in'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://images.squarespace-cdn.com/content/v1/536ea5cbe4b074eafa4feea0/1498937138623-G0VUYKLVHFGL3XN9SJOP/TAH+new+srv.jpg?format=1000w' alt='tacos' className='story-img story-img-center'/>
+                How about the music?</div>
+                <div className='story-div story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://radseason.com/wp-content/uploads/2017/06/Austin-City-Limits-Music-Festival.-Photo-by-Katrina-Barber.jpg' alt='mural' className='story-img'/>
+                </div>
                 <div className='story-div'>
                 From the annual South by 
 Southwest festival, which attracts artists from around the world, to the vibrant street art 
@@ -122,7 +138,6 @@ is the motivation behind building and designing this unique and artistic house. 
 of the best local talent Austin has to offer, a beautiful and creative addition to the Austin
 art scene has been created.
                 </div>
-                
                 <div className='filler'/>
             </div>
             {/* <div className='before-after-slider'>
