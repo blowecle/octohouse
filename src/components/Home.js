@@ -63,14 +63,14 @@ const Home = () => {
                 data-aos='fade-left' 
                 data-aos-duration='1500' 
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >What do you think about when you think of Austin culture?
                 </div>
                 <div className='story-div story-img-center'
                 data-aos='zoom-in'
                 data-aos-duration='1500'
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >
                     <img src='https://lostinaustin.org/wp-content/uploads/2021/03/texsueno-05-large.jpg' alt='tacos' className='story-img story-img-center'/>
                 Is it the tacos?</div>
@@ -78,54 +78,80 @@ const Home = () => {
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >
                     <img src='https://d4o3oxzf7m9sj.cloudfront.net/O0yjfd0drLtEh5YMegqwGyQh6lc=/1200x630/smart/https://media.data.statesman.com/restaurants/images/LGC_Tacos-11.JPG' alt='mural' className='story-img'/>
                 </div>
+                <div className='mural-container'>
                 <div className='story-div story-div-right'
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >Is it all the beautiful street murals?
                 </div>
-                <div className='story-div story-img-left'
-                data-aos='fade-right'
-                data-aos-duration='1500'
-                data-aos-once='true'
-                data-aos-offset='200'
-                >
-                    <img src='https://mymodernmet.com/wp/wp-content/uploads/2019/08/things-to-do-in-austin-1.jpg' alt='mural' className='story-img'/>
+                    <div className='mural mural-1'
+                    data-aos='fade-right'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://mymodernmet.com/wp/wp-content/uploads/2019/08/things-to-do-in-austin-1.jpg' alt='mural' className='mural-img'/>
+                    </div>
+                    <div className='mural mural-2'
+                    data-aos='fade-left'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://images.squarespace-cdn.com/content/v1/5d78842dc0dde5786b44bd3c/fd1a52cf-6b74-4237-8137-7bc668be58a0/Bumble-Mural.jpg' alt='mural' className='mural-img'/>
+                    </div>
+                    <div className='mural mural-3'
+                    data-aos='fade-right'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://do512family.com/wp-content/uploads/2018/01/DSC_8986.jpg' alt='mural' className='mural-img'/>
+                    </div>
+                    <div className='mural mural-4'
+                    data-aos='fade-right'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://i1.wp.com/www.eastsideatx.com/wp-content/uploads/2020/11/AAC5576C-74FC-49CB-A515-ED573E107912.jpeg?w=640&ssl=1' alt='mural' className='mural-img'/>
+                    </div>
+                    <div className='mural mural-5'
+                    data-aos='fade-right'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://thumbs.dreamstime.com/b/central-texas-austin-hope-graffiti-art-gallery-outdoor-venue-wall-longhorn-blue-bear-abstract-locals-call-capital-hill-53891702.jpg' alt='mural' className='mural-img'/>
+                    </div>
+                    <div className='mural mural-6'
+                    data-aos='fade-right'
+                    data-aos-duration='1500'
+                    data-aos-once='true'
+                    data-aos-offset='400'
+                    >
+                        <img src='https://do512family.com/wp-content/uploads/2018/01/RH208528.jpg' alt='mural' className='mural-img'/>
+                    </div>
                 </div>
-                <div className='story-div story-img-right'
-                data-aos='fade-left'
-                data-aos-duration='1500'
-                data-aos-once='true'
-                data-aos-offset='200'
-                >
-                    <img src='https://images.squarespace-cdn.com/content/v1/5d78842dc0dde5786b44bd3c/fd1a52cf-6b74-4237-8137-7bc668be58a0/Bumble-Mural.jpg' alt='mural' className='story-img'/>
-                </div>
-                <div className='story-div story-img-left'
-                data-aos='fade-right'
-                data-aos-duration='1500'
-                data-aos-once='true'
-                data-aos-offset='200'
-                >
-                    <img src='https://do512family.com/wp-content/uploads/2018/01/DSC_8986.jpg' alt='mural' className='story-img'/>
-                </div>
-                <div className='story-div story-img-center'
+                <div className='music-start story-div story-img-center'
                 data-aos='zoom-in'
                 data-aos-duration='1500'
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >
-                    <img src='https://images.squarespace-cdn.com/content/v1/536ea5cbe4b074eafa4feea0/1498937138623-G0VUYKLVHFGL3XN9SJOP/TAH+new+srv.jpg?format=1000w' alt='tacos' className='story-img story-img-center'/>
+                    <img src='https://images.squarespace-cdn.com/content/v1/536ea5cbe4b074eafa4feea0/1498937138623-G0VUYKLVHFGL3XN9SJOP/TAH+new+srv.jpg?format=1000w' alt='tacos' className='mural-img story-img-center'/>
                 How about the music?</div>
                 <div className='story-div story-img-left'
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 data-aos-once='true'
-                data-aos-offset='200'
+                data-aos-offset='400'
                 >
                     <img src='https://radseason.com/wp-content/uploads/2017/06/Austin-City-Limits-Music-Festival.-Photo-by-Katrina-Barber.jpg' alt='mural' className='story-img'/>
                 </div>

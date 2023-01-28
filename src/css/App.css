@@ -107,4 +107,66 @@
     padding: 10px;
     color: white;
   }
+
+  .music-start {
+    margin-top: 100vh;
+  }
+
+  .mural-container {
+    position: relative;
+  }
+
+  .mural:nth-child(even) {
+    right: 10%;
+  }
+
+  .mural:nth-child(odd) {
+    left: 10%;
+  }
+
+  .mural {
+    position: absolute;
+    max-height: 80%;
+    max-width: 40%;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1cd8d2, #93edc7);
+    color: white;
+    margin: 2vh 5vw 2vw 2vw;
+    border-radius: 7px;
+    width: 80vw;
+    height: 15vh;
+    font-size: 20px;
+    padding: 2px;
+  }
+
+  .mural-img {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .mural-2 {
+    bottom: -158%;
+  }
+
+  .mural-3 {
+    bottom: -233%;
+  }
+
+  .mural-4 {
+    bottom: -308%;
+  }
+
+  .mural-5 {
+    bottom: -383%;
+  }
+
+  .mural-6 {
+    bottom: -458%;
+  }
 }
