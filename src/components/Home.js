@@ -67,12 +67,12 @@ const Home = () => {
                 >What do you think about when you think of Austin culture?
                 </div>
                 <div className='story-div story-img-center'
-                data-aos='flip-up'
+                data-aos='zoom-in'
                 data-aos-duration='1500'
                 data-aos-once='true'
                 data-aos-offset='200'
                 >
-                    <img src='https://lostinaustin.org/wp-content/uploads/2021/03/texsueno-05-large.jpg' alt='tacos' className='story-img'/>
+                    <img src='https://lostinaustin.org/wp-content/uploads/2021/03/texsueno-05-large.jpg' alt='tacos' className='story-img story-img-center'/>
                 Is it the tacos?</div>
                 <div className='story-div story-img-left'
                 data-aos='fade-right'
@@ -105,6 +105,24 @@ const Home = () => {
                 >
                     <img src='https://images.squarespace-cdn.com/content/v1/5d78842dc0dde5786b44bd3c/fd1a52cf-6b74-4237-8137-7bc668be58a0/Bumble-Mural.jpg' alt='mural' className='story-img'/>
                 </div>
+                <div className='story-div story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='200'
+                >
+                    <img src='https://do512family.com/wp-content/uploads/2018/01/DSC_8986.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='story-div'>
+                From the annual South by 
+Southwest festival, which attracts artists from around the world, to the vibrant street art 
+and murals that can be found throughout the city, there is no shortage of artistic expression 
+in Austin.  This culture is what makes Austin what it is: an amazing place to live and visit, which
+is the motivation behind building and designing this unique and artistic house. By utilizing some 
+of the best local talent Austin has to offer, a beautiful and creative addition to the Austin
+art scene has been created.
+                </div>
+                
                 <div className='filler'/>
             </div>
             {/* <div className='before-after-slider'>

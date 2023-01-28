@@ -39,8 +39,9 @@
     align-items: center;
     background: linear-gradient(to right, #1cd8d2, #93edc7);
     color: white;
-    margin: 3.5vh 0;
+    margin: 2vh 5vw 2vw 2vw;
     border-radius: 7px;
+    padding: 5px;
   }
 
   .story-div-1 {
@@ -54,6 +55,7 @@
     padding: 10px;
     color: white;
     margin-right: 5vw;
+    text-align: center;
   }
 
   .story-div-left {
@@ -62,13 +64,14 @@
     padding: 10px;
     color: white;
     margin-left: 5vw;
+    text-align: center;
   }
 
   .story-img-left {
     width: 80vw;
     height: 22vh;
     font-size: 20px;
-    padding: 10px;
+    padding: 2px;
     color: white;
     margin-left: 5vw;
   }
@@ -79,7 +82,7 @@
     width: 80vw;
     height: 22vh;
     font-size: 20px;
-    padding: 10px;
+    padding: 2px;
     color: white;
     margin-right: 5vw;
   }
@@ -89,9 +92,9 @@
     justify-content: center;
     align-self: center;
     max-width: 70vw;
-    height: 50vh;
+    height: 95%;
     font-size: 32px;
-    padding: 10px;
+    padding: 2px;
     color: white;
   }
 
