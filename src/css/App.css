@@ -73,7 +73,7 @@
   }
 
   .story-img-right {
-    max-width: 60vw;
+    width: 80vw;
     align-self: flex-end;
     font-size: 32px;
     color: white;

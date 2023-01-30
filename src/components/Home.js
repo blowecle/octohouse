@@ -83,6 +83,22 @@ const Home = () => {
                 >
                     <img src='https://d4o3oxzf7m9sj.cloudfront.net/O0yjfd0drLtEh5YMegqwGyQh6lc=/1200x630/smart/https://media.data.statesman.com/restaurants/images/LGC_Tacos-11.JPG' alt='mural' className='story-img'/>
                 </div>
+                <div className='story-div story-img-right'
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='http://res.cloudinary.com/simpleview/image/upload/v1479240053/clients/austin/La_Condesa_Tacos_Courtesy_of_Jody_Horton_f525f296-5afa-4867-afee-5b7b795a09e7.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='story-div story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='https://s.hdnux.com/photos/01/27/63/44/23017781/3/rawImage.jpg' alt='mural' className='story-img'/>
+                </div>
                 <div className='mural-container'>
                 <div className='story-div story-div-center'
                 data-aos='fade-right'
@@ -163,13 +179,35 @@ const Home = () => {
                 data-aos-offset='400'>
                     <img src='https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/austin/364d98f2_5a0c_4242_9240_3db10e6bdb81_7117aac3-2a59-469f-9037-f0c6c1982c12.jpg' alt='music' className='story-img'/>
                 </div>
+                <div className='story story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='https://assets.vogue.com/photos/5dd6bcb87dd0f80008027f0b/master/w_2560%2Cc_limit/Continental%2520Club%2520DG7KT9.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='story story-img-right'
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'>
+                    <img src='https://media.timeout.com/images/103197129/750/562/image.jpg' alt='music' className='story-img'/>
+                </div>
+                <div className='story story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='https://s3.amazonaws.com/bit-photos/large/9619633.jpeg' alt='mural' className='story-img'/>
+                </div>
                 <div className='story-div story-div-2'
                 data-aos='zoom-in'
                 data-aos-duration='500'
                 data-aos-once='true'
                 data-aos-offset='400'>
-                From the annual South by 
-Southwest festival, which attracts artists from around the world, to the vibrant street art 
+                From the annual festivals, which attracts artists from around the world, to the vibrant street art 
 and murals that can be found throughout the city, there is no shortage of artistic expression in Austin.
 {/*This culture is what makes Austin what it is: an amazing place to live and visit, which
 is the motivation behind building and designing this unique and artistic house. By utilizing some 
@@ -197,6 +235,13 @@ art scene has been created. */}
                 data-aos-offset='400'
                 >
                     <img src='https://images.fineartamerica.com/images-medium-large-5/contemporary-downtown-austin-art-painting-night-skyline-cityscape-painting-texas-svetlana-novikova.jpg' alt='tacos' className='story-img-center'/>
+                </div>
+                <div className='story-div story-div-2'
+                data-aos='zoom-in'
+                data-aos-duration='500'
+                data-aos-once='true'
+                data-aos-offset='400'>
+This culture is what makes Austin what it is: an amazing place to live and visit!
                 </div>
                 <div className='story story-img-center'
                 data-aos='zoom-in'
