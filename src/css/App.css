@@ -22,7 +22,13 @@
 
   .filler {
     height: 10vh;
-    background-color:#72c1b9;
+    background-color:#192c2a;
+    border-top: 4px solid #6CB4C2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
   }
 
   .aos-container {
@@ -207,4 +213,36 @@
   .mural-6 {
     bottom: -795%;
   }
+
+  @keyframes slide {
+    0% { margin-left: 0;}
+    21% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    46% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    71% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+    100% {margin-left: 0;}
+  }
+
+  .slider {
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    height: 100%;
+    animation: slide 10s ease-in infinite;
+  }
+
+  .slide img {
+    width: 100vw;
+    height: 100%;
+  }
 }
+

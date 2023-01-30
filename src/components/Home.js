@@ -7,6 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 import StudioA from './StudioA/StudioA';
 import Tacos from '../images/texsueno-05-large.jpeg'
+import Downtown from '../images/downtown.jpeg'
 
 const Home = () => {
 
@@ -209,10 +210,6 @@ const Home = () => {
                 data-aos-offset='400'>
                 From the annual festivals, which attracts artists from around the world, to the vibrant street art 
 and murals that can be found throughout the city, there is no shortage of artistic expression in Austin.
-{/*This culture is what makes Austin what it is: an amazing place to live and visit, which
-is the motivation behind building and designing this unique and artistic house. By utilizing some 
-of the best local talent Austin has to offer, a beautiful and creative addition to the Austin
-art scene has been created. */}
                 </div>
                 <div className='story story-img-left'
                 data-aos='fade-right'
@@ -251,7 +248,26 @@ This culture is what makes Austin what it is: an amazing place to live and visit
                 >
                     <img src='https://do512family.com/wp-content/uploads/2019/01/RainbowWall_ReneeDominguez_20181127_008.jpg' alt='tacos' className='story-img-center'/>
                 </div>
-                <div className='filler'/>
+                <div className='slider'>
+                    <div className='slides'>
+                        <div className='slide'>
+                            <img src={Downtown} alt='downtown'/>
+                        </div>
+                        <div className='slide'>
+                            <img src='https://www.nestvr.com/wp-content/uploads/2016/04/10x16-Stevie-Skyline-min-1-1024x682.jpg' alt='downtown'/>
+                        </div>
+                        <div className='slide'>
+                            <img src='https://www.telegraph.co.uk/content/dam/Travel/Destinations/North%20America/USA/texas/austin-sixth-street-texas-nightlife.jpg' alt='downtown'/>
+                        </div>
+                        <div className='slide'>
+                            <img src='https://aquilacommercial.com/wp-content/uploads/2018/12/Downtown-Austin.jpg' alt='downtown'/>
+                        </div>
+                    </div>
+                </div>
+                <div className='filler'>
+                    <div className='filler-1'>Octopus Diary</div>
+                    <div className='filler-2'>Meet the Team</div>
+                </div>
             </div>
             {/* <div className='before-after-slider'>
                 <ReactCompareSlider
