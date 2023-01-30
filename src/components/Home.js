@@ -67,7 +67,7 @@ const Home = () => {
                 data-aos-offset='400'
                 >What do you think about when you think of Austin culture?
                 </div>
-                <div className='story-div story-img-center'
+                <div className='story-div story-img-center-1'
                 data-aos='zoom-in'
                 data-aos-duration='1500'
                 data-aos-once='true'
@@ -84,7 +84,7 @@ const Home = () => {
                     <img src='https://d4o3oxzf7m9sj.cloudfront.net/O0yjfd0drLtEh5YMegqwGyQh6lc=/1200x630/smart/https://media.data.statesman.com/restaurants/images/LGC_Tacos-11.JPG' alt='mural' className='story-img'/>
                 </div>
                 <div className='mural-container'>
-                <div className='story-div story-div-right'
+                <div className='story-div story-div-center'
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 data-aos-once='true'
@@ -116,7 +116,7 @@ const Home = () => {
                         <img src='https://do512family.com/wp-content/uploads/2018/01/DSC_8986.jpg' alt='mural' className='mural-img'/>
                     </div>
                     <div className='mural mural-4'
-                    data-aos='fade-right'
+                    data-aos='fade-left'
                     data-aos-duration='1500'
                     data-aos-once='true'
                     data-aos-offset='400'
@@ -132,7 +132,7 @@ const Home = () => {
                         <img src='https://thumbs.dreamstime.com/b/central-texas-austin-hope-graffiti-art-gallery-outdoor-venue-wall-longhorn-blue-bear-abstract-locals-call-capital-hill-53891702.jpg' alt='mural' className='mural-img'/>
                     </div>
                     <div className='mural mural-6'
-                    data-aos='fade-right'
+                    data-aos='fade-left'
                     data-aos-duration='1500'
                     data-aos-once='true'
                     data-aos-offset='400'
@@ -140,21 +140,28 @@ const Home = () => {
                         <img src='https://do512family.com/wp-content/uploads/2018/01/RH208528.jpg' alt='mural' className='mural-img'/>
                     </div>
                 </div>
-                <div className='music-start story-div story-img-center'
+                <div className='music-start story-img-center'
                 data-aos='zoom-in'
                 data-aos-duration='1500'
                 data-aos-once='true'
                 data-aos-offset='400'
                 >
-                    <img src='https://images.squarespace-cdn.com/content/v1/536ea5cbe4b074eafa4feea0/1498937138623-G0VUYKLVHFGL3XN9SJOP/TAH+new+srv.jpg?format=1000w' alt='tacos' className='mural-img story-img-center'/>
+                    <img src='https://images.squarespace-cdn.com/content/v1/536ea5cbe4b074eafa4feea0/1498937138623-G0VUYKLVHFGL3XN9SJOP/TAH+new+srv.jpg?format=1000w' alt='tacos' className='story-img-center-1'/>
                 How about the music?</div>
-                <div className='story-div story-img-left'
+                <div className='story story-img-left'
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 data-aos-once='true'
                 data-aos-offset='400'
                 >
                     <img src='https://radseason.com/wp-content/uploads/2017/06/Austin-City-Limits-Music-Festival.-Photo-by-Katrina-Barber.jpg' alt='mural' className='story-img'/>
+                </div>
+                <div className='story story-img-right'
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'>
+                    <img src='https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/austin/364d98f2_5a0c_4242_9240_3db10e6bdb81_7117aac3-2a59-469f-9037-f0c6c1982c12.jpg' alt='music' className='story-img'/>
                 </div>
                 <div className='story-div story-div-2'
                 data-aos='zoom-in'
@@ -168,6 +175,36 @@ and murals that can be found throughout the city, there is no shortage of artist
 is the motivation behind building and designing this unique and artistic house. By utilizing some 
 of the best local talent Austin has to offer, a beautiful and creative addition to the Austin
 art scene has been created. */}
+                </div>
+                <div className='story story-img-left'
+                data-aos='fade-right'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'>
+                    <img src='https://img.texasmonthly.com/2021/11/austin-studio-tour-1.jpg?auto=compress&crop=faces&fit=fit&fm=pjpg&ixlib=php-3.3.1&q=45' alt='art' className='story-img'/>
+                </div>
+                <div className='story story-img-right'
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'>
+                    <img src='https://downtownaustin.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-4.52.11-PM-1127x700.png' alt='art' className='story-img'/>
+                </div>
+                <div className='story story-img-center'
+                data-aos='zoom-in'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='https://images.fineartamerica.com/images-medium-large-5/contemporary-downtown-austin-art-painting-night-skyline-cityscape-painting-texas-svetlana-novikova.jpg' alt='tacos' className='story-img-center'/>
+                </div>
+                <div className='story story-img-center'
+                data-aos='zoom-in'
+                data-aos-duration='1500'
+                data-aos-once='true'
+                data-aos-offset='400'
+                >
+                    <img src='https://do512family.com/wp-content/uploads/2019/01/RainbowWall_ReneeDominguez_20181127_008.jpg' alt='tacos' className='story-img-center'/>
                 </div>
                 <div className='filler'/>
             </div>
