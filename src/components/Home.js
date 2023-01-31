@@ -269,13 +269,13 @@ This culture is what makes Austin what it is: an amazing place to live and visit
                     <div className='filler-2'>Meet the Team</div>
                 </div>
             </div>
-            {/* <div className='before-after-slider'>
+            <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}
                 itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
                 position={1}
                 />
-            </div> */}
+            </div>
         </div>
     </>
   )
