@@ -19,11 +19,11 @@ const Artifact = ({artifact}) => {
                     <div className="carousel">
                     <img className="carousel-image" src={artifact.images[index]} alt="" />
                     <div className="button-container">
-                        <button className="carousel-button carousel-button-next" onClick={handleNext}>
-                            Next
-                        </button>
                         <button className="carousel-button carousel-button-prev" onClick={handlePrev}>
                             Prev
+                        </button>
+                        <button className="carousel-button carousel-button-next" onClick={handleNext}>
+                            Next
                         </button>
                     </div>
                     </div>
