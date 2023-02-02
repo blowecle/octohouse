@@ -1,4 +1,3 @@
-import './css/App.css';
 import Home from './components/Home';
 import React, { useState, useEffect } from 'react';
 
@@ -25,28 +24,7 @@ function App() {
     };
   }, [scrollPosition]);
 
-  return (
-    <Home/>
-    // <div className='content'>
-    //   <div
-    //     className={`sliding-div ${currentIndex >= 0 ? 'visible' : 'hidden'}`}
-    //     style={{ backgroundColor: 'red' }}
-    //   >
-    //     Div 1
-    //   </div>
-    //   <div
-    //     className={`sliding-div ${currentIndex >= 1 ? 'visible' : 'hidden'}`}
-    //     style={{ backgroundColor: 'green' }}
-    //   >
-    //     Div 2
-    //   </div>
-    //   <div
-    //     className={`sliding-div ${currentIndex >= 2 ? 'visible' : 'hidden'}`}
-    //     style={{ backgroundColor: 'blue' }}
-    //   >
-    //     Div 3
-    //   </div>
-    // </div>
+  return (<></>
   );
 }
 // import { BrowserRouter } from 'react-router-dom';
