@@ -39,6 +39,9 @@ const Home = () => {
                 { artifacts.map((artifact) => (
                     <Artifact key={artifact.id} artifact={artifact}/>
                 ))}
+                <Link to='/blog'>
+                    <div className='temp-link'>CLICK ME</div>
+                </Link>
             {/* <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}

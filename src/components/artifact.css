@@ -1,19 +1,23 @@
 .artifact-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artifact-image-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50vh;
     background-image: url('https://cdn.pixabay.com/photo/2017/06/13/13/51/marble-2398946__480.jpg');
     background-size: 100% 100%;
     border: 1px solid black;
     border-radius: 5px;
-    height: 45vh;
+    height: 37vh;
+    width: 90vw;
 }
 
-.artifact-images {
-    padding-top: 5%;
-}
 
 .carousel-image {
     min-width: 45vw;
@@ -26,10 +30,13 @@
     color: white;
     background-color: #bcbcbc;
     border: 2px solid #a1a1a1;
-    margin: 5px 0 10px 0;
+    margin: 1vh 0 30vh 0;
+    box-shadow: 1vh 1vh 1vh rgb(0 0 0 / 50%);
+    width: 20vw;
 }
 
 .carousel {
+
     background-color: aliceblue;
     border: 1px solid black;
     border-radius: 5px;
@@ -37,7 +44,7 @@
 
 .carousel-image {
     height: 30vh;
-    max-width: 80vw;
+    max-width: 85vw;
     padding: 5%;
 }
 
