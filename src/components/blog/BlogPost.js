@@ -7,13 +7,17 @@ const BlogPost = ({post}) => {
             <div className='post-title-wrapper'>
                 <div className='post-title'>{`${post.title}`}</div>
             </div>
-            <div className='post-image-wrapper'>
-                    {post.images.map((image) => (
-                        <div className='inner-wrapper'>
-                            <img src={image} alt='blogImage' className='post-image'/>
-                        </div>
-                    ))}
-            </div>
+                        {(post.images.length > 1) ? (
+                            <div className='post-image-wrapper'>
+                                {post.images.map((image) => (
+                                    <div className='inner-wrapper'>
+                                        <img src={image} alt='blogImage' className='post-image'/>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <img src={post.images[0]} alt='blogImage' className='post-image'/>
+                        )}
             <div className='post-content-wrapper'>
                 <div className='post-content'>
                     {`${post.text}`}
