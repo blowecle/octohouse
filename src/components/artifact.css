@@ -21,13 +21,8 @@
 }
 
 .artifact-image {
-    max-width: 90vw;
     margin-right: 5vw;
     max-height: 37vh;
-}
-
-.carousel-image {
-    min-width: 45vw;
 }
 
 .artifact-info {
@@ -51,12 +46,11 @@
 
 .carousel-image {
     height: 30vh;
-    max-width: 85vw;
+    max-width: 90vw;
     padding: 5%;
 }
 
 .post-image {
-    width: 90vw;
     margin-right: 5vw;
     max-height: 100%;
 }
