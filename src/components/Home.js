@@ -3,6 +3,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import '../css/Home.css'
 import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
+import Splash from './splash/Splash';
 
 const Home = () => {
 
@@ -36,19 +37,20 @@ const Home = () => {
 
     return (<>
             <div className='home-container'>
+                <Splash/>
                 { artifacts.map((artifact) => (
                     <Artifact key={artifact.id} artifact={artifact}/>
                 ))}
                 <Link to='/blog'>
                     <div className='temp-link'>CLICK ME</div>
                 </Link>
-            {/* <div className='before-after-slider'>
+            <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}
                 itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
                 position={1}
                 />
-            </div> */}
+            </div>
         </div>
     </>
   )

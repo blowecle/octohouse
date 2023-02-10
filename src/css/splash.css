@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.clip-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    overflow: hidden;
+    clip: rect(auto, 100%, auto, auto);
+    animation: 5s ease-in 0s 1 forwards slide;
+}
+
+@keyframes slide {
+    100% { clip: rect(auto, 0%, auto, auto)}
+}
+
+.image {
+    overflow: clip;
+    display: block;
+    width: 100%;
+    height: 40vh;
+    max-width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: center center;
+}
