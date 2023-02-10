@@ -10,8 +10,8 @@ const Home = () => {
         {
             id: 1,
             name: 'Mermaid',
-            images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg',
-                    'https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/AEE4DB1A-DE38-40C7-BE4A-74FD388F1B3F_zrzggx.jpg',
+            images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/c_crop,h_2049,w_1186/v1674142353/octo-house/5C2DC8EF-DB10-4A20-9FF7-6AB37B827B2D_hjaxvc.jpg',
+                    'https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg',
                     'https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg',
                     'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180515015_1_lyvmvb.jpg'],
         },
