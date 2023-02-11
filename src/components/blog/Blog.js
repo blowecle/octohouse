@@ -3,6 +3,7 @@ import BlogPost from "./BlogPost";
 import '../../css/blog.css'
 
 const Blog = () => {
+    window.scrollTo(0,0);
     const posts = [
         {
             id: 1,
