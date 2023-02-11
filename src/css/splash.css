@@ -13,9 +13,9 @@
     height: 100%;
     user-select: none;
     overflow: hidden;
-    animation: slid 4s alternate infinite;
+    animation: slider 4s alternate forwards;
 }
-@keyframes slid {
+@keyframes slider {
     25% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
