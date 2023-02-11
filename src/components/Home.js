@@ -37,6 +37,7 @@ const Home = () => {
 
     return (<>
             <div className='home-container'>
+                <Splash/>
                 { artifacts.map((artifact) => (
                     <Artifact key={artifact.id} artifact={artifact}/>
                 ))}
