@@ -5,6 +5,7 @@
 }
 
 .clip-item {
+    display: inline-block;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -12,13 +13,22 @@
     height: 100%;
     user-select: none;
     overflow: hidden;
-    clip: rect(auto, 100%, auto, auto);
-    animation: 5s ease-in 0s 1 forwards slide;
+    animation: slid 4s alternate infinite;
 }
-
-@keyframes slide {
-    100% { clip: rect(auto, 0%, auto, auto)}
-}
+@keyframes slid {
+    25% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    50% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    75% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    100% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+  }
 
 .image {
     overflow: clip;
