@@ -1,7 +1,7 @@
 import React from "react";
-import '../../css/splash.css'
+import '../../css/slider.css'
 
-const Splash = () => {
+const Slider = () => {
     return (
         <div class="container">
             <img className="image after" src={`https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg`}alt='before'></img>
@@ -14,4 +14,4 @@ const Splash = () => {
     )
 }
 
-export default Splash;
+export default Slider;

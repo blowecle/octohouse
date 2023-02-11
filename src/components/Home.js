@@ -3,7 +3,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import '../css/Home.css'
 import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
-import Splash from './splash/Splash';
+import Slider from './slider/Slider';
 
 const Home = () => {
 
@@ -11,9 +11,9 @@ const Home = () => {
         {
             id: 1,
             name: 'Mermaid',
-            images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/c_crop,h_2049,w_1186/v1674142353/octo-house/5C2DC8EF-DB10-4A20-9FF7-6AB37B827B2D_hjaxvc.jpg',
-                    'https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg',
+            images: ['https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg',
                     'https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg',
+                    'https://res.cloudinary.com/ddqp7dojc/image/upload/c_crop,h_2049,w_1186/v1674142353/octo-house/5C2DC8EF-DB10-4A20-9FF7-6AB37B827B2D_hjaxvc.jpg',
                     'https://res.cloudinary.com/ddqp7dojc/image/upload/v1668859072/octo-house/PXL_20221118_180515015_1_lyvmvb.jpg'],
         },
         {
@@ -37,7 +37,7 @@ const Home = () => {
 
     return (<>
             <div className='home-container'>
-                <Splash/>
+                <Slider/>
                 { artifacts.map((artifact) => (
                     <Artifact key={artifact.id} artifact={artifact}/>
                 ))}
