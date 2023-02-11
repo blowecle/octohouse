@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     .post-wrapper {
         max-width: 90vw;
-        margin-bottom: 2vh;
+        margin-bottom: 4vh;
     }
 
     .post-title-wrapper {
@@ -33,10 +33,17 @@
         max-height: 40vh;
     }
 
+    .single-image-wrapper {
+        background-color: rgb(0, 0, 0, 0%);
+        width: 100%;
+        max-height: 100%;
+        display: flex;
+    }
+
     .post-image {
         max-width: 90vw;
         margin-right: 5vw;
-        max-height: 100%;
+        height: 100%;
     }
 
     .post-content {

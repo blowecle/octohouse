@@ -16,7 +16,9 @@ const BlogPost = ({post}) => {
                                 ))}
                             </div>
                         ) : (
-                            <img src={post.images[0]} alt='blogImage' className='post-image'/>
+                            <div className='single-image-wrapper'>
+                                <img src={post.images[0]} alt='blogImage' className='post-image'/>
+                            </div>
                         )}
             <div className='post-content-wrapper'>
                 <div className='post-content'>
