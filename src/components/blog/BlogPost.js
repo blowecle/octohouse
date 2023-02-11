@@ -2,6 +2,7 @@ import React from "react";
 import '../../css/post.css'
 
 const BlogPost = ({post}) => {
+    
     return (
         <div className='post-wrapper'>
             <div className='post-title-wrapper'>
@@ -14,7 +15,7 @@ const BlogPost = ({post}) => {
                                         <img src={image} alt='blogImage' className='post-image'/>
                                     </div>
                                 ))}
-                                <div class="icon" aria-hidden="true"></div>
+                                <div className="icon" aria-hidden="true"></div>
                             </div>
                         ) : (
                             <div className='single-image-wrapper'>

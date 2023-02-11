@@ -15,7 +15,7 @@ const Blog = () => {
             id: 2,
             title: 'The Big Thaw',
             date: `February, 2021`,
-            images: [`https://res.cloudinary.com/ddqp7dojc/image/upload/v1675801018/octo-house/-3015122360201427833_q6em8r.jpg`,],
+            images: [`https://res.cloudinary.com/ddqp7dojc/image/upload/v1675801018/octo-house/-3015122360201427833_q6em8r.jpg`],
             text: `When I awoke from the big freeze, this is where I found myself: in a giant aquarium in the bottom of the house. As you can see, I eventually turned it into a shower for my pet human.`,
         },
         {

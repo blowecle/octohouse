@@ -24,6 +24,7 @@
     }
     
     .post-image-wrapper {
+        position: relative;
         background-image: url('https://images.unsplash.com/photo-1530053969600-caed2596d242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
         display: flex;
         overflow-x: scroll;
@@ -58,13 +59,13 @@
         bottom:-1.5em;
         color:white;
         height:0;
-        left:50%;
         opacity:0;
+        right: -7%;
+        top: 45%;
         pointer-events:none;
         position:absolute;
-        right:0;
         text-align:center;
-        transform:translate(-50%, 0);
+        transform: rotate(270deg);
         transition:all .2s ease-out;
         width:0;
         animation:flash 1.5s infinite linear;
