@@ -1,10 +1,16 @@
+* {
+    margin: 0 auto;
+}
+
 body {
     background-color: #1C7097;
+    width: 100vw;
 }
 
 .home-container {
     background-color: #1C7097;
     margin-top: 50vh;
+    width: 100vw;
 }
 
 .temp-link {
