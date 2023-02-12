@@ -8,7 +8,7 @@ import Tacos from '../../images/texsueno-05-large.jpeg'
 import Downtown from '../../images/downtown.jpeg'
 
 const Story = () => {
-
+    window.scrollTo(0,0);
     return (<>
             <div className='story-container'>
                 {/* <div className='main-image-container'>

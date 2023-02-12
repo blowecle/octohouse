@@ -81,7 +81,7 @@ const Blog = () => {
         },
         {
             id: 10,
-            title: `The Ocean may be BLUE, but this tech is GREEN`,
+            title: `Green Tech`,
             date: `October, 2021`,
             images: [`https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142323/octo-house/658E0145-066F-41E4-87EF-F3AE6AEB701A_k7w19i.jpg`,
             `https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/3AF6A0F2-C351-46A5-8268-0E1EF1F3C777_uihgek.jpg`],

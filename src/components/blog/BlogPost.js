@@ -2,7 +2,6 @@ import React from "react";
 import '../../css/post.css'
 
 const BlogPost = ({post}) => {
-    
     return (
         <div className='post-wrapper'>
             <div className='post-title-wrapper'>
