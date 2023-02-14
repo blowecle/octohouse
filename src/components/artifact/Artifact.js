@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import './artifact.css';
+import '../../css/artifact.css';
 
 const Artifact = ({artifact}) => {
 
@@ -7,7 +6,7 @@ const Artifact = ({artifact}) => {
                 <div className='post-image-wrapper'>
                     {artifact.images.map((image) => (
                         <div className='inner-wrapper'>
-                            <img src={image} alt='blogImage' className='post-image'/>
+                            <img src={image} alt='blogImage' className='artifact-image'/>
                         </div>
                     ))}
                 </div>

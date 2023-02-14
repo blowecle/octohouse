@@ -237,8 +237,9 @@ const Blog = () => {
 
     return (
         <div className="blog-wrapper">
+            <div className='filler'/>
             {posts.map((post) => (
-                <BlogPost post={post}/>
+                <BlogPost key={post.id} post={post}/>
             ))}
         </div>
     )

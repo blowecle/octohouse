@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Home";
+import Home from "./artifact/Home";
 import Blog from "./blog/Blog";
 import Story from "./story/Story";
 
