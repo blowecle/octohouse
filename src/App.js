@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import Router from './components/Routes';
 
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +25,7 @@ function App() {
     };
   }, [scrollPosition]);
 
-  return (<></>
+  return (<Router/>
   );
 }
 // import { BrowserRouter } from 'react-router-dom';
