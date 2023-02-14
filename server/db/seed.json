@@ -1,0 +1,50 @@
+{
+    "artists": [
+        {
+            "name": "Brandon Lowe",
+            "company": "BLowe Codes",
+            "companyLink": "www.brandoncodes.me",
+            "social": "www.instagram.com/dellyisadoge;www.facebook.com/funkoff;",
+            "blurb": "This is the blurb",
+            "images": "http://res.cloudinary.com/simpleview/image/upload/v1490216003/clients/austin/Capital_Metro_Transit_Map_Widget_Downtown_Skyline_Twilight_e8fd316c-ae7b-4aad-bf26-f1f0aed9079a.jpg;https://media.timeout.com/images/105655102/750/422/image.jpg;https://static01.nyt.com/images/2016/03/03/travel/06HOURS4/06HOURS4-superJumbo.jpg;"
+        }
+    ],
+    "artifacts": [
+        {
+            "name": "Mermaid",
+            "mainImage": "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg",
+            "images": "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/5E4F2681-65D8-4E1C-A782-47AA8EF39C7E_h2gtvh.jpg;https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/FD42F7F7-6584-44ED-894B-4D9F0D12F014_jxzlam.jpg;https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg;https://res.cloudinary.com/ddqp7dojc/image/upload/v1675990360/octo-house/PXL_20221031_235238056_cdv14u.jpg;",
+            "blurb": "This is the blurb about the mermaid artifact"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "The Big Freeze",
+            "date": "February, 2021",
+            "images": "https://www.gannett-cdn.com/presto/2021/02/15/NAAS/d72bfce4-965a-4b0b-9efb-792a9ac49902-jwj_021521_Snow_00750.jpg?crop=2999%2C1687%2Cx0%2Cy166&width=1200",
+            "content": "Let's just say that I always knew that I was different. You see, I was supposed to be a boring black and white octopus, like all of the others - but I knew I was meant for more. So much more. Deep down within myself, I was ready to return to my origins of vibrancy and magic.  It wasn’t until after the freeze that I found my newly thawed courage to reveal my most extraordinary self - a remarkable and unforgettable sight to see.  My transformational journey begins…"
+        },
+        {
+            "id": 2,
+            "title": "The Big Thaw",
+            "date": "February, 2021",
+            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1675801018/octo-house/-3015122360201427833_q6em8r.jpg"],
+            "content": "When I awoke from the big freeze, this is where I found myself: in a giant aquarium in the bottom of the house. As you can see, I eventually turned it into a shower for my pet human."
+        },
+        {
+            "id": 3,
+            "title": "Exploring my new home",
+            "date": "Summer, 2021",
+            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/CE1ACF15-5F5C-43F7-A335-7CAE95151B7B_lujujq.jpg"],
+            "content": "As my tentacles unthawed, I began to explore my new home. What I found was not very Octopus-like, so I began thinking about how to turn it into my very own home. And I don’t mean just a light touch; no, I mean a serious whole house makeover!"
+        },
+        {
+            "id": 4,
+            "title": "Planning Begins",
+            "date": "August, 2021",
+            "images": "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/E55E1B49-19E3-4377-BBE4-428344CB81DA_h39ise.jpg;https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/ADC4E2D1-7E78-4675-8A6A-C6AAAE97D19D_o7lg3q.jpg;https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/34CF1A10-8F50-4EB7-83BB-5F5D00A431D6_sgatdd.jpg",
+            "content": "I was pretty darn hungry after the big freeze, so I started developing the stomach of my home, with the help of Michael and his team at Custom Tile of Austin. You can see us brainstorming which diet would be best for me. We decided to replace my bland, monochromatic diet with something much more appetizing. Here, you can see Michael and his crew feeding me with tiles of sparkling charm, a seasoning that everyone should try!"
+        }
+    ]
+}
