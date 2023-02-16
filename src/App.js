@@ -1,32 +1,11 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Router from './components/Routes';
 
 function App() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    function handleScroll() {
-      setScrollPosition(window.pageYOffset);
-      console.log(scrollPosition)
-      if (scrollPosition >= 100) {
-        setCurrentIndex(1);
-      }
 
-      if (scrollPosition >= 500) {
-        setCurrentIndex(2);
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [scrollPosition]);
-
-  return (<Router/>
-  );
+  return (<Router/>);
 }
 // import { BrowserRouter } from 'react-router-dom';
 // import Router from './components/Routes';
