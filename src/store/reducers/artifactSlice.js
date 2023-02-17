@@ -44,7 +44,7 @@ export const {
     setErrorMsg,
 } = artifactSlice.actions;
 
-export const fetchArtifacts = createAsyncThunk('books/fetchArtifacts', async () => {
+export const fetchArtifacts = createAsyncThunk('artifacts/fetchArtifacts', async () => {
 	try {
 		const { data } = await axios.get('/api/artifacts');
 		return data;
@@ -53,9 +53,9 @@ export const fetchArtifacts = createAsyncThunk('books/fetchArtifacts', async () 
 	}
 });
 
-export const fetchArtifactData = createAsyncThunk('/books/fetchArtifactData', async (id) => {
+export const fetchArtifactData = createAsyncThunk('/artifacts/fetchArtifactData', async (id) => {
     try {
-        const { data } = await axios.get(`/api/artifact/${id}`);
+        const { data } = await axios.get(`/api/artifacts/${id}`);
         return data;
     } catch (e) {
         console.log(e);
