@@ -4,12 +4,15 @@ const Artifact = require('./Artifact');
 const Artist = require('./Artist');
 const Post = require('./Post')
 const axios = require('axios');
+
+//seed data
 const {
     artists,
     posts,
     artifacts,
   } = require("./seed.json");
 
+//db schema
 Artifact.hasMany(Artist);
 Artist.hasMany(Artifact);
 Post.belongsTo(Artifact);
@@ -17,6 +20,7 @@ Artifact.hasMany(Post);
 Artist.hasMany(Post);
 Post.hasMany(Artist);
 
+//connect to db and seed with imported seed.json
 const syncAndSeed = async (closeConn=false) => {
 	try {
         await conn.sync({ force: true });
@@ -31,6 +35,7 @@ const syncAndSeed = async (closeConn=false) => {
 		console.error("Seeding database failed:", e);
 	}
 };
+
 module.exports = {
 	syncAndSeed,
 	conn,

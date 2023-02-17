@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
 import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
 import Slider from '../slider/Slider';
+import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 
 const Home = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchArtifacts())
+    }, []);
 
     const artifacts = [
         {
