@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "concurrently": "^7.6.0",
     "cors": "^2.8.5",
     "nuka-carousel": "^5.4.1",
     "pg": "^8.9.0",
@@ -27,8 +28,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/.bin/react-scripts start",
-    "seed": "node server/index.js",
+    "start": "node --max_old_space_size=12000 node_modules/.bin/react-scripts start",
+    "seed": "node src/server/",
     "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

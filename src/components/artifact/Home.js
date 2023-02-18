@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
 import { Link } from 'react-router-dom';
@@ -13,6 +13,10 @@ const Home = () => {
     useEffect(() => {
         dispatch(fetchArtifacts())
     }, []);
+
+    const theArtifacts = useSelector(state => state);
+
+    console.log({theArtifacts})
 
     const artifacts = [
         {

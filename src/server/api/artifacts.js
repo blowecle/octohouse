@@ -3,7 +3,7 @@ const { Artist, Post, Artifact } = require('../db');
 
 
 //GET all posts and eagerly load the associated artists
-router.get('/artifacts', async(req, res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll({
             include: {
@@ -11,6 +11,7 @@ router.get('/artifacts', async(req, res, next) => {
             }
         });
         console.log(artifactList)
+        console.log(req.headers)
         res.send(artifactList)
     } catch (e) {
         next(e);
@@ -18,7 +19,7 @@ router.get('/artifacts', async(req, res, next) => {
 });
 
 //GET Single Artifact
-router.get('/artifacts/:id', async(req, res, next) => {
+router.get('/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id, {
             include: {
