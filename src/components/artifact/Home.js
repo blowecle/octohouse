@@ -10,13 +10,17 @@ import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 const Home = () => {
     const dispatch = useDispatch();
 
+    
     useEffect(() => {
-        dispatch(fetchArtifacts())
-    }, []);
+        const asyncFetchArtifacts = async () => {
+            const fetchAllArtifacts = await dispatch(fetchArtifacts());
+        }
+         const artifactData = asyncFetchArtifacts();
+    },[dispatch])
+    
+    const artifactsData = useSelector(state => state.artifact.artifacts);
 
-    const theArtifacts = useSelector(state => state);
-
-    console.log({theArtifacts})
+    console.log("OUTSIDE USEEFFECT: ", artifactsData)
 
     const artifacts = [
         {

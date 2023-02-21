@@ -1,7 +1,7 @@
 const conn = require('./connection');
 const { Sequelize } = conn;
 
-const Artifact = conn.define('Artifact', {
+const Artifact = conn.define('artifact', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
