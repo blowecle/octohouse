@@ -20,8 +20,6 @@ const Home = () => {
     
     const artifactsData = useSelector(state => state.artifact.artifacts);
 
-    console.log("OUTSIDE USEEFFECT: ", artifactsData)
-
     const artifacts = [
         {
             id: 1,
