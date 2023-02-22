@@ -15,10 +15,6 @@ app.use(express.urlencoded({ extended: true }));
 // api router
 app.use("/api", require("./api"));
 
-app.get('/test', (req, res) => {
-  res.send('Hello World!')
-});
-
 // catch-all
 app.use("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../../public/index.html"));
