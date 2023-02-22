@@ -26,9 +26,9 @@ const syncAndSeed = async (closeConn=false) => {
         await conn.sync({ force: true });
         console.log("Connected to database!");
 
-        const artist = await Artist.bulkCreate(artists);
-        const post = await Post.bulkCreate(posts);
-        const artifact = await Artifact.bulkCreate(artifacts);
+        // const artist = await Artist.bulkCreate(artists);
+        // const post = await Post.bulkCreate(posts);
+        // const artifact = await Artifact.bulkCreate(artifacts);
         if (closeConn) await conn.close();
 		console.log(`Seeding successful!`);
 	} catch (e) {
