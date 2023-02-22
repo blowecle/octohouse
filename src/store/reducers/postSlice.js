@@ -11,11 +11,11 @@ const postSlice = createSlice({
     filter: null,
   },
   reducers: {
-    getpostList: (state, action) => {
+    getPostList: (state, action) => {
       state.postList = action.payload;
       return state;
     },
-    getpost: (state, action) => {
+    getPost: (state, action) => {
       state.postData = action.payload;
       return state;
     },
@@ -47,7 +47,7 @@ export default postSlice;
 
 export const postSliceReducer = postSlice.reducer;
 
-export const { getpostList, getpost, setErrorMsg } =
+export const { getPostList, getPost, setErrorMsg } =
   postSlice.actions;
 
 export const fetchPosts = createAsyncThunk(
