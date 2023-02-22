@@ -36,6 +36,13 @@ const Artist = conn.define('artist', {
         get() {
             return this.getDataValue('images').split(';');
         }
+    },
+    artifactID: {
+        type: Sequelize.TEXT,
+        allowNull: true,
+        get() {
+            return this.getDataValue('artifactID').split(';').map((str) => parseInt(str));
+        }
     }
 });
 
