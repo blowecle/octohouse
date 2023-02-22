@@ -30,6 +30,13 @@ const Post = conn.define('post', {
 		type: Sequelize.INTEGER,
 		allowNull: true,
 	},
+	artistID: {
+		type: Sequelize.TEXT,
+		allowNull: true,
+		get() {
+			return this.getDataValue('artistID').split(';').map((str) => parseInt(str));
+		}
+	}
 });
 
 module.exports = Post;
