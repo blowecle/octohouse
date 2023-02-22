@@ -16,7 +16,7 @@ const ArtifactView = () => {
             const fetchArtifact = await dispatch(fetchArtifactData(params.id));
         }
         asyncFetchArtifactData();
-    }, [])
+    })
 
 
     console.log("ARTIFACT DATA: ", artifactData)
