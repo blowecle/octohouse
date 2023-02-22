@@ -31,7 +31,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=3001 nodemon node_modules/.bin/react-scripts start",
-    "seed": "nodemon src/server/index.js",
+    "seed": "node src/server/index.js",
     "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

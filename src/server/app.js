@@ -17,7 +17,7 @@ app.use("/api", require("./api"));
 
 // catch-all
 app.use("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../public/index.html"));
+  res.sendFile(path.resolve(__dirname, "../../build", "index.html"));
 });
 
 // error handling here

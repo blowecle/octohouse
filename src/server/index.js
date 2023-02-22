@@ -1,4 +1,4 @@
-const port = process.env.PORT || 5432;
+const port = process.env.PORT || 3000;
 const app = require('./app');
 const conn = require('./db');
 
