@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import BlogPost from "./BlogPost";
 import '../../css/blog.css'
+import { fetchPosts } from "../../store/reducers/postSlice";
 
 const Blog = () => {
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        const asyncFetchPosts = async () => {
+            const fetchAllPosts = await dispatch(fetchPosts());
+        }
+         const postData = asyncFetchPosts();
+    });
+
+    const postsData = useSelector(state => state); 
+
     window.scrollTo(0,0);
     const posts = [
         {

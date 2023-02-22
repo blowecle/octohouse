@@ -26,10 +26,10 @@ const postSlice = createSlice({
   },
   extraReducers(builder) {
     builder
-      .addCase(fetchposts.pending, (state, action) => {
+      .addCase(fetchPosts.pending, (state, action) => {
         state.status = "loading";
       })
-      .addCase(fetchposts.fulfilled, (state, action) => {
+      .addCase(fetchPosts.fulfilled, (state, action) => {
         state.status = "succeeded";
         state.posts = action.payload;
       })
@@ -50,7 +50,7 @@ export const postSliceReducer = postSlice.reducer;
 export const { getpostList, getpost, setErrorMsg } =
   postSlice.actions;
 
-export const fetchposts = createAsyncThunk(
+export const fetchPosts = createAsyncThunk(
   "posts/fetchposts",
   async () => {
     try {
