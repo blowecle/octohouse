@@ -13,7 +13,7 @@ const Blog = () => {
             const fetchAllPosts = await dispatch(fetchPosts());
         }
          const postData = asyncFetchPosts();
-    });
+    },[]);
 
     const postsData = useSelector(state => state); 
 
