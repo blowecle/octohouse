@@ -16,11 +16,8 @@ const Post = conn.define('post', {
         allowNull: false,
 	},
 	images: {
-		type: Sequelize.TEXT,
+		type: Sequelize.ARRAY(Sequelize.TEXT),
 		allowNull: false,
-        get() {
-            return this.getDataValue('images').split(';');
-        }
 	},
 	content: {
 		type: Sequelize.TEXT,
@@ -31,11 +28,8 @@ const Post = conn.define('post', {
 		allowNull: true,
 	},
 	artistID: {
-		type: Sequelize.TEXT,
+		type: Sequelize.ARRAY(Sequelize.INTEGER),
 		allowNull: true,
-		get() {
-			return this.getDataValue('artistID').split(';').map((str) => parseInt(str));
-		}
 	}
 });
 
