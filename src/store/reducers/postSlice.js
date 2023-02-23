@@ -57,7 +57,6 @@ export const fetchPosts = createAsyncThunk(
       const { data } = await axios.get(
         "https://octopus-house.herokuapp.com/api/posts"
       );
-      console.log("DATA: ", { data });
       return data;
     } catch (e) {
       console.log(e);
@@ -72,7 +71,6 @@ export const fetchpostData = createAsyncThunk(
       const { data } = await axios.get(
         `https://octopus-house.herokuapp.com/api/posts/${id}`
       );
-      console.log("DATA: ", { data });
       return data;
     } catch (e) {
       console.log(e);

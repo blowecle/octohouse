@@ -9,15 +9,15 @@ const ArtifactView = () => {
     const params = useParams();
     const dispatch = useDispatch();
 
-    const artifactData = useSelector((state) => state);
-
+    
     useEffect(() => {
         const asyncFetchArtifactData = async () => {
-            const fetchArtifact = await dispatch(fetchArtifactData(params.id));
+            await dispatch(fetchArtifactData(params.id));
         }
         asyncFetchArtifactData();
-    })
-
+    }, [dispatch])
+    
+    const artifactData = useSelector((state) => state.artifact.artifactData);
 
     console.log("ARTIFACT DATA: ", artifactData)
 
