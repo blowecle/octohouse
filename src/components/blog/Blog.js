@@ -10,12 +10,14 @@ const Blog = () => {
 
     useEffect(() => {
         const asyncFetchPosts = async () => {
-            const fetchAllPosts = await dispatch(fetchPosts());
+            await dispatch(fetchPosts());
         }
-         const postData = asyncFetchPosts();
-    },[]);
+         asyncFetchPosts();
+    },[dispatch]);
 
-    const postsData = useSelector(state => state); 
+    const postsData = useSelector(state => state.post.posts); 
+
+    console.log("postsData: ", postsData)
 
     window.scrollTo(0,0);
     const posts = [
