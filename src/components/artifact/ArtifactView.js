@@ -18,6 +18,8 @@ const ArtifactView = () => {
     }, [dispatch])
     
     const artifactData = useSelector((state) => state.artifact.artifactData);
+    const artists = useSelector((state) => state);
+    console.log(artists);
 
     console.log("ARTIFACT DATA: ", artifactData)
 
