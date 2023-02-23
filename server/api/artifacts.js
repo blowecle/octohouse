@@ -5,7 +5,7 @@ const { Artist, Post, Artifact } = require('../db');
 
 
 //GET /api/ all artifacts
-router.get('/', async(req, res, next) => {
+router.get('/artifacts', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll();
         res.send(artifactList)
@@ -18,6 +18,7 @@ router.get('/', async(req, res, next) => {
 router.get('/artifacts/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id);
+        console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
         const artists = await Artist.findAll({
             where: {
                 artistId: {
