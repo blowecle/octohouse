@@ -26,7 +26,7 @@
             "date": "February, 2021",
             "images": ["https://www.gannett-cdn.com/presto/2021/02/15/NAAS/d72bfce4-965a-4b0b-9efb-792a9ac49902-jwj_021521_Snow_00750.jpg?crop=2999%2C1687%2Cx0%2Cy166&width=1200"],
             "content": "Let's just say that I always knew that I was different. You see, I was supposed to be a boring black and white octopus, like all of the others - but I knew I was meant for more. So much more. Deep down within myself, I was ready to return to my origins of vibrancy and magic.  It wasn’t until after the freeze that I found my newly thawed courage to reveal my most extraordinary self - a remarkable and unforgettable sight to see.  My transformational journey begins…",
-            "artifactID": 1,
+            "artifactID": [1]
         },
         {
             "id": 2,
