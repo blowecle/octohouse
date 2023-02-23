@@ -1,8 +1,10 @@
 const router = require('express').Router();
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 const { Artist, Post, Artifact } = require('../db');
 
 
-//GET all posts and eagerly load the associated artists
+//GET /api/ all artifacts
 router.get('/', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll();
@@ -12,16 +14,18 @@ router.get('/', async(req, res, next) => {
     }
 });
 
-//GET Single Artifact
+//GET /api/artifacts/:id Single artifact and eagerly load associated artists
 router.get('/artifacts/:id', async(req, res, next) => {
     try {
-        const artifact = await Artifact.findByPk(req.params.id, {
-            include: [{
-                model: Post,
-                include: Artist,
-            }]
-        });
-        res.send(artifact);
+        const artifact = await Artifact.findByPk(req.params.id);
+        const artists = await Artist.findAll({
+            where: {
+                artistId: {
+                    [Op.in]: req.params.id
+                }
+            }
+        })
+        res.send(artifact, artists);
     } catch (e) {
         next(e);
     }
