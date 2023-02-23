@@ -32,6 +32,7 @@
         },
         {
             "name": "Seahorse",
+            "mainImage": "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/8C34EC60-C99E-4BCB-8DA0-743CC166A4D5_lnzuyi.jpg",
             "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/8C34EC60-C99E-4BCB-8DA0-743CC166A4D5_lnzuyi.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg"],
