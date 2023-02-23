@@ -13,13 +13,14 @@ const Home = () => {
     
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
-            const fetchAllArtifacts = await dispatch(fetchArtifacts());
+            await dispatch(fetchArtifacts());
         }
-         const artifactData = asyncFetchArtifacts();
+         asyncFetchArtifacts();
     },[dispatch])
     
     const artifactsData = useSelector(state => state.artifact.artifacts);
 
+    console.log("artifactsData: ", artifactsData);
     const artifacts = [
         {
             id: 1,
