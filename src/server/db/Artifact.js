@@ -16,14 +16,15 @@ const Artifact = conn.define('artifact', {
         allowNull: false,
     },
     images: {
-        type: Sequelize.TEXT,
+        type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: false,
-        get() {
-            return this.getDataValue('images').split(';');
-        }
     },
     blurb: {
         type: Sequelize.TEXT,
+        allowNull: false,
+    },
+    artistID: {
+        type: Sequelize.ARRAY(Sequelize.INTEGER),
         allowNull: false,
     }
 });

@@ -13,6 +13,7 @@
     "cross-env": "^7.0.3",
     "nuka-carousel": "^5.4.1",
     "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.0",
     "react-compare-slider": "^2.2.0",

@@ -20,29 +20,23 @@ const Artist = conn.define('artist', {
         allowNull: true,
     },
     social: {
-        type: Sequelize.TEXT,
+        type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: true,
-        get() {
-            return this.getDataValue('social').split(';');
-        }
+        defaultValue: []
     },
     blurb: {
         type: Sequelize.TEXT,
         allowNull: true,
     },
     images: {
-        type: Sequelize.TEXT,
+        type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: false,
-        get() {
-            return this.getDataValue('images').split(';');
-        }
+        defaultValue: []
     },
     artifactID: {
-        type: Sequelize.TEXT,
+        type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: true,
-        get() {
-            return this.getDataValue('artifactID').split(';').map((str) => parseInt(str));
-        }
+        defaultValue: []
     }
 });
 
