@@ -17,14 +17,7 @@ router.get('/', async(req, res, next) => {
 router.get('/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id);
-        const artists = await Artist.findAll({
-            where: {
-                artistId: {
-                    [Op.in]: req.params.id
-                }
-            }
-        })
-        res.send(artifact, artists);
+        res.send(artifact);
     } catch (e) {
         next(e);
     }
