@@ -19,12 +19,12 @@ const ArtifactView = () => {
     const artifactData = useSelector((state) => state);
 
     let artists = []
-    if(artifactData) {
-        // artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))
+    if(artifactData.artists) {
         console.log("ARTIFACT DATA: ", artifactData.artifact)
         console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
         console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
-    }   
+        artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))
+    }
 
     return (
         <></>
