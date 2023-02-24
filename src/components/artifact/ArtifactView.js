@@ -16,13 +16,15 @@ const ArtifactView = () => {
         asyncFetchArtifactData();
     }, [dispatch])
     
-    const artifactData = useSelector((state) => state.artifact.artifactData);
+    const artifactData = useSelector((state) => state);
 
-    console.log("ARTIFACT DATA: ", artifactData.artifact)
-    console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
     let artists = []
-    if(artifactData.artists) {artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))}
-    console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
+    if(artifactData) {
+        // artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))
+        console.log("ARTIFACT DATA: ", artifactData.artifact)
+        console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
+        console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
+    }   
 
     return (
         <></>
