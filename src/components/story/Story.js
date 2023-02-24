@@ -11,6 +11,14 @@ const Story = () => {
     window.scrollTo(0,0);
     return (<>
             <div className='story-container'>
+            <div className='filler'>
+                    <Link to='/blog'>
+                        <div className='filler-1'>Octopus Diary</div>
+                    </Link>
+                    <Link to='/'>
+                        <div className='filler-2'>Home</div>
+                    </Link>
+                </div>
                 {/* <div className='main-image-container'>
                     <img className='house-image-main' alt='' src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-2303878664998712562_ghe5fy.jpg'/>
                 </div>
@@ -266,7 +274,9 @@ This culture is what makes Austin what it is: an amazing place to live and visit
                     <Link to='/blog'>
                         <div className='filler-1'>Octopus Diary</div>
                     </Link>
-                    <div className='filler-2'>Meet the Team</div>
+                    <Link to='/'>
+                        <div className='filler-2'>Home</div>
+                    </Link>
                 </div>
             </div>
             <div className='before-after-slider'>

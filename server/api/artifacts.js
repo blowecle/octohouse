@@ -15,7 +15,7 @@ router.get('/', async(req, res, next) => {
 });
 
 //GET /api/artiacts/:id single artifact and all associated artists
-router.get('/:id', async(req, res, next) => {
+router.get('artifacts/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id);
         const artists = await Artist.findAll();
