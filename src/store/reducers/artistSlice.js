@@ -5,7 +5,7 @@ const artistSlice = createSlice({
   name: "artistList",
   initialState: {
     artists: [],
-    artistData: {},
+    artistData: [],
     status: "idle",
     error: null,
     filter: null,
