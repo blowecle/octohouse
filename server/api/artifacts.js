@@ -14,22 +14,36 @@ router.get('/artifacts', async(req, res, next) => {
     }
 });
 
-//GET /api/artifacts/:id Single artifact and eagerly load associated artists
 router.get('/artifacts/:id', async(req, res, next) => {
     try {
-        const artifact = await Artifact.findByPk(req.params.id);
-        console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
-        const artists = await Artist.findAll({
-            where: {
-                artistId: {
-                    [Op.in]: req.params.id
-                }
-            }
-        })
-        res.send(artifact, artists);
+        const artifact = await Artifact.findByPk(req.params.id, {
+            include: [{
+                model: Post,
+                include: Artist,
+            }]
+        });
+        res.send(artifact);
     } catch (e) {
         next(e);
     }
 })
+
+//GET /api/artifacts/:id Single artifact and eagerly load associated artists
+// router.get('/artifacts/:id', async(req, res, next) => {
+//     try {
+//         const artifact = await Artifact.findByPk(req.params.id);
+//         console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
+//         const artists = await Artist.findAll({
+//             where: {
+//                 artistId: {
+//                     [Op.in]: req.params.id
+//                 }
+//             }
+//         })
+//         res.send(artifact, artists);
+//     } catch (e) {
+//         next(e);
+//     }
+// })
 
 module.exports = router;
