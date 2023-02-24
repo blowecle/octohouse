@@ -20,7 +20,6 @@ const ArtifactView = () => {
 
     console.log("ARTIFACT DATA: ", artifactData.artifact)
     console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
-    if(artifactData.artists) { artifactData.artists.map((artist) => {console.log("params id: ", params.id, " and artist id: ", artist.id)})}
     let artists = []
     if(artifactData.artists) {artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))}
     console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)

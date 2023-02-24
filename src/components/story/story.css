@@ -29,6 +29,8 @@
       justify-content: space-around;
       align-items: center;
       font-size: 24px;
+      width: 100vw;
+      text-decoration: none;
     }
   
     .aos-container {
