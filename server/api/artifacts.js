@@ -21,7 +21,7 @@ router.get('/:id', async(req, res, next) => {
         const artists = await Artist.findAll({
             where: {
                 artifactID: {
-                [Op.contains]: parseInt(req.params.id)
+                [Op.in]: parseInt(req.params.id)
                 }
             }
         });
