@@ -20,10 +20,10 @@ const ArtifactView = () => {
 
     console.log("ARTIFACT DATA: ", artifactData.artifact)
     console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
-
-    const artists = artifactData.artists.filter((artist) => artist.id === params.id)
+    let artists = []
+    if(artifactData.artists) {artists = artifactData.artists.filter((artist) => artist.id === params.id)}
     console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
-    
+
     return (
         <></>
     )
