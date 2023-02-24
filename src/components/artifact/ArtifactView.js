@@ -9,7 +9,6 @@ const ArtifactView = () => {
     const params = useParams();
     const dispatch = useDispatch();
 
-    
     useEffect(() => {
         const asyncFetchArtifactData = async () => {
             await dispatch(fetchArtifactData(params.id));

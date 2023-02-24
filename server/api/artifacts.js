@@ -5,7 +5,7 @@ const { Artist, Post, Artifact } = require('../db');
 
 
 //GET /api/ all artifacts
-router.get('/artifacts', async(req, res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll();
         res.send(artifactList)
