@@ -4,7 +4,7 @@ const Op = Sequelize.Op;
 const { Artist, Post, Artifact } = require('../db');
 
 
-//GET /api/ all artifacts
+//GET /api/artifacts all artifacts
 router.get('/', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll();
@@ -14,14 +14,11 @@ router.get('/', async(req, res, next) => {
     }
 });
 
+//GET /api/artiacts/:id single artifact and all associated artists
 router.get('/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id);
-        const artists = await Artist.findAll({
-            where: {
-                artifactID: parseInt(req.params.id)
-            }
-        });
+        const artists = await Artist.findAll();
         res.send({artifact, artists});
     } catch (e) {
         next(e);
