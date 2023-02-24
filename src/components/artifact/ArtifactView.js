@@ -17,7 +17,7 @@ const ArtifactView = () => {
     }, [dispatch])
     
     const artifactData = useSelector((state) => state.artifact.artifactData);
-    artifactData.artists = artifactData.artists.filter((artist) => artist.id === params.id);
+    // artifactData.artists = artifactData.artists.filter((artist) => artist.id === params.id);
 
     console.log("ARTIFACT DATA: ", artifactData)
     console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
