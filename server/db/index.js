@@ -13,8 +13,8 @@ const {
   } = require("./seed.json");
 
 //db schema
-Artifact.hasMany(Artist);
-Artist.hasMany(Artifact);
+Artifact.hasMany(Artist, {as: 'artists'});
+Artist.hasMany(Artifact, {as: 'artifacts'});
 Post.belongsTo(Artifact);
 Artifact.hasMany(Post);
 Artist.hasMany(Post);
