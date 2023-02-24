@@ -20,7 +20,11 @@ router.get('/:id', async(req, res, next) => {
         
         console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
 
-        const artifact = await Artifact.findByPk(req.params.id);
+        const artifact = await Artifact.findByPk(req.params.id, {
+            include: {
+                model: Artist
+            },
+        });
         const artists = await Artist.findAll({
             where: {
                 artistId: {
