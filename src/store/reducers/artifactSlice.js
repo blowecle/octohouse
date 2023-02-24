@@ -5,7 +5,7 @@ const artifactSlice = createSlice({
   name: "artifactList",
   initialState: {
     artifacts: [],
-    artifactData: [],
+    artifactData: {},
     status: "idle",
     error: null,
     filter: null,
