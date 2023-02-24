@@ -16,12 +16,7 @@ router.get('/', async(req, res, next) => {
 
 router.get('/artifacts/:id', async(req, res, next) => {
     try {
-        const artifact = await Artifact.findByPk(req.params.id, {
-            include: [{
-                model: Post,
-                include: Artist,
-            }]
-        });
+        const artifact = await Artifact.findByPk(req.params.id);
         res.send(artifact);
     } catch (e) {
         next(e);
