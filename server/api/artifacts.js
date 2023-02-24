@@ -14,7 +14,7 @@ router.get('/', async(req, res, next) => {
     }
 });
 
-router.get('/artifacts/:id', async(req, res, next) => {
+router.get('/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findByPk(req.params.id);
         res.send(artifact);
@@ -22,6 +22,8 @@ router.get('/artifacts/:id', async(req, res, next) => {
         next(e);
     }
 })
+
+module.exports = router;
 
 //GET /api/artifacts/:id Single artifact and eagerly load associated artists
 // router.get('/artifacts/:id', async(req, res, next) => {
@@ -40,5 +42,3 @@ router.get('/artifacts/:id', async(req, res, next) => {
 //         next(e);
 //     }
 // })
-
-module.exports = router;
