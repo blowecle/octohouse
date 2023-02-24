@@ -34,7 +34,7 @@ module.exports = router;
 //         console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
 //         const artists = await Artist.findAll({
 //             where: {
-//                 artistId: {
+//                 artistID: {
 //                     [Op.in]: req.params.id
 //                 }
 //             }
