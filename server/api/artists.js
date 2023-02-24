@@ -15,11 +15,7 @@ router.get('/', async(req, res, next) => {
 //GET single artist data and eagerly load the artifact model
 router.get('/:id', async(req, res, next) => {
     try {
-        const artistData = await Artist.findByPk(req.params.id, {
-            include: {
-                model: Artifact
-            }
-        })
+        const artistData = await Artist.findByPk(req.params.id);
         res.send(artistData)
     } catch(e) {
         next(e);
