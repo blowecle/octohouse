@@ -15,9 +15,11 @@ const ArtistView = () => {
         asyncFetchArtistData();
     }, [dispatch])
 
-    const artist = useSelector((state) => state);
+    const artist = useSelector((state) => state.artist.artistData);
 
+    if(artist){
     console.log(artist)
+}
     return null
 }
 
