@@ -1,9 +1,10 @@
 const router = require('express').Router();
 
 // "/api"
+router.use('/', require('./artifacts'));
+router.use('/story', require('./story'));
 router.use('/posts', require('./posts'));
 router.use('/artists', require('./artists'));
-router.use('/', require('./artifacts'));
 
 
 router.use((req, res, next) => {

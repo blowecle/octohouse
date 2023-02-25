@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useSelector, useDispatch } from "react-redux";
+import { fetchStory } from '../../store/reducers/storySlice';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import './story.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -9,6 +11,20 @@ import Downtown from '../../images/downtown.jpeg'
 
 const Story = () => {
     window.scrollTo(0,0);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        const asyncFetchStory = async () => {
+            await dispatch(fetchStory());
+        }
+         asyncFetchStory();
+    })
+
+    const story = useSelector((state) => state);
+
+    if(story){
+        console.log('story');   
+    }
     return (<>
             <div className='story-container'>
             <div className='filler'>
