@@ -23,7 +23,7 @@ const BlogPost = ({post}) => {
                         )}
             <div className='post-content-wrapper'>
                 <div className='post-content'>
-                    {`${post.text}`}
+                    {`${post.content}`}
                 </div>
             </div>
         </div>
