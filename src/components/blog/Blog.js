@@ -16,7 +16,7 @@ const Blog = () => {
          asyncFetchPosts();
     },[dispatch]);
 
-    const postsData = useSelector(state => state.post.posts); 
+    const postsData = useSelector(state => state); 
 
     console.log("postsData: ", postsData)
 
