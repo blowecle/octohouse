@@ -19,7 +19,7 @@ const ArtistView = () => {
 
     if(artist){
     console.log(artist)
-}
+    }
     return null
 }
 
