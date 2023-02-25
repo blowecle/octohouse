@@ -25,7 +25,6 @@ const syncAndSeed = async (closeConn=false) => {
 	try {
         await conn.sync({ force: true });
         console.log("Connected to database!");
-        console.log("ARTIST DATA: ", artists)
         const artist = await Artist.bulkCreate(artists);
         console.log("artists seeded");
         const post = await Post.bulkCreate(posts);
