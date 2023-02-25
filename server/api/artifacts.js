@@ -22,7 +22,13 @@ router.get('/artifacts/:id', async(req, res, next) => {
                 id: req.params.id
             }
         });
-        const artists = await Artist.findAll();
+        const artists = await Artist.findAll({
+            where: {
+                artifactID: {
+                    [Op.contains]: [req.params.id]
+                }
+            }
+        });
         res.send({artifact, artists});
     } catch (e) {
         next(e);
