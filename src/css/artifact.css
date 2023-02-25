@@ -22,7 +22,7 @@
 }
 
 .artifact-image {
-    max-height: 37vh;
+    max-height: 100%;
     border: 1px solid black;
     max-width: 90vw;
 }
