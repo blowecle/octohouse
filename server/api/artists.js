@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 const { Artist, Post, Artifact } = require('../db');
 
 
@@ -16,7 +18,14 @@ router.get('/', async(req, res, next) => {
 router.get('/:id', async(req, res, next) => {
     try {
         const artistData = await Artist.findByPk(req.params.id);
-        res.send(artistData)
+        const artifacts = await Artifact.findAll({
+            where: {
+                artifactID: {
+                    [Op.contains]: [req.params.id]
+                }
+            }
+        })
+        res.send({artistData, artifacts})
     } catch(e) {
         next(e);
     }
