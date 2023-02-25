@@ -11,6 +11,10 @@ const Story = conn.define('story', {
         type: Sequelize.TEXT,
         allowNull: true,
     },
+    image: {
+        type: Sequelize.TEXT,
+        allowNull: true,
+    },
     position: {
         type: Sequelize.STRING,
         allowNull: false,
