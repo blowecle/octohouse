@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const { Story } = require('../db');
+const Story = require('../db/Story');
 
 
-//GET all posts and eagerly load the associated artists
+//GET all story objects
 router.get('/', async(req, res, next) => {
     try {
         const story = await Story.findAll();
