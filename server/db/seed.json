@@ -7,7 +7,7 @@
             "social": ["www.instagram.com/dellyisadoge","www.facebook.com/funkoff"],
             "blurb": "This is the blurb",
             "images": ["http://res.cloudinary.com/simpleview/image/upload/v1490216003/clients/austin/Capital_Metro_Transit_Map_Widget_Downtown_Skyline_Twilight_e8fd316c-ae7b-4aad-bf26-f1f0aed9079a.jpg","https://media.timeout.com/images/105655102/750/422/image.jpg,https://static01.nyt.com/images/2016/03/03/travel/06HOURS4/06HOURS4-superJumbo.jpg"],
-            "artifactID": [1]
+            "artifactID": [1,3]
         },
         {
             "name": "Joey Trevino",
@@ -16,7 +16,7 @@
             "social": ["none"],
             "blurb": "This is Joey's blurb",
             "images": [""],
-            "artifactID": [3]
+            "artifactID": [1,2]
         }
     ],
     "artifacts": [
@@ -37,7 +37,7 @@
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142330/octo-house/BF4B77B8-D5E8-44EE-82C9-7A9061FCB2DE_owauzb.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/89314AD1-C869-4077-93CF-B03424571125_r012gb.jpg"],
             "blurb": "This is the blurb about the octopus artifact",
-            "artistID": [1]
+            "artistID": [2]
         },
         {
             "name": "Seahorse",
@@ -46,7 +46,7 @@
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg"],
             "blurb": "This is the blurb about the seahorse artifact",
-            "artistID": [1]
+            "artistID": [1,2]
         }
     ],
     "posts": [
