@@ -282,5 +282,25 @@
             "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/6A95670E-B19F-4AD4-A184-573830E72413_lc2ijx.jpg"],
             "content": "Adding in a more lavish looking mouth to match my beautiful new face."
         }
+    ],
+    "story": [
+        {
+            "content": "this is the content",
+            "position": "center",
+            "animation": 3,
+            "size": "small"
+        },
+        {
+            "content": "content the is this",
+            "position": "left",
+            "animation": 2,
+            "size": "medium"
+        },
+        {
+            "content": "could this also be content?",
+            "position": "right",
+            "animation": 1,
+            "size": "large"
+        }
     ]
 }

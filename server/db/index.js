@@ -2,7 +2,8 @@ const conn = require('./connection');
 const { Sequelize } = conn;
 const Artifact = require('./Artifact');
 const Artist = require('./Artist');
-const Post = require('./Post')
+const Post = require('./Post');
+const Story = require('./Story');
 const axios = require('axios');
 
 //seed data
@@ -10,6 +11,7 @@ const {
     artists,
     posts,
     artifacts,
+    story
   } = require("./seed.json");
 
 //db schema
@@ -25,11 +27,12 @@ const syncAndSeed = async (closeConn=false) => {
 	try {
         await conn.sync({ force: true });
         console.log("Connected to database!");
-        const artist = await Artist.bulkCreate(artists);
-        console.log("artists seeded");
-        const post = await Post.bulkCreate(posts);
-        console.log("posts seeded");
-        const artifact = await Artifact.bulkCreate(artifacts);
+        
+        await Artist.bulkCreate(artists);
+        await Post.bulkCreate(posts);
+        await Artifact.bulkCreate(artifacts);
+        await Story.bulkCreate(story);
+        
         if (closeConn) await conn.close();
 		console.log(`Seeding successful!`);
 	} catch (e) {
