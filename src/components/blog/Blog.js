@@ -249,7 +249,7 @@ const Blog = () => {
             images: [`https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/A74A89B1-B6F7-462D-B5F2-40BECFE64A01_og6tax.jpg`,
             `https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/6A95670E-B19F-4AD4-A184-573830E72413_lc2ijx.jpg`],
             text: `Adding in a more lavish looking mouth to match my beautiful new face.`,
-        },
+        }
     ]
 
     return (
