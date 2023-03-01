@@ -50,6 +50,7 @@ export const postSliceReducer = postSlice.reducer;
 export const { getPostList, getPost, setErrorMsg } =
   postSlice.actions;
 
+//async thunk for fetching all post data
 export const fetchPosts = createAsyncThunk(
   "posts/fetchposts",
   async () => {
@@ -64,6 +65,7 @@ export const fetchPosts = createAsyncThunk(
   }
 );
 
+//async thunk for loading individual post data and eagerly loads associated artifacts (which eagerly loads associated artists)
 export const fetchpostData = createAsyncThunk(
   "/posts/fetchpostData",
   async (id) => {
