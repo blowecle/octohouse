@@ -22,11 +22,20 @@ const ArtifactView = () => {
     console.log("ARTIFACT DATA: ", artifactData.artifact)
     console.log("ARTIFACT ARTIST DATA: ", artifactData.artists)
     let artists = []
-    if(artifactData.artists) {artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))}
-    console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
+
+    //due to eager loading I probably no longer need the 2 lines below
+    // if(artifactData.artists) {artists = artifactData.artists.filter((artist) => artist.id === parseInt(params.id))}
+    // console.log("FILTERED ARTIFACT ARTIST DATA: ", artists)
 
     return (
-        <></>
+        <div className="single-artifact-container">
+            <img src="" alt="this is where the image goes"/>
+            <div className="single-artifact-info-container">
+                <div className="single-artifact-blurb">
+                    {artifactData}
+                </div>
+            </div>
+        </div>
     )
 }
 

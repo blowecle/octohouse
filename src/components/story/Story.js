@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from "react-redux";
 import { fetchStory } from '../../store/reducers/storySlice';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import './story.css'
+import '../../css/story.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
