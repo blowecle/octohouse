@@ -14,6 +14,7 @@
     user-select: none;
     overflow: hidden;
     animation: slider 4s alternate forwards;
+    animation-delay: 2s;
 }
 @keyframes slider {
     25% {

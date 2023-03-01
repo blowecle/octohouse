@@ -20,7 +20,18 @@ const ArtistView = () => {
     if(artist){
     console.log(artist)
     }
-    return null
+
+    return  (<div className="artist-wrapper">
+                <div className="artist-top-container">
+                    <div className="info-container"></div>
+                    <div className="artist-image-container">
+                        <img src="" alt="main image goes here" className="artist-image"/>
+                    </div>
+                </div>
+                <div className="artist-bottom-container">
+                    <div>I don't know what goes down here yet</div>
+                </div>
+    </div>)
 }
 
 export default ArtistView;
