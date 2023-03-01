@@ -10,7 +10,7 @@ const ArtistView = () => {
 
     useEffect(() => {
         const asyncFetchArtistData = async () => {
-            await dispatch(fetchArtistData(parseInt(params.id)));
+            await dispatch(fetchArtistData(params.id));
         }
         asyncFetchArtistData();
     }, [dispatch])
