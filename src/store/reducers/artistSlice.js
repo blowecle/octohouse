@@ -50,6 +50,7 @@ export const artistSliceReducer = artistSlice.reducer;
 export const { getArtistList, getArtist, setErrorMsg } =
   artistSlice.actions;
 
+//async thunk for fetching all artist data
 export const fetchArtists = createAsyncThunk(
   "artists/fetchArtists",
   async () => {
@@ -65,6 +66,7 @@ export const fetchArtists = createAsyncThunk(
   }
 );
 
+//async thunk to fetch single artist data and eagerly load associated artifacts
 export const fetchArtistData = createAsyncThunk(
   "/artists/fetchArtistData",
   async (id) => {

@@ -50,6 +50,7 @@ export const artifactSliceReducer = artifactSlice.reducer;
 export const { getArtifactList, getArtifact, setErrorMsg } =
   artifactSlice.actions;
 
+//async thunk for fetching all artifact data
 export const fetchArtifacts = createAsyncThunk(
   "artifacts/fetchArtifacts",
   async () => {
@@ -65,6 +66,7 @@ export const fetchArtifacts = createAsyncThunk(
   }
 );
 
+//async thunk for fetching single artifact data, eagerly loads associated artists
 export const fetchArtifactData = createAsyncThunk(
   "/artifacts/fetchArtifactData",
   async (id) => {
