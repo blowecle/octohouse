@@ -5,7 +5,7 @@ import Router from './components/Routes';
 function App() {
 
 
-  return (<Router/>);
+  return <Router/>;
 }
 // import { BrowserRouter } from 'react-router-dom';
 // import Router from './components/Routes';
