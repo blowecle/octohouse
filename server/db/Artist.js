@@ -30,11 +30,11 @@ const Artist = conn.define('artist', {
     },
     images: {
         type: Sequelize.ARRAY(Sequelize.TEXT),
-        allowNull: false,
+        allowNull: true,
         defaultValue: []
     },
     artifactID: {
-        type: Sequelize.ARRAY(Sequelize.TEXT),
+        type: Sequelize.ARRAY(Sequelize.INTEGER),
         allowNull: true,
         defaultValue: []
     }
