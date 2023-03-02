@@ -2,7 +2,7 @@ const conn = require('./connection');
 const { Sequelize } = conn;
 
 const Post = conn.define('post', {
-    id: {
+    postID: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         primaryKey: true

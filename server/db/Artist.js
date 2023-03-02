@@ -2,9 +2,8 @@ const conn = require('./connection');
 const { Sequelize } = conn;
 
 const Artist = conn.define('artist', {
-    id: {
+    artistID: {
         type: Sequelize.INTEGER,
-        autoIncrement: true,
         primaryKey: true
     },
     name: {
