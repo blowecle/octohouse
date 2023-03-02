@@ -19,7 +19,7 @@ router.get('/artifacts/:id', async(req, res, next) => {
     try {
         const artifact = await Artifact.findAll({
             where: {
-                id: req.params.id
+                artifactID: req.params.id
             }
         });
         const artists = await Artist.findAll({
