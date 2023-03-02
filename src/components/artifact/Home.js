@@ -20,8 +20,6 @@ const Home = () => {
     
     const artifacts = useSelector(state => state.artifact.artifacts);
 
-    console.log("artifacts: ", artifacts);
-
     return (<>
             <div className='home-container'>
                 <div className='temp-wrapper'>
@@ -33,8 +31,8 @@ const Home = () => {
                     </Link>
                 </div>
                 <Slider/>
-                {artifacts ? (artifacts.map((artifact) => (
-                    <Artifact key={artifact.id} artifact={artifact}/>
+                {artifacts ? (artifacts.map((artifact, index) => (
+                    <Artifact key={artifact.id} artifact={artifact} index={index}/>
                 ))) : null}
                 <div className='temp-wrapper'>
                     <Link to='/blog'>
