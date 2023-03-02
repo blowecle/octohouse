@@ -28,7 +28,8 @@
             "mainImage": "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg",
             "images" : ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/5E4F2681-65D8-4E1C-A782-47AA8EF39C7E_h2gtvh.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/FD42F7F7-6584-44ED-894B-4D9F0D12F014_jxzlam.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1675990360/octo-house/PXL_20221031_235238056_cdv14u.jpg"],
             "blurb": "This is the blurb about the mermaid artifact",
-            "artistID": [1,2]
+            "artistID": [1,2],
+            "artistDescription": ["married the mermaid", "paid for the mermaid"]
         },
         {
             "artifactID": 2,
@@ -41,7 +42,8 @@
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142330/octo-house/BF4B77B8-D5E8-44EE-82C9-7A9061FCB2DE_owauzb.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/89314AD1-C869-4077-93CF-B03424571125_r012gb.jpg"],
             "blurb": "This is the blurb about the octopus artifact",
-            "artistID": [2]
+            "artistID": [2],
+            "artistDescription": ["paid for the octopus"]
         },
         {
             "artifactID": 3,
@@ -51,7 +53,8 @@
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
                     "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg"],
             "blurb": "This is the blurb about the seahorse artifact",
-            "artistID": [1]
+            "artistID": [1],
+            "artistDescription": ["idk I just put something here"]
         }
     ],
     "posts": [

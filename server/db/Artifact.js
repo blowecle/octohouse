@@ -25,6 +25,10 @@ const Artifact = conn.define('artifact', {
     artistID: {
         type: Sequelize.ARRAY(Sequelize.INTEGER),
         allowNull: false,
+    },
+    artistDescription: {
+        type: Sequelize.ARRAY(Sequelize.TEXT),
+        allowNull: false,
     }
 });
 
