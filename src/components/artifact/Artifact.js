@@ -13,6 +13,7 @@ const Artifact = ({artifact, artists}) => {
                         <img src={image} alt='blogImage' className='artifact-image'/>
                     </div>
                 ))}
+                <div className="icon" aria-hidden="true"></div>
             </div>
             <div className="info-wrapper">
                 <div className="artifact-name">{`${artifact.name}`}</div>
