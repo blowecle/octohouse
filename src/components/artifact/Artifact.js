@@ -1,9 +1,5 @@
 import '../../css/artifact.css';
 import { Link } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
-import { fetchArtifactData } from '../../store/reducers/artifactSlice';
 
 const Artifact = ({artifact, artists}) => {
 
@@ -11,12 +7,23 @@ const Artifact = ({artifact, artists}) => {
 
     return (
         <div className="artifact-container">
-            <div>{`${artifact.name}`}</div>
-            {artists.map((artist, index) => (<>
-                <div>{`${artist.name}`}</div>
-                <div>{`${artifact.artistDescription[index]}`}</div>
-                </>
-            ))}
+            <div className='post-image-wrapper'>
+                {artifact.images.map((image) => (
+                    <div className='inner-wrapper'>
+                        <img src={image} alt='blogImage' className='artifact-image'/>
+                    </div>
+                ))}
+            </div>
+            <div className="info-wrapper">
+                <div className="artifact-name">{`${artifact.name}`}</div>
+                {artists.map((artist, index) => (<>
+                    <Link to={`/artists/${artist.artistID}`}>
+                        <div className="artifact-artist-name">{`${artist.name}`}</div>
+                    </Link>
+                    <div className="artifact-artist-description">{`- ${artifact.artistDescription[index]}`}</div>
+                    </>
+                ))}
+            </div>
         </div>
     )
     // return (<div className='artifact-container'>

@@ -1,10 +1,40 @@
 .artifact-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     height: 100vh;
     width: 90vw;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+    width: 100vw;
+}
+
+.artifact-name {
+    color: white;
+    font-size: 3rem;
+    border-bottom: 4px solid white;
+    padding: .5rem;
+}
+
+.artifact-artist-name {
+    color: white;
+    font-size: 2rem;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+.artifact-artist-description {
+    color: white;
+    font-size: 1rem;
 }
 
 .artifact-image-container {
@@ -34,7 +64,6 @@
     color: white;
     background-color: #bcbcbc;
     border: 2px solid #a1a1a1;
-    margin: 1vh 0 0 0;
     box-shadow: 1vh 1vh 1vh rgb(0 0 0 / 50%);
     width: 20vw;
 }
