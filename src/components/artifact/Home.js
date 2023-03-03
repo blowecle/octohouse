@@ -34,9 +34,8 @@ const Home = () => {
                     </Link>
                 </div>
                 <Slider/>
-                {artifacts ? (artifacts.map((artifact, index) => {
-                    const filteredArtists = artists.filter((artist) => { console.log(artist) 
-                        return artist.artifactID.includes(artifact.artifactID)})
+                {artifacts ? (artifacts.map((artifact) => {
+                    const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                     return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
                 })) : null}
                 <div className='temp-wrapper'>
