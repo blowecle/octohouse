@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
 import Slider from '../slider/Slider';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
+import { fetchArtists } from '../../store/reducers/artistSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -14,12 +15,13 @@ const Home = () => {
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
             await dispatch(fetchArtifacts());
+            await dispatch(fetchArtists());
         }
          asyncFetchArtifacts();
     },[dispatch])
     
     const artifacts = useSelector(state => state.artifact.artifacts);
-
+    const artists = useSelector(state => state.artist.artists);
     
     return (<>
             <div className='home-container'>
@@ -32,9 +34,11 @@ const Home = () => {
                     </Link>
                 </div>
                 <Slider/>
-                {artifacts ? (artifacts.map((artifact, index) => (
-                    <Artifact key={artifact.id} artifact={artifact} index={index}/>
-                ))) : null}
+                {artifacts ? (artifacts.map((artifact, index) => {
+                    const filteredArtists = artists.filter((artist) => { console.log(artist) 
+                        return artist.artifactID.includes(artifact.artifactID)})
+                    return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
+                })) : null}
                 <div className='temp-wrapper'>
                     <Link to='/blog'>
                         <div className='temp-link'>Blog</div>
