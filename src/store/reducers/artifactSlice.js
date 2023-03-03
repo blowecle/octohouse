@@ -58,7 +58,6 @@ export const fetchArtifacts = createAsyncThunk(
       const { data } = await axios.get(
         "https://octopus-house.herokuapp.com/api"
       );
-      console.log("DATA: ", { data });
       return data;
     } catch (e) {
       console.log(e);
@@ -74,7 +73,6 @@ export const fetchArtifactData = createAsyncThunk(
       const { data } = await axios.get(
         `https://octopus-house.herokuapp.com/api/artifacts/${id}`
       );
-      console.log("DATA: ", { data });
       return data;
     } catch (e) {
       console.log(e);
