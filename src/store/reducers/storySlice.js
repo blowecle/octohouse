@@ -45,22 +45,6 @@ export const fetchStory = createAsyncThunk(
       const { data } = await axios.get(
         "https://octopus-house.herokuapp.com/api/story"
       );
-      console.log("DATA: ", { data });
-      return data;
-    } catch (e) {
-      console.log(e);
-    }
-  }
-);
-
-export const fetchArtistData = createAsyncThunk(
-  "/artists/fetchArtistData",
-  async (id) => {
-    try {
-      const { data } = await axios.get(
-        `https://octopus-house.herokuapp.com/api/artists/${id}`
-      );
-      console.log("DATA: ", { data });
       return data;
     } catch (e) {
       console.log(e);

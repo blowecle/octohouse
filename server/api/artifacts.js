@@ -36,21 +36,3 @@ router.get('/artifacts/:id', async(req, res, next) => {
 })
 
 module.exports = router;
-
-//GET /api/artifacts/:id Single artifact and eagerly load associated artists
-// router.get('/artifacts/:id', async(req, res, next) => {
-//     try {
-//         const artifact = await Artifact.findByPk(req.params.id);
-//         console.log("INSIDE /API/artifacts/:id, ID: ", req.params.id)
-//         const artists = await Artist.findAll({
-//             where: {
-//                 artistID: {
-//                     [Op.in]: req.params.id
-//                 }
-//             }
-//         })
-//         res.send(artifact, artists);
-//     } catch (e) {
-//         next(e);
-//     }
-// })

@@ -20,6 +20,7 @@ const Home = () => {
     
     const artifacts = useSelector(state => state.artifact.artifacts);
 
+    
     return (<>
             <div className='home-container'>
                 <div className='temp-wrapper'>
