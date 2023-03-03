@@ -34,6 +34,9 @@ const Home = () => {
                     </Link>
                 </div>
                 <Slider/>
+                <div className="welcome">
+                    Welcome to the Octopus House gallery, feel free to scroll through each gallery, and click the artists' name for more info!
+                </div>
                 {artifacts ? (artifacts.map((artifact) => {
                     const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                     return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>

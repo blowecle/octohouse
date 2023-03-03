@@ -7,6 +7,13 @@ body {
     width: 100vw;
 }
 
+.welcome {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+
 .home-container {
     background-color: #1C7097;
     width: 100vw;
