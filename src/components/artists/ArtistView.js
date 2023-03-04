@@ -3,6 +3,7 @@ import { fetchArtistData } from "../../store/reducers/artistSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import '../../css/artist.css'
+import { Link } from "react-router-dom";
 
 const ArtistView = () => {
 
@@ -55,11 +56,16 @@ const ArtistView = () => {
                             Works of art:
                             <div className="artifact-list">
                                 {artifacts.map((artifact, index) => (<>
-                                    <div className="artifact-list-name">{`${artifact.name}`}</div>
+                                    <Link className="social" to={`/artifacts/${artifact.artifactID}`}>
+                                        <div className="artifact-list-name">{`${artifact.name}`}</div>
+                                    </Link>
                                     <div className="artifact-list-description">- {`${artifact.artistDescription[descriptionArray[index]]}`}</div>
                                     </>
                                 ))}
                             </div>
+                    </div>
+                    <div className="blurb-container">
+                        <div className="blurb">{`${artist.blurb}`}</div>
                     </div>
                     <div className="info-container">
                         <div className="social-container">

@@ -32,7 +32,6 @@ const ArtifactView = () => {
             <img src="" alt="this is where the image goes"/>
             <div className="single-artifact-info-container">
                 <div className="single-artifact-blurb">
-                    {artifactData}
                 </div>
             </div>
         </div>
