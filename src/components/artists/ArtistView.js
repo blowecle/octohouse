@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { fetchArtistData } from "../../store/reducers/artistSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
+import '../../css/artist.css'
 
 const ArtistView = () => {
 
@@ -15,23 +16,60 @@ const ArtistView = () => {
         asyncFetchArtistData();
     }, [dispatch])
 
-    const artist = useSelector((state) => state.artist.artistData);
-
+    const artist = useSelector((state) => state.artist.artistData.artistData);
+    const artifacts = useSelector((state) => state.artist.artistData.artifacts)
+    const descriptionArray = [];
     if(artist){
     console.log(artist)
+    console.log(artifacts)
+    artifacts.map((artifact, index) => (
+        artifact.artistID.map((id, index) => {
+            if(id === artist.artistID){
+                descriptionArray.push(index)
+            }
+        })
+    ))
+    console.log(descriptionArray)
     }
+    //map artifacts
+    //map artistID
+    //if artistID = artist.artistID push index into descriptionArray
 
-    return  (<div className="artist-wrapper">
+    //map artifacts
+    //display artifact name
+    //display artistDescription[descriptionArray[index]]
+
+    return  (<>{artist ? (<div className="artist-wrapper">
                 <div className="artist-top-container">
-                    <div className="info-container"></div>
-                    <div className="artist-image-container">
-                        <img src="" alt="main image goes here" className="artist-image"/>
+                    <div className="artist-name">{`${artist.name}`}</div>
+                    <div className="artist-company">{`${artist.company}`}</div>
+                    <div className='post-image-wrapper'>
+                        {artifacts.map((artifact) => ( artifact.images.map((image) => (
+                            <div className='inner-wrapper'>
+                                <img src={image} alt='blogImage' className='artifact-image'/>
+                            </div>
+                        ))))}
+                        <div className="icon" aria-hidden="true"></div>
+                    </div>
+                    <div className="artifact-list-container">
+                            Works of art:
+                            <div className="artifact-list">
+                                {artifacts.map((artifact, index) => (<>
+                                    <div className="artifact-list-name">{`${artifact.name}`}</div>
+                                    <div className="artifact-list-description">{`${artifact.artistDescription[descriptionArray[index]]}`}</div>
+                                    </>
+                                ))}
+                            </div>
+                    </div>
+                    <div className="info-container">
+                        <div className="social-container">
+                            {artist.social.map((social) => (
+                                <div className="social"><a href={`${social}`} target="_blank">{`${social}`}</a></div>
+                            ))}
+                        </div>
                     </div>
                 </div>
-                <div className="artist-bottom-container">
-                    <div>I don't know what goes down here yet</div>
-                </div>
-    </div>)
+    </div>) : (null)}</>)
 }
 
 export default ArtistView;

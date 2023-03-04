@@ -9,7 +9,7 @@
 .info-wrapper {
     display: flex;
     flex-direction: column;
-    margin-right: 50%;
+    justify-content: center;
     width: 100vw;
 }
 
