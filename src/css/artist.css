@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    .artist-name {
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .artist-company {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+        padding-bottom: 2rem;
+        font-style: italic;
+    }
+}
