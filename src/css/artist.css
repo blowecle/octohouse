@@ -60,4 +60,8 @@
         display: flex;
         justify-content: center;
     }
+
+    .blurb {
+        color: white;
+    }
 }
