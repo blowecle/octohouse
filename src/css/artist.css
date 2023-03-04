@@ -10,7 +10,47 @@
         font-size: 1.2rem;
         color: white;
         text-align: center;
-        padding-bottom: 2rem;
         font-style: italic;
     }
+
+    .artist-company-link {
+        display: flex;
+        color: white;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .artifact-list-container {
+        padding: 1rem 0 1rem 1rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .artifact-list {
+        padding-top: 1rem;
+        color: white;
+    }
+
+    .artifact-list-name {
+        font-size: 1.2rem;
+    }
+    .artifact-list-description {
+        font-size: 1rem;
+        font-style: italic;
+        padding-bottom: 1rem;
+    }
+
+    .info-container {
+        padding: 1rem;
+    }
+
+    .social {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:link { text-decoration: none; }
+
+
+    a:visited { text-decoration: none; }
 }
