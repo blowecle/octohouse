@@ -10,10 +10,6 @@ const Artifact = conn.define('artifact', {
         type: Sequelize.STRING,
         allowNull: false,
     },
-    mainImage: {
-        type: Sequelize.STRING,
-        allowNull: false,
-    },
     images: {
         type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: false,
