@@ -14,7 +14,7 @@ const ArtifactView = () => {
             await dispatch(fetchArtifactData(params.id));
         }
         asyncFetchArtifactData();
-    }, [params.id])
+    }, [])
     
     const artifactData = useSelector((state) => state.artifact.artifactData);
 
