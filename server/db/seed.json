@@ -156,7 +156,7 @@
             "artistID": 20,
             "name": "Leo Mejilla",
             "company": "",
-            "social": [],
+            "social": ["https://instagram.com/leosffpaintingllc"],
             "blurb": "",
             "artifactID": [1,2]
         },
@@ -181,6 +181,38 @@
             "name": "Cassandra Sidsworth",
             "company": "Wildworth Designs",
             "social": ["https://instagram.com/wildworthdesignco"],
+            "blurb": "",
+            "artifactID": [1,2]
+        },
+        {
+            "artistID": 24,
+            "name": "",
+            "company": "The Shade Store",
+            "social": ["https://www.theshadestore.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand%20-%20Showroom%20-%20M&utm_term=the%20shade%20store%20austin-c&gclid=CjwKCAiAmJGgBhAZEiwA1JZolsDJKhjkgTWoZ6sRsoZCRU1mQqaM7elDSmiQYPz2mr0-Zm4VAll2nBoCqj4QAvD_BwE"],
+            "blurb": "",
+            "artifactID": [1,2]
+        },
+        {
+            "artistID": 25,
+            "name": "Brandon Lowe",
+            "company": "",
+            "social": [],
+            "blurb": "",
+            "artifactID": [1,2]
+        },
+        {
+            "artistID": 26,
+            "name": "Evan Farias",
+            "company": "",
+            "social": [],
+            "blurb": "",
+            "artifactID": [1,2]
+        },
+        {
+            "artistID": 27,
+            "name": "James Ruiz",
+            "company": "",
+            "social": [],
             "blurb": "",
             "artifactID": [1,2]
         }
