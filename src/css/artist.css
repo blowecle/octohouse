@@ -59,9 +59,12 @@
         width: 80vw;
         display: flex;
         justify-content: center;
+        border: 1px solid white;
+
     }
 
     .blurb {
+        padding: 5px;
         color: white;
     }
 }

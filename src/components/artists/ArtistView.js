@@ -15,7 +15,7 @@ const ArtistView = () => {
             await dispatch(fetchArtistData(params.id));
         }
         asyncFetchArtistData();
-    }, [dispatch])
+    }, [])
 
     const artist = useSelector((state) => state.artist.artistData.artistData);
     const artifacts = useSelector((state) => state.artist.artistData.artifacts)
