@@ -16,13 +16,10 @@ const Story = () => {
             await dispatch(fetchStory());
         }
          asyncFetchStory();
-    })
+    },[])
 
     const story = useSelector((state) => state);
 
-    if(story){
-        console.log('story');   
-    }
     return (<>
             <div className='story-container'>
             <div className='filler'>
