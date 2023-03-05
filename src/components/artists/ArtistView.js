@@ -20,6 +20,7 @@ const ArtistView = () => {
     const artist = useSelector((state) => state.artist.artistData.artistData);
     const artifacts = useSelector((state) => state.artist.artistData.artifacts)
     const descriptionArray = [];
+
     //map artifacts
     //map artistID
     //if artistID = artist.artistID push index into descriptionArray
@@ -28,8 +29,6 @@ const ArtistView = () => {
     //display artifact name
     //display artistDescription[descriptionArray[index]]
     if(artist){
-    console.log(artist)
-    console.log(artifacts)
     artifacts.map((artifact, index) => (
         artifact.artistID.map((id, index) => {
             if(id === artist.artistID){

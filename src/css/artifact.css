@@ -83,6 +83,7 @@ a:visited { text-decoration: none; }
 
 .inner-wrapper {
     max-height: 37vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
 }

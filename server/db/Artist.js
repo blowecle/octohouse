@@ -14,10 +14,6 @@ const Artist = conn.define('artist', {
         type: Sequelize.STRING,
         allowNull: true,
     },
-    companyLink: {
-        type: Sequelize.STRING,
-        allowNull: true,
-    },
     social: {
         type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: true,

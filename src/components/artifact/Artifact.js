@@ -16,7 +16,9 @@ const Artifact = ({artifact, artists}) => {
                 <div className="icon" aria-hidden="true"></div>
             </div>
             <div className="info-wrapper">
-                <div className="artifact-name">{`${artifact.name}`}</div>
+                <Link to={`/artifacts/${artifact.artifactID}`}>
+                    <div className="artifact-name">{`${artifact.name}`}</div>
+                </Link>
                 {artists.map((artist, index) => (<>
                     <Link to={`/artists/${artist.artistID}`}>
                         <div className="artifact-artist-name">{`${artist.name}`}</div>
