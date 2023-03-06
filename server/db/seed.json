@@ -1,477 +1,649 @@
 {
-    "artists": [
-        {
-            "artistID": 1,
-            "name": "Nelson Rockwood",
-            "company": "Nelson Rockwood Homes",
-            "social": ["http://www.nelsonrockwood.com, http://www.instagram.com/nelson_rockwood"],
-            "blurb": "I was introduced to Joey by the interior designer to paint and do a couple of tile installations. Joey and I connected on a lot of levels and the requests to take the house in a whole new direction got bigger and bolder with every visit. I'm a rare fit for this. I might be one of a few GC's with a theater degree and a desire to work creatively on this level. My role became almost equal parts general contractor and art curator. Ann introduced some incredible talent to the project: Mishka, graphic designer, Aaron, muralist, and Evan, neon and sheetmetal artist and I had the pleasure of finding other talent: Jim, stained glass, Dan, water features, Pyrology, bronze sculpture and Stuart, stone sculptor, Craig and Teena, front door, to name a few. I loved bringing good people to this project because it was a rare one for all of us. We were empowered at every turn with great creative license and I feel that really got us excited. I always try to engender the care in every craftsman. To have a client that was so fully supportive of everyone's work was really amazing. Joey could not have been more excited about the work and that inspired everyone to their best.     What this experience has meant to me...  I believe it's taught me, as a young business owner, that the right clients are out there. I might only ever get to work with one Joey, but it has been encouraging to me to know that my specific skillset and my desire to blend art and construction, has a place. It has been a honor and pleasure to be tasked with finding artists and craftsman to translate visions into reality.  It has been rewarding to take great care in ensuring that all of the elements come together beautifully and to know that the client is rooting for us throughout the process.  As I write this, I can't help but think about how much more is still to be done! :)   I have also personally learned a lot from Joey's disposition.  He always has something positive to say. His enthusiasm is contagious and he doesn't sweat the small stuff. The only time he got mad (so he claims) was when we locked him out of the house. I never saw him mad because he chose to take a drive and came back smiling (to an unlocked house, thank goodness). He also really seems to enjoy people. He loved talking to Aaron while he was painting the mural. He's met and talked with all of the artists on the project.  He and Evan went guitar shopping. He's always glad to see Leo, our painter on site. All of this reminds me to take the time to visit with people, and to choose to see the good in the world. Those are pretty incredible lessons to take away from a client in the middle of a home renovation. ",
-            "artifactID": [1,3]
-        },
-        {
-            "artistID": 2,
-            "name": "Ann Tucker",
-            "company": "Studio A Group",
-            "social": ["http://www.studioagroup.com"],
-            "blurb": "During our first meetings with Joey, he expressed a strong desire to create a house that would be a gathering place for his family, neighbors, and the community. However, the original form of the spec house was closed, even hostile towards the street. I had a hunch that landscaping and a standard re-paint wouldn't be the cure needed. Assembling the team of builders, designers, and craftspeople to collaborate on the transformation of the house from spec to an underwater fantasy was great fun! Each new person brought onto the team caught the infectious joy of the project! We all could feel the FUN and WONDER radiating from the house onto the street to every passerby.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 3,
-            "name": "Mishka Westell",
-            "company": "",
-            "social": ["http://www.instagram.com/mishkawestell"],
-            "blurb": "It was wonderful to work with someone as imaginative and adventurous as Joey who let us all push the boundaries and create something truly unique and joyous, and turn his home into a work of art.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 4,
-            "name": "",
-            "company": "Pyrology Foundry and Studio",
-            "social": ["http://www.pyrology.com", "http://www.instagram.com/DITHfoundry"],
-            "blurb": "It was wonderful to work with someone as imaginative and adventurous as Joey who let us all push the boundaries and create something truly unique and joyous, and turn his home into a work of art.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 5,
-            "name": "Daniel Hornung",
-            "company": "20 Digit Design",
-            "social": ["http://20digitdesign.com"],
-            "blurb": "This project was a rare opportunity to work a sea horse into a sculpture design and have it make sense.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 6,
-            "name": "Jim Berry",
-            "company": "Blue Moon Glassworks",
-            "social": ["http://Austinbluemoon.com"],
-            "blurb": "It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 7,
-            "name": "Heidi Choate",
-            "company": "Rain Lily Design",
-            "social": ["http://www.rainlilydesign.com", "http://www.instagram.com/rainlilydesign"],
-            "blurb": "Working with so many other talented and exceptionally creative individuals was a unique and special experience. Getting to know Joey, someone I can consider a friend now, has been an experience all on its own. His 'down for anything' attitude and laid back nature made this experience truly a pleasure. There were no boundaries with him when it came to a creative idea to take this house to the next level.   When Joey contacted Rain Lily for a consultation and I walked through his brand new spec home that felt practically sterile, I had no idea what this project would evolve into and that we would end up working together for almost two years. I know there is more to come, can't wait for phase 3 and beyond!",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 8,
-            "name": "",
-            "company": "Focal Point Features",
-            "social": ["http://focalpointfeatures.com", "https://http://www.facebook.com/FPFeatures", "https://www.instagram.com/focalpointfeatures_/"],
-            "blurb": "The Octopus House is literally a piece of art and absolutely represents 'keeping it weird' in Austin TX. As local artists, we loved contributing to what makes our city so special. It was easy to visualize the water features under the giant blue octopus and a view of the creek. We had the opportunity to use unique materials, so we tucked quartz crystals and moss into the waterfalls and even added a giant floating quartz as a focal point to the backyard stream! It was amazing to connect not only to the space, but as water artisans with other artists and craftspeople.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 9,
-            "name": "",
-            "company": "Maverick Door and Millwork, Inc.",
-            "social": ["https://maverickdoor.com"],
-            "blurb": "I think it's every custom manufacturer's desire to work on fun project that requires a step outside the box. This project allowed us to re-ignite our creative thinking and to exhibit our talents as a custom door manufacturer. It took a conjoint effort within our team and the ingenuity of other trades to create the final work of art, but each individual involved was able to take home a little extra pride knowing they were a puzzle piece in the making of an extraordinary home that will be talked about for years to come.",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 10,
-            "name": "Stuart Simpson",
-            "company": "Austin Stone Carving",
-            "social": ["http://www.austinstonecarving.com"],
-            "blurb": "This has been such a wonderful project to be a part of. Joey has been an absolute delight to work with, and has encouraged me from the get-go to use my artistic license, and have fun with the project, which in return has allowed me to fabricate something truly special. Nelson has also been a solid team member to collaborate with throughout the process. This is exactly the type of work I love to do and I am so grateful for this opportunity!",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 11,
-            "name": "",
-            "company": "Nature's Treasures",
-            "social": ["http://naturestreasuresatx.com"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 12,
-            "name": "Anna B.",
-            "company": "Duende Exotic Skulls",
-            "social": ["https://duendeexoticskulls.carbonmade.com"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 13,
-            "name": "",
-            "company": "The Great Outdoors",
-            "social": ["http://gonursery.com"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 14,
-            "name": "James Talbot",
-            "company": "Talbot Studios",
-            "social": ["https://m.facebook.com/100057225348814/"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 15,
-            "name": "Craig Welborn",
-            "company": "Welborn Woodworks",
-            "social": ["https://www.welbornwoodworks.com/"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 16,
-            "name": "Marta",
-            "company": "",
-            "social": [],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 17,
-            "name": "Evan Voyles",
-            "company": "The Neon Jungle",
-            "social": ["http://theneonjungle.com/"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 18,
-            "name": "Aaron Flynn",
-            "company": "The Neon Jungle",
-            "social": ["http://theneonjungle.com/"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 19,
-            "name": "Stuart and Dave",
-            "company": "Steel House",
-            "social": ["http://www.steelhousemfg.com"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 20,
-            "name": "Leo Mejilla",
-            "company": "",
-            "social": ["https://instagram.com/leosffpaintingllc"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 21,
-            "name": "Donny, Hugo and Brandon",
-            "company": "Haas Home Automation",
-            "social": ["https://www.haasht.com/"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 22,
-            "name": "Michael",
-            "company": "Custom Tile of Austin",
-            "social": ["https://www.customtileofaustin.com"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 23,
-            "name": "Cassandra Sidsworth",
-            "company": "Wildworth Designs",
-            "social": ["https://instagram.com/wildworthdesignco"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 24,
-            "name": "",
-            "company": "The Shade Store",
-            "social": ["https://www.theshadestore.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand%20-%20Showroom%20-%20M&utm_term=the%20shade%20store%20austin-c&gclid=CjwKCAiAmJGgBhAZEiwA1JZolsDJKhjkgTWoZ6sRsoZCRU1mQqaM7elDSmiQYPz2mr0-Zm4VAll2nBoCqj4QAvD_BwE"],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 25,
-            "name": "Brandon Lowe",
-            "company": "",
-            "social": [],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 26,
-            "name": "Evan Farias",
-            "company": "",
-            "social": [],
-            "blurb": "",
-            "artifactID": [1,2]
-        },
-        {
-            "artistID": 27,
-            "name": "James Ruiz",
-            "company": "",
-            "social": [],
-            "blurb": "",
-            "artifactID": [1,2]
-        }
-    ],
-    "artifacts": [
-        {
-            "artifactID": 1,
-            "name": "Mermaid",
-            "images" : ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg", "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/5E4F2681-65D8-4E1C-A782-47AA8EF39C7E_h2gtvh.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/FD42F7F7-6584-44ED-894B-4D9F0D12F014_jxzlam.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/CBB03599-ACA6-4889-8FE9-42FDDF4FE96F_wblp9u.jpg","https://res.cloudinary.com/ddqp7dojc/image/upload/v1675990360/octo-house/PXL_20221031_235238056_cdv14u.jpg"],
-            "blurb": "This is the blurb about the mermaid artifact",
-            "artistID": [1,2],
-            "artistDescription": ["married the mermaid", "paid for the mermaid"]
-        },
-        {
-            "artifactID": 2,
-            "name": "Octopus",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142351/octo-house/04623E17-079F-493E-9BFC-20C7FF2CAB3C_t1kwp4.jpg", "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142351/octo-house/04623E17-079F-493E-9BFC-20C7FF2CAB3C_t1kwp4.jpg"],
-            "blurb": "This is the blurb about the octopus artifact",
-            "artistID": [2],
-            "artistDescription": ["paid for the octopus"]
-        },
-        {
-            "artifactID": 3,
-            "name": "Seahorse",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/8C34EC60-C99E-4BCB-8DA0-743CC166A4D5_lnzuyi.jpg", "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/8C34EC60-C99E-4BCB-8DA0-743CC166A4D5_lnzuyi.jpg",
-                    "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
-                    "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg"],
-            "blurb": "This is the blurb about the seahorse artifact",
-            "artistID": [1],
-            "artistDescription": ["idk I just put something here"]
-        }
-    ],
-    "posts": [
-        {
-            "title": "The Big Freeze",
-            "date": "February, 2021",
-            "images": ["https://www.gannett-cdn.com/presto/2021/02/15/NAAS/d72bfce4-965a-4b0b-9efb-792a9ac49902-jwj_021521_Snow_00750.jpg?crop=2999%2C1687%2Cx0%2Cy166&width=1200"],
-            "content": "Let's just say that I always knew that I was different. You see, I was supposed to be a boring black and white octopus, like all of the others - but I knew I was meant for more. So much more. Deep down within myself, I was ready to return to my origins of vibrancy and magic.  It wasn’t until after the freeze that I found my newly thawed courage to reveal my most extraordinary self - a remarkable and unforgettable sight to see.  My transformational journey begins…",
-            "artifactID": [1]
-        },
-        {
-            "title": "The Big Thaw",
-            "date": "February, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1675801018/octo-house/-3015122360201427833_q6em8r.jpg"],
-            "content": "When I awoke from the big freeze, this is where I found myself: in a giant aquarium in the bottom of the house. As you can see, I eventually turned it into a shower for my pet human.",
-            "artifactID": 1,
-            "artistID": [1]
-        },
-        {
-            "title": "Exploring my new home",
-            "date": "Summer, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/CE1ACF15-5F5C-43F7-A335-7CAE95151B7B_lujujq.jpg"],
-            "content": "As my tentacles unthawed, I began to explore my new home. What I found was not very Octopus-like, so I began thinking about how to turn it into my very own home. And I don’t mean just a light touch; no, I mean a serious whole house makeover!",
-            "artifactID": 1,
-            "artistID": [1]
-        },
-        {
-            "title": "Planning Begins",
-            "date": "August, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/E55E1B49-19E3-4377-BBE4-428344CB81DA_h39ise.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/ADC4E2D1-7E78-4675-8A6A-C6AAAE97D19D_o7lg3q.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/34CF1A10-8F50-4EB7-83BB-5F5D00A431D6_sgatdd.jpg"],
-            "content": "I was pretty darn hungry after the big freeze, so I started developing the stomach of my home, with the help of Michael and his team at Custom Tile of Austin. You can see us brainstorming which diet would be best for me. We decided to replace my bland, monochromatic diet with something much more appetizing. Here, you can see Michael and his crew feeding me with tiles of sparkling charm, a seasoning that everyone should try!",
-            "artifactID": 1,
-            "artistID": [1]
-        },
-        {
-            "title": "Living Room Development",
-            "date": "August, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/90A234FE-981E-4E00-A122-7BCB1818E3CA_fctnix.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/E2B425F9-86AB-4056-832B-2990C6A5F83B_ivuzfp.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/AE018ACC-A814-4920-9596-D90846D1B6C2_ecrxvj.jpg"],
-            "content": "Now that I had my stomach fed, it was time to start working on my living space. Leo Mejilla helped me remove the dull oyster-like coloring (sorry oysters, but your coloring is nothing to brag about) and began transforming the room into an octopus friendly environment."
-        },
-        {
-            "title": "Living Room Continued",
-            "date": "September, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142324/octo-house/B42F0797-8F79-4CB5-8A29-239D008D6E4F_bpthgk.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/AFEE5132-8407-417A-84FA-F23BEF3D776D_d0u80x.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/43566438-45A4-4BF6-8C5A-3F1ADCD8BA5A_zqctir.jpg"],
-            "content": "Now that I had a gorgeous living space I needed some amazing lighting to properly highlight it all. With help from Mike Cincungui (electrician) along with Donny, Hugo and Brandon (Haas Home Automation), we were able to  really highlight the beauty of my makeover."
-        },
-        {
-            "title": "Not Enough Books",
-            "date": "September, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/F875080F-FF7C-41F2-9C41-F667AFCE8449_ok0lr8.jpg"],
-            "content": "It was time to work on my brains - Oh, FYI, I bet you didn’t know that octopi have nine brains! This bookshelf was not nearly large enough for my brain, so lo and behold, it was time to expand it!"
-        },
-        {
-            "title": "Building the Bookcase",
-            "date": "September, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142319/octo-house/21B87FE6-EBBF-4CF3-BE6A-2A960FC13FB1_ajdsh4.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142322/octo-house/6B01D48A-C5AC-440A-B886-16BF9465D5BC_tyn8ba.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142322/octo-house/81102B7D-C135-42F7-8B0A-96F9426B9EA8_sjstl9.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/75096837-E0E7-4FB9-A3BA-93C7CADA8371_lat3bu.jpg"],
-            "content": "Tada! Oh, and have you ever seen an Octopus play a guitar or ukulele? I’m just full of surprises!"
-        },
-        {
-            "title": "Beginning my Makeover",
-            "date": "September, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/CE1ACF15-5F5C-43F7-A335-7CAE95151B7B_lujujq.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142314/octo-house/C8C2FABA-23A2-4392-B077-FF6C0AA26A4F_oy6aeo.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142323/octo-house/E309703B-D083-4349-A2A7-AC1B36BCE09D_vlqrtj.jpg"],
-            "content": "It was time to finally start working on my face - the most important part after all! Since COVID was starting to dwindle down, I figured it was safe enough to finally remove my mask!"
-        },
-        {
-            "title": "Green Tech",
-            "date": "October, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142323/octo-house/658E0145-066F-41E4-87EF-F3AE6AEB701A_k7w19i.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/3AF6A0F2-C351-46A5-8268-0E1EF1F3C777_uihgek.jpg"],
-            "content": "I know octopi usually live in water, but I am a rare type of breed living on land (hopefully you’ve figured that out by now). I am a big octopus, taking up alot of room on this land. I wanted to make sure I was being environmentally friendly, so I got solar panels installed on top of my head."
-        },
-        {
-            "title": "Makeover (continued)",
-            "date": "December, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142327/octo-house/9CD8F392-D4F2-417B-9B49-CB3807DC0BF8_afef7c.jpg"],
-            "content": "Now that my mask was finally off, I was ready to put on my makeup! Here I am starting with the foundation."
-        },
-        {
-            "title": "Makeover (continued)",
-            "date": "December, 2021",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142328/octo-house/1E61BA9F-FB5A-4C38-BDBB-E77AEEB1A3A9_ld4phg.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142328/octo-house/35D98179-A2D3-4863-80E9-681174267EDF_q5tvv0.jpg"],
-            "content": "Next, it was time to dazzle my face and outside of my body  with no other colors than my natural habitat."
-        },
-        {
-            "title": "Makeover Complete!",
-            "date": "January, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142329/octo-house/85842FCF-CA04-4B27-AB2F-CB694486A4DE_y2tfwp.jpg"],
-            "content": "And here you can see the finished product of my brand new face and body. I also thought it would be nice to invite some of my fellow sea friends so that I could feel more at home!"
-        },
-        {
-            "title": "Chillin' in the Lounge",
-            "date": "January, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142330/octo-house/B3715B55-C4E0-41F9-9D7A-127FBAAC0D2F_xwiwi9.jpg"],
-            "content": "And a little dazzling jewelry for my fancy new self."
-        },
-        {
-            "title": "Another Snow Day",
-            "date": "February, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142331/octo-house/ADF39F97-1575-4FE3-9CC3-238350C7DEA5_eiayxh.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142331/octo-house/80DC2833-1F31-4879-B8E7-941946000E69_bzobfb.jpg"],
-            "content": "Another cold and snowy day wasn’t going to bring me down to my old dull and boring self ‘cuz now I’m prepared! Not only do I have solar to soak in the sun’s gorgeous rays, but I also have battery and natural gas backups should the Snowpocalypse return."
-        },
-        {
-            "title": "My New Roomie",
-            "date": "February, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142327/octo-house/1A6829CF-F9EB-4BB8-9C7B-579580C5F7E1_j702iu.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/C36EA4D1-604F-491E-BD44-7C82576DC06E_hvfbon.jpg"],
-            "content": "Word got out to my sea friends about my whole new makeover. I decided it was a good time to invite my shiny and colorful seahorse friend to be my new roommate! He gladly accepted."
-        },
-        {
-            "title": "Bringing the Water to me",
-            "date": "February, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/08D38965-8585-4630-B464-D6F32A8BC955_nvfamo.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142336/octo-house/FC6A7F4A-1FC9-4792-8815-95979BA67063_imseip.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/0E0F2030-0D43-4288-A0E1-C994C1B2B0A5_viagfn.jpg"],
-            "content": "Because I’m an octopus on land, I have to surround myself with familiar water, ‘cuz otherwise I’ll dry up and blow away. So my seahorse friend thought it would be a good idea to bring a little bit of my homeland to my new home in-land."
-        },
-        {
-            "title": "Light it up!",
-            "date": "March, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142334/octo-house/22394300-04C6-4B2A-B082-BAE08C000D99_kflj2w.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142336/octo-house/07F3897D-CEE6-4129-9A52-05475CC8C4CD_jtuszz.jpg"],
-            "content": "After a storm passes, we see them as symbols of better things and they often lift our spirits high. Seeing the rainbow is always a wonderful thing. I always want to see the rainbow."
-        },
-        {
-            "title": "Sacred Space",
-            "date": "March, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142335/octo-house/12F5BC87-803A-4C91-A5D3-8A7B40155FA4_yj51mz.jpg"],
-            "content": "We all need a sacred space within ourselves - even an octopus!"
-        },
-        {
-            "title": "Hot Tub Time Machine",
-            "date": "March, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142335/octo-house/5122CB7E-0DD1-407F-A68A-1461EB235E50_hnv493.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/B0F81EBA-3DFB-495D-A55F-8F03AFDCE347_fjcwyg.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142334/octo-house/523628E5-93CD-4113-9E94-208D8C1CEF62_x0oxgh.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142337/octo-house/29B67A43-DB59-4FB2-A8B1-2B8D72D0930A_kfziz2.jpg"],
-            "content": "I decided with my new physical makeover, I needed something to support my physical and emotional well-being with another part of my homeland - just a little warmer, like a hot tub as my human pet calls it. While my pet human enjoys the warmth in the winter I need to cool off in the summer, so it does that too, magically somehow."
-        },
-        {
-            "title": "Stained Glass Masterpiece",
-            "date": "July, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142338/octo-house/154CE670-EB5B-444A-8FC0-527CE1CF6DA4_zkrc1t.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142338/octo-house/DDA90420-94C8-40A8-AFBE-648A5EE8CFC8_qi0vyj.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/BF100093-EE67-4510-B10A-B8F1815BB434_onj3gu.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/01600321-8A96-4DCC-8B0D-763B085ED4AF_hnwrb5.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/BF100093-EE67-4510-B10A-B8F1815BB434_onj3gu.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142342/octo-house/B4E395FE-2C74-411C-9985-7EA02541718A_kd8uor.jpg"],
-            "content": "I realized as some point that my pet human wouldn’t be able to see out through my enormous tentacles, so I made some of them translucent. So now he can see out and I’m sparkly now too!"
-        },
-        {
-            "title": "Diggin' in the Dirt",
-            "date": "August, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/E59E668F-6B3B-4215-9028-A6596C7BBBC7_z40va5.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/DC77AFE1-3051-42DA-B4FF-4CACF5CF1E17_hg8o2m.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/27D4D96E-49EB-4341-A1EE-981CCD7747B4_utzelj.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142341/octo-house/2A9334E0-784C-4301-B53A-ECB6830CD052_dtr19q.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142343/octo-house/6BBD1975-278E-4D63-8EE7-85998EEA6C2A_kdq0yy.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142344/octo-house/B5308670-349B-47C1-A61F-8E2111B27B99_fn9zlp.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142345/octo-house/AA107743-570E-4C10-8C38-82289641CE4C_xbi7or.jpg"],
-            "content": "Now that my face and body were on a roll, it was time to work on my mantle. If you didn’t know- the mantle is located behind the head on the body of an octopus, a space of strong muscles that protect the organs and aid in respiration and contraction.  As I was building my home I became aware of a great drought in my area, which caused me great concern, given my water ways. So now I gather all of the rainfall in a giant tank underground, so that I never go dry."
-        },
-        {
-            "title": "Steel House",
-            "date": "October, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142347/octo-house/577C5996-2B14-40BC-AAA6-C8BD0E5CB3AE_iotqop.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142347/octo-house/0CBD56BF-5485-45CF-85BA-A1C3BB036939_fi4wnj.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142348/octo-house/8557C0CB-D6DB-487D-BEA4-7A6B9D866D30_uyipeq.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142348/octo-house/C4056B1A-1091-47F6-8F7B-4AB50E484929_mi1zup.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142349/octo-house/AC7975D2-817F-4F95-A56C-E04373588F98_sa0eb0.jpg"],
-            "content": "What a better way to get to my mantle than a spiraling staircase - something to represent my journey from being the under-topus to the top-topus."
-        },
-        {
-            "title": "An Octopus' Garden",
-            "date": "October, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142350/octo-house/3DBF7337-0C7B-4AB7-9419-45E874E30C74_pohxjb.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/A2029CD9-9CCB-4B15-A527-7D3CCA79D271_pqmc7i.jpg"],
-            "content": "Now that I had a beautiful home I needed to surround it in green. Just admiring all of my added green land glory and my new land creature friend!"
-        },
-        {
-            "title": "A New Friend",
-            "date": "Halloween, 2022",
-            "images":["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142350/octo-house/2631E1AC-AE0B-438F-936B-6504C15F5D36_nbnill.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674145468/octo-house/8e8af56b-948e-4e0b-a29d-76ff1686e250_yqkxo2.heic",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1675990360/octo-house/PXL_20221031_235238056_cdv14u.jpg"],
-            "content": "Although I may be living on land, I really wanted to make sure that I kept my roots of the ocean alive - and of course there was no better way to do that than to invite my beautiful mermaid friend to help keep that alive - if you didn’t know, some say mermaids can signify the life and fertility of the ocean.  Sometimes, when no human is looking, she comes and plays with me!"
-        },
-        {
-            "title": "A Beachside Feeling",
-            "date": "November, 2022",
-            "images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/A74A89B1-B6F7-462D-B5F2-40BECFE64A01_og6tax.jpg",
-            "https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/6A95670E-B19F-4AD4-A184-573830E72413_lc2ijx.jpg"],
-            "content": "Adding in a more lavish looking mouth to match my beautiful new face."
-        }
-    ],
-    "story": [
-        {
-            "content": "this is the content",
-            "position": "center",
-            "image": "https://i.guim.co.uk/img/media/4570fbdf4a8e528a5cb951f3b48f9afe3f7568a7/0_159_3385_2030/master/3385.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=144196910005feeb238772894e670a6f",
-            "animation": 3,
-            "size": "small"
-        },
-        {
-            "content": "content the is this",
-            "position": "left",
-            "animation": 2,
-            "size": "medium"
-        },
-        {
-            "content": "could this also be content?",
-            "position": "right",
-            "animation": 1,
-            "size": "large"
-        }
-    ]
+	"artists": [{
+			"artistID": 1,
+			"name": "Nelson Rockwood",
+			"company": "Nelson Rockwood Homes",
+			"social": ["http://www.nelsonrockwood.com, http://www.instagram.com/nelson_rockwood"],
+			"blurb": "I was introduced to Joey by the interior designer to paint and do a couple of tile installations. Joey and I connected on a lot of levels and the requests to take the house in a whole new direction got bigger and bolder with every visit. I'm a rare fit for this. I might be one of a few GC's with a theater degree and a desire to work creatively on this level. My role became almost equal parts general contractor and art curator. Ann introduced some incredible talent to the project: Mishka, graphic designer, Aaron, muralist, and Evan, neon and sheetmetal artist and I had the pleasure of finding other talent: Jim, stained glass, Dan, water features, Pyrology, bronze sculpture and Stuart, stone sculptor, Craig and Teena, front door, to name a few. I loved bringing good people to this project because it was a rare one for all of us. We were empowered at every turn with great creative license and I feel that really got us excited. I always try to engender the care in every craftsman. To have a client that was so fully supportive of everyone's work was really amazing. Joey could not have been more excited about the work and that inspired everyone to their best.     What this experience has meant to me...  I believe it's taught me, as a young business owner, that the right clients are out there. I might only ever get to work with one Joey, but it has been encouraging to me to know that my specific skillset and my desire to blend art and construction, has a place. It has been a honor and pleasure to be tasked with finding artists and craftsman to translate visions into reality.  It has been rewarding to take great care in ensuring that all of the elements come together beautifully and to know that the client is rooting for us throughout the process.  As I write this, I can't help but think about how much more is still to be done! :)   I have also personally learned a lot from Joey's disposition.  He always has something positive to say. His enthusiasm is contagious and he doesn't sweat the small stuff. The only time he got mad (so he claims) was when we locked him out of the house. I never saw him mad because he chose to take a drive and came back smiling (to an unlocked house, thank goodness). He also really seems to enjoy people. He loved talking to Aaron while he was painting the mural. He's met and talked with all of the artists on the project.  He and Evan went guitar shopping. He's always glad to see Leo, our painter on site. All of this reminds me to take the time to visit with people, and to choose to see the good in the world. Those are pretty incredible lessons to take away from a client in the middle of a home renovation. ",
+			"artifactID": [1]
+		},
+		{
+			"artistID": 2,
+			"name": "Ann Tucker",
+			"company": "Studio A Group",
+			"social": ["http://www.studioagroup.com"],
+			"blurb": "During our first meetings with Joey, he expressed a strong desire to create a house that would be a gathering place for his family, neighbors, and the community. However, the original form of the spec house was closed, even hostile towards the street. I had a hunch that landscaping and a standard re-paint wouldn't be the cure needed. Assembling the team of builders, designers, and craftspeople to collaborate on the transformation of the house from spec to an underwater fantasy was great fun! Each new person brought onto the team caught the infectious joy of the project! We all could feel the FUN and WONDER radiating from the house onto the street to every passerby.",
+			"artifactID": [2]
+		},
+		{
+			"artistID": 3,
+			"name": "Mishka Westell",
+			"company": "",
+			"social": ["http://www.instagram.com/mishkawestell"],
+			"blurb": "It was wonderful to work with someone as imaginative and adventurous as Joey who let us all push the boundaries and create something truly unique and joyous, and turn his home into a work of art.",
+			"artifactID": [1]
+		},
+		{
+			"artistID": 4,
+			"name": "",
+			"company": "Pyrology Foundry and Studio",
+			"social": ["http://www.pyrology.com", "http://www.instagram.com/DITHfoundry"],
+			"blurb": "It was wonderful to work with someone as imaginative and adventurous as Joey who let us all push the boundaries and create something truly unique and joyous, and turn his home into a work of art.",
+			"artifactID": [3]
+		},
+		{
+			"artistID": 5,
+			"name": "Daniel Hornung",
+			"company": "20 Digit Design",
+			"social": ["http://20digitdesign.com"],
+			"blurb": "This project was a rare opportunity to work a sea horse into a sculpture design and have it make sense.",
+			"artifactID": [3]
+		},
+		{
+			"artistID": 6,
+			"name": "Jim Berry",
+			"company": "Blue Moon Glassworks",
+			"social": ["http://Austinbluemoon.com"],
+			"blurb": "It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.",
+			"artifactID": [4, 5]
+		},
+		{
+			"artistID": 7,
+			"name": "Heidi Choate",
+			"company": "Rain Lily Design",
+			"social": ["http://www.rainlilydesign.com", "http://www.instagram.com/rainlilydesign"],
+			"blurb": "Working with so many other talented and exceptionally creative individuals was a unique and special experience. Getting to know Joey, someone I can consider a friend now, has been an experience all on its own. His 'down for anything' attitude and laid back nature made this experience truly a pleasure. There were no boundaries with him when it came to a creative idea to take this house to the next level.   When Joey contacted Rain Lily for a consultation and I walked through his brand new spec home that felt practically sterile, I had no idea what this project would evolve into and that we would end up working together for almost two years. I know there is more to come, can't wait for phase 3 and beyond!",
+			"artifactID": [6, 9]
+		},
+		{
+			"artistID": 8,
+			"name": "Dan",
+			"company": "Focal Point Features",
+			"social": ["http://focalpointfeatures.com", "https://http://www.facebook.com/FPFeatures", "https://www.instagram.com/focalpointfeatures_/"],
+			"blurb": "The Octopus House is literally a piece of art and absolutely represents 'keeping it weird' in Austin TX. As local artists, we loved contributing to what makes our city so special. It was easy to visualize the water features under the giant blue octopus and a view of the creek. We had the opportunity to use unique materials, so we tucked quartz crystals and moss into the waterfalls and even added a giant floating quartz as a focal point to the backyard stream! It was amazing to connect not only to the space, but as water artisans with other artists and craftspeople.",
+			"artifactID": [7]
+		},
+		{
+			"artistID": 9,
+			"name": "Craig and Teena",
+			"company": "Maverick Door and Millwork, Inc.",
+			"social": ["https://maverickdoor.com"],
+			"blurb": "I think it's every custom manufacturer's desire to work on fun project that requires a step outside the box. This project allowed us to re-ignite our creative thinking and to exhibit our talents as a custom door manufacturer. It took a conjoint effort within our team and the ingenuity of other trades to create the final work of art, but each individual involved was able to take home a little extra pride knowing they were a puzzle piece in the making of an extraordinary home that will be talked about for years to come.",
+			"artifactID": [8]
+		},
+		{
+			"artistID": 10,
+			"name": "Stuart Simpson",
+			"company": "Austin Stone Carving",
+			"social": ["http://www.austinstonecarving.com"],
+			"blurb": "This has been such a wonderful project to be a part of. Joey has been an absolute delight to work with, and has encouraged me from the get-go to use my artistic license, and have fun with the project, which in return has allowed me to fabricate something truly special. Nelson has also been a solid team member to collaborate with throughout the process. This is exactly the type of work I love to do and I am so grateful for this opportunity!",
+			"artifactID": [8]
+		},
+		{
+			"artistID": 11,
+			"name": "",
+			"company": "Nature's Treasures",
+			"social": ["http://naturestreasuresatx.com"],
+			"blurb": "",
+			"artifactID": [9]
+		},
+		{
+			"artistID": 12,
+			"name": "Anna B.",
+			"company": "Duende Exotic Skulls",
+			"social": ["https://duendeexoticskulls.carbonmade.com"],
+			"blurb": "",
+			"artifactID": [10]
+		},
+		{
+			"artistID": 13,
+			"name": "",
+			"company": "The Great Outdoors",
+			"social": ["http://gonursery.com"],
+			"blurb": "",
+			"artifactID": [11]
+		},
+		{
+			"artistID": 14,
+			"name": "James Talbot",
+			"company": "Talbot Studios",
+			"social": ["https://m.facebook.com/100057225348814/"],
+			"blurb": "",
+			"artifactID": [12, 13, 14]
+		},
+		{
+			"artistID": 15,
+			"name": "Craig Welborn",
+			"company": "Welborn Woodworks",
+			"social": ["https://www.welbornwoodworks.com/"],
+			"blurb": "",
+			"artifactID": [15]
+		},
+		{
+			"artistID": 16,
+			"name": "Marta",
+			"company": "",
+			"social": ["https://www.instagram.com/martashirt/?hl=en"],
+			"blurb": "",
+			"artifactID": [16]
+		},
+		{
+			"artistID": 17,
+			"name": "Evan Voyles",
+			"company": "The Neon Jungle",
+			"social": ["http://theneonjungle.com/"],
+			"blurb": "",
+			"artifactID": [17]
+		},
+		{
+			"artistID": 18,
+			"name": "Aaron Flynn",
+			"company": "The Neon Jungle",
+			"social": ["http://theneonjungle.com/"],
+			"blurb": "",
+			"artifactID": [1]
+		},
+		{
+			"artistID": 19,
+			"name": "Stuart and Dave",
+			"company": "Steel House",
+			"social": ["http://www.steelhousemfg.com"],
+			"blurb": "",
+			"artifactID": [18]
+		},
+		{
+			"artistID": 20,
+			"name": "Leo Mejilla",
+			"company": "",
+			"social": ["https://instagram.com/leosffpaintingllc"],
+			"blurb": "",
+			"artifactID": [1]
+		},
+		{
+			"artistID": 21,
+			"name": "Donny, Hugo and Brandon",
+			"company": "Haas Home Automation",
+			"social": ["https://www.haasht.com/"],
+			"blurb": "",
+			"artifactID": [19]
+		},
+		{
+			"artistID": 22,
+			"name": "Michael",
+			"company": "Custom Tile of Austin",
+			"social": ["https://www.customtileofaustin.com"],
+			"blurb": "",
+			"artifactID": [20]
+		},
+		{
+			"artistID": 23,
+			"name": "Cassandra Sidsworth",
+			"company": "Wildworth Designs",
+			"social": ["https://instagram.com/wildworthdesignco"],
+			"blurb": "",
+			"artifactID": [21]
+		},
+		{
+			"artistID": 24,
+			"name": "",
+			"company": "The Shade Store",
+			"social": ["https://www.theshadestore.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand%20-%20Showroom%20-%20M&utm_term=the%20shade%20store%20austin-c&gclid=CjwKCAiAmJGgBhAZEiwA1JZolsDJKhjkgTWoZ6sRsoZCRU1mQqaM7elDSmiQYPz2mr0-Zm4VAll2nBoCqj4QAvD_BwE"],
+			"blurb": "",
+			"artifactID": [22]
+		},
+		{
+			"artistID": 25,
+			"name": "Brandon Lowe",
+			"company": "",
+			"social": [],
+			"blurb": "",
+			"artifactID": [23]
+		},
+		{
+			"artistID": 26,
+			"name": "Evan Farias",
+			"company": "",
+			"social": [],
+			"blurb": "",
+			"artifactID": [23]
+		},
+		{
+			"artistID": 27,
+			"name": "James Ruiz",
+			"company": "",
+			"social": [],
+			"blurb": "",
+			"artifactID": [23]
+		}
+	],
+	"artifacts": [{
+			"artifactID": 1,
+			"name": "Mural",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/9D8E7166-3D8D-4679-8A39-F07DADAEA5C7_lv72rj.jpg"],
+			"blurb": "This is the blurb about the mural.",
+			"artistID": [1, 2, 3, 6, 17, 18, 20],
+			"artistDescription": ["Nelson's description", "Ann's description", "Mishka's description", "Blue Moon Stainglass's description", "Evan's description", "Aaron's description", "Leo's description"]
+		},
+		{
+			"artifactID": 2,
+			"name": "Interior",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/311186E6-7FF5-444A-A331-A5DCA14C64B2_hdgojt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/812DCC10-0FBD-4199-A3BE-DCC07862FFD4_ml2ke8.jpg"],
+			"blurb": "This is a blurb about the interior.",
+			"artistID": [2],
+			"artistDescription": ["Ann's description"]
+		},
+		{
+			"artifactID": 3,
+			"name": "Mermaid",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg"],
+			"blurb": "This is the blurb about the mermaid.",
+			"artistID": [4, 5],
+			"artistDescription": ["Pyrology's description", "Daniel's description"]
+		},
+		{
+			"artifactID": 4,
+			"name": "Stain Glass Tentacle",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/2526A86B-6A49-46EC-B1A6-924B3B56D725_q098ls.jpg"],
+			"blurb": "This is the blurb about the Stain Glass Tentacle.",
+			"artistID": [6],
+			"artistDescription": ["Jim's description"]
+		},
+		{
+			"artifactID": 5,
+			"name": "Stain Glass Door",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg"],
+			"blurb": "This is the blurb about the Stain Glass Door.",
+			"artistID": [6, 9],
+			"artistDescription": ["Jim's description", "Crain and Teenas' description"]
+		},
+		{
+			"artifactID": 6,
+			"name": "Landscaping",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
+			"blurb": "This is the blurb about the landscaping.",
+			"artistID": [7],
+			"artistDescription": ["Heidi's description"]
+		},
+		{
+			"artifactID": 7,
+			"name": "Water Features",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/154B07CE-90FD-4CE0-AC88-BF11F6EB95B0_eqddqu.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg"],
+			"blurb": "This is the blurb about the water features.",
+			"artistID": [8],
+			"artistDescription": ["Dan's description"]
+		},
+		{
+			"artifactID": 8,
+			"name": "Goddess Stone Sculpture",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
+			"blurb": "This is the blurb about the goddess stone sculpture.",
+			"artistID": [10],
+			"artistDescription": ["Stuart's description"]
+		},
+		{
+			"artifactID": 9,
+			"name": "Crystals",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg"],
+			"blurb": "This is the blurb about the crystals.",
+			"artistID": [6, 11],
+			"artistDescription": ["Heidi's description", "Nature's description"]
+		},
+		{
+			"artifactID": 10,
+			"name": "Eyes of Texas Longhorn",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
+			"blurb": "This is the blurb about the longhorn skull.",
+			"artistID": [12],
+			"artistDescription": ["Anna's description"]
+		},
+		{
+			"artifactID": 11,
+			"name": "Plants inside",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/648CF696-DE52-45B3-9D2C-884CC7EB63B3_djyowl.jpg"],
+			"blurb": "This is the blurb about the inside plants.",
+			"artistID": [13],
+			"artistDescription": ["The Great Outdoor's description"]
+		},
+		{
+			"artifactID": 12,
+			"name": "Sacred Space",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg"],
+			"blurb": "This is the blurb about Sacred Space.",
+			"artistID": [14],
+			"artistDescription": ["Jame's description"]
+		},
+		{
+			"artifactID": 13,
+			"name": "Green Sconce",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/871C7376-01D0-42E0-84D5-100276227E6E_obhj0m.jpg"],
+			"blurb": "This is the blurb about the green sconce.",
+			"artistID": [14],
+			"artistDescription": ["Jim's description"]
+		},
+		{
+			"artifactID": 14,
+			"name": "Yellow Sconce",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2DB42FBC-75BF-499F-B4A0-8921DE39E1AD_jb7deo.jpg"],
+			"blurb": "This is the blurb about the yellow sconce.",
+			"artistID": [14],
+			"artistDescription": ["Jim's description"]
+		},
+		{
+			"artifactID": 15,
+			"name": "",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/7F1497DA-4E63-4047-A68E-13A4002ED0BD_ou8zma.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/F3CAD13D-27E8-4966-A9D3-3D706BF552D5_edob6q.jpg"],
+			"blurb": "This is the blurb about the hat racks.",
+			"artistID": [15],
+			"artistDescription": ["Craig's description"]
+		},
+		{
+			"artifactID": 16,
+			"name": "",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/1B193E98-CC51-4977-9B7D-8D7E61B3C71B_tkwiu3.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/8CD45F5D-5F1D-4030-B003-9F14336F8101_fcafzu.jpg"],
+			"blurb": "This is the blurb about the moss plants.",
+			"artistID": [16],
+			"artistDescription": ["Marta's description"]
+		},
+		{
+			"artifactID": 17,
+			"name": "Neon Seahorse",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg"],
+			"blurb": "This is the blurb about the neon seahorse.",
+			"artistID": [17],
+			"artistDescription": ["Evan's description"]
+		},
+		{
+			"artifactID": 18,
+			"name": "Spiral Staircase",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2028FC50-2FD6-4C2F-9FB0-BA24343BA04A_xziv8l.jpg"],
+			"blurb": "This is the blurb about the spiral staircase.",
+			"artistID": [19, 1],
+			"artistDescription": ["Stuart and Daves' description", "Nelson's description"]
+		},
+		{
+			"artifactID": 19,
+			"name": "Interior Lighting",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
+			"blurb": "This is the blurb about the interior lighting.",
+			"artistID": [21],
+			"artistDescription": ["Donny, Hugo and Brandons' description"]
+		},
+		{
+			"artifactID": 20,
+			"name": "Tiling",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
+			"blurb": "This is the blurb about the custom tiling.",
+			"artistID": [22],
+			"artistDescription": ["Custom Tile's description"]
+		},
+		{
+			"artifactID": 21,
+			"name": "Octopi Welcome sign",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/AB1B241A-4C14-4D0C-AA7B-78BC376D6B3C_nwzqd5.jpg"],
+			"blurb": "This is the blurb about the Octopi Welcome sign.",
+			"artistID": [23],
+			"artistDescription": ["Cassie's description"]
+		},
+		{
+			"artifactID": 22,
+			"name": "Shades",
+			"images": ["https: //res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/C8CC69A6-FAA1-4615-A547-FE41512BB05B_vtlxgy.jpg"],
+			"blurb": "This is the blurb about the shades.",
+			"artistID": [24],
+			"artistDescription": ["Shade's description"]
+		},
+		{
+			"artifactID": 23,
+			"name": "Website",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
+			"blurb": "This is the blurb about the website.",
+			"artistID": [25, 26, 27],
+			"artistDescription": ["Brndon's description", "Evan's description", "James' description"]
+		}
+	],
+	"posts": [{
+			"title": "The Big Freeze",
+			"date": "February, 2021",
+			"images": ["https://www.gannett-cdn.com/presto/2021/02/15/NAAS/d72bfce4-965a-4b0b-9efb-792a9ac49902-jwj_021521_Snow_00750.jpg?crop=2999%2C1687%2Cx0%2Cy166&width=1200"],
+			"content": "Let's just say that I always knew that I was different. You see, I was supposed to be a boring black and white octopus, like all of the others - but I knew I was meant for more. So much more. Deep down within myself, I was ready to return to my origins of vibrancy and magic.  It wasn’t until after the freeze that I found my newly thawed courage to reveal my most extraordinary self - a remarkable and unforgettable sight to see.  My transformational journey begins…",
+			"artifactID": [1]
+		},
+		{
+			"title": "The Big Thaw",
+			"date": "February, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1675801018/octo-house/-3015122360201427833_q6em8r.jpg"],
+			"content": "When I awoke from the big freeze, this is where I found myself: in a giant aquarium in the bottom of the house. As you can see, I eventually turned it into a shower for my pet human.",
+			"artifactID": 1,
+			"artistID": [1]
+		},
+		{
+			"title": "Exploring my new home",
+			"date": "Summer, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/CE1ACF15-5F5C-43F7-A335-7CAE95151B7B_lujujq.jpg"],
+			"content": "As my tentacles unthawed, I began to explore my new home. What I found was not very Octopus-like, so I began thinking about how to turn it into my very own home. And I don’t mean just a light touch; no, I mean a serious whole house makeover!",
+			"artifactID": 1,
+			"artistID": [1]
+		},
+		{
+			"title": "Planning Begins",
+			"date": "August, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/E55E1B49-19E3-4377-BBE4-428344CB81DA_h39ise.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/ADC4E2D1-7E78-4675-8A6A-C6AAAE97D19D_o7lg3q.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142316/octo-house/34CF1A10-8F50-4EB7-83BB-5F5D00A431D6_sgatdd.jpg"
+			],
+			"content": "I was pretty darn hungry after the big freeze, so I started developing the stomach of my home, with the help of Michael and his team at Custom Tile of Austin. You can see us brainstorming which diet would be best for me. We decided to replace my bland, monochromatic diet with something much more appetizing. Here, you can see Michael and his crew feeding me with tiles of sparkling charm, a seasoning that everyone should try!",
+			"artifactID": 1,
+			"artistID": [1]
+		},
+		{
+			"title": "Living Room Development",
+			"date": "August, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/90A234FE-981E-4E00-A122-7BCB1818E3CA_fctnix.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/E2B425F9-86AB-4056-832B-2990C6A5F83B_ivuzfp.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142318/octo-house/AE018ACC-A814-4920-9596-D90846D1B6C2_ecrxvj.jpg"
+			],
+			"content": "Now that I had my stomach fed, it was time to start working on my living space. Leo Mejilla helped me remove the dull oyster-like coloring (sorry oysters, but your coloring is nothing to brag about) and began transforming the room into an octopus friendly environment."
+		},
+		{
+			"title": "Living Room Continued",
+			"date": "September, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142324/octo-house/B42F0797-8F79-4CB5-8A29-239D008D6E4F_bpthgk.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/AFEE5132-8407-417A-84FA-F23BEF3D776D_d0u80x.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/43566438-45A4-4BF6-8C5A-3F1ADCD8BA5A_zqctir.jpg"
+			],
+			"content": "Now that I had a gorgeous living space I needed some amazing lighting to properly highlight it all. With help from Mike Cincungui (electrician) along with Donny, Hugo and Brandon (Haas Home Automation), we were able to  really highlight the beauty of my makeover."
+		},
+		{
+			"title": "Not Enough Books",
+			"date": "September, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/F875080F-FF7C-41F2-9C41-F667AFCE8449_ok0lr8.jpg"],
+			"content": "It was time to work on my brains - Oh, FYI, I bet you didn’t know that octopi have nine brains! This bookshelf was not nearly large enough for my brain, so lo and behold, it was time to expand it!"
+		},
+		{
+			"title": "Building the Bookcase",
+			"date": "September, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142319/octo-house/21B87FE6-EBBF-4CF3-BE6A-2A960FC13FB1_ajdsh4.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142322/octo-house/6B01D48A-C5AC-440A-B886-16BF9465D5BC_tyn8ba.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142322/octo-house/81102B7D-C135-42F7-8B0A-96F9426B9EA8_sjstl9.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/75096837-E0E7-4FB9-A3BA-93C7CADA8371_lat3bu.jpg"
+			],
+			"content": "Tada! Oh, and have you ever seen an Octopus play a guitar or ukulele? I’m just full of surprises!"
+		},
+		{
+			"title": "Beginning my Makeover",
+			"date": "September, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142313/octo-house/CE1ACF15-5F5C-43F7-A335-7CAE95151B7B_lujujq.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142314/octo-house/C8C2FABA-23A2-4392-B077-FF6C0AA26A4F_oy6aeo.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142323/octo-house/E309703B-D083-4349-A2A7-AC1B36BCE09D_vlqrtj.jpg"
+			],
+			"content": "It was time to finally start working on my face - the most important part after all! Since COVID was starting to dwindle down, I figured it was safe enough to finally remove my mask!"
+		},
+		{
+			"title": "Green Tech",
+			"date": "October, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142323/octo-house/658E0145-066F-41E4-87EF-F3AE6AEB701A_k7w19i.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142325/octo-house/3AF6A0F2-C351-46A5-8268-0E1EF1F3C777_uihgek.jpg"
+			],
+			"content": "I know octopi usually live in water, but I am a rare type of breed living on land (hopefully you’ve figured that out by now). I am a big octopus, taking up alot of room on this land. I wanted to make sure I was being environmentally friendly, so I got solar panels installed on top of my head."
+		},
+		{
+			"title": "Makeover (continued)",
+			"date": "December, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142327/octo-house/9CD8F392-D4F2-417B-9B49-CB3807DC0BF8_afef7c.jpg"],
+			"content": "Now that my mask was finally off, I was ready to put on my makeup! Here I am starting with the foundation."
+		},
+		{
+			"title": "Makeover (continued)",
+			"date": "December, 2021",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142328/octo-house/1E61BA9F-FB5A-4C38-BDBB-E77AEEB1A3A9_ld4phg.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142328/octo-house/35D98179-A2D3-4863-80E9-681174267EDF_q5tvv0.jpg"
+			],
+			"content": "Next, it was time to dazzle my face and outside of my body  with no other colors than my natural habitat."
+		},
+		{
+			"title": "Makeover Complete!",
+			"date": "January, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142329/octo-house/85842FCF-CA04-4B27-AB2F-CB694486A4DE_y2tfwp.jpg"],
+			"content": "And here you can see the finished product of my brand new face and body. I also thought it would be nice to invite some of my fellow sea friends so that I could feel more at home!"
+		},
+		{
+			"title": "Chillin' in the Lounge",
+			"date": "January, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142330/octo-house/B3715B55-C4E0-41F9-9D7A-127FBAAC0D2F_xwiwi9.jpg"],
+			"content": "And a little dazzling jewelry for my fancy new self."
+		},
+		{
+			"title": "Another Snow Day",
+			"date": "February, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142331/octo-house/ADF39F97-1575-4FE3-9CC3-238350C7DEA5_eiayxh.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142331/octo-house/80DC2833-1F31-4879-B8E7-941946000E69_bzobfb.jpg"
+			],
+			"content": "Another cold and snowy day wasn’t going to bring me down to my old dull and boring self ‘cuz now I’m prepared! Not only do I have solar to soak in the sun’s gorgeous rays, but I also have battery and natural gas backups should the Snowpocalypse return."
+		},
+		{
+			"title": "My New Roomie",
+			"date": "February, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142326/octo-house/A513FC14-44EE-4F46-9BCE-C0392E979A0B_xwlffr.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142327/octo-house/1A6829CF-F9EB-4BB8-9C7B-579580C5F7E1_j702iu.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/47153EFA-9104-4DD3-BC70-C5401DEAB1D2_r9da7t.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142332/octo-house/C36EA4D1-604F-491E-BD44-7C82576DC06E_hvfbon.jpg"
+			],
+			"content": "Word got out to my sea friends about my whole new makeover. I decided it was a good time to invite my shiny and colorful seahorse friend to be my new roommate! He gladly accepted."
+		},
+		{
+			"title": "Bringing the Water to me",
+			"date": "February, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/08D38965-8585-4630-B464-D6F32A8BC955_nvfamo.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142336/octo-house/FC6A7F4A-1FC9-4792-8815-95979BA67063_imseip.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/0E0F2030-0D43-4288-A0E1-C994C1B2B0A5_viagfn.jpg"
+			],
+			"content": "Because I’m an octopus on land, I have to surround myself with familiar water, ‘cuz otherwise I’ll dry up and blow away. So my seahorse friend thought it would be a good idea to bring a little bit of my homeland to my new home in-land."
+		},
+		{
+			"title": "Light it up!",
+			"date": "March, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142334/octo-house/22394300-04C6-4B2A-B082-BAE08C000D99_kflj2w.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142336/octo-house/07F3897D-CEE6-4129-9A52-05475CC8C4CD_jtuszz.jpg"
+			],
+			"content": "After a storm passes, we see them as symbols of better things and they often lift our spirits high. Seeing the rainbow is always a wonderful thing. I always want to see the rainbow."
+		},
+		{
+			"title": "Sacred Space",
+			"date": "March, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142335/octo-house/12F5BC87-803A-4C91-A5D3-8A7B40155FA4_yj51mz.jpg"],
+			"content": "We all need a sacred space within ourselves - even an octopus!"
+		},
+		{
+			"title": "Hot Tub Time Machine",
+			"date": "March, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142335/octo-house/5122CB7E-0DD1-407F-A68A-1461EB235E50_hnv493.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142333/octo-house/B0F81EBA-3DFB-495D-A55F-8F03AFDCE347_fjcwyg.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142334/octo-house/523628E5-93CD-4113-9E94-208D8C1CEF62_x0oxgh.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142337/octo-house/29B67A43-DB59-4FB2-A8B1-2B8D72D0930A_kfziz2.jpg"
+			],
+			"content": "I decided with my new physical makeover, I needed something to support my physical and emotional well-being with another part of my homeland - just a little warmer, like a hot tub as my human pet calls it. While my pet human enjoys the warmth in the winter I need to cool off in the summer, so it does that too, magically somehow."
+		},
+		{
+			"title": "Stained Glass Masterpiece",
+			"date": "July, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142338/octo-house/154CE670-EB5B-444A-8FC0-527CE1CF6DA4_zkrc1t.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142338/octo-house/DDA90420-94C8-40A8-AFBE-648A5EE8CFC8_qi0vyj.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/BF100093-EE67-4510-B10A-B8F1815BB434_onj3gu.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/01600321-8A96-4DCC-8B0D-763B085ED4AF_hnwrb5.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142339/octo-house/BF100093-EE67-4510-B10A-B8F1815BB434_onj3gu.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142342/octo-house/B4E395FE-2C74-411C-9985-7EA02541718A_kd8uor.jpg"
+			],
+			"content": "I realized as some point that my pet human wouldn’t be able to see out through my enormous tentacles, so I made some of them translucent. So now he can see out and I’m sparkly now too!"
+		},
+		{
+			"title": "Diggin' in the Dirt",
+			"date": "August, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/E59E668F-6B3B-4215-9028-A6596C7BBBC7_z40va5.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/DC77AFE1-3051-42DA-B4FF-4CACF5CF1E17_hg8o2m.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142340/octo-house/27D4D96E-49EB-4341-A1EE-981CCD7747B4_utzelj.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142341/octo-house/2A9334E0-784C-4301-B53A-ECB6830CD052_dtr19q.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142343/octo-house/6BBD1975-278E-4D63-8EE7-85998EEA6C2A_kdq0yy.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142344/octo-house/B5308670-349B-47C1-A61F-8E2111B27B99_fn9zlp.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142345/octo-house/AA107743-570E-4C10-8C38-82289641CE4C_xbi7or.jpg"
+			],
+			"content": "Now that my face and body were on a roll, it was time to work on my mantle. If you didn’t know- the mantle is located behind the head on the body of an octopus, a space of strong muscles that protect the organs and aid in respiration and contraction.  As I was building my home I became aware of a great drought in my area, which caused me great concern, given my water ways. So now I gather all of the rainfall in a giant tank underground, so that I never go dry."
+		},
+		{
+			"title": "Steel House",
+			"date": "October, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142347/octo-house/577C5996-2B14-40BC-AAA6-C8BD0E5CB3AE_iotqop.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142347/octo-house/0CBD56BF-5485-45CF-85BA-A1C3BB036939_fi4wnj.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142348/octo-house/8557C0CB-D6DB-487D-BEA4-7A6B9D866D30_uyipeq.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142348/octo-house/C4056B1A-1091-47F6-8F7B-4AB50E484929_mi1zup.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142349/octo-house/AC7975D2-817F-4F95-A56C-E04373588F98_sa0eb0.jpg"
+			],
+			"content": "What a better way to get to my mantle than a spiraling staircase - something to represent my journey from being the under-topus to the top-topus."
+		},
+		{
+			"title": "An Octopus' Garden",
+			"date": "October, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142350/octo-house/3DBF7337-0C7B-4AB7-9419-45E874E30C74_pohxjb.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/A2029CD9-9CCB-4B15-A527-7D3CCA79D271_pqmc7i.jpg"
+			],
+			"content": "Now that I had a beautiful home I needed to surround it in green. Just admiring all of my added green land glory and my new land creature friend!"
+		},
+		{
+			"title": "A New Friend",
+			"date": "Halloween, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142350/octo-house/2631E1AC-AE0B-438F-936B-6504C15F5D36_nbnill.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674145468/octo-house/8e8af56b-948e-4e0b-a29d-76ff1686e250_yqkxo2.heic",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/ACC9744B-0023-4A03-A034-9D523B2FEC10_oofomv.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1675990360/octo-house/PXL_20221031_235238056_cdv14u.jpg"
+			],
+			"content": "Although I may be living on land, I really wanted to make sure that I kept my roots of the ocean alive - and of course there was no better way to do that than to invite my beautiful mermaid friend to help keep that alive - if you didn’t know, some say mermaids can signify the life and fertility of the ocean.  Sometimes, when no human is looking, she comes and plays with me!"
+		},
+		{
+			"title": "A Beachside Feeling",
+			"date": "November, 2022",
+			"images": ["https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142353/octo-house/A74A89B1-B6F7-462D-B5F2-40BECFE64A01_og6tax.jpg",
+				"https://res.cloudinary.com/ddqp7dojc/image/upload/v1674142354/octo-house/6A95670E-B19F-4AD4-A184-573830E72413_lc2ijx.jpg"
+			],
+			"content": "Adding in a more lavish looking mouth to match my beautiful new face."
+		}
+	],
+	"story": [{
+			"content": "this is the content",
+			"position": "center",
+			"image": "https://i.guim.co.uk/img/media/4570fbdf4a8e528a5cb951f3b48f9afe3f7568a7/0_159_3385_2030/master/3385.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=144196910005feeb238772894e670a6f",
+			"animation": 3,
+			"size": "small"
+		},
+		{
+			"content": "content the is this",
+			"position": "left",
+			"animation": 2,
+			"size": "medium"
+		},
+		{
+			"content": "could this also be content?",
+			"position": "right",
+			"animation": 1,
+			"size": "large"
+		}
+	]
 }
