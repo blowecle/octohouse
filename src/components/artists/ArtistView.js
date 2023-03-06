@@ -41,8 +41,9 @@ const ArtistView = () => {
     return  (<>{artist ? (<div className="artist-wrapper">
                 <div className="artist-top-container">
                     <div className="artist-name">{`${artist.name}`}</div>
-                    <div className="artist-company">{`${artist.company}`}</div>
-                    <a href={`${artist.companyLink}`} className="artist-company-link">{`${artist.companyLink}`}</a>
+                    {artist.company ? (<div className="artist-company">{`${artist.company}`}</div>
+                    ) : (null)}
+                    {artist.companyLink ? (<a href={`${artist.companyLink}`} className="artist-company-link">{`${artist.companyLink}`}</a>) : (null)}
                     <div className='post-image-wrapper'>
                         {artifacts.map((artifact) => ( artifact.images.map((image) => (
                             <div className='inner-wrapper'>
@@ -63,9 +64,9 @@ const ArtistView = () => {
                                 ))}
                             </div>
                     </div>
-                    <div className="blurb-container">
+                    {artist.blurb ? (<div className="blurb-container">
                         <div className="blurb">{`${artist.blurb}`}</div>
-                    </div>
+                    </div>) : (null)}
                     <div className="info-container">
                         <div className="social-container">
                             {artist.social.map((social) => (

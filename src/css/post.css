@@ -31,6 +31,7 @@
     }
     
     .post-image-wrapper {
+        margin-top: 10px;
         position: relative;
         background-image: url('https://images.unsplash.com/photo-1530053969600-caed2596d242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
         display: flex;

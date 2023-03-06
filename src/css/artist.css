@@ -55,7 +55,7 @@
 
     .blurb-container {
         overflow-y: scroll;
-        height: 20vh;
+        max-height: 20vh;
         width: 80vw;
         display: flex;
         justify-content: center;
