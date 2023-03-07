@@ -21,7 +21,11 @@ const Artifact = ({artifact, artists}) => {
                 </Link>
                 {artists.map((artist, index) => (<>
                     <Link to={`/artists/${artist.artistID}`}>
+                        {artist.name ? (
                         <div className="artifact-artist-name">{`${artist.name}`}</div>
+                        ) : (
+                            <div className="artifact-artist-name">{`${artist.company}`}</div>
+                        )}
                     </Link>
                     <div className="artifact-artist-description">{`- ${artifact.artistDescription[index]}`}</div>
                     </>
