@@ -228,7 +228,7 @@
       100% {margin-left: 0;}
     }
   
-    .slider {
+    /* .slider {
       width: 100vw;
       height: 30vh;
       overflow: hidden;
@@ -245,7 +245,7 @@
     .slide img {
       width: 100vw;
       height: 100%;
-    }
+    } */
   }
   
   
