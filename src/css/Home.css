@@ -16,17 +16,6 @@ body {
 
 .home-container {
     background-color: #1C7097;
-    width: 100vw;
-}
-
-.temp-link {
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
-}
-
-.temp-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }

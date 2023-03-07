@@ -1,23 +1,21 @@
 .artifact-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    height: 100vh;
     width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    min-height: 100vh;
 }
 
 .info-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100vw;
 }
 
 .artifact-name {
     color: white;
     font-size: 3rem;
-    border-bottom: 4px solid white;
-    padding: .5rem;
 }
 
 .artifact-artist-name {
@@ -28,6 +26,12 @@
     text-decoration: none;
 }
 
+.line-div {
+    border-bottom: 4px solid white;
+    width: 50%;
+    position: absolute;
+}
+
 a:link { text-decoration: none; }
 
 
@@ -36,6 +40,7 @@ a:visited { text-decoration: none; }
 .artifact-artist-description {
     color: white;
     font-size: 1rem;
+    font-style: italic;
 }
 
 .artifact-image-container {
@@ -52,12 +57,6 @@ a:visited { text-decoration: none; }
     overflow-x: scroll;
 }
 
-.artifact-image {
-    max-height: 100%;
-    border: 1px solid black;
-    max-width: 90vw;
-}
-
 .artifact-info {
     padding: 5%;
     font-size: 24px;
@@ -69,21 +68,54 @@ a:visited { text-decoration: none; }
     width: 20vw;
 }
 
-.carousel {
-    background-color: aliceblue;
-    border: 1px solid black;
-    border-radius: 5px;
+  
+
+  .slides {
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 50vh;
 }
 
-.post-image-wrapper {
-    display: flex;
-    overflow-x: scroll;
-    align-items: center;
-}
+.slide {
+    min-width: 95vw;
+    animation: carousel 15s ease-in infinite;
+  }
 
-.inner-wrapper {
+  @keyframes carousel {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0)
+    }
+    33% {
+      transform: translateX(-100%);
+    }
+    53% {
+      transform: translateX(-100%);
+    }
+    66% {
+      transform: translateX(-200%);
+    }
+    76% {
+      transform: translateX(-200%);
+    }
+    86% {
+        transform: translateX(-100%);
+    }
+    94% {
+        transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+/* .inner-wrapper {
     max-height: 37vh;
     min-width: 100vw;
     display: flex;
     align-items: center;
-}
+} */
