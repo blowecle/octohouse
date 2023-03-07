@@ -11,9 +11,9 @@ const Story = require('./Story');
 //seed data imported from seed.json
 const {
     artists,
-    posts,
+    // posts,
     artifacts,
-    story
+    // story
   } = require("./seed.json");
 
 //db schema
@@ -32,9 +32,9 @@ const syncAndSeed = async (closeConn=false) => {
         
         //seeding db with artists, posts, artifacts, and story arrays imported from seed.json
         await Artist.bulkCreate(artists);
-        await Post.bulkCreate(posts);
+        // await Post.bulkCreate(posts);
         await Artifact.bulkCreate(artifacts);
-        await Story.bulkCreate(story);
+        // await Story.bulkCreate(story);
         
         if (closeConn) await conn.close();
 		console.log(`Seeding successful!`);
