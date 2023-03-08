@@ -218,11 +218,11 @@
 	],
 	"artifacts": [{
 			"artifactID": 1,
-			"name": "Mural",
+			"name": "THE FACE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/9D8E7166-3D8D-4679-8A39-F07DADAEA5C7_lv72rj.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/9D8E7166-3D8D-4679-8A39-F07DADAEA5C7_lv72rj.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/9D8E7166-3D8D-4679-8A39-F07DADAEA5C7_lv72rj.jpg"],
 			"blurb": "This is the blurb about the mural.",
 			"artistID": [3, 18],
-			"artistDescription": ["Mishka's description", "Aaron's description"]
+			"artistDescription": ["DESIGNED BY", "PAINTED BY"]
 		},
 		{
 			"artifactID": 2,
@@ -234,11 +234,11 @@
 		},
 		{
 			"artifactID": 3,
-			"name": "Mermaid",
+			"name": "THE MERMAID",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg"],
 			"blurb": "This is the blurb about the mermaid.",
 			"artistID": [4, 5],
-			"artistDescription": ["Pyrology's description", "Daniel's description"]
+			"artistDescription": ["FORGED BY", "DESIGNED BY"]
 		},
 		{
 			"artifactID": 4,
@@ -250,11 +250,11 @@
 		},
 		{
 			"artifactID": 5,
-			"name": "Stain Glass Door",
+			"name": "STAIN GLASS DOOR",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg"],
 			"blurb": "This is the blurb about the Stain Glass Door.",
 			"artistID": [6, 9],
-			"artistDescription": ["Jim's description", "Crain and Teenas' description"]
+			"artistDescription": ["JIM'S DESCRIPTION", "CARVED BY"]
 		},
 		{
 			"artifactID": 6,
@@ -278,7 +278,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
 			"blurb": "This is the blurb about the goddess stone sculpture.",
 			"artistID": [10],
-			"artistDescription": ["Stuart's description"]
+			"artistDescription": ["SCULPTED BY"]
 		},
 		{
 			"artifactID": 9,
@@ -290,19 +290,19 @@
 		},
 		{
 			"artifactID": 10,
-			"name": "Eyes of Texas Longhorn Skull",
+			"name": "EYES OF TEXAS",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
 			"blurb": "This is the blurb about the longhorn skull.",
 			"artistID": [12],
-			"artistDescription": ["Anna's description"]
+			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 12,
-			"name": "Sacred Space",
+			"name": "SACRED SPACE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg"],
 			"blurb": "This is the blurb about Sacred Space.",
 			"artistID": [14],
-			"artistDescription": ["Jame's description"]
+			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 13,
@@ -330,11 +330,11 @@
 		},
 		{
 			"artifactID": 17,
-			"name": "Neon Seahorse",
+			"name": "NEON SEAHORSE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg"],
 			"blurb": "This is the blurb about the neon seahorse.",
 			"artistID": [17],
-			"artistDescription": ["Evan's description"]
+			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 18,

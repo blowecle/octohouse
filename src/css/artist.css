@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+    div {
+        font-family: 'Montserrat', sans-serif;
+    }
     .artist-name {
         font-size: 2.5rem;
         color: white;

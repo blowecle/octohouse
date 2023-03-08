@@ -19,6 +19,7 @@ const Artifact = ({artifact, artists}) => {
                 </Link>
                 <div className="line-div"/>
                 {artists.map((artist, index) => (<>
+                        <div className="artifact-artist-description">{`- ${artifact.artistDescription[index]}`}</div>
                     <Link to={`/artists/${artist.artistID}`}>
                         {artist.name ? (
                         <div className="artifact-artist-name">{`${artist.name}`}</div>
@@ -26,7 +27,6 @@ const Artifact = ({artifact, artists}) => {
                             <div className="artifact-artist-name">{`${artist.company}`}</div>
                         )}
                     </Link>
-                    <div className="artifact-artist-description">{`- ${artifact.artistDescription[index]}`}</div>
                     </>
                 ))}
             </div>
