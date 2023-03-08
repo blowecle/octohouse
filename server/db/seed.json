@@ -5,7 +5,7 @@
 			"company": "Nelson Rockwood Homes",
 			"social": ["http://www.nelsonrockwood.com, http://www.instagram.com/nelson_rockwood"],
 			"blurb": "I was introduced to Joey by the interior designer to paint and do a couple of tile installations. Joey and I connected on a lot of levels and the requests to take the house in a whole new direction got bigger and bolder with every visit. I'm a rare fit for this. I might be one of a few GC's with a theater degree and a desire to work creatively on this level. My role became almost equal parts general contractor and art curator. Ann introduced some incredible talent to the project: Mishka, graphic designer, Aaron, muralist, and Evan, neon and sheetmetal artist and I had the pleasure of finding other talent: Jim, stained glass, Dan, water features, Pyrology, bronze sculpture and Stuart, stone sculptor, Craig and Teena, front door, to name a few. I loved bringing good people to this project because it was a rare one for all of us. We were empowered at every turn with great creative license and I feel that really got us excited. I always try to engender the care in every craftsman. To have a client that was so fully supportive of everyone's work was really amazing. Joey could not have been more excited about the work and that inspired everyone to their best.     What this experience has meant to me...  I believe it's taught me, as a young business owner, that the right clients are out there. I might only ever get to work with one Joey, but it has been encouraging to me to know that my specific skillset and my desire to blend art and construction, has a place. It has been a honor and pleasure to be tasked with finding artists and craftsman to translate visions into reality.  It has been rewarding to take great care in ensuring that all of the elements come together beautifully and to know that the client is rooting for us throughout the process.  As I write this, I can't help but think about how much more is still to be done! :)   I have also personally learned a lot from Joey's disposition.  He always has something positive to say. His enthusiasm is contagious and he doesn't sweat the small stuff. The only time he got mad (so he claims) was when we locked him out of the house. I never saw him mad because he chose to take a drive and came back smiling (to an unlocked house, thank goodness). He also really seems to enjoy people. He loved talking to Aaron while he was painting the mural. He's met and talked with all of the artists on the project.  He and Evan went guitar shopping. He's always glad to see Leo, our painter on site. All of this reminds me to take the time to visit with people, and to choose to see the good in the world. Those are pretty incredible lessons to take away from a client in the middle of a home renovation. ",
-			"artifactID": [1]
+			"artifactID": [25]
 		},
 		{
 			"artistID": 2,
@@ -222,7 +222,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
 			"blurb": "This is the blurb about the landscaping.",
 			"artistID": [7, 8],
-			"artistDescription": ["Heidi's description","Dan's description"]
+			"artistDescription": ["LANDSCAPED BY","WATER FEATURES BY"]
 		},
 		{
 			"artifactID": 8,
@@ -270,7 +270,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
 			"blurb": "This is the blurb about the custom tiling.",
 			"artistID": [22],
-			"artistDescription": ["Custom Tile's description"]
+			"artistDescription": ["TILEWORK BY"]
 		},
 		{
 			"artifactID": 23,
@@ -287,6 +287,14 @@
 			"blurb": "This is the blurb about the website.",
 			"artistID": [26, 27, 28],
 			"artistDescription": ["ENGINEERED BY", "DESIGNED BY", "PHOTOS BY"]
+		},
+		{
+			"artifactID": 25,
+			"name": "GENERAL CONTRACTING",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
+			"blurb": "This is the blurb about nelson.",
+			"artistID": [1],
+			"artistDescription": ["THE MAN HIMSELF"]
 		}
 	]
 }
