@@ -51,11 +51,11 @@ const Home = () => {
                 <div className="opening-text-4">
                     House
                 </div>
-                {scrollY > 20 ? (<Slider/>) : (null)}
                 {artifacts ? (artifacts.map((artifact) => {
                     const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                     return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
                 })) : null}
+                <Slider/>
             {/* <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}

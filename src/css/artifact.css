@@ -1,5 +1,5 @@
 .artifact-container {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     width: 90vw;
@@ -15,13 +15,13 @@
 }
 
 .artifact-name {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
 .artifact-artist-name {
-    margin-top: 2vh;
     color: white;
     font-size: 2rem;
     padding: 2px;
@@ -29,7 +29,7 @@
 }
 
 .line-div {
-    border-bottom: 4px solid white;
+    border-bottom: 10px solid white;
     width: 50%;
     position: absolute;
 }
@@ -41,8 +41,9 @@ a:visited { text-decoration: none; }
 
 .artifact-artist-description {
     color: white;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-style: italic;
+    margin-top: 40px;
 }
 
 .artifact-image-container {
@@ -62,7 +63,7 @@ a:visited { text-decoration: none; }
 .artifact-info {
     padding: 5%;
     font-size: 24px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: gothamBold;
     color: white;
     background-color: #bcbcbc;
     border: 2px solid #a1a1a1;
@@ -75,7 +76,8 @@ a:visited { text-decoration: none; }
     display: inline-flex;
     flex-direction: row;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
+    border: 2px solid white;
 }
 
 .slide {

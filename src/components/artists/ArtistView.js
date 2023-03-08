@@ -47,7 +47,7 @@ const ArtistView = () => {
                     <div className='post-image-wrapper'>
                         {artifacts.map((artifact) => ( artifact.images.map((image) => (
                             <div className='inner-wrapper'>
-                                <img src={image} alt='blogImage' className='artifact-image'/>
+                                <img src={image} alt='blogImage' className='slide'/>
                             </div>
                         ))))}
                         <div className="icon" aria-hidden="true"></div>
