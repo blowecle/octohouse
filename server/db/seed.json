@@ -45,7 +45,7 @@
 			"company": "Blue Moon Glassworks",
 			"social": ["http://Austinbluemoon.com"],
 			"blurb": "It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.",
-			"artifactID": [4, 5]
+			"artifactID": [5]
 		},
 		{
 			"artistID": 7,
@@ -53,7 +53,7 @@
 			"company": "Rain Lily Design",
 			"social": ["http://www.rainlilydesign.com", "http://www.instagram.com/rainlilydesign"],
 			"blurb": "Working with so many other talented and exceptionally creative individuals was a unique and special experience. Getting to know Joey, someone I can consider a friend now, has been an experience all on its own. His 'down for anything' attitude and laid back nature made this experience truly a pleasure. There were no boundaries with him when it came to a creative idea to take this house to the next level.   When Joey contacted Rain Lily for a consultation and I walked through his brand new spec home that felt practically sterile, I had no idea what this project would evolve into and that we would end up working together for almost two years. I know there is more to come, can't wait for phase 3 and beyond!",
-			"artifactID": [6, 9]
+			"artifactID": [6]
 		},
 		{
 			"artistID": 8,
@@ -61,7 +61,7 @@
 			"company": "Focal Point Features",
 			"social": ["http://focalpointfeatures.com", "https://http://www.facebook.com/FPFeatures", "https://www.instagram.com/focalpointfeatures_/"],
 			"blurb": "The Octopus House is literally a piece of art and absolutely represents 'keeping it weird' in Austin TX. As local artists, we loved contributing to what makes our city so special. It was easy to visualize the water features under the giant blue octopus and a view of the creek. We had the opportunity to use unique materials, so we tucked quartz crystals and moss into the waterfalls and even added a giant floating quartz as a focal point to the backyard stream! It was amazing to connect not only to the space, but as water artisans with other artists and craftspeople.",
-			"artifactID": [7]
+			"artifactID": [6]
 		},
 		{
 			"artistID": 9,
@@ -101,23 +101,7 @@
 			"company": "Talbot Studios",
 			"social": ["https://m.facebook.com/100057225348814/"],
 			"blurb": "",
-			"artifactID": [12, 13]
-		},
-		{
-			"artistID": 15,
-			"name": "Craig Welborn",
-			"company": "Welborn Woodworks",
-			"social": ["https://www.welbornwoodworks.com/"],
-			"blurb": "",
-			"artifactID": [15]
-		},
-		{
-			"artistID": 16,
-			"name": "Marta",
-			"company": "",
-			"social": ["https://www.instagram.com/martashirt/?hl=en"],
-			"blurb": "",
-			"artifactID": [16]
+			"artifactID": [12]
 		},
 		{
 			"artistID": 17,
@@ -142,7 +126,7 @@
 			"social": ["http://www.steelhousemfg.com"],
 			"blurb": "",
 			"artifactID": [18]
-		},
+	    },
 		{
 			"artistID": 20,
 			"name": "Leo Mejilla",
@@ -166,22 +150,6 @@
 			"social": ["https://www.customtileofaustin.com"],
 			"blurb": "",
 			"artifactID": [20]
-		},
-		{
-			"artistID": 23,
-			"name": "Cassandra Sidsworth",
-			"company": "Wildworth Designs",
-			"social": ["https://instagram.com/wildworthdesignco"],
-			"blurb": "",
-			"artifactID": [21]
-		},
-		{
-			"artistID": 24,
-			"name": "",
-			"company": "The Shade Store",
-			"social": ["https://www.theshadestore.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand%20-%20Showroom%20-%20M&utm_term=the%20shade%20store%20austin-c&gclid=CjwKCAiAmJGgBhAZEiwA1JZolsDJKhjkgTWoZ6sRsoZCRU1mQqaM7elDSmiQYPz2mr0-Zm4VAll2nBoCqj4QAvD_BwE"],
-			"blurb": "",
-			"artifactID": [22]
 		},
 		{
 			"artistID": 25,
@@ -226,11 +194,11 @@
 		},
 		{
 			"artifactID": 2,
-			"name": "Interior",
+			"name": "THE STYLIST",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/311186E6-7FF5-444A-A331-A5DCA14C64B2_hdgojt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/812DCC10-0FBD-4199-A3BE-DCC07862FFD4_ml2ke8.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/812DCC10-0FBD-4199-A3BE-DCC07862FFD4_ml2ke8.jpg"],
 			"blurb": "This is a blurb about the interior.",
 			"artistID": [2],
-			"artistDescription": ["Ann's description"]
+			"artistDescription": ["INTERIOR DESIGN BY"]
 		},
 		{
 			"artifactID": 3,
@@ -239,14 +207,6 @@
 			"blurb": "This is the blurb about the mermaid.",
 			"artistID": [4, 5],
 			"artistDescription": ["FORGED BY", "DESIGNED BY"]
-		},
-		{
-			"artifactID": 4,
-			"name": "Stain Glass Tentacle",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/2526A86B-6A49-46EC-B1A6-924B3B56D725_q098ls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/2526A86B-6A49-46EC-B1A6-924B3B56D725_q098ls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/2526A86B-6A49-46EC-B1A6-924B3B56D725_q098ls.jpg"],
-			"blurb": "This is the blurb about the Stain Glass Tentacle.",
-			"artistID": [6],
-			"artistDescription": ["Jim's description"]
 		},
 		{
 			"artifactID": 5,
@@ -258,35 +218,19 @@
 		},
 		{
 			"artifactID": 6,
-			"name": "Landscaping",
+			"name": "LANDSCAPING",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
 			"blurb": "This is the blurb about the landscaping.",
-			"artistID": [7],
-			"artistDescription": ["Heidi's description"]
-		},
-		{
-			"artifactID": 7,
-			"name": "Water Features",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/154B07CE-90FD-4CE0-AC88-BF11F6EB95B0_eqddqu.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg"],
-			"blurb": "This is the blurb about the water features.",
-			"artistID": [8],
-			"artistDescription": ["Dan's description"]
+			"artistID": [7, 8],
+			"artistDescription": ["Heidi's description","Dan's description"]
 		},
 		{
 			"artifactID": 8,
-			"name": "Goddess Stone Sculpture",
+			"name": "GODDESS STONE SCULPTURE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
 			"blurb": "This is the blurb about the goddess stone sculpture.",
 			"artistID": [10],
 			"artistDescription": ["SCULPTED BY"]
-		},
-		{
-			"artifactID": 9,
-			"name": "Crystals",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/B6C501FD-D490-4A8E-8495-5DE40FE67551_cuqvwa.jpg"],
-			"blurb": "This is the blurb about the crystals.",
-			"artistID": [6, 11],
-			"artistDescription": ["Heidi's description", "Nature's description"]
 		},
 		{
 			"artifactID": 10,
@@ -305,30 +249,6 @@
 			"artistDescription": ["CREATED BY"]
 		},
 		{
-			"artifactID": 13,
-			"name": "Sconces",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/871C7376-01D0-42E0-84D5-100276227E6E_obhj0m.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2DB42FBC-75BF-499F-B4A0-8921DE39E1AD_jb7deo.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2DB42FBC-75BF-499F-B4A0-8921DE39E1AD_jb7deo.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2DB42FBC-75BF-499F-B4A0-8921DE39E1AD_jb7deo.jpg"],
-			"blurb": "This is the blurb about the green sconce.",
-			"artistID": [14],
-			"artistDescription": ["Jim's description"]
-		},
-		{
-			"artifactID": 15,
-			"name": "Hat Racks",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/7F1497DA-4E63-4047-A68E-13A4002ED0BD_ou8zma.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/F3CAD13D-27E8-4966-A9D3-3D706BF552D5_edob6q.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/F3CAD13D-27E8-4966-A9D3-3D706BF552D5_edob6q.jpg"],
-			"blurb": "This is the blurb about the hat racks.",
-			"artistID": [15],
-			"artistDescription": ["Craig's description"]
-		},
-		{
-			"artifactID": 16,
-			"name": "Moss Paintings",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/1B193E98-CC51-4977-9B7D-8D7E61B3C71B_tkwiu3.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/8CD45F5D-5F1D-4030-B003-9F14336F8101_fcafzu.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/8CD45F5D-5F1D-4030-B003-9F14336F8101_fcafzu.jpg"],
-			"blurb": "This is the blurb about the moss paintings.",
-			"artistID": [16],
-			"artistDescription": ["Marta's description"]
-		},
-		{
 			"artifactID": 17,
 			"name": "NEON SEAHORSE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg"],
@@ -337,16 +257,8 @@
 			"artistDescription": ["CREATED BY"]
 		},
 		{
-			"artifactID": 18,
-			"name": "Spiral Staircase",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2028FC50-2FD6-4C2F-9FB0-BA24343BA04A_xziv8l.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2028FC50-2FD6-4C2F-9FB0-BA24343BA04A_xziv8l.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/2028FC50-2FD6-4C2F-9FB0-BA24343BA04A_xziv8l.jpg"],
-			"blurb": "This is the blurb about the spiral staircase.",
-			"artistID": [19, 1],
-			"artistDescription": ["Stuart and Daves' description", "Nelson's description"]
-		},
-		{
 			"artifactID": 19,
-			"name": "Interior Lighting",
+			"name": "INTERIOR LIGHTING",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
 			"blurb": "This is the blurb about the interior lighting.",
 			"artistID": [21],
@@ -354,43 +266,27 @@
 		},
 		{
 			"artifactID": 20,
-			"name": "Tiling",
+			"name": "CUSTOM TILING",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
 			"blurb": "This is the blurb about the custom tiling.",
 			"artistID": [22],
 			"artistDescription": ["Custom Tile's description"]
 		},
 		{
-			"artifactID": 21,
-			"name": "Octopi Welcome sign",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/AB1B241A-4C14-4D0C-AA7B-78BC376D6B3C_nwzqd5.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/AB1B241A-4C14-4D0C-AA7B-78BC376D6B3C_nwzqd5.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958225/Placeholders/AB1B241A-4C14-4D0C-AA7B-78BC376D6B3C_nwzqd5.jpg"],
-			"blurb": "This is the blurb about the Octopi Welcome sign.",
-			"artistID": [23],
-			"artistDescription": ["Cassie's description"]
-		},
-		{
-			"artifactID": 22,
-			"name": "Shades",
-			"images": ["https: //res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/C8CC69A6-FAA1-4615-A547-FE41512BB05B_vtlxgy.jpg", "https: //res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/C8CC69A6-FAA1-4615-A547-FE41512BB05B_vtlxgy.jpg", "https: //res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/C8CC69A6-FAA1-4615-A547-FE41512BB05B_vtlxgy.jpg"],
-			"blurb": "This is the blurb about the shades.",
-			"artistID": [24],
-			"artistDescription": ["Shade's description"]
-		},
-		{
 			"artifactID": 23,
-			"name": "Bookcase",
+			"name": "BOOKCASE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg"],
 			"blurb": "This is the blurb about the bookcase.",
 			"artistID": [25],
-			"artistDescription": ["Aaron's description"]
+			"artistDescription": ["DESIGNED BY"]
 		},
 		{
 			"artifactID": 24,
-			"name": "Website",
+			"name": "OCTOPUSHOUSE.COM",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
 			"blurb": "This is the blurb about the website.",
 			"artistID": [26, 27, 28],
-			"artistDescription": ["Brndon's description", "Evan's description", "James' description"]
+			"artistDescription": ["ENGINEERED BY", "DESIGNED BY", "PHOTOS BY"]
 		}
 	]
 }
