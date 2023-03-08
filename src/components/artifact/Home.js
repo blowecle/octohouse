@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
@@ -10,7 +10,20 @@ import { fetchArtists } from '../../store/reducers/artistSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
+    const [scrollY, setScrollY] = useState(0);
 
+    useEffect(() => {
+        function handleScroll() {
+          setScrollY(window.scrollY);
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
+
+      console.log(scrollY)
     
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
@@ -25,10 +38,20 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <Slider/>
-                <div className="welcome">
-                    Welcome to the Octopus House gallery, feel free to scroll through each gallery, and click the artists' name for more info!
+                <img src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678233539/Gallery_Home_2_aaoxhk.png" className="opening-image"/>
+                <div className="opening-text-1">
+                    Welcome
                 </div>
+                <div className="opening-text-2">
+                    to the
+                </div>
+                <div className="opening-text-3">
+                    Octopus
+                </div>
+                <div className="opening-text-4">
+                    House
+                </div>
+                {scrollY > 20 ? (<Slider/>) : (null)}
                 {artifacts ? (artifacts.map((artifact) => {
                     const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                     return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>

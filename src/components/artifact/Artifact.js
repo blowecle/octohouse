@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Artifact = ({artifact, artists}) => {
 
-
+    
 
     return (
         <div className="artifact-container">
