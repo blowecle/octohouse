@@ -9,6 +9,7 @@
 }
 
 .info-wrapper {
+    padding: 5%;
     flex-direction: column;
     width: 100vw;
 }
@@ -16,6 +17,7 @@
 .artifact-name {
     color: white;
     font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .artifact-artist-name {
@@ -68,18 +70,16 @@ a:visited { text-decoration: none; }
     width: 20vw;
 }
 
-  
-
   .slides {
     overflow: hidden;
     display: inline-flex;
     flex-direction: row;
-    width: 95vw;
+    width: 100vw;
     height: 50vh;
 }
 
 .slide {
-    min-width: 95vw;
+    min-width: 100vw;
     animation: carousel 15s ease-in infinite;
   }
 
