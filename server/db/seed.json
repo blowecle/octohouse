@@ -13,7 +13,7 @@
 			"company": "Studio A Group",
 			"social": ["http://www.studioagroup.com"],
 			"blurb": "During our first meetings with Joey, he expressed a strong desire to create a house that would be a gathering place for his family, neighbors, and the community. However, the original form of the spec house was closed, even hostile towards the street. I had a hunch that landscaping and a standard re-paint wouldn't be the cure needed. Assembling the team of builders, designers, and craftspeople to collaborate on the transformation of the house from spec to an underwater fantasy was great fun! Each new person brought onto the team caught the infectious joy of the project! We all could feel the FUN and WONDER radiating from the house onto the street to every passerby.",
-			"artifactID": [2]
+			"artifactID": [26]
 		},
 		{
 			"artistID": 3,
@@ -290,11 +290,19 @@
 		},
 		{
 			"artifactID": 25,
-			"name": "GENERAL CONTRACTING",
+			"name": "THE BRAIN",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
 			"blurb": "This is the blurb about nelson.",
 			"artistID": [1],
-			"artistDescription": ["THE MAN HIMSELF"]
+			"artistDescription": ["GENERAL CONTRACTING BY"]
+		},
+		{
+			"artifactID": 26,
+			"name": "THE STYLIST",
+			"images": [""],
+			"blurb": "This is the blurb about Mishka.",
+			"artistID": [2],
+			"artistDescription": ["INTERIOR DESIGN BY"]
 		}
 	]
 }

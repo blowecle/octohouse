@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+// import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
 import Slider from '../slider/Slider';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
