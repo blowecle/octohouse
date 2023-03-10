@@ -10,20 +10,21 @@ import { fetchArtists } from '../../store/reducers/artistSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
-    const [scrollY, setScrollY] = useState(0);
 
-    useEffect(() => {
-        function handleScroll() {
-          setScrollY(window.scrollY);
-        }
+    // const [scrollY, setScrollY] = useState(0);
+
+    // useEffect(() => {
+    //     function handleScroll() {
+    //       setScrollY(window.scrollY);
+    //     }
     
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-          window.removeEventListener("scroll", handleScroll);
-        };
-      }, []);
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => {
+    //       window.removeEventListener("scroll", handleScroll);
+    //     };
+    //   }, []);
 
-      console.log(scrollY)
+    //   console.log(scrollY)
     
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
@@ -33,6 +34,7 @@ const Home = () => {
          asyncFetchArtifacts();
     },[dispatch])
     
+
     const artifacts = useSelector(state => state.artifact.artifacts);
     const artists = useSelector(state => state.artist.artists);
     
