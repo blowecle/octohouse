@@ -303,6 +303,14 @@
 			"blurb": "This is the blurb about Mishka.",
 			"artistID": [2],
 			"artistDescription": ["INTERIOR DESIGN BY"]
+		},
+		{
+			"artifactID": 27,
+			"name": "THE NINJA PAINTER",
+			"images": [""],
+			"blurb": "This is the blurb about ninja painter Leo.",
+			"artistID": [],
+			"artistDescription": ["PAINTING BY"]
 		}
 	]
 }
