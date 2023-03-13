@@ -2,23 +2,23 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
     min-height: 100vh;
 }
 
 .info-wrapper {
-    padding: 5%;
-    flex-direction: column;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 .artifact-name {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 3em;
     margin-bottom: 10px;
+    overflow-wrap: break-word;
+    max-width: 100vw;
 }
 
 .artifact-artist-name {
@@ -73,9 +73,9 @@ a:visited { text-decoration: none; }
 
   .slides {
     overflow: hidden;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     border: 2px solid white;
 }
