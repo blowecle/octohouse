@@ -1,6 +1,5 @@
 * {
     margin: 0 auto;
-    width: 100vw;
 }
 
 .home-filler {
@@ -46,7 +45,7 @@ body {
     flex-direction: column;
     width: 100%;
     background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678746523/octopus-house/octobackground_rzdnpn.png');
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .opening-image {
