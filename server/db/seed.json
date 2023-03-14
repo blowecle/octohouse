@@ -163,7 +163,7 @@
 	"artifacts": [{
 			"artifactID": 1,
 			"name": "THE FACE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_864_vidwjq.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_893_ipr8l1.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_864_vidwjq.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818327/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_062_oz2lnl.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_864_vidwjq.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_893_ipr8l1.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_864_vidwjq.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818327/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_062_oz2lnl.jpg"],
 			"blurb": "This is the blurb about the mural.",
 			"artistID": [3, 18],
 			"artistDescription": ["DESIGNED BY", "PAINTED BY"]
