@@ -193,14 +193,6 @@
 			"artistDescription": ["DESIGNED BY", "PAINTED BY"]
 		},
 		{
-			"artifactID": 2,
-			"name": "THE STYLIST",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/311186E6-7FF5-444A-A331-A5DCA14C64B2_hdgojt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/812DCC10-0FBD-4199-A3BE-DCC07862FFD4_ml2ke8.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/812DCC10-0FBD-4199-A3BE-DCC07862FFD4_ml2ke8.jpg"],
-			"blurb": "This is a blurb about the interior.",
-			"artistID": [2],
-			"artistDescription": ["INTERIOR DESIGN BY"]
-		},
-		{
 			"artifactID": 3,
 			"name": "THE MERMAID",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg"],
@@ -262,7 +254,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
 			"blurb": "This is the blurb about the interior lighting.",
 			"artistID": [21],
-			"artistDescription": ["Donny, Hugo and Brandons' description"]
+			"artistDescription": ["LIGHTING BY"]
 		},
 		{
 			"artifactID": 20,
