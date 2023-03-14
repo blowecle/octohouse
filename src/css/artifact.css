@@ -41,6 +41,11 @@
     margin-top: 2px;
 }
 
+.artifact-artist-wrapper {
+  width: 60vw;
+  position: absolute;
+}
+
 .line-div {
     border-bottom: 3px solid white;
     width: 50%;
