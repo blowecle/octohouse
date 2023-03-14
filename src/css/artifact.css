@@ -89,6 +89,9 @@ a:visited { text-decoration: none; }
     width: 20vw;
 }
 
+.artifact-carousel {
+  max-width: 90vw;
+}
   /* .slides {
     overflow: hidden;
     display: flex;
