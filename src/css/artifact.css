@@ -1,11 +1,21 @@
+@font-face {
+  font-family: montserrat;
+  src: url('../../public/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: montserratItalic;
+  src: url('../../public/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
 .artifact-container {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     max-width: 100vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
     min-height: 100vh;
+    font-family: montserrat;
 }
 
 .info-wrapper {
@@ -16,11 +26,11 @@
 
 .artifact-name {
   letter-spacing: 2px;
-    color: white;
-    font-size: 1.7em;
-    overflow-wrap: break-word;
-    max-width: 90vw;
-
+  color: white;
+  font-size: 1.7em;
+  overflow-wrap: break-word;
+  max-width: 90vw;
+  font-style: bold;
 }
 
 .artifact-artist-name {
