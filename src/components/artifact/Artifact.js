@@ -14,7 +14,7 @@ const Artifact = ({artifact, artists}) => {
                             <img src={image} alt='artifactImage' className='slide'/>
                         ))}
                     </div> */}
-                    <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={true} emulateTouch={true} dynamicHeight={true} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
+                    <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={true} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
                         {artifact.images.map((image) => (
                             <div className='inner-wrapper'>
                                 <img src={image} alt='artifactImage' className='artifact-image'/>

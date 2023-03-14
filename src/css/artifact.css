@@ -91,6 +91,7 @@ a:visited { text-decoration: none; }
 
 .artifact-carousel {
   max-width: 90vw;
+  height: 60vh;
 }
   /* .slides {
     overflow: hidden;
