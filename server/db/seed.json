@@ -190,7 +190,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg"],
 			"blurb": "This is the blurb about the Glass.",
 			"artistID": [6],
-			"artistDescription": ["GLASSWORK BY"]
+			"artistDescription": ["CRAFTED BY"]
 		},
 		{
 			"artifactID": 17,
@@ -214,7 +214,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/3B6E993D-C28A-4CBC-BC67-6CE1550C8407_djpxcb.jpg"],
 			"blurb": "This is the blurb about Sacred Space.",
 			"artistID": [14],
-			"artistDescription": ["CREATED BY"]
+			"artistDescription": ["WOVEN BY"]
 		},
 		{
 			"artifactID": 8,
@@ -270,7 +270,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
 			"blurb": "This is the blurb about the landscaping.",
 			"artistID": [7, 8],
-			"artistDescription": ["LANDSCAPED BY","WATER FEATURES BY"]
+			"artistDescription": ["LANDSCAPING BY","WATER FEATURES BY"]
 		},
 		{
 			"artifactID": 27,
