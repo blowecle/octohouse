@@ -79,7 +79,7 @@ a:visited { text-decoration: none; }
     display: flex;
     flex-direction: row;
     width: 90%;
-    height: 30vh;
+    height: 50vh;
     border: 2px solid white;
 }
 
