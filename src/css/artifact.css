@@ -93,7 +93,7 @@ a:visited { text-decoration: none; }
     width: 20vw;
 }
 
-.artifact-carousel {
+.artifact-carousel .artifact-image {
   max-width: 90vw;
   max-height: 60vh;
 }
