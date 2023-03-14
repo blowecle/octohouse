@@ -193,12 +193,12 @@
 			"artistDescription": ["GLASSWORK BY"]
 		},
 		{
-			"artifactID": 8,
-			"name": "GODDESS STONE SCULPTURE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
-			"blurb": "This is the blurb about the goddess stone sculpture.",
-			"artistID": [10],
-			"artistDescription": ["DESIGNED BY", "SCULPTED BY"]
+			"artifactID": 17,
+			"name": "NEON SEAHORSE",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg"],
+			"blurb": "This is the blurb about the neon seahorse.",
+			"artistID": [17],
+			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 10,
@@ -217,32 +217,32 @@
 			"artistDescription": ["CREATED BY"]
 		},
 		{
-			"artifactID": 17,
-			"name": "NEON SEAHORSE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/3BCC6DCA-1F1E-43E7-AEEE-81FA4BF09B0A_l909vb.jpg"],
-			"blurb": "This is the blurb about the neon seahorse.",
-			"artistID": [17],
-			"artistDescription": ["CREATED BY"]
-		},
-		{
-			"artifactID": 19,
-			"name": "INTERIOR LIGHTING",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
-			"blurb": "This is the blurb about the interior lighting.",
-			"artistID": [21],
-			"artistDescription": ["LIGHTING BY"]
+			"artifactID": 8,
+			"name": "MOTHER NATURE",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
+			"blurb": "This is the blurb about the goddess stone sculpture.",
+			"artistID": [10],
+			"artistDescription": ["DESIGNED BY", "SCULPTED BY"]
 		},
 		{
 			"artifactID": 20,
-			"name": "CUSTOM TILING",
+			"name": "THE TILING",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
 			"blurb": "This is the blurb about the custom tiling.",
 			"artistID": [22],
 			"artistDescription": ["TILEWORK BY"]
 		},
 		{
+			"artifactID": 19,
+			"name": "THE LIGHTS",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
+			"blurb": "This is the blurb about the interior lighting.",
+			"artistID": [21],
+			"artistDescription": ["LIGHTING BY"]
+		},
+		{
 			"artifactID": 23,
-			"name": "BOOKCASE",
+			"name": "THE BOOKSHELF",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958227/Placeholders/40509FE7-DF3B-4ACB-8BC8-0F05C2732D71_xwdjls.jpg"],
 			"blurb": "This is the blurb about the bookcase.",
 			"artistID": [25],
@@ -277,7 +277,7 @@
 			"name": "THE NINJA PAINTER",
 			"images": [""],
 			"blurb": "This is the blurb about ninja painter Leo.",
-			"artistID": [],
+			"artistID": [20],
 			"artistDescription": ["PAINTING BY"]
 		}
 	]
