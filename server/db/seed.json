@@ -171,7 +171,7 @@
 		{
 			"artifactID": 3,
 			"name": "THE MERMAID",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818336/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_995_tuh5cg.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818336/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_996_voyesg.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818333/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_752_njccni.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818336/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_995_tuh5cg.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818336/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_996_voyesg.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818333/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_752_njccni.jpg"],
 			"blurb": "This is the blurb about the mermaid.",
 			"artistID": [4, 5],
 			"artistDescription": ["FORGED BY", "DESIGNED BY"]
@@ -179,7 +179,7 @@
 		{
 			"artifactID": 5,
 			"name": "THE DOOR",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_182_wtwmwj.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818331/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_185_u9j1d4.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818332/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_145_qdj4gh.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818331/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_185_u9j1d4.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818332/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_145_qdj4gh.jpg"],
 			"blurb": "This is the blurb about the Stain Glass Door.",
 			"artistID": [9],
 			"artistDescription": ["CARVED BY"]
@@ -187,7 +187,7 @@
 		{
 			"artifactID":28,
 			"name": "THE GLASS",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1057_tkplil.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1027_vmdndt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677957558/octopus-house/1FEBEB2D-1745-4978-BC2C-BBD84A2A0CDA_xai9fy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_895_kwzmpx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1027_vmdndt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1057_tkplil.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677957558/octopus-house/1FEBEB2D-1745-4978-BC2C-BBD84A2A0CDA_xai9fy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_895_kwzmpx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg"],
 			"blurb": "This is the blurb about the Glass.",
 			"artistID": [6],
 			"artistDescription": ["CRAFTED BY"]
@@ -219,7 +219,7 @@
 		{
 			"artifactID": 8,
 			"name": "MOTHER NATURE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818326/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_352_wgfq5w.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818325/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_340_xvf2oh.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818325/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_348_lbumor.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818325/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_340_xvf2oh.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818326/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_352_wgfq5w.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818325/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_348_lbumor.jpg"],
 			"blurb": "This is the blurb about the goddess stone sculpture.",
 			"artistID": [10],
 			"artistDescription": ["SCULPTED BY"]
@@ -227,7 +227,7 @@
 		{
 			"artifactID": 20,
 			"name": "THE TILING",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1018_zh6nni.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/FE3F5EA2-3809-4AF4-8295-F20F5CF9AF91_rhjudw.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1018_zh6nni.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958229/Placeholders/C3261792-EB1C-4E8B-861E-A919307F7372_ldhgqi.jpg"],
 			"blurb": "This is the blurb about the custom tiling.",
 			"artistID": [22],
 			"artistDescription": ["TILEWORK BY"]

@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 const Artifact = ({artifact, artists}) => {
-    
 
     return (
         <div className="artifact-container">
@@ -14,13 +13,16 @@ const Artifact = ({artifact, artists}) => {
                             <img src={image} alt='artifactImage' className='slide'/>
                         ))}
                     </div> */}
+                    <div className="carousel-wrapper">
                     <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={true} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
-                        {artifact.images.map((image) => (
+                        {artifact.images.map((image) => {
+                            return (
                             <div className='inner-wrapper'>
                                 <img src={image} alt='artifactImage' className='artifact-image'/>
-                                </div>
-                        ))}
+                                </div>)
+                        })}
                     </Carousel>
+                    </div>
             <div className="info-wrapper">
                     <div className="artifact-name">{`${artifact.name}`}</div>
                 <div className="line-div"/>
