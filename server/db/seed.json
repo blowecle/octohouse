@@ -222,7 +222,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
 			"blurb": "This is the blurb about the goddess stone sculpture.",
 			"artistID": [10],
-			"artistDescription": ["SCULPTED BY"]
+			"artistDescription": ["DESIGNED BY", "SCULPTED BY"]
 		},
 		{
 			"artifactID": 10,
