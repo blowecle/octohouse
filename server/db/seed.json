@@ -158,30 +158,6 @@
 			"social": [],
 			"blurb": "",
 			"artifactID": [23]
-		},
-		{
-			"artistID": 26,
-			"name": "Brandon Lowe",
-			"company": "",
-			"social": [],
-			"blurb": "",
-			"artifactID": [24]
-		},
-		{
-			"artistID": 27,
-			"name": "Evan Farias",
-			"company": "",
-			"social": [],
-			"blurb": "",
-			"artifactID": [24]
-		},
-		{
-			"artistID": 28,
-			"name": "James Ruiz",
-			"company": "",
-			"social": [],
-			"blurb": "",
-			"artifactID": [24]
 		}
 	],
 	"artifacts": [{
@@ -215,14 +191,6 @@
 			"blurb": "This is the blurb about the Glass.",
 			"artistID": [6],
 			"artistDescription": ["GLASSWORK BY"]
-		},
-		{
-			"artifactID": 6,
-			"name": "LANDSCAPING",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
-			"blurb": "This is the blurb about the landscaping.",
-			"artistID": [7, 8],
-			"artistDescription": ["LANDSCAPED BY","WATER FEATURES BY"]
 		},
 		{
 			"artifactID": 8,
@@ -281,14 +249,6 @@
 			"artistDescription": ["DESIGNED BY"]
 		},
 		{
-			"artifactID": 24,
-			"name": "OCTOPUSHOUSE.COM",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
-			"blurb": "This is the blurb about the website.",
-			"artistID": [26, 27, 28],
-			"artistDescription": ["ENGINEERED BY", "DESIGNED BY", "PHOTOS BY"]
-		},
-		{
 			"artifactID": 25,
 			"name": "THE BRAIN",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
@@ -303,6 +263,14 @@
 			"blurb": "This is the blurb about Mishka.",
 			"artistID": [2],
 			"artistDescription": ["INTERIOR DESIGN BY"]
+		},
+		{
+			"artifactID": 6,
+			"name": "THE GARDENERS",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958230/Placeholders/D6481555-A0CD-4958-BAD5-1E787C12EB5B_ttkayf.jpg"],
+			"blurb": "This is the blurb about the landscaping.",
+			"artistID": [7, 8],
+			"artistDescription": ["LANDSCAPED BY","WATER FEATURES BY"]
 		},
 		{
 			"artifactID": 27,
