@@ -171,7 +171,7 @@
 		{
 			"artifactID": 3,
 			"name": "THE MERMAID",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/495E6D58-B134-4EB0-A51A-808F56130C93_h2yxlh.jpg","https://pyxis.nymag.com/v1/imgs/9fc/6c7/0b8de0f9807e6d187b62a653317c885cdc-little-mermaid.2x.rsocial.w600.jpg"],
 			"blurb": "This is the blurb about the mermaid.",
 			"artistID": [4, 5],
 			"artistDescription": ["FORGED BY", "DESIGNED BY"]
