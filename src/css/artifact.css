@@ -27,7 +27,7 @@
 .artifact-name {
   letter-spacing: 2px;
   color: white;
-  font-size: 1.7rem;
+  font-size: 28px;
   overflow-wrap: break-word;
   max-width: 90vw;
   font-style: bold;
@@ -35,7 +35,7 @@
 
 .artifact-artist-name {
   color: white;
-  font-size: 1.4rem;
+  font-size: 24px;
   text-decoration: none;
   letter-spacing: 1px;
   margin-top: 2px;
