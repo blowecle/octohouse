@@ -222,7 +222,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958226/Placeholders/45D974C3-6AA1-4470-B1BE-CF2F6E08DA93_vfn5ic.jpg"],
 			"blurb": "This is the blurb about the goddess stone sculpture.",
 			"artistID": [10],
-			"artistDescription": ["DESIGNED BY", "SCULPTED BY"]
+			"artistDescription": ["SCULPTED BY"]
 		},
 		{
 			"artifactID": 20,
@@ -238,7 +238,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958228/Placeholders/0A304E37-1216-43E3-A1C6-6664A785B856_hvdhbp.jpg"],
 			"blurb": "This is the blurb about the interior lighting.",
 			"artistID": [21],
-			"artistDescription": ["LIGHTING BY"]
+			"artistDescription": ["ILLUMINATED BY"]
 		},
 		{
 			"artifactID": 23,
@@ -254,7 +254,7 @@
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678064669/Placeholders/getty_503426092_342208_jx5vbf.jpg"],
 			"blurb": "This is the blurb about nelson.",
 			"artistID": [1],
-			"artistDescription": ["GENERAL CONTRACTING BY"]
+			"artistDescription": ["CONTRACTING BY"]
 		},
 		{
 			"artifactID": 26,
