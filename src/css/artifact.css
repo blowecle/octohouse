@@ -89,7 +89,7 @@ a:visited { text-decoration: none; }
     width: 20vw;
 }
 
-  .slides {
+  /* .slides {
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -101,7 +101,7 @@ a:visited { text-decoration: none; }
 .slide {
     min-width: 90vw;
     animation: carousel 15s ease-in infinite;
-  }
+  } */
 
   @keyframes carousel {
     0% {
@@ -132,6 +132,7 @@ a:visited { text-decoration: none; }
       transform: translateX(0);
     }
   }
+
 
 /* .inner-wrapper {
     max-height: 37vh;
