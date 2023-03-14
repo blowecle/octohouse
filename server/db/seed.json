@@ -45,7 +45,7 @@
 			"company": "Blue Moon Glassworks",
 			"social": ["http://Austinbluemoon.com"],
 			"blurb": "It was just such a unique project. Nelson and Joey were both fun to work with. Matching up our stained glass tentacle to the outside mural was challenging with several trips to template the window. It was all worth the effort on installation day when everything matched up. Then doing the front door stained glass was equally gratifying.",
-			"artifactID": [5]
+			"artifactID": [28]
 		},
 		{
 			"artistID": 7,
@@ -69,7 +69,7 @@
 			"company": "Maverick Door and Millwork, Inc.",
 			"social": ["https://maverickdoor.com"],
 			"blurb": "I think it's every custom manufacturer's desire to work on fun project that requires a step outside the box. This project allowed us to re-ignite our creative thinking and to exhibit our talents as a custom door manufacturer. It took a conjoint effort within our team and the ingenuity of other trades to create the final work of art, but each individual involved was able to take home a little extra pride knowing they were a puzzle piece in the making of an extraordinary home that will be talked about for years to come.",
-			"artifactID": [8]
+			"artifactID": [5]
 		},
 		{
 			"artistID": 10,
@@ -202,12 +202,21 @@
 		},
 		{
 			"artifactID": 5,
-			"name": "STAIN GLASS DOOR",
+			"name": "THE DOOR",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg"],
 			"blurb": "This is the blurb about the Stain Glass Door.",
-			"artistID": [6, 9],
-			"artistDescription": ["JIM'S DESCRIPTION", "CARVED BY"]
+			"artistID": [9],
+			"artistDescription": ["CARVED BY"]
 		},
+		{
+			"artifactID":28,
+			"name": "THE GLASS",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677958224/Placeholders/4CA80D4A-037A-4416-9BA7-146064589B33_pz20gc.jpg"],
+			"blurb": "This is the blurb about the Glass.",
+			"artistID": [6],
+			"artistDescription": ["GLASSWORK BY"]
+
+		}
 		{
 			"artifactID": 6,
 			"name": "LANDSCAPING",
