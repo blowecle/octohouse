@@ -4,7 +4,7 @@
 }
 
 .home-filler {
-    height: 500vh;
+    height: 200vh;
 }
 
 body {
@@ -45,8 +45,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678746523/octopus-house/octobackground_rzdnpn.png');
-    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678899104/octopus-house/octobackground_lxa9us.png');
+    background-size: stretch;
 }
 
 .opening-image {
