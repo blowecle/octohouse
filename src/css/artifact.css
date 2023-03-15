@@ -98,10 +98,56 @@ a:visited { text-decoration: none; }
   max-height: 60vh;
 }
 
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
-  opacity: .1;
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  z-index: 99;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.bounce-right {
+  animation: bounce-right 4s infinite;
+}
+
+.bounce-left {
+  animation: bounce-left 4s infinite;
+}
+
+@keyframes bounce-right {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}
+
+@keyframes bounce-left {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(30px);
+  }
+  60% {
+    transform: translateX(15px);
+  }
+}
   @keyframes carousel {
     0% {
       transform: translateX(0);

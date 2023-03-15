@@ -37,7 +37,7 @@ const ArtistView = () => {
         {artifacts.map((artifact) => (<>
             <div className="single-artifact-name">{`${artifact.name}`}</div>
             <div className="carousel-wrapper">
-                <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
+                <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} showArrows={true} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
                     {artifact.images.map((image) => (
                         <div className='inner-wrapper'>
                             <img src={image} alt="carouselImage" className="artifact-image"/>

@@ -14,7 +14,29 @@ const Artifact = ({artifact, artists}) => {
                         ))}
                     </div> */}
                     <div className="carousel-wrapper">
-                    <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
+                    <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'
+                    renderArrowPrev={(clickHandler, hasPrev) => {
+                        return (
+                          <div onClick={clickHandler} className="arrow bounce-left"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignContent: "center",
+                            alignItems: "center",
+                            flexDirection: "column",
+                          }
+                          }>
+                            <a className="fa fa-arrow-left fa-2x arrow"></a>
+                          </div>
+                        );
+                      }}
+                      renderArrowNext={(clickHandler, hasNext) => {
+                        return (
+                          <div onClick={clickHandler} className="arrow bounce-right">
+                            <a className="fa fa-arrow-right fa-2x"></a>
+                          </div>
+                        );
+                      }}>
                         {artifact.images.map((image) => {
                             return (
                             <div className='inner-wrapper'>
