@@ -122,23 +122,20 @@ a:visited { text-decoration: none; }
 
 .bounce-right {
   right: 0;
-  animation: bounce-right 4s infinite;
+  animation: bounce-right 6s infinite;
 }
 
 .bounce-left {
   left: 0;
-  animation: bounce-left 4s infinite;
+  animation: bounce-left 6s infinite;
 }
 
 @keyframes bounce-right {
   0%, 20%, 50%, 80%, 100% {
     transform: translateX(0);
   }
-  40% {
-    transform: translateX(-30px);
-  }
-  60% {
-    transform: translateX(-15px);
+  70% {
+    transform: translateX(-10px);
   }
 }
 
@@ -146,11 +143,8 @@ a:visited { text-decoration: none; }
   0%, 20%, 50%, 80%, 100% {
     transform: translateX(0);
   }
-  40% {
-    transform: translateX(30px);
-  }
-  60% {
-    transform: translateX(15px);
+  70% {
+    transform: translateX(10px);
   }
 }
   @keyframes carousel {
