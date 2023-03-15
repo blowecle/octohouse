@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     width: 100%;
     background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678899104/octopus-house/octobackground_lxa9us.png');
-    background-size: stretch;
+    background-size: 100%;
 }
 
 .opening-image {
