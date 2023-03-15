@@ -19,7 +19,7 @@
 			"artistID": 3,
 			"name": "Mishka Westell",
 			"company": "",
-			"social": ["http://www.instagram.com/mishkawestell"],
+			"social": ["http://www.instagram.com/mishkawestell","https://www.mishkawestell.com/"],
 			"blurb": "It was wonderful to work with someone as imaginative and adventurous as Joey who let us all push the boundaries and create something truly unique and joyous, and turn his home into a work of art.",
 			"artifactID": [1]
 		},
@@ -187,7 +187,7 @@
 		{
 			"artifactID":28,
 			"name": "THE GLASS",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1027_vmdndt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1057_tkplil.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677957558/octopus-house/1FEBEB2D-1745-4978-BC2C-BBD84A2A0CDA_xai9fy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818334/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_895_kwzmpx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1027_vmdndt.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818337/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1057_tkplil.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/v1677957558/octopus-house/1FEBEB2D-1745-4978-BC2C-BBD84A2A0CDA_xai9fy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_949_ptgtjz.jpg"],
 			"blurb": "This is the blurb about the Glass.",
 			"artistID": [6],
 			"artistDescription": ["CRAFTED BY"]
@@ -260,7 +260,7 @@
 			"artifactID": 26,
 			"name": "THE STYLIST",
 			"images": [""],
-			"blurb": "This is the blurb about Mishka.",
+			"blurb": "This is the blurb about Ann.",
 			"artistID": [2],
 			"artistDescription": ["INTERIOR DESIGN BY"]
 		},
