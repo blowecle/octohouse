@@ -24,10 +24,6 @@
   max-width: 100vw;
 }
 
-.control-arrow {
-  background: rgba(0,0,0,1)
-}
-
 .artifact-name {
   letter-spacing: 2px;
   color: white;
@@ -102,19 +98,9 @@ a:visited { text-decoration: none; }
   max-height: 60vh;
 }
 
-  /* .slides {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    height: 60vh;
-    border: 2px solid white;
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  opacity: .1;
 }
-
-.slide {
-    min-width: 90vw;
-    animation: carousel 15s ease-in infinite;
-  } */
 
   @keyframes carousel {
     0% {
