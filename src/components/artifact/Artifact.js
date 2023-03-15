@@ -3,6 +3,7 @@ import '../../css/artifact.css';
 import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import "@fortawesome/fontawesome-free/js/all"
 
 const Artifact = ({artifact, artists}) => {
 
@@ -17,22 +18,14 @@ const Artifact = ({artifact, artists}) => {
                     <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'
                     renderArrowPrev={(clickHandler, hasPrev) => {
                         return (
-                          <div onClick={clickHandler} className="arrow bounce-left"
-                          style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            alignItems: "center",
-                            flexDirection: "column",
-                          }
-                          }>
-                            <a className="fa fa-arrow-left fa-2x arrow"></a>
+                          <div onClick={clickHandler} className="carousel-arrow bounce-left">
+                            <a className="fa fa-arrow-left fa-2x"></a>
                           </div>
                         );
                       }}
                       renderArrowNext={(clickHandler, hasNext) => {
                         return (
-                          <div onClick={clickHandler} className="arrow bounce-right">
+                          <div onClick={clickHandler} className="carousel-arrow bounce-right">
                             <a className="fa fa-arrow-right fa-2x"></a>
                           </div>
                         );

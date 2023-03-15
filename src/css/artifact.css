@@ -107,7 +107,7 @@ a:visited { text-decoration: none; }
 
   a { color: white; text-decoration: none; }
 
-.arrow {
+.carousel-arrow {
   text-align: center;
   margin: 8% 0;
   z-index: 99;
@@ -115,6 +115,7 @@ a:visited { text-decoration: none; }
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .bounce-right {
