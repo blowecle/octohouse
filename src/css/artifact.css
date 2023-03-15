@@ -71,7 +71,7 @@ a:visited { text-decoration: none; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('https://cdn.pixabay.com/photo/2017/06/13/13/51/marble-2398946__480.jpg');
+    background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678900767/octopus-house/unnamed_mzr3gw.png');
     background-size: cover;
     border: 1px solid black;
     border-radius: 5px;
@@ -112,17 +112,21 @@ a:visited { text-decoration: none; }
   margin: 8% 0;
   z-index: 99;
   min-height: 50vh;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  min-width: 20vw;
 }
 
 .bounce-right {
+  right: 0;
   animation: bounce-right 4s infinite;
 }
 
 .bounce-left {
+  left: 0;
   animation: bounce-left 4s infinite;
 }
 
