@@ -23,6 +23,10 @@ const Artist = conn.define('artist', {
         type: Sequelize.TEXT,
         allowNull: true,
     },
+    title: {
+        type: Sequelize.STRING,
+        allowNull: true,
+    },
     artifactID: {
         type: Sequelize.ARRAY(Sequelize.INTEGER),
         allowNull: true,

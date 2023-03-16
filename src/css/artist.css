@@ -9,6 +9,11 @@
         padding-top: .5rem;
     }
 
+    .artist-main-image {
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
     .solo-artist-name {
         margin-left:7vw;
         width: 90vw;
