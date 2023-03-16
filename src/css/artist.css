@@ -4,7 +4,7 @@
     }
 
     .single-artist-name {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         color: white;
         padding-top: .5rem;
     }
@@ -12,8 +12,9 @@
     .single-artist-title {
         color: white;
         font-family: montserratThinItalic;
+        font-size: 1.5rem;
         margin-left: 1vw;
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
     }
 
     .artist-main-image {
@@ -51,8 +52,8 @@
     .artist-company-name {
         font-size: 1.2rem;
         color: white;
-        font-style: italic;
         margin-bottom: 1vh;
+        font-family: montserratThin;
     }
 
     .artist-name {
@@ -106,6 +107,7 @@
         margin-top: 1vh;
         margin-bottom: 1vh;
         margin-left: 0;
+        font-family: montserratThinItalic;
     }
 
     a:link { text-decoration: none; }

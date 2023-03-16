@@ -30,9 +30,9 @@ const Artifact = ({artifact, artists}) => {
                           </div>
                         );
                       }}>
-                        {artifact.images.map((image) => {
+                        {artifact.images.map((image, index) => {
                             return (
-                            <div className='inner-wrapper'>
+                            <div key={index} className='inner-wrapper'>
                                 <img src={image} alt='artifactImage' className='artifact-image'/>
                                 </div>)
                         })}
@@ -43,7 +43,7 @@ const Artifact = ({artifact, artists}) => {
                 <div className="line-div"/>
                 <div className="artifact-blurb">{`${artifact.blurb}`}</div>
                 <div className="artifact-artist-wrapper">
-                {artists.map((artist, index) => (<>
+                {artists.map((artist, index) => (<div key={index}>
                         <div className="artifact-artist-description">{`${artifact.artistDescription[index]}`}</div>
                     <Link to={`/artists/${artist.artistID}`}>
                         {artist.name ? (
@@ -52,7 +52,7 @@ const Artifact = ({artifact, artists}) => {
                             <div className="artifact-artist-name">{`${artist.company}`}</div>
                         )}
                     </Link>
-                    </>
+                    </div>
                 ))}
                 </div>
             </div>
