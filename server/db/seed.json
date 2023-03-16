@@ -259,7 +259,7 @@
 		{
 			"artifactID": 26,
 			"name": "THE STYLIST",
-			"images": [""],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_969_jikzbv.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_967_tziyln.jpg"],
 			"blurb": "This is the blurb about Ann.",
 			"artistID": [2],
 			"artistDescription": ["INTERIOR DESIGN BY"]
@@ -267,7 +267,7 @@
 		{
 			"artifactID": 6,
 			"name": "THE GARDENERS",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_969_jikzbv.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_967_tziyln.jpg",""],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_969_jikzbv.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_967_tziyln.jpg"],
 			"blurb": "This is the blurb about the landscaping.",
 			"artistID": [7, 8],
 			"artistDescription": ["LANDSCAPING BY","WATER FEATURES BY"]
@@ -275,7 +275,7 @@
 		{
 			"artifactID": 27,
 			"name": "THE NINJA PAINTER",
-			"images": [""],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_969_jikzbv.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818335/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_967_tziyln.jpg"],
 			"blurb": "This is the blurb about ninja painter Leo.",
 			"artistID": [20],
 			"artistDescription": ["PAINTING BY"]
