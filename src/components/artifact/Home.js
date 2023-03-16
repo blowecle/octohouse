@@ -40,12 +40,11 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <div className="home-filler"/>
-                {/* <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926158/octopus-house/Intro-100_le8tbq.jpg"/> */}
+                <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678937201/octopus-house/FINAL_1_TOP-100_tr7dld.jpg"/>
                 <div className="gallery-container">
-                    {artifacts ? (artifacts.map((artifact) => {
+                    {artifacts ? (artifacts.map((artifact, index) => {
                         const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
-                        return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
+                        return <Artifact key={index} artifact={artifact} artists={filteredArtists}/>
                     })) : null}
                 <div className="last-artifact-container">
                 <div className='before-after-slider'>

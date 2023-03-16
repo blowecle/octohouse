@@ -13,6 +13,11 @@
   src: url('../../public/Montserrat-Italic-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: montserratThin;
+  src: url('../../public/Montserrat-Thin.ttf')
+}
+
 .artifact-container {
     display: flex;
     flex-direction: column;
@@ -105,10 +110,6 @@ a:visited { text-decoration: none; }
     max-height: 37vh;
     width: 90vw;
     overflow-x: scroll;
-}
-
-.artifact-image {
-  filter: none;
 }
 
 .artifact-info {
