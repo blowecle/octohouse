@@ -9,6 +9,12 @@
         padding-top: .5rem;
     }
 
+    .single-artist-title {
+        color: white;
+        font-family: montserratThinItalic;
+        margin-left: 1vw;
+    }
+
     .artist-main-image {
         width: 90vw;
         margin-top: 2vh;
@@ -38,7 +44,7 @@
     .social {
         display: flex;
         color: white;
-        justify-content: center;
+        margin-left: 1vw;
     }
 
     .artist-company-name {
