@@ -6,16 +6,15 @@
     .single-artist-name {
         font-size: 2.5rem;
         color: white;
-        text-align: center;
         padding-top: .5rem;
     }
 
     .solo-artist-name {
-        font-size: 2.5rem;
+        margin-left:7vw;
+        width: 90vw;
+        font-size: 2rem;
         color: white;
-        text-align: center;
         padding-top: .5rem;
-        padding-bottom: 2rem;
     }
 
     .artist-intro-container {
@@ -27,6 +26,10 @@
         font-size: 1.5rem;
     }
 
+    .artist-carousel-wrapper {
+        padding-top: 2vh;
+    }
+
     .social {
         display: flex;
         color: white;
@@ -36,15 +39,7 @@
     .artist-company-name {
         font-size: 1.2rem;
         color: white;
-        text-align: center;
         font-style: italic;
-    }
-
-    .single-artifact-name {
-        font-size: 2.5rem;
-        color: white;
-        text-align: center;
-        padding-top: .5rem;
     }
 
     .artist-name {

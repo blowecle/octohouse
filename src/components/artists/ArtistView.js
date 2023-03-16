@@ -25,18 +25,8 @@ const ArtistView = () => {
     
     return (<>
     {artist ? (<div className="artist-wrapper">
-        {artist.company && artist.name ? (<>
-            <div className="single-artist-name">{`${artist.name}`}</div>
-            <div className="artist-company-name">{`${artist.company}`}</div>
-            </>
-        ) : artist.name ? (
-            <div className="single-artist-name">{`${artist.name}`}</div>
-        ) : (
-            <div className="solo-artist-name">{`${artist.company}`}</div>
-        )}
-        {artifacts.map((artifact) => (<>
-            <div className="single-artifact-name">{`${artifact.name}`}</div>
-            <div className="carousel-wrapper">
+        {artifacts.map((artifact) => (<div className="">
+            <div className="artist-carousel-wrapper">
                 <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} showArrows={true} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'>
                     {artifact.images.map((image) => (
                         <div className='inner-wrapper'>
@@ -44,12 +34,22 @@ const ArtistView = () => {
                         </div>))}
                 </Carousel>
             </div>
-        </>
-        ))}
-        {console.log(artist, artifacts)}
-        <div className="artist-intro-container">
-            Do you like what you see?
         </div>
+        ))}
+        {artist.company && artist.name ? (<>
+                <div className="single-artist-name">{`${artist.name}`}</div>
+                <div className="single-artist-title">artist title</div>
+                <div className="artist-company-name">{`${artist.company}`}</div>
+            </>
+        ) : artist.name ? (<>
+                <div className="single-artist-name">{`${artist.name}`}</div>
+                <div className="single-artist-title">artist title</div>
+            </>
+        ) : (<>
+                <div className="solo-artist-name">{`${artist.company}`}</div>
+                <div className="single-artist-title">artist title</div>
+            </>
+        )}
             {artist.social.map((social) => (
                 <div><a href={`${social}`} target="_blank" className="social">{`${social}`}</a></div>      
             ))}
