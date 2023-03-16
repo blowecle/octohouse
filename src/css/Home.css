@@ -7,8 +7,11 @@
     height: 200vh;
 }
 
+.home-image {
+    width: 100%;
+}
+
 body {
-    background-color: #1C7097;
     max-width: 100vw;
     display: flex;
     flex-direction: column;
@@ -41,11 +44,13 @@ body {
 }
 
 .home-container {
-    background-color: #1C7097;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678899104/octopus-house/octobackground_lxa9us.png');
+}
+
+.gallery-container {
+    background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926491/octopus-house/Test_3-100_dslt8e.jpg");
     background-size: 100%;
 }
 

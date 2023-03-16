@@ -40,11 +40,13 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <div className='home-filler'/>
-                {artifacts ? (artifacts.map((artifact) => {
-                    const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
-                    return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
-                })) : null}
+                <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926158/octopus-house/Intro-100_le8tbq.jpg"/>
+                <div className="gallery-container">
+                    {artifacts ? (artifacts.map((artifact) => {
+                        const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
+                        return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
+                    })) : null}
+                </div>
                 <Slider/>
             {/* <div className='before-after-slider'>
                 <ReactCompareSlider
