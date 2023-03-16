@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
-// import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
-import Slider from '../slider/Slider';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
+import Footer from '../footer/Footer';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -64,6 +63,7 @@ const Home = () => {
             </div>
         </div>
         </div>
+        <Footer/>
     </>
   )
 }
