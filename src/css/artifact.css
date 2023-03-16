@@ -37,7 +37,7 @@
 .artifact-blurb {
   color: white;
   margin-top: 3.5vh;
-
+  font-size: 1.1rem;
   width: 80%;
   margin-left: 2vw;
   font-family: montserratExtraLight;
@@ -88,7 +88,7 @@
     width: 50%;
     position: absolute;
     margin-top: 1vh;
-    margin-left: 1vw;
+    margin-left: 2.5vw;
 }
 
 a:link { text-decoration: none; }
