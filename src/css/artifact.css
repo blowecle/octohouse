@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: montserratThinItalic;
+  src: url('../../public/Montserrat-ThinItalic.ttf');
+}
+
+@font-face {
   font-family: montserratItalic;
   src: url('../../public/Montserrat-Italic-VariableFont_wght.ttf');
 }
@@ -16,6 +21,16 @@
     margin-bottom: 10vh;
     min-height: 120vh;
     font-family: montserrat;
+    position: relative;
+}
+
+.artifact-blurb {
+  color: white;
+  margin-top: 3.5vh;
+
+  width: 80%;
+  margin-left: 1vw;
+  font-family: montserratThinItalic;
 }
 
 .last-artifact-container {
@@ -61,6 +76,7 @@
     width: 50%;
     position: absolute;
     margin-top: 1vh;
+    margin-left: 1vw;
 }
 
 a:link { text-decoration: none; }

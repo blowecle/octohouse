@@ -41,6 +41,7 @@ const Artifact = ({artifact, artists}) => {
             <div className="info-wrapper">
                     <div className="artifact-name">{`${artifact.name}`}</div>
                 <div className="line-div"/>
+                <div className="artifact-blurb">{`${artifact.blurb}`}</div>
                 <div className="artifact-artist-wrapper">
                 {artists.map((artist, index) => (<>
                         <div className="artifact-artist-description">{`${artifact.artistDescription[index]}`}</div>
