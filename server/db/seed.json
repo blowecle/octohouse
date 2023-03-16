@@ -15,7 +15,7 @@
 			"title": "Interior Designer",
 			"social": ["http://www.studioagroup.com"],
 			"blurb": "During our first meetings with Joey, he expressed a strong desire to create a house that would be a gathering place for his family, neighbors, and the community. However, the original form of the spec house was closed, even hostile towards the street. I had a hunch that landscaping and a standard re-paint wouldn't be the cure needed. Assembling the team of builders, designers, and craftspeople to collaborate on the transformation of the house from spec to an underwater fantasy was great fun! Each new person brought onto the team caught the infectious joy of the project! We all could feel the FUN and WONDER radiating from the house onto the street to every passerby.",
-			"artifactID": [26]
+			"artifactID": [23,26]
 		},
 		{
 			"artistID": 3,
@@ -146,11 +146,11 @@
 		{
 			"artistID": 20,
 			"name": "Leo Mejilla",
-			"company": "",
+			"company": "Leo's Fine Finish Painting",
 			"title": "Ninja Painter",
 			"social": ["https://instagram.com/leosffpaintingllc"],
 			"blurb": "",
-			"artifactID": [27]
+			"artifactID": [23,27]
 		},
 		{
 			"artistID": 21,
@@ -265,8 +265,8 @@
 			"name": "THE BOOKSHELF",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1677957559/octopus-house/75096837-E0E7-4FB9-A3BA-93C7CADA8371_jgxdrp.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678818338/octopus-house/Perry%20Hall/23-EF-OctopusHouse-Gallery_1067_xght1d.jpg"],
 			"blurb": "Not every house has a sexy built in bookshelf designed specifically for the room.",
-			"artistID": [25],
-			"artistDescription": ["DESIGNED BY"]
+			"artistID": [2,25],
+			"artistDescription": ["DESIGNED BY","PAINTED BY","BUILT BY"]
 		},
 		{
 			"artifactID": 25,
