@@ -28,16 +28,16 @@ const ArtistView = () => {
         
         {artist.company && artist.name ? (<>
                 <div className="single-artist-name">{`${artist.name}`}</div>
-                <div className="single-artist-title">artist title</div>
+                <div className="single-artist-title">{`${artist.title}`}</div>
                 <div className="artist-company-name">{`${artist.company}`}</div>
             </>
         ) : artist.name ? (<>
                 <div className="single-artist-name">{`${artist.name}`}</div>
-                <div className="single-artist-title">artist title</div>
+                <div className="single-artist-title">{`${artist.title}`}</div>
             </>
         ) : (<>
                 <div className="solo-artist-name">{`${artist.company}`}</div>
-                <div className="single-artist-title">artist title</div>
+                <div className="single-artist-title">{`${artist.title}`}</div>
             </>
         )}
             {artist.social.map((social) => (
