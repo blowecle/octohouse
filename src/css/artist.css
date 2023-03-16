@@ -30,6 +30,10 @@
         justify-content: center;
     }
 
+    .artist-blurb {
+        color: white;
+    }
+
     .solo-artist-name {
         margin-left: 5%;
         width: 90%;
