@@ -46,8 +46,14 @@ const Home = () => {
                         const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                         return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
                     })) : null}
-                </div>
-                <Slider/>
+                {/* <div className="artifact-container"> */}
+                {/* <Slider/> */}
+            <div className="info-wrapper">
+                    <div className="artifact-name">THE TRANSITION</div>
+                <div className="line-div"/>
+            {/* </div> */}
+            </div>
+        </div>
             {/* <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}

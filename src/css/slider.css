@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     user-select: none;
-    min-width: 100vw;
+    width: 90%;
 }
 
 .clip-item {
