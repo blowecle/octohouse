@@ -103,6 +103,9 @@
     .social {
         color: white;
         text-decoration: none;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-left: 0;
     }
 
     a:link { text-decoration: none; }
