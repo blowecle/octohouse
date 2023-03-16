@@ -47,11 +47,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678908694/octopus-house/unnamed_qzys8w.png");
+    background-size: 100% 100%;
 }
 
 .gallery-container {
-    background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926491/octopus-house/Test_3-100_dslt8e.jpg");
-    background-size: 100%;
+    /* background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926491/octopus-house/Test_3-100_dslt8e.jpg"); */
+    /* background-size: 100% 100%; */
 }
 
 .opening-image {

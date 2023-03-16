@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-// import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css'
 // import { Link } from 'react-router-dom';
 import Artifact from './Artifact';
@@ -40,27 +40,29 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926158/octopus-house/Intro-100_le8tbq.jpg"/>
+                <div className="home-filler"/>
+                {/* <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678926158/octopus-house/Intro-100_le8tbq.jpg"/> */}
                 <div className="gallery-container">
                     {artifacts ? (artifacts.map((artifact) => {
                         const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                         return <Artifact key={artifact.id} artifact={artifact} artists={filteredArtists}/>
                     })) : null}
-                {/* <div className="artifact-container"> */}
-                {/* <Slider/> */}
-            <div className="info-wrapper">
-                    <div className="artifact-name">THE TRANSITION</div>
-                <div className="line-div"/>
-            {/* </div> */}
-            </div>
-        </div>
-            {/* <div className='before-after-slider'>
+                <div className="last-artifact-container">
+                <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1673983927/octo-house/PXL_20230117_193004917_fzax1v.jpg' />}
                 itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
                 position={1}
                 />
-            </div> */}
+            </div>
+            <div className="info-wrapper">
+                <div className="artifact-name">THE TRANSITION</div>
+                <div className="line-div"/>
+                <div className="artifact-artist-description">CREATED BY</div>
+                <div className="artifact-artist-name">Everybody</div>
+            </div>
+            </div>
+        </div>
         </div>
     </>
   )
