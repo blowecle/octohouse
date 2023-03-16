@@ -43,6 +43,8 @@ const ArtistView = () => {
             {artist.social.map((social) => (
                 <div><a href={`${social}`} target="_blank" className="social">{`${social}`}</a></div>      
             ))}
+    <div className="line-div"/>
+    <div className="artist-blurb">{`${artist.blurb}`}</div>
     </div>) : (null)}
     </>)
     // const descriptionArray = [];
