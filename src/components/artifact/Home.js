@@ -55,10 +55,11 @@ const Home = () => {
                 />
             </div>
             <div className="info-wrapper">
-                <div className="artifact-name">THE TRANSITION</div>
-                <div className="line-div"/>
-                <div className="artifact-artist-description">CREATED BY</div>
-                <div className="artifact-artist-name">Everybody</div>
+                <div className="last-artifact-name">THE TRANSITION</div>
+                <div className="last-line-div"/>
+                <div className="artifact-blurb">This is the blurb about the transition.  It is not a very good blurb.</div>
+                <div className="last-description">CREATED BY</div>
+                <div className="last-name">Everybody</div>
             </div>
             </div>
         </div>

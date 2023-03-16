@@ -55,12 +55,21 @@
 }
 
 .info-wrapper {
-  margin-left: 4%;
+  margin-left: 5%;
   margin-top: 4%;
-  max-width: 100%;
+  width: 100%;
 }
 
 .artifact-name {
+  letter-spacing: 2px;
+  color: white;
+  font-size: 1.7em;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  font-style: bold;
+}
+
+.last-artifact-name {
   letter-spacing: 2px;
   color: white;
   font-size: 1.7em;
@@ -77,6 +86,15 @@
   margin-top: 1%;
 }
 
+.last-name {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
 .artifact-artist-wrapper {
   width: 60%;
   position: absolute;
@@ -86,9 +104,19 @@
 .line-div {
     border-bottom: 3px solid white;
     width: 50%;
+    max-width: 250px;
     position: absolute;
     margin-top: 1%;
     margin-left: 5%;
+}
+
+.last-line-div {
+  border-bottom: 3px solid white;
+  width: 50%;
+  max-width: 250px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
 a:link { text-decoration: none; }
@@ -102,6 +130,15 @@ a:visited { text-decoration: none; }
     font-style: italic;
     margin-top: 10%;
     letter-spacing: 4px;
+}
+
+.last-description {
+  color: white;
+  font-size: .8rem;
+  font-style: italic;
+  margin-top: 10%;
+  letter-spacing: 4px;
+  margin-left: 5%;
 }
 
 .artifact-image-container {
@@ -129,7 +166,7 @@ a:visited { text-decoration: none; }
 
 .artifact-carousel .artifact-image {
   max-width: 85%;
-  max-height: 60%;
+  max-height: 60vh;
 }
 
 .carousel {
