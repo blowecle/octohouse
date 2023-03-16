@@ -122,7 +122,7 @@
 			"company": "The Neon Jungle",
 			"title": "Neon Glass Artist",
 			"social": ["http://theneonjungle.com/"],
-			"blurb": "Evan is a local neon artist and musician. Working with him and getting to know him has been one of the great pleasure of my life. ",
+			"blurb": "Evan is a local neon artist and musician. Working with him and getting to know him has been one of the great pleasures of my life. ",
 			"artifactID": [17]
 		},
 		{
@@ -149,7 +149,7 @@
 			"company": "Leo's Fine Finish Painting",
 			"title": "Ninja Painter",
 			"social": ["https://instagram.com/leosffpaintingllc"],
-			"blurb": "Leo is a local painter that painting virtually everything inside and outside of the house. And he’s a ninja! No, seriously, you don’t even know he’s there. Quietest human being I’ve ever met.",
+			"blurb": "Leo is a local painter that virtually painted everything inside and outside of the house. And he’s a ninja! No, seriously, you don’t even know he’s there. Quietest human being I’ve ever met.",
 			"artifactID": [23,27]
 		},
 		{
@@ -224,7 +224,7 @@
 			"artifactID": 10,
 			"name": "EYES OF TEXAS",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992548/evan%20web%20photos/Eyes_of_TX_1-100_fvdxze.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992548/evan%20web%20photos/Eyes_of_TX_2-100_esglxy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992548/evan%20web%20photos/Eyes_of_TX_3-100_tqd2f9.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992548/evan%20web%20photos/Eyes_of_TX_4-100_y582p9.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992548/evan%20web%20photos/Eyes_of_TX_5-100_delpkh.jpg"],
-			"blurb": "The longhorn is a Texas icon and what better way to show it then with thousands of beers under rainbow lights. ",
+			"blurb": "The longhorn is a Texas icon and what better way to show it then with thousands of beads under rainbow lights. ",
 			"artistID": [12],
 			"artistDescription": ["CREATED BY"]
 		},
@@ -256,7 +256,7 @@
 			"artifactID": 19,
 			"name": "THE LIGHTS",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992783/evan%20web%20photos/Lighting_1-100_bne81g.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992783/evan%20web%20photos/Lighting_2-100_a0u2bm.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992783/evan%20web%20photos/Lights_3-100_ohwtpv.jpg"],
-			"blurb": "The Ketra lights are gorgeous, bright and highly customizable: ph one button and your whole house is rainbow colored!",
+			"blurb": "The Ketra lights are gorgeous, bright and highly customizable: push one button and your whole house is rainbow colored!",
 			"artistID": [21],
 			"artistDescription": ["ILLUMINATED BY"]
 		},

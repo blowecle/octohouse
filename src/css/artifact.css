@@ -57,7 +57,6 @@
 .info-wrapper {
   margin-left: 5%;
   margin-top: 4%;
-
 }
 
 .artifact-name {
@@ -141,18 +140,8 @@ a:visited { text-decoration: none; }
   margin-left: 5%;
 }
 
-.artifact-image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1678900767/octopus-house/unnamed_mzr3gw.png');
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 5px;
-    max-height: 37%;
-    width: 90%;
-    overflow-x: scroll;
+.inner-wrapper{
+  height: 60vh;
 }
 
 .artifact-info {
