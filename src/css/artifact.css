@@ -26,9 +26,9 @@
 .artifact-container {
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     min-height: 120vh;
     font-family: montserrat;
     position: relative;
@@ -36,10 +36,10 @@
 
 .artifact-blurb {
   color: white;
-  margin-top: 3.5vh;
+  margin-top: 8%;
   font-size: 1.1rem;
   width: 80%;
-  margin-left: 2vw;
+  margin-left: 5%;
   font-family: montserratExtraLight;
   font-style: italic;
 }
@@ -47,17 +47,17 @@
 .last-artifact-container {
   display: flex;
   flex-direction: column;
-  max-width: 100vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  max-width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   min-height: 120vh;
   font-family: montserrat;
 }
 
 .info-wrapper {
-  margin-left: 5vw;
-  margin-top: 4vh;
-  max-width: 100vw;
+  margin-left: 4%;
+  margin-top: 4%;
+  max-width: 100%;
 }
 
 .artifact-name {
@@ -65,7 +65,7 @@
   color: white;
   font-size: 1.7em;
   overflow-wrap: break-word;
-  max-width: 90vw;
+  max-width: 90%;
   font-style: bold;
 }
 
@@ -74,21 +74,21 @@
   font-size: 1.4rem;
   text-decoration: none;
   letter-spacing: 1px;
-  margin-top: 2px;
+  margin-top: 1%;
 }
 
 .artifact-artist-wrapper {
-  width: 60vw;
+  width: 60%;
   position: absolute;
-  margin-left: 1vh;
+  margin-left: 5%;
 }
 
 .line-div {
     border-bottom: 3px solid white;
     width: 50%;
     position: absolute;
-    margin-top: 1vh;
-    margin-left: 2.5vw;
+    margin-top: 1%;
+    margin-left: 5%;
 }
 
 a:link { text-decoration: none; }
@@ -100,7 +100,7 @@ a:visited { text-decoration: none; }
     color: white;
     font-size: .8rem;
     font-style: italic;
-    margin-top: 3vh;
+    margin-top: 10%;
     letter-spacing: 4px;
 }
 
@@ -113,8 +113,8 @@ a:visited { text-decoration: none; }
     background-size: cover;
     border: 1px solid black;
     border-radius: 5px;
-    max-height: 37vh;
-    width: 90vw;
+    max-height: 37%;
+    width: 90%;
     overflow-x: scroll;
 }
 
@@ -123,13 +123,13 @@ a:visited { text-decoration: none; }
     color: white;
     background-color: #bcbcbc;
     border: 2px solid #a1a1a1;
-    box-shadow: 1vh 1vh 1vh rgb(0 0 0 / 50%);
-    width: 20vw;
+    box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+    width: 20%;
 }
 
 .artifact-carousel .artifact-image {
-  max-width: 85vw;
-  max-height: 60vh;
+  max-width: 85%;
+  max-height: 60%;
 }
 
 .carousel {
@@ -145,13 +145,13 @@ a:visited { text-decoration: none; }
   text-align: center;
   margin: 8% 0;
   z-index: 99;
-  min-height: 50vh;
+  min-height: 50%;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  min-width: 20vw;
+  min-width: 20%;
 }
 
 .bounce-right {
@@ -213,8 +213,8 @@ a:visited { text-decoration: none; }
 
 
 /* .inner-wrapper {
-    max-height: 37vh;
-    min-width: 100vw;
+    max-height: 37%;
+    min-width: 100%;
     display: flex;
     align-items: center;
 } */

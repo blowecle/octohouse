@@ -262,7 +262,7 @@
 		},
 		{
 			"artifactID": 23,
-			"name": "THE BOOKSHELF",
+			"name": "THE BOOKCASE",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_2-100_btlzjx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_2-100_btlzjx.jpg"],
 			"blurb": "Not every house has a sexy built in bookshelf designed specifically for the room.",
 			"artistID": [2,25],
