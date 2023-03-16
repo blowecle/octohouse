@@ -18,6 +18,11 @@
   src: url('../../public/Montserrat-Thin.ttf')
 }
 
+@font-face {
+  font-family: montserratExtraLight;
+  src: url('../../public/Montserrat-ExtraLight.ttf')
+}
+
 .artifact-container {
     display: flex;
     flex-direction: column;
@@ -35,7 +40,8 @@
 
   width: 80%;
   margin-left: 2vw;
-  font-family: montserratThinItalic;
+  font-family: montserratExtraLight;
+  font-style: italic;
 }
 
 .last-artifact-container {
