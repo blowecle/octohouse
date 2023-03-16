@@ -13,6 +13,7 @@
         color: white;
         font-family: montserratThinItalic;
         margin-left: 1vw;
+        margin-bottom: 1vh;
     }
 
     .artist-main-image {
@@ -51,6 +52,7 @@
         font-size: 1.2rem;
         color: white;
         font-style: italic;
+        margin-bottom: 1vh;
     }
 
     .artist-name {
