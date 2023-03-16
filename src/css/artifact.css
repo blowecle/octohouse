@@ -18,6 +18,16 @@
     font-family: montserrat;
 }
 
+.last-artifact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  min-height: 120vh;
+  font-family: montserrat;
+}
+
 .info-wrapper {
   margin-left: 5vw;
   margin-top: 4vh;
