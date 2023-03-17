@@ -141,6 +141,8 @@ a:visited { text-decoration: none; }
 }
 
 .inner-wrapper{
+  display: flex;
+  align-items: center;
   height: 60vh;
 }
 
