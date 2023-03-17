@@ -178,15 +178,6 @@
 			"social": [],
 			"blurb": "Aaron took an empty nook in my bedroom and turned it into a bookcase work of art. You can pull a book or a ukelele down! How cool is that?",
 			"artifactID": [23]
-		},
-		{
-			"artistID": 26,
-			"name": "Wade Burleigh",
-			"company": "",
-			"title": "Wood Carver",
-			"social": [],
-			"blurb": "When Wade isn’t carving wood, he is Santa Claus himself.  He turned an ordinary stump into one of the most awesomely weird and unique pieces of art for the house.",
-			"artifactID": [28]
 		}
 	],
 	"artifacts": [{
@@ -252,14 +243,6 @@
 			"blurb": "She started as two tons of Texas limestone and eight months later we had a true goddess on our hands.",
 			"artistID": [10],
 			"artistDescription": ["SCULPTED BY"]
-		},
-		{
-			"artifactID": 28,
-			"name": "THE THRONE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/c_crop,h_2688,y_718/v1679081919/evan%20web%20photos/PXL_20230317_193406791_p1zjdn.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679081918/evan%20web%20photos/PXL_20230317_193354425_rnm4br.jpg"],
-			"blurb": "What originated as an ugly stump most would turn into woodchips, became a throne built for Mother Nature herself.",
-			"artistID": [28],
-			"artistDescription": ["CARVED BY"]
 		},
 		{
 			"artifactID": 20,
