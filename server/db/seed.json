@@ -231,7 +231,7 @@
 		{
 			"artifactID": 12,
 			"name": "SACRED SPACE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992604/evan%20web%20photos/Sacred_Space_1-100_c4ikt6.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992604/evan%20web%20photos/Sacred_Space_2-100_ksvjne.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992604/evan%20web%20photos/Sacred_Space_3-100_v59qli.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992604/evan%20web%20photos/Sacred_Space_4-100_dqsgdw.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1679021345/evan%20web%20photos/Sacred_Space_1-100_tacxhs.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679021345/evan%20web%20photos/Sacred_Space_2-100_ddbmdi.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679021345/evan%20web%20photos/Sacred_Space_3-100_vedvd0.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679021345/evan%20web%20photos/Sacred_Space_4-100_rayv01.jpg"],
 			"blurb": "Walking under this piece of art as I head to bed each night brings me joy and serenity. What a joy to behold 19,000 beads perfectly arranged. ",
 			"artistID": [14],
 			"artistDescription": ["WOVEN BY"]
@@ -296,7 +296,7 @@
 			"artifactID": 27,
 			"name": "THE NINJA PAINTER",
 			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993404/evan%20web%20photos/Ninja_Painter_1-100_h6i2hz.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993404/evan%20web%20photos/Ninja_Painter_2-100_zxw6vi.jpg"],
-			"blurb": "Take a look at my ceiling sometime. It’s a painted work of art. How about the pantry? Wow!",
+			"blurb": "Take a look at my ceiling sometime. It’s a painted work of art. How about the bookcase? Wow!",
 			"artistID": [20],
 			"artistDescription": ["PAINTING BY"]
 		}

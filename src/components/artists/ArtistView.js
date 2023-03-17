@@ -47,63 +47,6 @@ const ArtistView = () => {
     <div className="artist-blurb">{`${artist.blurb}`}</div>
     </div>) : (null)}
     </>)
-    // const descriptionArray = [];
-
-    //map artifacts
-    //map artistID
-    //if artistID = artist.artistID push index into descriptionArray
-
-    //map artifacts
-    //display artifact name
-    //display artistDescription[descriptionArray[index]]
-    // if(artist){
-    // artifacts.map((artifact, index) => (
-    //     artifact.artistID.map((id, index) => {
-    //         if(id === artist.artistID){
-    //             descriptionArray.push(index)
-    //         }
-    //     })
-    //     ))
-    // }
-
-    // return  (<>{artist ? (<div className="artist-wrapper">
-    //             <div className="artist-top-container">
-    //                 <div className="artist-name">{`${artist.name}`}</div>
-    //                 {artist.company ? (<div className="artist-company">{`${artist.company}`}</div>
-    //                 ) : (null)}
-    //                 {artist.companyLink ? (<a href={`${artist.companyLink}`} className="artist-company-link">{`${artist.companyLink}`}</a>) : (null)}
-    //                 <div className='post-image-wrapper'>
-    //                     {artifacts.map((artifact) => ( artifact.images.map((image) => (
-    //                         <div className='inner-wrapper'>
-    //                             <img src={image} alt='blogImage' className='slide'/>
-    //                         </div>
-    //                     ))))}
-    //                     <div className="icon" aria-hidden="true"></div>
-    //                 </div>
-    //                 <div className="artifact-list-container">
-    //                         Works of art:
-    //                         <div className="artifact-list">
-    //                             {artifacts.map((artifact, index) => (<>
-    //                                 <Link className="social" to={`/artifacts/${artifact.artifactID}`}>
-    //                                     <div className="artifact-list-name">{`${artifact.name}`}</div>
-    //                                 </Link>
-    //                                 <div className="artifact-list-description">- {`${artifact.artistDescription[descriptionArray[index]]}`}</div>
-    //                                 </>
-    //                             ))}
-    //                         </div>
-    //                 </div>
-    //                 {artist.blurb ? (<div className="blurb-container">
-    //                     <div className="blurb">{`${artist.blurb}`}</div>
-    //                 </div>) : (null)}
-    //                 <div className="info-container">
-    //                     <div className="social-container">
-    //                         {artist.social.map((social) => (
-    //                             <div><a href={`${social}`} target="_blank" className="social">{`${social}`}</a></div>
-    //                         ))}
-    //                     </div>
-    //                 </div>
-    //             </div>
-    // </div>) : (null)}</>)
 }
 
 export default ArtistView;

@@ -56,14 +56,14 @@ const Home = () => {
             <div className="info-wrapper">
                 <div className="last-artifact-name">THE TRANSITION</div>
                 <div className="last-line-div"/>
-                <div className="artifact-blurb">This is the blurb about the transition.  It is not a very good blurb.</div>
+                <div className="artifact-blurb">Many thanks to the dozens of artists, craftspeople, and contractors that transformed a boring gray cube into a true work of art!</div>
                 <div className="last-description">CREATED BY</div>
                 <div className="last-name">Everybody</div>
             </div>
             </div>
         </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </>
   )
 }
