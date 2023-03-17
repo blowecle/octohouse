@@ -39,7 +39,7 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1678937201/octopus-house/FINAL_1_TOP-100_tr7dld.jpg"/>
+                <img className='home-image' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084549/evan%20web%20photos/Top-100_jfqnl0.jpg"/>
                 <div className="gallery-container">
                     {artifacts ? (artifacts.map((artifact, index) => {
                         const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
