@@ -178,6 +178,15 @@
 			"social": [],
 			"blurb": "Aaron took an empty nook in my bedroom and turned it into a bookcase work of art. You can pull a book or a ukelele down! How cool is that?",
 			"artifactID": [23]
+		},
+		{
+			"artistID": 26,
+			"name": "Wade Burleigh",
+			"company": "",
+			"title": "Wood Carver",
+			"social": [],
+			"blurb": "When Wade isn’t carving wood, he is Santa Claus himself.  He turned an ordinary stump into one of the most awesomely weird and unique pieces of art for the house.",
+			"artifactID": [28]
 		}
 	],
 	"artifacts": [{
@@ -239,10 +248,18 @@
 		{
 			"artifactID": 8,
 			"name": "MOTHER NATURE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992657/evan%20web%20photos/Mother_Nature_1-100_yffs7g.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992657/evan%20web%20photos/Mother_Nature_2-100_qjzu5z.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992657/evan%20web%20photos/Mother_Nature_1-100_yffs7g.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992657/evan%20web%20photos/Mother_Nature_2-100_qjzu5z.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679070325/evan%20web%20photos/IMG_20230317_111232_hirxyy.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679081918/evan%20web%20photos/IMG_20230317_111232_f8fh5q.jpg"],
 			"blurb": "She started as two tons of Texas limestone and eight months later we had a true goddess on our hands.",
 			"artistID": [10],
 			"artistDescription": ["SCULPTED BY"]
+		},
+		{
+			"artifactID": 28,
+			"name": "THE THRONE",
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/c_crop,h_2688,y_718/v1679081919/evan%20web%20photos/PXL_20230317_193406791_p1zjdn.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679081918/evan%20web%20photos/PXL_20230317_193354425_rnm4br.jpg"],
+			"blurb": "What originated as an ugly stump most would turn into woodchips, became a throne built for Mother Nature herself.",
+			"artistID": [28],
+			"artistDescription": ["CARVED BY"]
 		},
 		{
 			"artifactID": 20,
@@ -287,7 +304,7 @@
 		{
 			"artifactID": 6,
 			"name": "THE GARDENERS",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993362/evan%20web%20photos/Gardener_1-100_abk9u7.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993363/evan%20web%20photos/Gardener_3-100_mjb0ry.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993363/evan%20web%20photos/Gardener_4-100_xh7hm5.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993362/evan%20web%20photos/Gardener_1-100_abk9u7.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993363/evan%20web%20photos/Gardener_3-100_mjb0ry.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678993363/evan%20web%20photos/Gardener_4-100_xh7hm5.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679070325/evan%20web%20photos/IMG_20230317_111250_ugxksl.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679081918/evan%20web%20photos/PXL_20230317_193441362.PORTRAIT_wahzou.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1679081918/evan%20web%20photos/IMG_20230317_111250_ueenem.jpg"],
 			"blurb": "Did you know that octopi have gardens? Oh right, The Beatles told you so.",
 			"artistID": [7, 8],
 			"artistDescription": ["LANDSCAPING BY","WATER FEATURES BY"]
