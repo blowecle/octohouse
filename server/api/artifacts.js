@@ -3,7 +3,6 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 const { Artist, Post, Artifact } = require('../db');
 
-
 //GET /api/artifacts all artifacts
 router.get('/', async(req, res, next) => {
     try {
