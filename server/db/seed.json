@@ -288,7 +288,7 @@
 		{
 			"artifactID": 23,
 			"name": "THE BOOKCASE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_2-100_btlzjx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_2-100_btlzjx.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_2-100_btlzjx.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/v1678992841/evan%20web%20photos/Bookshelf_1-100_jf8duz.jpg"],
 			"blurb": "Why just store books when you can create a work of art and play music at the same time?",
 			"artistID": [2,25],
 			"artistDescription": ["DESIGNED BY","PAINTED BY","BUILT BY"]
