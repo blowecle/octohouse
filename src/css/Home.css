@@ -13,7 +13,19 @@
     #root {
         max-width: 800px;
     }
-} 
+    
+}
+
+@media screen and (min-width: 800px){
+    .home-image {
+        display: none;
+    }
+
+    body {
+        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1683050954/Background_TEST_ku1jb0.png");
+        background-size: 100% 100%;
+    }
+}
 
 body {
     background-color: rgb(0, 76, 143);
@@ -65,7 +77,6 @@ body {
 }
 
 .gallery-container {
-    background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084548/evan%20web%20photos/Bottom-100_q1n8un.jpg");
     background-size: 100% 100%;
 }
 
