@@ -17,9 +17,9 @@
 }
 
 @media screen and (min-width: 800px){
-    .home-image {
+    /* .home-image {
         display: none;
-    }
+    } */
 
     /* body {
         background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1683050954/Background_TEST_ku1jb0.png");
