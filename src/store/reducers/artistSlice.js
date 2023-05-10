@@ -56,7 +56,7 @@ export const fetchArtists = createAsyncThunk(
   async () => {
     try {
       const { data } = await axios.get(
-        "https://octopus-house.herokuapp.com/api/artists"
+        "https://octo-nest.herokuapp.com/artists"
       );
       return data;
     } catch (e) {
@@ -71,7 +71,7 @@ export const fetchArtistData = createAsyncThunk(
   async (id) => {
     try {
       const { data } = await axios.get(
-        `https://octopus-house.herokuapp.com/api/artists/${id}`
+        `https://octo-nest.herokuapp.com/artists/${id}`
       );
       return data;
     } catch (e) {
