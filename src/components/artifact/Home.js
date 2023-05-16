@@ -46,7 +46,7 @@ const Home = () => {
                         const filteredArtists = artists.filter((artist) => artist.artifactID.includes(artifact.artifactID))
                         return <Artifact key={index} artifact={artifact} artists={filteredArtists}/>
                     })) : null}
-                <div className="last-artifact-container">
+                <div className="artifact-container">
                 <div className='before-after-slider'>
                 <ReactCompareSlider
                 itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1679086343/evan%20web%20photos/PXL_20230317_204739350_vpu26f.jpg' />}
@@ -55,11 +55,13 @@ const Home = () => {
                 />
             </div>
             <div className="info-wrapper">
-                <div className="last-artifact-name">THE TRANSITION</div>
-                <div className="last-line-div"/>
+                <div className="artifact-name">THE TRANSITION</div>
+                <div className="line-div"/>
                 <div className="artifact-blurb">Many thanks to the dozens of artists, craftspeople, and contractors that transformed a boring gray cube into a true work of art!</div>
-                <div className="last-description">CREATED BY</div>
-                <div className="last-name">Everybody</div>
+                <div className="artifact-artist-wrapper">
+                    <div className="artifact-artist-description">CREATED BY</div>
+                    <div className="last-name">Everybody</div>
+                </div>
             </div>
             </div>
         </div>
