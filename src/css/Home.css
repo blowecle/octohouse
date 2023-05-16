@@ -3,16 +3,44 @@
     box-sizing:border-box
 }
 
+
 @media screen and (max-width: 800px){
     #root {
         max-width: 800px;
     }
     
+    .home-image-mobile {
+        width: 100%;
+        display: inline;
+    }
+
+    .gallery-container {
+        background-size: 100% 100%;
+        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084548/evan%20web%20photos/Bottom-100_q1n8un.jpg");
+    }
+
+    .home-image-desktop {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 800px){
-    #root {
-        max-width: 400px;
+    .home-image {
+        width: 100%;
+    }
+
+    .home-image-mobile {
+        display: none;
+    }
+
+    .home-image-desktop {
+        width: 100%;
+        display: inline;
+    }
+
+    .gallery-container {
+        background-size: 100% 100%;
+        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1684255639/Artboard_13-80_vn3llu.jpg");
     }
     
 }
@@ -24,9 +52,7 @@ body {
     height: 200vh;
 }
 
-.home-image {
-    width: 100%;
-}
+
 
 body {
     max-width: 100vw;
@@ -64,11 +90,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-.gallery-container {
-    background-size: 100% 100%;
-    background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084548/evan%20web%20photos/Bottom-100_q1n8un.jpg");
 }
 
 .opening-image {
