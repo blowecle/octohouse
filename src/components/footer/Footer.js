@@ -11,7 +11,7 @@ const Footer = () => {
                         <Link to="https://www.jameshruiz.com/">
                             <div className="footer-artist">JAMES RUIZ</div>
                         </Link>
-                        <Link to="https://www.instagram.com/perryhallphoto/">
+                        <Link to="http://www.perry-hall.com/">
                             <div className="footer-artist">PERRY HALL</div>
                         </Link>
                     </div>
