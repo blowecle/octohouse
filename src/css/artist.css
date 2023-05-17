@@ -9,10 +9,27 @@
         margin-left: 5%;
     }
 
-    .artist-wrapper {
-        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678994623/evan%20web%20photos/Artist_BG_2-100_rgzx2v.jpg");
-        background-size: 100% 100%;
-        min-height: 100vh;
+    @media screen and (max-width: 800px){
+        .artist-wrapper {
+            background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678994623/evan%20web%20photos/Artist_BG_2-100_rgzx2v.jpg");
+            background-size: 100% 100%;
+            min-height: 100vh;
+        }    
+    }
+    
+
+    @media screen and (min-width: 800px){
+        .artist-page {
+            background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678994623/evan%20web%20photos/Artist_BG_2-100_rgzx2v.jpg");
+            background-size: 100% 100%;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .artist-main-image {
+            height: 68vh;
+            max-width: 36vw;
+        }
     }
 
     .single-artist-title {
@@ -142,3 +159,9 @@
         padding: 5px;
         color: white;
     }
+
+@media screen and (min-width: 800px) {
+    .artist-wrapper {
+        max-width: 40%;
+    }
+}

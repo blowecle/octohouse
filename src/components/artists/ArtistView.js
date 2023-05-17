@@ -23,7 +23,7 @@ const ArtistView = () => {
     const artifacts = useSelector((state) => state.artist.artistData.artifacts)
     
     if(artist)console.log(artist)
-    return (<>
+    return (<div className="artist-page">
     {artist ? (<div className="artist-wrapper">
         <img src={artifacts[0].images[0]} alt="this is where the main image goes" className="artist-main-image"/>
         {artist.company && artist.name ? (<>
@@ -46,7 +46,7 @@ const ArtistView = () => {
     <div className="line-div"/>
     <div className="artist-blurb">{`${artist.blurb}`}</div>
     </div>) : (null)}
-    </>)
+    </div>)
 }
 
 export default ArtistView;
