@@ -9,11 +9,6 @@ const Artifact = ({artifact, artists}) => {
 
     return (
         <div className="artifact-container">
-                    {/* <div className='slides'>
-                        {artifact.images.map((image) => (
-                            <img src={image} alt='artifactImage' className='slide'/>
-                        ))}
-                    </div> */}
                     <div className="carousel-wrapper">
                     <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'
                     renderArrowPrev={(clickHandler, hasPrev) => {
@@ -58,19 +53,6 @@ const Artifact = ({artifact, artists}) => {
             </div>
         </div>
     )
-    // return (<div className='artifact-container'>
-    //             <div className='post-image-wrapper'>
-    //                 {artifact.images.map((image) => (
-    //                     <div className='inner-wrapper'>
-    //                         <img src={image} alt='blogImage' className='artifact-image'/>
-    //                     </div>
-    //                 ))}
-    //             </div>
-    //             <Link to={`/artifacts/${artifact.id}`}>
-    //                 <div className='artifact-info'>{`${artifact.name}`}</div>
-    //             </Link>
-    //     </div>
-    // )
 }
 
 export default Artifact;
