@@ -11,4 +11,4 @@ const Artifactartist = conn.define('artifactartist', {
     },
 });
 
-module.exports = Artifact;
+module.exports = Artifactartist;
