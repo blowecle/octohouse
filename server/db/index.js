@@ -7,12 +7,14 @@ const Artifact = require('./Artifact');
 const Artist = require('./Artist');
 const Post = require('./Post');
 const Story = require('./Story');
+const CrossReference = require('./cross-reference');
 
 //seed data imported from seed.json
 const {
     artists,
     // posts,
     artifacts,
+    crossReference,
     // story
   } = require("./seed.json");
 
@@ -34,6 +36,7 @@ const syncAndSeed = async (closeConn=false) => {
         await Artist.bulkCreate(artists);
         // await Post.bulkCreate(posts);
         await Artifact.bulkCreate(artifacts);
+        await CrossReference.bulkCreate(crossReference);
         // await Story.bulkCreate(story);
         
         if (closeConn) await conn.close();

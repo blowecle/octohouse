@@ -325,5 +325,75 @@
 			"artistID": [20],
 			"artistDescription": ["PAINTING BY"]
 		}
+	],
+	"crossReference": [
+		{
+			"artifactID": 1,
+			"artistID": [3, 18]
+		},
+		{
+			"artifactID": 3,
+			"artistID": [4, 5]
+		},
+		{
+			"artifactID": 5,
+			"artistID": [9]
+		},
+		{
+			"artifactID":28,
+			"artistID": [6]
+		},
+		{
+			"artifactID": 17,
+			"artistID": [17]
+		},
+		{
+			"artifactID": 10,
+			"artistID": [12]
+		},
+		{
+			"artifactID": 12,
+			"artistID": [14]
+		},
+		{
+			"artifactID": 8,
+			"artistID": [10]
+		},
+		{
+			"artifactID": 30,
+			"artistID": [8]
+		},
+		{
+			"artifactID": 29,
+			"artistID": [26]
+		},
+		{
+			"artifactID": 20,
+			"artistID": [22]
+		},
+		{
+			"artifactID": 19,
+			"artistID": [21]
+		},
+		{
+			"artifactID": 23,
+			"artistID": [2,25]
+		},
+		{
+			"artifactID": 25,
+			"artistID": [1]
+		},
+		{
+			"artifactID": 26,
+			"artistID": [2]
+		},
+		{
+			"artifactID": 6,
+			"artistID": [7]
+		},
+		{
+			"artifactID": 27,
+			"artistID": [20]
+		}
 	]
 }
