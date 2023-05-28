@@ -5,7 +5,7 @@ const { ArtifactArtist } = require('../db');
 
 
 //GET /api/artifactartist cross-reference table
-router.get('/artifactartist', async(req, res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artifactArtist = await ArtifactArtist.findAll();
         res.send(artifactArtist)
