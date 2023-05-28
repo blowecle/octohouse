@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
-const { ArtifactArtist } = require('../db');
+const ArtifactArtist = require('../db/ArtifactArtist');
 
 //GET /api/artifactartist cross-reference table
 router.get('/', async(req, res, next) => {
