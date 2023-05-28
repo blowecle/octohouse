@@ -326,7 +326,7 @@
 			"artistDescription": ["PAINTING BY"]
 		}
 	],
-	"crossReference": [
+	"artifactArtist": [
 		{
 			"artifactID": 1,
 			"artistID": [3, 18]

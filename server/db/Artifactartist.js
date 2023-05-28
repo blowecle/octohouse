@@ -1,7 +1,7 @@
 const conn = require('./connection');
 const { Sequelize } = conn;
 
-const Artifactartist = conn.define('artifactartist', {
+const ArtifactArtist = conn.define('artifactArtist', {
     artifactID: {
         type: Sequelize.INTEGER,
         primaryKey: true
@@ -11,4 +11,4 @@ const Artifactartist = conn.define('artifactartist', {
     },
 });
 
-module.exports = Artifactartist;
+module.exports = ArtifactArtist;

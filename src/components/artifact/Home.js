@@ -5,6 +5,7 @@ import '../../css/Home.css'
 import Artifact from './Artifact';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
+import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 import Footer from '../footer/Footer';
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
         const asyncFetchArtifacts = async () => {
             await dispatch(fetchArtifacts());
             await dispatch(fetchArtists());
+            await dispatch(fetchArtifactArtist());
         }
          asyncFetchArtifacts();
     },[dispatch])
@@ -36,6 +38,9 @@ const Home = () => {
 
     const artifacts = useSelector(state => state.artifact.artifacts);
     const artists = useSelector(state => state.artist.artists);
+    const artifactArtist = useSelector(state => state.artifactArtist.artifactArtist);
+
+    if(artifactArtist)console.log(artifactArtist)
     
     return (<>
             <div className='home-container'>
