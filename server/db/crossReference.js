@@ -1,7 +1,7 @@
 const conn = require('./connection');
 const { Sequelize } = conn;
 
-const ArtifactArtist = conn.define('artifactArtist', {
+const CrossReference = conn.define('artifactArtist', {
     artifactID: {
         type: Sequelize.INTEGER,
         primaryKey: true
@@ -11,4 +11,4 @@ const ArtifactArtist = conn.define('artifactArtist', {
     },
 });
 
-module.exports = ArtifactArtist;
+module.exports = CrossReference;

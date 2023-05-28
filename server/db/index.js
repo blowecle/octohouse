@@ -7,7 +7,7 @@ const Artifact = require('./Artifact');
 const Artist = require('./Artist');
 const Post = require('./Post');
 const Story = require('./Story');
-const ArtifactArtist = require('./ArtifactArtist');
+const ArtifactArtist = require('./crossReference');
 
 //seed data imported from seed.json
 const {
