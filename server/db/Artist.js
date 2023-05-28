@@ -27,11 +27,6 @@ const Artist = conn.define('artist', {
         type: Sequelize.STRING,
         allowNull: true,
     },
-    artifactID: {
-        type: Sequelize.ARRAY(Sequelize.INTEGER),
-        allowNull: true,
-        defaultValue: []
-    }
 });
 
 module.exports = Artist;
