@@ -24,8 +24,6 @@ const Home = () => {
     const artifacts = useSelector(state => state.artifact.artifacts);
     const artists = useSelector(state => state.artist.artists);
     const artifactArtist = useSelector(state => state.artifactArtist.artifactArtist);
-
-    if(artifactArtist)console.log(artifactArtist)
     
     return (<>
             <div className='home-container'>
@@ -33,8 +31,7 @@ const Home = () => {
                 <img className='home-image-desktop' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1684249771/Desktop_TOP_v2-100_ykbouo.jpg"/>
                 <div className="gallery-container">
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {
-                        let filteredArtists = []
-                        console.log(artifactArtist[index].artistID)
+                        let filteredArtists = [];
                         artifactArtist[index].artistID.map((artistID) => {
                             filteredArtists.push(artists.find((artist) => artist.artistID === artistID))
                         })
