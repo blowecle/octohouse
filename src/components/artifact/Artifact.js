@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "@fortawesome/fontawesome-free/js/all"
 
 const Artifact = ({artifact, artists, reference}) => {
-console.log(reference)
+
     return (
         <div className="artifact-container">
                     <div className="carousel-wrapper">

@@ -39,8 +39,8 @@ const ArtistView = () => {
                 <div className="single-artist-title">{`${artist.title}`}</div>
             </>
         )}
-            {artist.social.map((social) => (
-                <div><a href={`${social}`} target="_blank" className="social">{`${social}`}</a></div>      
+            {artist.social.map((social, index) => (
+                <div key={index}><a href={`${social}`} target="_blank" className="social">{`${social}`}</a></div>      
             ))}
     <div className="line-div"/>
     <div className="artist-blurb">{`${artist.blurb}`}</div>
