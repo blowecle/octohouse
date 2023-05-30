@@ -5,8 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import "@fortawesome/fontawesome-free/js/all"
 
-const Artifact = ({artifact, artists}) => {
-
+const Artifact = ({artifact, artists, reference}) => {
+console.log(reference)
     return (
         <div className="artifact-container">
                     <div className="carousel-wrapper">
@@ -40,7 +40,7 @@ const Artifact = ({artifact, artists}) => {
                 <div className="artifact-artist-wrapper">
                 {artists.map((artist, index) => (<div key={index}>
                         <div className="artifact-artist-description">{`${artifact.artistDescription[index]}`}</div>
-                    <Link to={`/artists/${artist.artistID}`}>
+                    <Link to={`/artists/${reference.artistID[index]}`}>
                         {artist.name ? (
                         <div className="artifact-artist-name">{`${artist.name}`}</div>
                         ) : (

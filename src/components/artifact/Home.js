@@ -1,41 +1,54 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import '../../css/Home.css'
+import '../../css/Home.css';
+
 import Artifact from './Artifact';
+import Footer from '../footer/Footer';
+
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
-import Footer from '../footer/Footer';
+
 
 const Home = () => {
     const dispatch = useDispatch();
     
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
-            await dispatch(fetchArtifacts());
-            await dispatch(fetchArtists());
-            await dispatch(fetchArtifactArtist());
-        }
-         asyncFetchArtifacts();
-    },[dispatch])
+          await Promise.all([
+            dispatch(fetchArtifacts()),
+            dispatch(fetchArtists()),
+            dispatch(fetchArtifactArtist())
+          ]);
+        };
+    
+        asyncFetchArtifacts();
+      }, [dispatch]);
 
 
-    const artifacts = useSelector(state => state.artifact.artifacts);
-    const artists = useSelector(state => state.artist.artists);
-    const artifactArtist = useSelector(state => state.artifactArtist.artifactArtist);
+      const { artifacts, artists, artifactArtist } = useSelector((state) => ({
+        artifacts: state.artifact.artifacts,
+        artists: state.artist.artists,
+        artifactArtist: state.artifactArtist.artifactArtist
+      }));
     
     return (<>
             <div className='home-container'>
                 <img className='home-image-mobile' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084549/evan%20web%20photos/Top-100_jfqnl0.jpg"/>
                 <img className='home-image-desktop' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1684249771/Desktop_TOP_v2-100_ykbouo.jpg"/>
                 <div className="gallery-container">
+
+                    {/* Todo:
+                        filter artifactArtist by artifactID rather than index
+                    */}
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {
                         let filteredArtists = [];
-                        artifactArtist[index].artistID.map((artistID) => {
+                        let reference = artifactArtist[index];
+                        reference.artistID.map((artistID) => {
                             filteredArtists.push(artists.find((artist) => artist.artistID === artistID))
                         })
-                        return <Artifact key={index} artifact={artifact} artists={filteredArtists}/>
+                        return <Artifact key={index} artifact={artifact} artists={filteredArtists} reference={reference}/>
                     })) : null) : null}
                 <div className="artifact-container">
                 <div className='before-after-slider'>
