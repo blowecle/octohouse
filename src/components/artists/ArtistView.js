@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { fetchArtistData } from "../../store/reducers/artistSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import '../../css/artist.css'
-import { Link } from "react-router-dom";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 
 const ArtistView = () => {
 

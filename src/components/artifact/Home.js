@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+
 import '../../css/Home.css';
 
 import Artifact from './Artifact';
