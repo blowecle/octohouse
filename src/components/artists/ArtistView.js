@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 const ArtistView = () => {
-    
+
     const params = useParams();
     const dispatch = useDispatch();
 
@@ -19,13 +19,11 @@ const ArtistView = () => {
         asyncFetchArtistData();
     }, [dispatch])
 
-    const artist = useSelector((state) => state);
-    const artifacts = useSelector((state) => state)
+    const artist = useSelector((state) => state.artist.artistData.artistData);
+    const artifacts = useSelector((state) => state.artist.artistData.artifacts)
     
-    if(artist)console.log(artist)
-    if(artifacts)console.log(artifacts)
     return (<div className="artist-page">
-    {/* {artist ? (<div className="artist-wrapper">
+    {artist ? (<div className="artist-wrapper">
         <img src={artifacts[0].images[0]} alt="this is where the main image goes" className="artist-main-image"/>
         {artist.company && artist.name ? (<>
                 <div className="single-artist-name">{`${artist.name}`}</div>
@@ -46,7 +44,7 @@ const ArtistView = () => {
             ))}
     <div className="line-div"/>
     <div className="artist-blurb">{`${artist.blurb}`}</div>
-    </div>) : (null)} */}
+    </div>) : (null)}
     </div>)
 }
 
