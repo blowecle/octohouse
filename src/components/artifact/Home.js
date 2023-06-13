@@ -37,7 +37,7 @@ const Home = () => {
     return (<>
             <div className='home-container'>
                 <img className='home-image-mobile' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084549/evan%20web%20photos/Top-100_jfqnl0.jpg"/>
-                <img className='home-image-desktop' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1684249771/Desktop_TOP_v2-100_ykbouo.jpg"/>
+                <img className='home-image-desktop' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1686658990/octopus-house/Desktop_TOP_-50_rqivic.jpg"/>
                 <div className="gallery-container">
 
                     {/* Todo:
