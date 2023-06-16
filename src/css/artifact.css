@@ -117,12 +117,11 @@
 }
 
 .line-div {
+    height: 1px;
     border-bottom: 3px solid white;
-    width: 50%;
-    max-width: 250px;
-    position: absolute;
-    margin-top: 1%;
     margin-left: 5%;
+    margin-top: 2%;
+    width: 50%;
 }
 
 .last-line-div {
