@@ -25,7 +25,7 @@ const Home = () => {
         };
     
         asyncFetchArtifacts();
-      }, [dispatch]);
+      }, []);
 
 
       const { artifacts, artists, artifactArtist } = useSelector((state) => ({
