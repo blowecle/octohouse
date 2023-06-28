@@ -21,7 +21,7 @@
     @media screen and (min-width: 800px){
         .artist-page {
             background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1686930140/Desktop_Artist_BG-50_o6x1ba.jpg");
-            background-size: 100% 100%;
+            background-size: cover;
             width: 100vw;
             height: 100vh;
         }
@@ -162,6 +162,6 @@
 
 @media screen and (min-width: 800px) {
     .artist-wrapper {
-        max-width: 40%;
+        max-width: 25%;
     }
 }

@@ -6,8 +6,9 @@ import { Carousel } from 'react-responsive-carousel';
 import "@fortawesome/fontawesome-free/js/all"
 
 const Artifact = ({artifact, artists, reference}) => {
-
     return (
+      <>
+      {artifact ? (
         <div className="artifact-container">
                     <div className="carousel-wrapper">
                     <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'
@@ -52,6 +53,8 @@ const Artifact = ({artifact, artists, reference}) => {
                 </div>
             </div>
         </div>
+        ) : (null)}
+      </>
     )
 }
 
