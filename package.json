@@ -1,5 +1,6 @@
 {
   "name": "oct-house",
+  "homepage": "http://www.octopushouse.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
