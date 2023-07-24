@@ -14,6 +14,9 @@ import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 const Home = () => {
     const dispatch = useDispatch();
 
+    const desktopTop = require('../../images/desktop_top.jpeg')
+    const mobileTop = require('../../images/mobile_top.jpeg')
+
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
           await Promise.all([
@@ -35,8 +38,8 @@ const Home = () => {
     
     return (<>
             <div className='home-container'>
-                <img className='home-image-mobile' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084549/evan%20web%20photos/Top-100_jfqnl0.jpg"/>
-                <img className='home-image-desktop' src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1686658990/octopus-house/Desktop_TOP_-50_rqivic.jpg"/>
+                <img className='home-image-mobile' src={mobileTop}/>
+                <img className='home-image-desktop' src={desktopTop}/>
                 <div className="gallery-container">
 
                     {/* Todo:
