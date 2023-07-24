@@ -22,7 +22,6 @@ const ArtistView = () => {
     let singleArtifact;
     let imagePath;
     if(artist){
-        console.log(artist)
         if(artifactArtist.length > 0 && artist.artistID){
             artistsArtifacts = artifactArtist.filter((artifact) => artifact.artistID.includes(parseInt(artist.artistID)))
             singleArtifact = artifacts.filter((artifact) => artifact.artifactID === artistsArtifacts[0].artifactID)
