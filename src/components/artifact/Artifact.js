@@ -27,9 +27,10 @@ const Artifact = ({artifact, artists, reference}) => {
                         );
                       }}>
                         {artifact.images.map((image, index) => {
+                          const imagePath = require(`../../images/${image}`)
                             return (
                             <div key={index} className='inner-wrapper'>
-                                <img src={image} alt='artifactImage' className='artifact-image'/>
+                                <img src={imagePath} alt='artifactImage' className='artifact-image'/>
                                 </div>)
                         })}
                     </Carousel>

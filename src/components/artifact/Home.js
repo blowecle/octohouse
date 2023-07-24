@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-
 import '../../css/Home.css';
 
 import Artifact from './Artifact';
@@ -14,7 +13,7 @@ import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
-    
+
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
           await Promise.all([
@@ -49,7 +48,7 @@ const Home = () => {
                         reference.artistID.map((artistID) => {
                             filteredArtists.push(artists.find((artist) => artist.artistID === artistID))
                         })
-                        return <Artifact key={index} artifact={artifact} artists={filteredArtists} reference={reference}/>
+                        return <Artifact key={index} artifact={artifacts} artists={filteredArtists} reference={reference}/>
                     })) : null) : null}
                 <div className="artifact-container">
                 <div className='before-after-slider'>
