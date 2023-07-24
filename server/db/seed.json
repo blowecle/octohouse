@@ -171,7 +171,7 @@
 	"artifacts": [{
 			"artifactID": 1,
 			"name": "THE FACE",
-			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_1-100_lgesog.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_2-100_z2bwpb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_3-100_rdesz0.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_4-100_ymv6ie.jpg"],
+			"images": ["https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto,w_400/v1678992183/evan%20web%20photos/The_Face_1-100_lgesog.jpg","https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_2-100_z2bwpb.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_3-100_rdesz0.jpg", "https://res.cloudinary.com/dyjzfdguj/image/upload/q_auto,f_auto/v1678992183/evan%20web%20photos/The_Face_4-100_ymv6ie.jpg"],
 			"blurb": "The integration of multiple mediums into a non-linear mural sets this beautiful Octopus art house apart from all others. ",
 			"artistDescription": ["DESIGNED BY", "PAINTED BY"]
 		},
