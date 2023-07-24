@@ -21,7 +21,7 @@ const ArtistView = () => {
     
     return (<div className="artist-page">
     {artist ? (<div className="artist-wrapper">
-        <img src={artifacts[0].images[0]} alt="this is where the main image goes" className="artist-main-image"/>
+        <img src={`../../images/${artifacts[0].images[0]}`} alt="this is where the main image goes" className="artist-main-image"/>
         {artist.company && artist.name ? (<>
                 <div className="single-artist-name">{`${artist.name}`}</div>
                 <div className="single-artist-title">{`${artist.title}`}</div>

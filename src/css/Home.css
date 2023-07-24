@@ -16,7 +16,7 @@
 
     .gallery-container {
         background-size: 100% 100%;
-        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1679084548/evan%20web%20photos/Bottom-100_q1n8un.jpg");
+        background-image: url("../images/mobile_bottom.jpeg");
     }
 
     .home-image-desktop {
@@ -40,7 +40,7 @@
 
     .gallery-container {
         background-size: 100% 100%;
-        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1686659000/octopus-house/desktop_BOTTOM-50_h5uehc.jpg");
+        background-image: url("../images/desktop_bottom.jpeg");
     }
     
 }
