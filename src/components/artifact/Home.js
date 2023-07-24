@@ -48,7 +48,7 @@ const Home = () => {
                         reference.artistID.map((artistID) => {
                             filteredArtists.push(artists.find((artist) => artist.artistID === artistID))
                         })
-                        return <Artifact key={index} artifact={artifacts} artists={filteredArtists} reference={reference}/>
+                        return <Artifact key={index} artifact={artifact} artists={filteredArtists} reference={reference}/>
                     })) : null) : null}
                 <div className="artifact-container">
                 <div className='before-after-slider'>

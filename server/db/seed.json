@@ -178,7 +178,7 @@
 		{
 			"artifactID": 3,
 			"name": "THE MERMAID",
-			"images": ["mermaid1.jpeg", "mermaid2.jpeg", "mermaid3.jpeg", "mermaid4.jpeg", "mermaid5.jpeg"],
+			"images": ["mermaid1.jpeg", "mermaid2.jpeg", "mermaid3.jpeg", "mermaid4.jpeg"],
 			"blurb": "The mermaid, forged in fire, and patinaed with love, will last a lifetime. She’s perfectly balanced so that she can spin to see all that she encompasses. ",
 			"artistDescription": ["FORGED BY", "DESIGNED BY"]
 		},
