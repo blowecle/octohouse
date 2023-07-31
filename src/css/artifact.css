@@ -23,6 +23,36 @@
   src: url('../../public/Montserrat-ExtraLight.ttf')
 }
 
+.artifact-carousel .artifact-image {
+  max-width: 85%;
+  max-height: 60vh;
+}
+
+a { color: white; text-decoration: none; }
+
+.carousel-arrow {
+  text-align: center;
+  margin: 8% 0;
+  z-index: 99;
+  min-height: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-width: 20%;
+}
+
+.bounce-right {
+  right: 0;
+  animation: bounce-right 6s infinite;
+}
+
+.bounce-left {
+  left: 0;
+  animation: bounce-left 6s infinite;
+}
+
 .artifact-container {
     display: flex;
     flex-direction: column;
@@ -46,8 +76,38 @@
         position: relative;
     }
 
+    .artifact-carousel .artifact-image {
+      max-width: 200%;
+      max-height: 100%;
+    }
+
     .carousel-wrapper {
         max-height: 100%;
+    }
+
+    a { color: white; text-decoration: none; }
+
+    .carousel-arrow {
+      text-align: center;
+      margin: 8% 0;
+      z-index: 99;
+      min-height: 50%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      min-width: 20%;
+    }
+    
+    .bounce-right {
+      right: -5%;
+      animation: bounce-right 6s infinite;
+    }
+    
+    .bounce-left {
+      left: -5%;
+      animation: bounce-left 6s infinite;
     }
 }
 
@@ -158,7 +218,8 @@ a:visited { text-decoration: none; }
 .inner-wrapper{
   display: flex;
   align-items: center;
-  height: 60vh;
+  height: 100%;
+  width: 100%;
 }
 
 .artifact-info {
@@ -170,42 +231,12 @@ a:visited { text-decoration: none; }
     width: 20%;
 }
 
-.artifact-carousel .artifact-image {
-  max-width: 85%;
-  max-height: 60vh;
-}
-
 .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
   }
-
-  a { color: white; text-decoration: none; }
-
-.carousel-arrow {
-  text-align: center;
-  margin: 8% 0;
-  z-index: 99;
-  min-height: 50%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  min-width: 20%;
-}
-
-.bounce-right {
-  right: 0;
-  animation: bounce-right 6s infinite;
-}
-
-.bounce-left {
-  left: 0;
-  animation: bounce-left 6s infinite;
-}
 
 @keyframes bounce-right {
   0%, 20%, 50%, 80%, 100% {

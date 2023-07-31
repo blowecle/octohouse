@@ -65,7 +65,7 @@ export const fetchArtifacts = createAsyncThunk(
   }
 );
 
-//async thunk for fetching single artifact data, eagerly loads associated artists
+//async thunk for fetching single artifact data
 export const fetchArtifactData = createAsyncThunk(
   "/artifacts/fetchArtifactData",
   async (id) => {
