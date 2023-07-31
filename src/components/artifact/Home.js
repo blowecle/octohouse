@@ -64,7 +64,7 @@ const Home = () => {
             <div className="info-wrapper">
                 <div className="artifact-name">THE TRANSITION</div>
                 <div className="line-div"/>
-                <div className="artifact-blurb">Many thanks to the dozens of artists, craftspeople, and contractors that transformed a boring gray cube into a true work of art!</div>
+                <div className="artifact-blurb">Many thanks to the dozens of artists, craftspeople, and contractors that transformed a gray cube into a true work of art!</div>
                 <div className="artifact-artist-wrapper">
                     <div className="artifact-artist-description">CREATED BY</div>
                     <div className="last-name">Everybody</div>

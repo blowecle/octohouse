@@ -10,7 +10,6 @@ const Artifact = ({artifact, artists, reference}) => {
       <>
       {artifact ? (
         <div className="artifact-container">
-                    <div className="carousel-wrapper">
                     <Carousel showThumbs={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay={false} swipeable={false} emulateTouch={true} dynamicHeight={false} useKeyboardArrows={true} centerMode={true} centerSlidePercentage={100} className='artifact-carousel'
                     renderArrowPrev={(clickHandler, hasPrev) => {
                         return (
@@ -34,7 +33,6 @@ const Artifact = ({artifact, artists, reference}) => {
                                 </div>)
                         })}
                     </Carousel>
-                    </div>
             <div className="info-wrapper">
                     <div className="artifact-name">{`${artifact.name}`}</div>
                 <div className="line-div"/>

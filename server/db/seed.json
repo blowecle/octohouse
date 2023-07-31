@@ -45,7 +45,7 @@
 			"company": "Blue Moon Glassworks",
 			"title": "Glass Worker",
 			"social": ["http://Austinbluemoon.com"],
-			"blurb": "Jim is an amazing local artist that has been designing and teaching stain glass for decades. His tentacle and starfish stain glass are truly works of incomparable art."
+			"blurb": "Jim is an amazing local artist that has been designing and teaching stained glass for decades. His tentacle and starfish stained glass are truly works of incomparable art."
 		},
 		{
 			"artistID": 7,
@@ -69,7 +69,7 @@
 			"company": "Maverick Door and Millwork, Inc.",
 			"title": "Wood Carvers",
 			"social": ["https://maverickdoor.com"],
-			"blurb": "Craig and Teena did an amazing job at creating the front door, which was especially challenging for its stain glass integration and custom non-linear wave design. Wow!"
+			"blurb": "Craig and Teena did an amazing job at creating the front door, which was especially challenging for its stained glass integration and custom non-linear wave design. Wow!"
 		},
 		{
 			"artistID": 10,
@@ -191,9 +191,9 @@
 		},
 		{
 			"artifactID":28,
-			"name": "THE GLASS",
+			"name": "THE STAINED GLASS",
 			"images": ["glass1.jpeg","glass2.jpeg","glass3.jpeg", "glass4.jpeg"],
-			"blurb": "The stain glass tentacle and front door starfish are truly works of art that bring beautiful light into my life daily. ",
+			"blurb": "The stained glass tentacle and front door starfish are truly works of art that bring beautiful light into my life daily. ",
 			"artistDescription": ["CRAFTED BY"]
 		},
 		{
@@ -226,9 +226,9 @@
 		},
 		{
 			"artifactID": 30,
-			"name": "THE WATERFALL",
+			"name": "THE WATERFALLS",
 			"images": ["water1.jpeg","water2.jpeg","water3.jpeg"],
-			"blurb": "Flowing water is a soothing sound and these waterfeatures are no exception.",
+			"blurb": "Flowing water is a soothing sound and these water features are no exception.",
 			"artistDescription": ["DESIGNED AND INSTALLED BY"]
 		},
 		{
