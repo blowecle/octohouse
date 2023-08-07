@@ -23,37 +23,60 @@
   src: url('../../public/Montserrat-ExtraLight.ttf')
 }
 
-.artifact-carousel .artifact-image {
-  max-width: 85%;
-
-}
-
-a { color: white; text-decoration: none; }
-
-.carousel-arrow {
-  text-align: center;
-  margin: 8% 0;
-  z-index: 99;
-  min-height: 50%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  min-width: 20%;
-}
-
-.bounce-right {
-  right: 0;
-  animation: bounce-right 6s infinite;
-}
-
-.bounce-left {
-  left: 0;
-  animation: bounce-left 6s infinite;
-}
-
-.artifact-container {
+/* MOBILE-S */
+@media screen and (max-width: 320px){
+  .artifact-carousel .artifact-image {
+    max-width: 85%;
+  
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      min-height: 120vh;
+      font-family: montserrat;
+      position: relative;
+  }
+  
+  .artifact-blurb {
+    color: white;
+    margin-top: 8%;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-left: 5%;
+    font-family: montserratExtraLight;
+    font-style: italic;
+  }
+  
+  .last-artifact-container {
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -61,14 +84,502 @@ a { color: white; text-decoration: none; }
     margin-bottom: 10%;
     min-height: 120vh;
     font-family: montserrat;
-    position: relative;
+  }
+  
+  .info-wrapper {
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  
+  .artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .last-artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .artifact-artist-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .last-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .artifact-artist-wrapper {
+    width: 60%;
+    position: absolute;
+    margin-left: 5%;
+  }
+  
+  .line-div {
+      height: 1px;
+      border-bottom: 3px solid white;
+      margin-left: 5%;
+      margin-top: 2%;
+      width: 50%;
+  }
+  
+  .last-line-div {
+    border-bottom: 3px solid white;
+    width: 50%;
+    max-width: 250px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  
+  a:link { text-decoration: none; }
+  
+  
+  a:visited { text-decoration: none; }
+  
+  .artifact-artist-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+  }
+  
+  .last-description {
+    color: white;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: 10%;
+    letter-spacing: 4px;
+    margin-left: 5%;
+  }
+  
+  .inner-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .artifact-info {
+      font-size: 24px;
+      color: white;
+      background-color: #bcbcbc;
+      border: 2px solid #a1a1a1;
+      box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+      width: 20%;
+  }
+  
+  .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
 }
 
+/* MOBILE */
+@media screen and (min-width: 321px) and (max-width: 375px){
+  .artifact-carousel .artifact-image {
+    max-width: 85%;
+  
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      min-height: 120vh;
+      font-family: montserrat;
+      position: relative;
+  }
+  
+  .artifact-blurb {
+    color: white;
+    margin-top: 8%;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-left: 5%;
+    font-family: montserratExtraLight;
+    font-style: italic;
+  }
+  
+  .last-artifact-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 120vh;
+    font-family: montserrat;
+  }
+  
+  .info-wrapper {
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  
+  .artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .last-artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .artifact-artist-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .last-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .artifact-artist-wrapper {
+    width: 60%;
+    position: absolute;
+    margin-left: 5%;
+  }
+  
+  .line-div {
+      height: 1px;
+      border-bottom: 3px solid white;
+      margin-left: 5%;
+      margin-top: 2%;
+      width: 50%;
+  }
+  
+  .last-line-div {
+    border-bottom: 3px solid white;
+    width: 50%;
+    max-width: 250px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  
+  a:link { text-decoration: none; }
+  
+  
+  a:visited { text-decoration: none; }
+  
+  .artifact-artist-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+  }
+  
+  .last-description {
+    color: white;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: 10%;
+    letter-spacing: 4px;
+    margin-left: 5%;
+  }
+  
+  .inner-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .artifact-info {
+      font-size: 24px;
+      color: white;
+      background-color: #bcbcbc;
+      border: 2px solid #a1a1a1;
+      box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+      width: 20%;
+  }
+  
+  .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+}
 
+/* MOBILE-L */
+@media screen and (min-width: 376px) and (max-width: 490px){
+  .artifact-carousel .artifact-image {
+    max-width: 85%;
+  
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      min-height: 120vh;
+      font-family: montserrat;
+      position: relative;
+  }
+  
+  .artifact-blurb {
+    color: white;
+    margin-top: 8%;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-left: 5%;
+    font-family: montserratExtraLight;
+    font-style: italic;
+  }
+  
+  .last-artifact-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 120vh;
+    font-family: montserrat;
+  }
+  
+  .info-wrapper {
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  
+  .artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .last-artifact-name {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.7em;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    font-style: bold;
+  }
+  
+  .artifact-artist-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .last-name {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  
+  .artifact-artist-wrapper {
+    width: 60%;
+    position: absolute;
+    margin-left: 5%;
+  }
+  
+  .line-div {
+      height: 1px;
+      border-bottom: 3px solid white;
+      margin-left: 5%;
+      margin-top: 2%;
+      width: 50%;
+  }
+  
+  .last-line-div {
+    border-bottom: 3px solid white;
+    width: 50%;
+    max-width: 250px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  
+  a:link { text-decoration: none; }
+  
+  
+  a:visited { text-decoration: none; }
+  
+  .artifact-artist-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+  }
+  
+  .last-description {
+    color: white;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: 10%;
+    letter-spacing: 4px;
+    margin-left: 5%;
+  }
+  
+  .inner-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .artifact-info {
+      font-size: 24px;
+      color: white;
+      background-color: #bcbcbc;
+      border: 2px solid #a1a1a1;
+      box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+      width: 20%;
+  }
+  
+  .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+}
+
+/* DESKTOP */
 @media screen and (min-width: 800px){
+  .artifact-carousel .artifact-image {
+    max-width: 85%;
+  
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      min-height: 120vh;
+      font-family: montserrat;
+      position: relative;
+  }
 
   .info-wrapper {
-
     margin-top: 4%;
   }
   
@@ -76,9 +587,7 @@ a { color: white; text-decoration: none; }
         display: flex;
         flex-direction: column;
         max-width: 35%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        min-height: 120vh;
+        margin-bottom: 20%;
         font-family: montserrat;
         position: relative;
     }
@@ -127,134 +636,134 @@ a { color: white; text-decoration: none; }
       font-family: montserratExtraLight;
       font-style: italic;
     }
+    
+    .artifact-blurb {
+      color: white;
+      margin-top: 8%;
+      font-size: 1.1rem;
+      width: 80%;
+      margin-left: 5%;
+      font-family: montserratExtraLight;
+      font-style: italic;
+    }
+    
+    .last-artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      min-height: 120vh;
+      font-family: montserrat;
+    }
+    
+    .info-wrapper {
+      margin-left: 5%;
+      margin-top: 4%;
+    }
+    
+    .artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .last-artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .artifact-artist-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .last-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .artifact-artist-wrapper {
+      width: 60%;
+      position: absolute;
+      margin-left: 5%;
+    }
+    
+    .line-div {
+        height: 1px;
+        border-bottom: 3px solid white;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 50%;
+    }
+    
+    .last-line-div {
+      border-bottom: 3px solid white;
+      width: 50%;
+      max-width: 250px;
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 5%;
+    }
+    
+    a:link { text-decoration: none; }
+    
+    
+    a:visited { text-decoration: none; }
+    
+    .artifact-artist-description {
+        color: white;
+        font-size: .8rem;
+        font-style: italic;
+        margin-top: 10%;
+        letter-spacing: 4px;
+    }
+    
+    .last-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+      margin-left: 5%;
+    }
+    
+    .inner-wrapper{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .artifact-info {
+        font-size: 24px;
+        color: white;
+        background-color: #bcbcbc;
+        border: 2px solid #a1a1a1;
+        box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+        width: 20%;
+    }
+    
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
 }
-
-.artifact-blurb {
-  color: white;
-  margin-top: 8%;
-  font-size: 1.1rem;
-  width: 80%;
-  margin-left: 5%;
-  font-family: montserratExtraLight;
-  font-style: italic;
-}
-
-.last-artifact-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  min-height: 120vh;
-  font-family: montserrat;
-}
-
-.info-wrapper {
-  margin-left: 5%;
-  margin-top: 4%;
-}
-
-.artifact-name {
-  letter-spacing: 2px;
-  color: white;
-  font-size: 1.7em;
-  overflow-wrap: break-word;
-  max-width: 90%;
-  font-style: bold;
-}
-
-.last-artifact-name {
-  letter-spacing: 2px;
-  color: white;
-  font-size: 1.7em;
-  overflow-wrap: break-word;
-  max-width: 90%;
-  font-style: bold;
-}
-
-.artifact-artist-name {
-  color: white;
-  font-size: 1.4rem;
-  text-decoration: none;
-  letter-spacing: 1px;
-  margin-top: 1%;
-}
-
-.last-name {
-  color: white;
-  font-size: 1.4rem;
-  text-decoration: none;
-  letter-spacing: 1px;
-  margin-top: 1%;
-}
-
-.artifact-artist-wrapper {
-  width: 60%;
-  position: absolute;
-  margin-left: 5%;
-}
-
-.line-div {
-    height: 1px;
-    border-bottom: 3px solid white;
-    margin-left: 5%;
-    margin-top: 2%;
-    width: 50%;
-}
-
-.last-line-div {
-  border-bottom: 3px solid white;
-  width: 50%;
-  max-width: 250px;
-  position: absolute;
-  margin-top: 1%;
-  margin-left: 5%;
-}
-
-a:link { text-decoration: none; }
-
-
-a:visited { text-decoration: none; }
-
-.artifact-artist-description {
-    color: white;
-    font-size: .8rem;
-    font-style: italic;
-    margin-top: 10%;
-    letter-spacing: 4px;
-}
-
-.last-description {
-  color: white;
-  font-size: .8rem;
-  font-style: italic;
-  margin-top: 10%;
-  letter-spacing: 4px;
-  margin-left: 5%;
-}
-
-.inner-wrapper{
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.artifact-info {
-    font-size: 24px;
-    color: white;
-    background-color: #bcbcbc;
-    border: 2px solid #a1a1a1;
-    box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
-    width: 20%;
-}
-
-.carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
 
 @keyframes bounce-right {
   0%, 20%, 50%, 80%, 100% {
