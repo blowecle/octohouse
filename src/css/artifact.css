@@ -60,8 +60,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 10%;
-      min-height: 120vh;
+      margin-bottom: 100%;
       font-family: montserrat;
       position: relative;
   }
@@ -69,7 +68,7 @@
   .artifact-blurb {
     color: white;
     margin-top: 8%;
-    font-size: 1.1rem;
+    font-size: .9rem;
     width: 80%;
     margin-left: 5%;
     font-family: montserratExtraLight;
@@ -82,19 +81,18 @@
     max-width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
-    min-height: 120vh;
     font-family: montserrat;
   }
   
   .info-wrapper {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 4%;
   }
   
   .artifact-name {
     letter-spacing: 2px;
     color: white;
-    font-size: 1.7em;
+    font-size: 1.4em;
     overflow-wrap: break-word;
     max-width: 90%;
     font-style: bold;
@@ -103,7 +101,7 @@
   .last-artifact-name {
     letter-spacing: 2px;
     color: white;
-    font-size: 1.7em;
+    font-size: 1.4em;
     overflow-wrap: break-word;
     max-width: 90%;
     font-style: bold;
@@ -111,7 +109,7 @@
   
   .artifact-artist-name {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-decoration: none;
     letter-spacing: 1px;
     margin-top: 1%;
@@ -119,7 +117,7 @@
   
   .last-name {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-decoration: none;
     letter-spacing: 1px;
     margin-top: 1%;
@@ -155,10 +153,10 @@
   
   .artifact-artist-description {
       color: white;
-      font-size: .8rem;
+      font-size: .6rem;
       font-style: italic;
       margin-top: 10%;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
   }
   
   .last-description {
@@ -231,8 +229,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 10%;
-      min-height: 120vh;
+      margin-bottom: 100%;
       font-family: montserrat;
       position: relative;
   }
@@ -253,7 +250,6 @@
     max-width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
-    min-height: 120vh;
     font-family: montserrat;
   }
   
@@ -402,8 +398,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 10%;
-      min-height: 120vh;
+      margin-bottom: 100%;
       font-family: montserrat;
       position: relative;
   }
@@ -424,7 +419,6 @@
     max-width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
-    min-height: 120vh;
     font-family: montserrat;
   }
   
@@ -573,8 +567,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 10%;
-      min-height: 120vh;
+      margin-bottom: 100%;
       font-family: montserrat;
       position: relative;
   }
@@ -653,7 +646,6 @@
       max-width: 100%;
       margin-top: 10%;
       margin-bottom: 10%;
-      min-height: 120vh;
       font-family: montserrat;
     }
     
