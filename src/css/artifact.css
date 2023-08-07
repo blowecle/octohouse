@@ -969,8 +969,8 @@
     .artifact-container {
         display: flex;
         flex-direction: column;
-        max-width: 50%;
-        margin-bottom: 3  0%;
+        max-width: 35%;
+        margin-bottom: 15%;
         font-family: montserrat;
         position: relative;
     }
