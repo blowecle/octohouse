@@ -60,7 +60,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 100%;
+      margin-bottom: 80%;
       font-family: montserrat;
       position: relative;
   }
@@ -229,7 +229,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 100%;
+      margin-bottom: 70%;
       font-family: montserrat;
       position: relative;
   }
@@ -398,7 +398,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 100%;
+      margin-bottom: 70%;
       font-family: montserrat;
       position: relative;
   }
@@ -566,7 +566,7 @@
       flex-direction: column;
       max-width: 100%;
       margin-top: 10%;
-      margin-bottom: 100%;
+      margin-bottom: 50%;
       font-family: montserrat;
       position: relative;
   }
@@ -699,8 +699,455 @@
     }
 }
 
+/* LAPTOP */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .artifact-carousel .artifact-image {
+    max-width: 85%;
+  
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 100%;
+      font-family: montserrat;
+      position: relative;
+  }
+  
+    .artifact-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 55%;
+        margin-bottom: 32%;
+        font-family: montserrat;
+        position: relative;
+    }
+
+    .artifact-carousel .artifact-image {
+      max-width: 85%;
+    }
+    
+
+    .carousel-wrapper {
+        max-height: 100%;
+    }
+
+    a { color: white; text-decoration: none; }
+
+    .carousel-arrow {
+      text-align: center;
+      margin: 8% 0;
+      z-index: 99;
+      min-height: 50%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      min-width: 20%;
+    }
+    
+    .bounce-right {
+      right: -5%;
+      animation: bounce-right 6s infinite;
+    }
+    
+    .bounce-left {
+      left: -5%;
+      animation: bounce-left 6s infinite;
+    }
+
+    .artifact-blurb {
+      color: white;
+      margin-top: 8%;
+      font-size: 1.1rem;
+      width: 80%;
+      margin-left: -5%;
+      font-family: montserratExtraLight;
+      font-style: italic;
+    }
+    
+    .artifact-blurb {
+      color: white;
+      margin-top: 8%;
+      font-size: 1.1rem;
+      width: 80%;
+      margin-left: 5%;
+      font-family: montserratExtraLight;
+      font-style: italic;
+    }
+    
+    .last-artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      font-family: montserrat;
+    }
+    
+    .info-wrapper {
+      margin-left: 3%;
+      margin-top: 4%;
+    }
+    
+    .artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .last-artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .artifact-artist-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .last-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .artifact-artist-wrapper {
+      width: 60%;
+      position: absolute;
+      margin-left: 5%;
+    }
+    
+    .line-div {
+        height: 1px;
+        border-bottom: 3px solid white;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 50%;
+    }
+    
+    .last-line-div {
+      border-bottom: 3px solid white;
+      width: 50%;
+      max-width: 250px;
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 5%;
+    }
+    
+    a:link { text-decoration: none; }
+    
+    
+    a:visited { text-decoration: none; }
+    
+    .artifact-artist-description {
+        color: white;
+        font-size: .8rem;
+        font-style: italic;
+        margin-top: 10%;
+        letter-spacing: 4px;
+    }
+    
+    .last-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+      margin-left: 5%;
+    }
+    
+    .inner-wrapper{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .artifact-info {
+        font-size: 24px;
+        color: white;
+        background-color: #bcbcbc;
+        border: 2px solid #a1a1a1;
+        box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+        width: 20%;
+    }
+    
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+}
+
 /* DESKTOP */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1025px){
+  .artifact-carousel .artifact-image {
+    max-width: 75%;
+  }
+  
+  a { color: white; text-decoration: none; }
+  
+  .carousel-arrow {
+    text-align: center;
+    margin: 8% 0;
+    z-index: 99;
+    min-height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 20%;
+  }
+  
+  .bounce-right {
+    right: 0;
+    animation: bounce-right 6s infinite;
+  }
+  
+  .bounce-left {
+    left: 0;
+    animation: bounce-left 6s infinite;
+  }
+  
+  .artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 100%;
+      font-family: montserrat;
+      position: relative;
+  }
+
+  .info-wrapper {
+    margin-top: 4%;
+  }
+  
+    .artifact-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin-bottom: 3  0%;
+        font-family: montserrat;
+        position: relative;
+    }
+
+    .artifact-carousel .artifact-image {
+
+    }
+    
+
+    .carousel-wrapper {
+        max-height: 100%;
+    }
+
+    a { color: white; text-decoration: none; }
+
+    .carousel-arrow {
+      text-align: center;
+      margin: 8% 0;
+      z-index: 99;
+      min-height: 50%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      min-width: 20%;
+    }
+    
+    .bounce-right {
+      right: -5%;
+      animation: bounce-right 6s infinite;
+    }
+    
+    .bounce-left {
+      left: -5%;
+      animation: bounce-left 6s infinite;
+    }
+
+    .artifact-blurb {
+      color: white;
+      margin-top: 8%;
+      font-size: 1.1rem;
+      width: 80%;
+      margin-left: -5%;
+      font-family: montserratExtraLight;
+      font-style: italic;
+    }
+    
+    .artifact-blurb {
+      color: white;
+      margin-top: 8%;
+      font-size: 1.1rem;
+      width: 80%;
+      margin-left: 5%;
+      font-family: montserratExtraLight;
+      font-style: italic;
+    }
+    
+    .last-artifact-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      font-family: montserrat;
+    }
+    
+    .info-wrapper {
+      margin-left: 8%;
+      margin-top: 4%;
+    }
+    
+    .artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .last-artifact-name {
+      letter-spacing: 2px;
+      color: white;
+      font-size: 1.7em;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      font-style: bold;
+    }
+    
+    .artifact-artist-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .last-name {
+      color: white;
+      font-size: 1.4rem;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 1%;
+    }
+    
+    .artifact-artist-wrapper {
+      width: 60%;
+      position: absolute;
+      margin-left: 5%;
+    }
+    
+    .line-div {
+        height: 1px;
+        border-bottom: 3px solid white;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 50%;
+    }
+    
+    .last-line-div {
+      border-bottom: 3px solid white;
+      width: 50%;
+      max-width: 250px;
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 5%;
+    }
+    
+    a:link { text-decoration: none; }
+    
+    
+    a:visited { text-decoration: none; }
+    
+    .artifact-artist-description {
+        color: white;
+        font-size: .8rem;
+        font-style: italic;
+        margin-top: 10%;
+        letter-spacing: 4px;
+    }
+    
+    .last-description {
+      color: white;
+      font-size: .8rem;
+      font-style: italic;
+      margin-top: 10%;
+      letter-spacing: 4px;
+      margin-left: 5%;
+    }
+    
+    .inner-wrapper{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .artifact-info {
+        font-size: 24px;
+        color: white;
+        background-color: #bcbcbc;
+        border: 2px solid #a1a1a1;
+        box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+        width: 20%;
+    }
+    
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+}
+
+/* DESKTOP-L */
+/* @media screen and (min-width: 1441px){
   .artifact-carousel .artifact-image {
     max-width: 85%;
   
@@ -924,7 +1371,7 @@
         align-items: center;
         flex-direction: row;
       }
-}
+} */
 
 @keyframes bounce-right {
   0%, 20%, 50%, 80%, 100% {
