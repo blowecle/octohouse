@@ -19,10 +19,6 @@ body {
 
 /* MOBILE-S */
 @media screen and (max-width: 320px){
-    #root {
-        max-width: 800px;
-    }
-    
     .home-image-mobile {
         width: 100%;
         display: inline;
@@ -39,10 +35,6 @@ body {
 }
 
 @media screen and (max-width: 800px){
-    #root {
-        max-width: 800px;
-    }
-    
     .home-image-mobile {
         width: 100%;
         display: inline;
