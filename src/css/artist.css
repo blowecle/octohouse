@@ -172,7 +172,6 @@
     
         .artist-main-image {
             width: 90%;
-            max-height: 60vh;
             padding-top: 2%;
             display: flex;
             justify-content: center;

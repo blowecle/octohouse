@@ -262,7 +262,7 @@
 		{
 			"artifactID": 25,
 			"name": "THE BRAIN",
-			"images": ["brains1.jpeg", "brains2.jpeg", "brains3.jpeg"],
+			"images": ["brains3.jpeg", "brains2.jpeg", "brains1.jpeg"],
 			"blurb": "How many brains does an octopus have? Way more than humans. That’s the only way we could build this thing!",
 			"artistDescription": ["CONTRACTING BY"]
 		},
