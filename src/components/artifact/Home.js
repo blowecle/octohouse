@@ -16,6 +16,8 @@ const Home = () => {
 
     const desktopTop = require('../../images/desktop_top.jpeg')
     const mobileTop = require('../../images/mobile_top.jpeg')
+    const afterImage = require('../../images/jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
+    const beforeImage = require('../../images/before.jpeg')
 
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
@@ -56,8 +58,8 @@ const Home = () => {
                 <div className="artifact-container">
                 <div className='before-after-slider'>
                 <ReactCompareSlider
-                itemOne={<ReactCompareSliderImage src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1679086343/evan%20web%20photos/PXL_20230317_204739350_vpu26f.jpg' />}
-                itemTwo={<ReactCompareSliderImage src='https://res.cloudinary.com/ddqp7dojc/image/upload/v1668440619/octo-house/-8773391783772082014_cbis9x.jpg' />}
+                itemOne={<ReactCompareSliderImage src={afterImage} />}
+                itemTwo={<ReactCompareSliderImage src={beforeImage} />}
                 position={1}
                 />
             </div>
