@@ -296,7 +296,8 @@
 /* TABLET-S */
 @media screen and (min-width: 491px) and (max-width: 768px){
     .artist-info-container{
-        margin-left: 15.9%;
+        margin-left: 27%;
+        margin-right: 10%;
     }
     
     .artist-page {
@@ -322,7 +323,7 @@
     }
 
     .artist-main-image {
-        width: 60%;
+        width: 40%;
         padding-top: 2%;
         display: flex;
         justify-content: center;
