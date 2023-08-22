@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* The parallax container */
+  .parallax {
+    /* The height of the parallax container */
+    height: 2000px;
+  
+    /* This makes the background image fixed when scrolling */
+    background-attachment: fixed;
+  
+    /* The background image */
+    background-image: url('https://www.gannett-cdn.com/authoring/video-thumbnails/82ab299b-cb53-47ff-a84a-e0bdafdb01f6_thumbnail.jpg');
+  
+    /* Center and cover the background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* The content on top of the parallax background */
+  .content {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    padding-top: 50%;
+  }
+  
+  /* Some additional styling for the normal content */
+  .normal-content {
+    height: 400px;
+    padding-top: 4%;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 150%;
+    color: white;
+  }
+  
+  .second-content {
+  margin-top: 40%;
+  text-align: center;
+  color: white;
+  font-size: 2rem
+  }
+  
