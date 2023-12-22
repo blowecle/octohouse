@@ -4,7 +4,7 @@ import Home from "./artifact/Home";
 import Blog from "./blog/Blog";
 import Story from "./story/Story";
 import ArtistView from "./artists/ArtistView";
-
+import Events from "./events/Events";
 
 const Router = () => {
 
@@ -15,6 +15,7 @@ const Router = () => {
             <Route path="/artists/:id" element={<ArtistView/>} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/story" element={<Story />} />
+            <Route path="/events" element={<Events />} />
         </Routes>
     )
 }
