@@ -1,0 +1,22 @@
+.three_bg {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.test_button {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}

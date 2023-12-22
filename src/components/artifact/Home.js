@@ -5,6 +5,7 @@ import '../../css/Home.css';
 
 import Artifact from './Artifact';
 import Footer from '../footer/Footer';
+import Loading from '../loading/loading';
 
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
@@ -39,6 +40,7 @@ const Home = () => {
       }));
     
     return (<>
+    <Loading />
             <div className='home-container'>
                 <img className='home-image-mobile' src={mobileTop}/>
                 <img className='home-image-desktop' src={desktopTop}/>

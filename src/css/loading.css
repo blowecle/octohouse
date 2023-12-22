@@ -1,0 +1,641 @@
+/* MOBILE-S */
+@media screen and (max-width: 320px){
+    .loading-wrapper{
+        position: fixed;
+        overflow: hidden;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(180,201,255,1) 71%, rgba(154,160,255,1) 100%);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .loading{
+        z-index: 4;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        overflow: hidden;
+        height: 100vh;
+    }
+    
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 4;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .island{
+        bottom: 0px;
+        width: 100%;
+        height: 200px;
+        z-index: 6;
+    }
+
+    .wave1{
+        bottom: 150px;
+        width: 150%;
+        left: -30%;
+        height: 100px;
+        animation: wave 10s infinite linear;
+        z-index: 8;
+    }
+
+    .wave2{
+        bottom: 140px;
+        width: 150%;
+        left: -30%;
+        height: 80px;
+        animation: wave 10s infinite linear;
+        animation-delay: .5s;
+        z-index: 9;
+    }
+    
+    .wave3{
+        bottom: 120px;
+        width: 150%;
+        left: -30%;
+        height: 100px;
+        animation: wave 10s infinite linear;
+        animation-delay: 1s;
+        z-index: 40;
+    }
+
+    .firstFloor{
+        width: 50%;
+        left: 100%;
+        height: 70px;
+        z-index: 6;
+    }
+
+    .secondFloor{
+        width: 50%;
+        left: 100%;
+        z-index: 4;
+    }
+
+    .octopus{
+        width: 50%;
+        left: 100%;
+        height: 100px;
+        z-index: 5;
+    }
+
+    .palmTree{
+        width: auto;
+        height: 0px;
+        left: 68%;
+        bottom: 220px;
+        z-index: 7;
+    }
+
+    .ocean-filler{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        bottom: 0;
+        z-index: 6;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 24%, rgba(212,224,255,1) 26%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+    }
+}
+
+/* MOBILE */
+@media screen and (min-width: 321px) and (max-width: 400px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+        z-index: 4;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 4;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .island{
+        bottom: 125px;
+        width: 100%;
+        height: 200px;
+        z-index: 7;
+    }
+
+    .treasure{
+        width: 40px;
+        height: auto;
+        bottom: 260px;
+        left: 50px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .wave1{
+        bottom: 110px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        z-index: 9;
+    }
+
+    .wave2{
+        bottom: 60px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        animation-delay: .5s;
+        z-index: 40;
+    }
+    
+    .wave3{
+        bottom: -260px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        animation-delay: 1s;
+        z-index: 41;
+    }
+
+    .firstFloor{
+        width: 50%;
+        left: 100%;
+        height: 70px;
+        z-index: 8;
+    }
+
+    .secondFloor{
+        width: 50%;
+        left: 100%;
+        z-index: 7;
+    }
+
+    .octopus{
+        width: 50%;
+        left: 100%;
+        height: 100px;
+        z-index: 7;
+    }
+
+    .palmTree{
+        width: auto;
+        height: 0px;
+        left: 72%;
+        bottom: 240px;
+        z-index: 8;
+    }
+
+    .ocean-filler{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        z-index: 7;
+        background-color: rgba(19,133,177,1);
+    }
+}
+
+/* MOBILE-L */
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+        z-index: 4;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 4;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .island{
+        bottom: 150px;
+        width: 100%;
+        height: 200px;
+        z-index: 7;
+    }
+
+    .treasure{
+        width: 80px;
+        height: auto;
+        bottom: 270px;
+        left: 50px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .wave1{
+        bottom: 90px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        z-index: 9;
+        max-height: 200px;
+    }
+
+    .wave2{
+        bottom: 40px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        animation-delay: .5s;
+        z-index: 40;
+        max-height: 220px;
+    }
+    
+    .wave3{
+        bottom: -360px;
+        width: 150%;
+        left: -30%;
+        animation: wave 10s infinite linear;
+        animation-delay: 1s;
+        z-index: 41;
+        max-height: 610px;
+    }
+
+    .firstFloor{
+        width: 50%;
+        left: 100%;
+        height: 70px;
+        z-index: 8;
+    }
+
+    .secondFloor{
+        width: 50%;
+        left: 100%;
+        z-index: 7;
+    }
+
+    .octopus{
+        width: 50%;
+        left: 100%;
+        height: 100px;
+        z-index: 7;
+    }
+
+    .palmTree{
+        width: auto;
+        height: 0px;
+        left: 72%;
+        bottom: 260px;
+        z-index: 8;
+    }
+
+    .ocean-filler{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        z-index: 7;
+        background-color: rgba(19,133,177,1);
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+        z-index: 4;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 4;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .island{
+        bottom: 150px;
+        width: 100%;
+        height: 200px;
+        z-index: 7;
+    }
+
+    .treasure{
+        width: 80px;
+        height: auto;
+        bottom: 270px;
+        left: 60px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .wave1{
+        bottom: 90px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        z-index: 9;
+        max-height: 200px;
+    }
+
+    .wave2{
+        bottom: 40px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        animation-delay: .5s;
+        z-index: 40;
+        max-height: 220px;
+    }
+    
+    .wave3{
+        bottom: -360px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        animation-delay: 1s;
+        z-index: 41;
+        max-height: 610px;
+    }
+
+    .firstFloor{
+        width: auto;
+        left: 100%;
+        height: 70px;
+        z-index: 8;
+    }
+
+    .secondFloor{
+        width: auto;
+        height: 65px;
+        left: 100%;
+        z-index: 7;
+    }
+
+    .octopus{
+        width: auto;
+        left: 100%;
+        height: 100px;
+        z-index: 7;
+    }
+
+    .palmTree{
+        width: auto;
+        height: 0px;
+        left: 72%;
+        bottom: 260px;
+        z-index: 8;
+    }
+
+    .ocean-filler{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        z-index: 7;
+        background-color: rgba(19,133,177,1);
+    }
+}
+
+/* LARGE SCREENS */
+@media screen and (min-width: 700px){
+    .loading{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 700px;
+        overflow: hidden;
+        height: 800px;
+        background: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+        z-index: 4;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 4;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .island{
+        bottom: 140px;
+        width: 100%;
+        height: 200px;
+        z-index: 7;
+    }
+
+    .treasure{
+        width: 80px;
+        height: auto;
+        bottom: 270px;
+        left: 80px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .wave1{
+        bottom: 90px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        z-index: 9;
+        max-height: 200px;
+    }
+
+    .wave2{
+        bottom: 40px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        animation-delay: .5s;
+        z-index: 40;
+        max-height: 220px;
+    }
+    
+    .wave3{
+        bottom: -360px;
+        width: 900px;
+        left: -15%;
+        animation: wave 10s infinite linear;
+        animation-delay: 1s;
+        z-index: 41;
+        max-height: 610px;
+    }
+
+    .firstFloor{
+        width: auto;
+        left: 100%;
+        height: 70px;
+        z-index: 8;
+    }
+
+    .secondFloor{
+        width: auto;
+        height: 65px;
+        left: 100%;
+        z-index: 7;
+    }
+
+    .octopus{
+        width: auto;
+        left: 100%;
+        height: 100px;
+        z-index: 7;
+    }
+
+    .palmTree{
+        width: auto;
+        height: 0px;
+        left: 72%;
+        bottom: 260px;
+        z-index: 8;
+    }
+
+    .ocean-filler{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        z-index: 7;
+        background-color: rgba(19,133,177,1);
+    }
+}
+
+@keyframes wave{
+    0%{
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    20%{
+        transform: translateX(-10%) translateZ(0) scaleY(0.9)
+    }
+    40%{
+        transform: translateX(0%) translateZ(0) scaleY(1)
+    }
+    60%{
+        transform: translateX(10%) translateZ(0) scaleY(0.9)
+    }
+    80%{
+        transform: translateX(0%) translateZ(0) scaleY(1)
+    }
+    90%{
+        transform: translateX(-10%) translateZ(0) scaleY(.9)
+    }
+    100%{
+        transform: translateX(0%) translateZ(0) scaleY(1)
+    }
+}
