@@ -20,7 +20,7 @@
 .env
 
 # large file
-*.glb
+/src/components/events/octopusHouse.glb
 
 npm-debug.log*
 yarn-debug.log*
