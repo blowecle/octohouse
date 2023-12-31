@@ -155,7 +155,7 @@
     }
 
     .treasure{
-        width: 40px;
+        width: 30px;
         height: auto;
         bottom: 260px;
         left: 50px;
@@ -278,7 +278,7 @@
     }
 
     .treasure{
-        width: 80px;
+        width: 60px;
         height: auto;
         bottom: 270px;
         left: 50px;
@@ -404,7 +404,7 @@
     }
 
     .treasure{
-        width: 80px;
+        width: 60px;
         height: auto;
         bottom: 270px;
         left: 60px;
@@ -534,7 +534,7 @@
     }
 
     .treasure{
-        width: 80px;
+        width: 60px;
         height: auto;
         bottom: 270px;
         left: 80px;
@@ -639,3 +639,21 @@
         transform: translateX(0%) translateZ(0) scaleY(1)
     }
 }
+
+@keyframes wiggle {
+    0%, 40%, 60%, 100% {
+      transform: rotate(0deg);
+    }
+    45% {
+      transform: rotate(10deg);
+    }
+    55% {
+      transform: rotate(-10deg);
+    }
+  }
+  
+  .treasure {
+    animation: wiggle 4s infinite;
+    cursor: pointer;
+  }
+  
