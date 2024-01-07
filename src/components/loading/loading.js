@@ -14,7 +14,7 @@ import '../../css/loading.css';
 
 import { gsap } from 'gsap';
 
-const loading = () => {
+const loading = ({onLoadingComplete}) => {
     console.log(window.innerWidth)
 
     const mm = gsap.matchMedia();
@@ -338,6 +338,9 @@ const loading = () => {
                     zIndex: -1,
                 })
             })
+            setTimeout(() => {
+            onLoadingComplete();
+            }, 13500);
         }
 
     return (

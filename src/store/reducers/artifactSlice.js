@@ -4,6 +4,7 @@ import axios from "axios";
 const artifactSlice = createSlice({
   name: "artifactList",
   initialState: {
+    isInitialDataLoaded: false,
     artifacts: [],
     artifactData: [],
     status: "idle",
@@ -11,6 +12,10 @@ const artifactSlice = createSlice({
     filter: null,
   },
   reducers: {
+    setInitialDataLoaded: (state, action) => {
+      state.isInitialDataLoaded = action.payload;
+      return state;
+    },
     getArtifactList: (state, action) => {
       state.artifactList = action.payload;
       return state;
@@ -47,7 +52,7 @@ export default artifactSlice;
 
 export const artifactSliceReducer = artifactSlice.reducer;
 
-export const { getArtifactList, getArtifact, setErrorMsg } =
+export const { getArtifactList, getArtifact, setInitialDataLoaded, setErrorMsg } =
   artifactSlice.actions;
 
 //async thunk for fetching all artifact data

@@ -10,6 +10,7 @@ import Loading from '../loading/loading';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
+import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
 
 const Home = () => {
@@ -30,17 +31,22 @@ const Home = () => {
         };
     
         asyncFetchArtifacts();
-      }, []);
+      }, [dispatch]);
 
 
-      const { artifacts, artists, artifactArtist } = useSelector((state) => ({
+      const { artifacts, artists, artifactArtist, isDataLoaded } = useSelector((state) => ({
         artifacts: state.artifact.artifacts,
         artists: state.artist.artists,
-        artifactArtist: state.artifactArtist.artifactArtist
+        artifactArtist: state.artifactArtist.artifactArtist,
+        isDataLoaded: state.artifact.isInitialDataLoaded,
       }));
+
+      const handleLoadingComplete = () => {
+        dispatch(setInitialDataLoaded(true));
+      };
     
     return (<>
-    <Loading />
+            {!isDataLoaded && <Loading onLoadingComplete={handleLoadingComplete}/>}
             <div className='home-container'>
                 <img className='home-image-mobile' src={mobileTop}/>
                 <img className='home-image-desktop' src={desktopTop}/>
