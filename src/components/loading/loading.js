@@ -20,7 +20,9 @@ const loading = ({onLoadingComplete}) => {
     const mm = gsap.matchMedia();
 
     const clickHandler = () => {
-        const timeline = gsap.timeline();
+        const timeline = gsap.timeline({
+            onComplete: onLoadingComplete,
+        });
         mm.add("(min-width: 0px) and (max-width: 320px)", () => {
             timeline.to('.firstFloor',{
                 left: "0px",
@@ -338,9 +340,6 @@ const loading = ({onLoadingComplete}) => {
                     zIndex: -1,
                 })
             })
-            setTimeout(() => {
-            onLoadingComplete();
-            }, 13500);
         }
 
     return (
