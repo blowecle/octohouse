@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/Home.css';
@@ -16,6 +16,8 @@ import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 const Home = () => {
     const dispatch = useDispatch();
 
+    const [imagesLoaded, setImagesLoaded] = useState(false);
+
     const desktopTop = require('../../images/desktop_top.jpeg')
     const mobileTop = require('../../images/mobile_top.jpeg')
     const afterImage = require('../../images/jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
@@ -23,15 +25,17 @@ const Home = () => {
 
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
+          if(imagesLoaded){
           await Promise.all([
             dispatch(fetchArtifacts()),
             dispatch(fetchArtists()),
             dispatch(fetchArtifactArtist())
           ]);
+        }
         };
     
         asyncFetchArtifacts();
-      }, [dispatch]);
+      }, [dispatch, imagesLoaded]);
 
 
       const { artifacts, artists, artifactArtist, isDataLoaded } = useSelector((state) => ({
@@ -44,10 +48,14 @@ const Home = () => {
       const handleLoadingComplete = () => {
         dispatch(setInitialDataLoaded(true));
       };
+
+      const handleImagesLoaded = () => {
+        setImagesLoaded(true);
+    };
     
     return (<>
-            {!isDataLoaded && <Loading onLoadingComplete={handleLoadingComplete}/>}
-            <div className='home-container'>
+            {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
+            {imagesLoaded && <div className='home-container'>
                 <img className='home-image-mobile' src={mobileTop}/>
                 <img className='home-image-desktop' src={desktopTop}/>
                 <div className="gallery-container">
@@ -83,6 +91,7 @@ const Home = () => {
             </div>
         </div>
         </div>
+        }
         <Footer/>
     </>
   )

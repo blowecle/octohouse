@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react'
+
 //importing images for loading screen
 import island from '../../images/Outlined_pieces/island@4x.png'
 import wave1 from '../../images/Outlined_pieces/wave1@4x.png'
@@ -14,8 +16,26 @@ import '../../css/loading.css';
 
 import { gsap } from 'gsap';
 
-const loading = ({onLoadingComplete}) => {
-    console.log(window.innerWidth)
+const Loading = ({onLoadingComplete, onImagesLoaded}) => {
+
+    const [imagesPreloaded, setImagesPreloaded] = useState(false);
+
+    useEffect(() => {
+        const imagesToLoad = [island, wave1, wave2, wave3, firstFloor, secondFloor, octopus, palmTree, treasure, sun];
+        let loadedImages = 0;
+
+        imagesToLoad.forEach((src) => {
+            const img = new Image();
+            img.src = src;
+            img.onload = () => {
+                loadedImages++;
+                if (loadedImages === imagesToLoad.length) {
+                    setImagesPreloaded(true);
+                    onImagesLoaded();
+                }
+            };
+        });
+    }, []);
 
     const mm = gsap.matchMedia();
 
@@ -362,4 +382,4 @@ const loading = ({onLoadingComplete}) => {
     )
 }
 
-export default loading;
+export default Loading;
