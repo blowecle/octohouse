@@ -13,15 +13,16 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 799px){
     .home-image-mobile {
         width: 100%;
         display: inline;
     }
 
     .gallery-container {
+        padding-top: 1000px;
         background-size: 100% 100%;
-        background-image: url("../images/mobile_bottom.jpeg");
+        background-image: url("../images/mobile_bottom.jpg");
     }
 
     .home-image-desktop {
@@ -44,8 +45,14 @@ body {
     }
 
     .gallery-container {
+        padding-top: 1000px;
         background-size: 100% 100%;
-        background-image: url("../images/desktop_bottom.jpeg");
+        background-image: url("../images/desktop_bottom.jpg");
     }
-    
+}
+
+@media screen and (min-width: 1400px){
+    .gallery-container{
+        padding-top: 1500px;
+    }
 }

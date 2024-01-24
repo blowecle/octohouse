@@ -56,8 +56,8 @@ const Home = () => {
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
             {imagesLoaded && <div className='home-container'>
-                <img className='home-image-mobile' src={mobileTop}/>
-                <img className='home-image-desktop' src={desktopTop}/>
+                {/* <img className='home-image-mobile' src={mobileTop}/>
+                <img className='home-image-desktop' src={desktopTop}/> */}
                 <div className="gallery-container">
 
                     {/* Todo:
