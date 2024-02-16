@@ -43,14 +43,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
         const timeline = gsap.timeline({
             onComplete: onLoadingComplete,
         });
-        mm.add("(min-width: 0px) and (max-width: 320px)", () => {
+        mm.add("(max-width: 399px)", () => {
             timeline.to('.firstFloor',{
                 left: "0px",
                 right: "0px",
                 duration: 1,
             })
             .to('.firstFloor',{
-                bottom: "260px",
+                bottom: "0",
                 duration: .5,
             })
             .to('.secondFloor',{
@@ -59,7 +59,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 right: "0px",
             })
             .to('.secondFloor',{
-                bottom: "325px",
+                bottom: "39px",
                 duration: .5,
             })
             .to('.octopus',{
@@ -69,76 +69,26 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             })
             .to('.octopus',{
                 duration: .5,
-                bottom: "300px",
+                bottom: "25px",
             })
-            .to('.palmTree',{
-                height: "150px",
+            .to('.sun', {
+                top: "50%",
+                marginLeft: "200px",
+                duration: 3,
+            })
+            .to('.bg-1', {
+                opacity: 0,
                 duration: 1,
             })
             .to('.loading', {
                 delay: 2,
-                duration: 2,
-                background: 'transparent',
-            })
-            .to('.loading-wrapper', {
                 opacity: 0,
                 duration: 1,
             })
-            .to('.loading-wrapper', {
+            .to('.loading', {
                 delay: 2,
                 zIndex: -1,
             })
-        })
-        mm.add("(min-width: 321px) and (max-width: 399px)", () => {
-                timeline.to('.island',{
-                    duration: 2,
-                    bottom: "125px",
-                })
-                .to('.firstFloor',{
-                    left: "0px",
-                    right: "0px",
-                    duration: 1,
-                })
-                .to('.firstFloor',{
-                    bottom: "400px",
-                    duration: .5,
-                })
-                .to('.secondFloor',{
-                    duration: 1,
-                    left: "0px",
-                    right: "0px",
-                })
-                .to('.secondFloor',{
-                    bottom: "465px",
-                    duration: .5,
-                })
-                .to('.octopus',{
-                    duration: 1,
-                    left: "0",
-                    right: "0",
-                })
-                .to('.octopus',{
-                    duration: .5,
-                    bottom: "440px",
-                })
-                .to('.sun', {
-                    top: "50%",
-                    marginLeft: "200px",
-                    duration: 3,
-                })
-                .to('.bg-1', {
-                    opacity: 0,
-                    duration: 1,
-                })
-                .to('.loading', {
-                    delay: 2,
-                    opacity: 0,
-                    duration: 1,
-                })
-                .to('.loading', {
-                    delay: 2,
-                    zIndex: -1,
-                })
             })
             mm.add("(min-width: 400px) and (max-width: 499px)", () => {
                 timeline.to('.firstFloor',{
@@ -147,7 +97,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 1,
                 })
                 .to('.firstFloor',{
-                    bottom: "420px",
+                    bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
@@ -156,7 +106,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     right: "0px",
                 })
                 .to('.secondFloor',{
-                    bottom: "483px",
+                    bottom: "40px",
                     duration: .5,
                 })
                 .to('.octopus',{
@@ -166,7 +116,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 })
                 .to('.octopus',{
                     duration: .5,
-                    bottom: "465px",
+                    bottom: "25px",
                 })
                 .to('.sun', {
                     top: "50%",
@@ -188,17 +138,13 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 })
             })
             mm.add("(min-width: 500px) and (max-width: 699px)", () => {
-                timeline.to('.island',{
-                    duration: 2,
-                    bottom: "150px",
-                })
-                .to('.firstFloor',{
+                timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
                     duration: 1,
                 })
                 .to('.firstFloor',{
-                    bottom: "280px",
+                    bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
@@ -207,7 +153,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     right: "0px",
                 })
                 .to('.secondFloor',{
-                    bottom: "343px",
+                    bottom: "50px",
                     duration: .5,
                 })
                 .to('.octopus',{
@@ -217,11 +163,242 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 })
                 .to('.octopus',{
                     duration: .5,
-                    bottom: "330px",
+                    bottom: "33px",
                 })
-                .to('.palmTree',{
-                    height: "150px",
+                .to('.sun', {
+                    top: "50%",
+                    marginLeft: "200px",
+                    duration: 3,
+                })
+                .to('.bg-1', {
+                    opacity: 0,
                     duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    zIndex: -1,
+                })
+            })
+            mm.add("(min-width: 700px) and (max-width: 899px)", () => {
+                timeline.to('.firstFloor',{
+                    left: "0px",
+                    right: "0px",
+                    duration: 1,
+                })
+                .to('.firstFloor',{
+                    bottom: "0",
+                    duration: .5,
+                })
+                .to('.secondFloor',{
+                    duration: 1,
+                    left: "0px",
+                    right: "0px",
+                })
+                .to('.secondFloor',{
+                    bottom: "62px",
+                    duration: .5,
+                })
+                .to('.octopus',{
+                    duration: 1,
+                    left: "0",
+                    right: "0",
+                })
+                .to('.octopus',{
+                    duration: .5,
+                    bottom: "42px",
+                })
+                .to('.sun', {
+                    top: "50%",
+                    marginLeft: "200px",
+                    duration: 3,
+                })
+                .to('.bg-1', {
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    zIndex: -1,
+                })
+            })
+            mm.add("(min-width: 900px) and (max-width: 1099px)", () => {
+                timeline.to('.firstFloor',{
+                    left: "0px",
+                    right: "0px",
+                    duration: 1,
+                })
+                .to('.firstFloor',{
+                    bottom: "0",
+                    duration: .5,
+                })
+                .to('.secondFloor',{
+                    duration: 1,
+                    left: "0px",
+                    right: "0px",
+                })
+                .to('.secondFloor',{
+                    bottom: "62px",
+                    duration: .5,
+                })
+                .to('.octopus',{
+                    duration: 1,
+                    left: "0",
+                    right: "0",
+                })
+                .to('.octopus',{
+                    duration: .5,
+                    bottom: "42px",
+                })
+                .to('.sun', {
+                    top: "50%",
+                    marginLeft: "200px",
+                    duration: 3,
+                })
+                .to('.bg-1', {
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    zIndex: -1,
+                })
+            })
+            mm.add("(min-width: 1100px) and (max-width: 1299px)", () => {
+                timeline.to('.firstFloor',{
+                    left: "0px",
+                    right: "0px",
+                    duration: 1,
+                })
+                .to('.firstFloor',{
+                    bottom: "0",
+                    duration: .5,
+                })
+                .to('.secondFloor',{
+                    duration: 1,
+                    left: "0px",
+                    right: "0px",
+                })
+                .to('.secondFloor',{
+                    bottom: "83px",
+                    duration: .5,
+                })
+                .to('.octopus',{
+                    duration: 1,
+                    left: "0",
+                    right: "0",
+                })
+                .to('.octopus',{
+                    duration: .5,
+                    bottom: "55px",
+                })
+                .to('.sun', {
+                    top: "50%",
+                    marginLeft: "200px",
+                    duration: 3,
+                })
+                .to('.bg-1', {
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    zIndex: -1,
+                })
+            })
+            mm.add("(min-width: 1100px) and (max-width: 1299px)", () => {
+                timeline.to('.firstFloor',{
+                    left: "0px",
+                    right: "0px",
+                    duration: 1,
+                })
+                .to('.firstFloor',{
+                    bottom: "0",
+                    duration: .5,
+                })
+                .to('.secondFloor',{
+                    duration: 1,
+                    left: "0px",
+                    right: "0px",
+                })
+                .to('.secondFloor',{
+                    bottom: "83px",
+                    duration: .5,
+                })
+                .to('.octopus',{
+                    duration: 1,
+                    left: "0",
+                    right: "0",
+                })
+                .to('.octopus',{
+                    duration: .5,
+                    bottom: "55px",
+                })
+                .to('.sun', {
+                    top: "50%",
+                    marginLeft: "200px",
+                    duration: 3,
+                })
+                .to('.bg-1', {
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    opacity: 0,
+                    duration: 1,
+                })
+                .to('.loading', {
+                    delay: 2,
+                    zIndex: -1,
+                })
+            })
+            mm.add("(min-width: 1300px)", () => {
+                timeline.to('.firstFloor',{
+                    left: "0px",
+                    right: "0px",
+                    duration: 1,
+                })
+                .to('.firstFloor',{
+                    bottom: "0",
+                    duration: .5,
+                })
+                .to('.secondFloor',{
+                    duration: 1,
+                    left: "0px",
+                    right: "0px",
+                })
+                .to('.secondFloor',{
+                    bottom: "83px",
+                    duration: .5,
+                })
+                .to('.octopus',{
+                    duration: 1,
+                    left: "0",
+                    right: "0",
+                })
+                .to('.octopus',{
+                    duration: .5,
+                    bottom: "55px",
                 })
                 .to('.sun', {
                     top: "70%",
@@ -249,9 +426,11 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             <div className="loading-wrapper"/>
                 <img src={treasure} alt="treasure" className="treasure loading-img" onClick={clickHandler}/>
                 <img src={sun} alt="sun" className="sun loading-img"/>
-                <img src={firstFloor} alt="firstFloor" className="firstFloor loading-img"/>
-                <img src={secondFloor} alt="secondFloor" className="secondFloor loading-img"/>
-                <img src={octopus} alt="octopus" className="octopus loading-img"/>
+                <div className="house-wrapper">
+                    <img src={firstFloor} alt="firstFloor" className="firstFloor loading-img"/>
+                    <img src={secondFloor} alt="secondFloor" className="secondFloor loading-img"/>
+                    <img src={octopus} alt="octopus" className="octopus loading-img"/>
+                </div>
             <div className="bg-1"/>
         </div>
     )

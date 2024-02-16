@@ -14,40 +14,20 @@ body {
 }
 
 @media screen and (max-width: 799px){
-    .home-image-mobile {
-        width: 100%;
-        display: inline;
-    }
-
     .gallery-container {
         padding-top: 1000px;
-        background-size: 100% 100%;
+        background-size: cover;
         background-image: url("../images/mobile_bottom.jpg");
-    }
-
-    .home-image-desktop {
-        display: none;
     }
 }
 
 @media screen and (min-width: 800px){
-    .home-image {
-        width: 100%;
-    }
-
-    .home-image-mobile {
-        display: none;
-    }
-
-    .home-image-desktop {
-        width: 100%;
-        display: inline;
-    }
-
     .gallery-container {
         padding-top: 1000px;
-        background-size: 100% 100%;
+        background-size: cover;
         background-image: url("../images/desktop_bottom.jpg");
+        background-position: center;
+        
     }
 }
 

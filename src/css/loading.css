@@ -1,117 +1,5 @@
-/* MOBILE-S */
-@media screen and (max-width: 320px){
-    .loading-wrapper{
-        position: fixed;
-        overflow: hidden;
-        background: rgb(19,133,177);
-        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(180,201,255,1) 71%, rgba(154,160,255,1) 100%);
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .loading{
-        z-index: 4;
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        overflow: hidden;
-        height: 100vh;
-    }
-    
-    .bg-1{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        background: rgb(243,247,255);
-        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
-        z-index: 4;
-    }
-
-    .loading-img{
-        width: 100%;
-        position: absolute;
-    }
-
-    .island{
-        bottom: 0px;
-        width: 100%;
-        height: 200px;
-        z-index: 6;
-    }
-
-    .wave1{
-        bottom: 150px;
-        width: 150%;
-        left: -30%;
-        height: 100px;
-        animation: wave 10s infinite linear;
-        z-index: 8;
-    }
-
-    .wave2{
-        bottom: 140px;
-        width: 150%;
-        left: -30%;
-        height: 80px;
-        animation: wave 10s infinite linear;
-        animation-delay: .5s;
-        z-index: 9;
-    }
-    
-    .wave3{
-        bottom: 120px;
-        width: 150%;
-        left: -30%;
-        height: 100px;
-        animation: wave 10s infinite linear;
-        animation-delay: 1s;
-        z-index: 40;
-    }
-
-    .firstFloor{
-        width: 50%;
-        left: 100%;
-        height: 70px;
-        z-index: 6;
-    }
-
-    .secondFloor{
-        width: 50%;
-        left: 100%;
-        z-index: 4;
-    }
-
-    .octopus{
-        width: 50%;
-        left: 100%;
-        height: 100px;
-        z-index: 5;
-    }
-
-    .palmTree{
-        width: auto;
-        height: 0px;
-        left: 68%;
-        bottom: 220px;
-        z-index: 7;
-    }
-
-    .ocean-filler{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        bottom: 0;
-        z-index: 6;
-        background: rgb(19,133,177);
-        background: linear-gradient(0deg, rgba(19,133,177,1) 24%, rgba(212,224,255,1) 26%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
-    }
-}
-
 /* MOBILE */
-@media screen and (min-width: 321px) and (max-width: 400px){
+@media screen and (max-width: 399px){
     .loading{
         position: fixed;
         overflow: hidden;
@@ -127,7 +15,7 @@
         width: 100%;
         height: 100%;
         z-index: 7;
-        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1707942390/octopus-house/LandingMobile_msrzuv.png');
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117756/octopus-house/Mobile_Landing_Page_ockjul.png');
         background-size: 100% 100%;
     }
 
@@ -150,7 +38,7 @@
     .treasure{
         width: 50px;
         height: auto;
-        bottom: 380px;
+        bottom: 55%;
         left: 50px;
         z-index: 8;
     }
@@ -162,31 +50,40 @@
         z-index: 6;
     }
 
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 58%;
+        width: 140px;
+        height: 140px;
+        z-index: 7;
+    }
+
     .firstFloor{
         position: absolute;
-        width: 50%;
-        left: 100%;
+        width: 100%;
+        left: 200%;
         bottom: 80%;
-        height: 70px;
+        height: auto;
         z-index: 9;
     }
 
     .secondFloor{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        height: 70px;
-        left: 100%;
-        height: 70px;
+        width: 100%;
+        height: auto;
+        left: 200%;
         z-index: 8;
     }
 
     .octopus{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        left: 100%;
-        height: 100px;
+        width: 100%;
+        left: 200%;
+        height: auto;
         z-index: 8;
     }
 }
@@ -208,7 +105,7 @@
         width: 100%;
         height: 100%;
         z-index: 7;
-        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1707942390/octopus-house/LandingMobile_msrzuv.png');
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117756/octopus-house/Mobile_Landing_Page_ockjul.png');
         background-size: 100% 100%;
     }
 
@@ -231,8 +128,8 @@
     .treasure{
         width: 50px;
         height: auto;
-        bottom: 380px;
-        left: 50px;
+        bottom: 55%;
+        left: 60px;
         z-index: 8;
     }
 
@@ -243,36 +140,46 @@
         z-index: 6;
     }
 
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 60%;
+        width: 140px;
+        height: 140px;
+        z-index: 7;
+    }
+
     .firstFloor{
         position: absolute;
-        width: 50%;
-        left: 100%;
+        width: 100%;
+        left: 250%;
         bottom: 80%;
-        height: 70px;
+        height: auto;
         z-index: 9;
     }
 
     .secondFloor{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        height: 70px;
-        left: 100%;
+        width: 100%;
+        height: auto;
+        left: 250%;
         z-index: 8;
     }
 
     .octopus{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        left: 100%;
-        height: 100px;
+        width: 100%;
+        left: 250%;
+        height: auto;
         z-index: 8;
     }
 }
 
 /* TABLET */
-@media screen and (min-width: 500px) and (max-width: 700px){
+@media screen and (min-width: 500px) and (max-width: 699px){
     .loading{
         position: fixed;
         overflow: hidden;
@@ -288,7 +195,7 @@
         width: 100%;
         height: 100%;
         z-index: 7;
-        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1707942390/octopus-house/LandingDesktop_hiwd5f.png');
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117762/octopus-house/Tablet_Landing_page_u9wcpd.png');
         background-size: 100% 100%;
     }
 
@@ -309,10 +216,10 @@
     }
 
     .treasure{
-        width: 50px;
+        width: 70px;
         height: auto;
-        bottom: 380px;
-        left: 50px;
+        bottom: 52%;
+        left: 120px;
         z-index: 8;
     }
 
@@ -323,36 +230,46 @@
         z-index: 6;
     }
 
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 58%;
+        width: 180px;
+        height: 140px;
+        z-index: 7;
+    }
+
     .firstFloor{
         position: absolute;
-        width: 50%;
-        left: 100%;
+        width: 100%;
+        left: 100vw;
         bottom: 80%;
-        height: 70px;
+        height: auto;
         z-index: 9;
     }
 
     .secondFloor{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        height: 70px;
-        left: 100%;
+        width: 100%;
+        height: auto;
+        left: 100vw;
         z-index: 8;
     }
 
     .octopus{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        left: 100%;
-        height: 100px;
+        width: 100%;
+        left: 100vw;
+        height: auto;
         z-index: 8;
     }
 }
 
 /* LARGE SCREENS */
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) and (max-width: 899px){
     .loading{
         position: fixed;
         overflow: hidden;
@@ -368,7 +285,7 @@
         width: 100%;
         height: 100%;
         z-index: 7;
-        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1707942390/octopus-house/LandingDesktop_hiwd5f.png');
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117769/octopus-house/Desktop_Landing_page_xoxovy.png');
         background-size: 100% 100%;
     }
 
@@ -389,10 +306,10 @@
     }
 
     .treasure{
-        width: 50px;
+        width: 100px;
         height: auto;
-        bottom: 380px;
-        left: 50px;
+        bottom: 38%;
+        left: 130px;
         z-index: 8;
     }
 
@@ -403,30 +320,310 @@
         z-index: 6;
     }
 
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 47%;
+        width: 220px;
+        height: 140px;
+        z-index: 7;
+    }
+
     .firstFloor{
         position: absolute;
-        width: 50%;
-        left: 100%;
+        width: 100%;
+        left: 100vw;
         bottom: 80%;
-        height: 70px;
+        height: auto;
         z-index: 9;
     }
 
     .secondFloor{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        height: 70px;
-        left: 100%;
+        width: 100%;
+        height: auto;
+        left: 100vw;
         z-index: 8;
     }
 
     .octopus{
         position: absolute;
         bottom: 80%;
-        width: 50%;
-        left: 100%;
-        height: 100px;
+        width: 100%;
+        left: 100vw;
+        height: auto;
+        z-index: 8;
+    }
+}
+
+/* SMALL DESKTOP */
+@media screen and (min-width: 900px) and (max-width: 1099px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 7;
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117769/octopus-house/Desktop_Landing_page_xoxovy.png');
+        background-size: 100% 100%;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 5;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .treasure{
+        width: 100px;
+        height: auto;
+        bottom: 37%;
+        left: 150px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 47%;
+        width: 220px;
+        height: 140px;
+        z-index: 7;
+    }
+
+    .firstFloor{
+        position: absolute;
+        width: 100%;
+        left: 100vw;
+        bottom: 80%;
+        height: auto;
+        z-index: 9;
+    }
+
+    .secondFloor{
+        position: absolute;
+        bottom: 80%;
+        width: 100%;
+        height: auto;
+        left: 100vw;
+        z-index: 8;
+    }
+
+    .octopus{
+        position: absolute;
+        bottom: 80%;
+        width: 100%;
+        left: 100vw;
+        height: auto;
+        z-index: 8;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1100px) and (max-width: 1299px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 7;
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117769/octopus-house/Desktop_Landing_page_xoxovy.png');
+        background-size: 100% 100%;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 5;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .treasure{
+        width: 100px;
+        height: auto;
+        bottom: 38%;
+        left: 200px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 47%;
+        width: 300px;
+        height: 140px;
+        z-index: 7;
+    }
+
+    .firstFloor{
+        position: absolute;
+        width: 100%;
+        left: 100vw;
+        bottom: 180%;
+        height: auto;
+        z-index: 9;
+    }
+
+    .secondFloor{
+        position: absolute;
+        bottom: 180%;
+        width: 100%;
+        height: auto;
+        left: 100vw;
+        z-index: 8;
+    }
+
+    .octopus{
+        position: absolute;
+        bottom: 180%;
+        width: 100%;
+        left: 100vw;
+        height: auto;
+        z-index: 8;
+    }
+}
+
+/* LARGE DESKTOP */
+@media screen and (min-width: 1300px){
+    .loading{
+        position: fixed;
+        overflow: hidden;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(19,133,177);
+        background: linear-gradient(0deg, rgba(19,133,177,1) 0%, rgba(19,133,177,1) 29%, rgba(202,148,116,1) 30%, rgba(168,88,119,1) 70%, rgba(105,56,112,1) 100%);
+    }
+
+    .loading-wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 7;
+        background-image: url('https://res.cloudinary.com/dyjzfdguj/image/upload/v1708117769/octopus-house/Desktop_Landing_page_xoxovy.png');
+        background-size: 100% 100%;
+    }
+
+    .bg-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(243,247,255);
+        background: linear-gradient(0deg, rgba(243,247,255,1) 21%, rgba(212,224,255,1) 50%, rgba(180,201,255,1) 70%, rgba(154,160,255,1) 100%);
+        z-index: 5;
+    }
+
+    .loading-img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .treasure{
+        width: 150px;
+        height: auto;
+        bottom: 38%;
+        left: 300px;
+        z-index: 8;
+    }
+
+    .sun{
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        z-index: 6;
+    }
+
+    .house-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 47%;
+        width: 300px;
+        height: 140px;
+        z-index: 7;
+    }
+
+    .firstFloor{
+        position: absolute;
+        width: 100%;
+        left: 100vw;
+        bottom: 180%;
+        height: auto;
+        z-index: 9;
+    }
+
+    .secondFloor{
+        position: absolute;
+        bottom: 180%;
+        width: 100%;
+        height: auto;
+        left: 100vw;
+        z-index: 8;
+    }
+
+    .octopus{
+        position: absolute;
+        bottom: 180%;
+        width: 100%;
+        left: 100vw;
+        height: auto;
         z-index: 8;
     }
 }
@@ -444,7 +641,7 @@
   }
   
   .treasure {
-    animation: wiggle 4s infinite;
+    animation: wiggle 1s infinite;
     cursor: pointer;
   }
   
