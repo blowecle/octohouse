@@ -23,6 +23,7 @@ const Home = () => {
 
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
+          //only fetch data if loading screen images are loaded
           if(imagesLoaded){
           await Promise.all([
             dispatch(fetchArtifacts()),
@@ -31,7 +32,6 @@ const Home = () => {
           ]);
         }
         };
-    
         asyncFetchArtifacts();
       }, [dispatch, imagesLoaded]);
 
@@ -51,17 +51,10 @@ const Home = () => {
         setImagesLoaded(true);
     };
     
-    window.addEventListener('popstate', function(event) {
-      setImagesLoaded(true);
-  });
-    
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
             <div className='home-container'>
-                {/* <img className='home-image-mobile' src={mobileTop}/>
-                <img className='home-image-desktop' src={desktopTop}/> */}
                 <div className="gallery-container">
-
                     {/* Todo:
                         filter artifactArtist by artifactID rather than index
                     */}

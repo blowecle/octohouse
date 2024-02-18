@@ -13,9 +13,17 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 799px){
+@media screen and (max-width: 499px){
     .gallery-container {
         padding-top: 1000px;
+        background-size: cover;
+        background-image: url("../images/mobile_bottom.jpg");
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 799px){
+    .gallery-container {
+        padding-top: 1400px;
         background-size: cover;
         background-image: url("../images/mobile_bottom.jpg");
     }
@@ -24,10 +32,10 @@ body {
 @media screen and (min-width: 800px){
     .gallery-container {
         padding-top: 1000px;
-        background-size: cover;
         background-image: url("../images/desktop_bottom.jpg");
+        background-size: auto 100.0001%;
+        /* This is 100.0001% because for some reason chrome does not render the background at 100% at very specific widths.  This is a work around */
         background-position: center;
-        
     }
 }
 

@@ -107,7 +107,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     right: "0px",
                 })
                 .to('.secondFloor',{
-                    bottom: "40px",
+                    bottom: "38px",
                     duration: .5,
                 })
                 .to('.octopus',{
