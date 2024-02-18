@@ -19,6 +19,7 @@ import { gsap } from 'gsap';
 const Loading = ({onLoadingComplete, onImagesLoaded}) => {
 
     const [imagesPreloaded, setImagesPreloaded] = useState(false);
+    
 
     useEffect(() => {
         const imagesToLoad = [island, wave1, wave2, wave3, firstFloor, secondFloor, octopus, palmTree, treasure, sun];

@@ -18,8 +18,6 @@ const Home = () => {
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
 
-    const desktopTop = require('../../images/desktop_top.jpeg')
-    const mobileTop = require('../../images/mobile_top.jpeg')
     const afterImage = require('../../images/jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
     const beforeImage = require('../../images/before.jpeg')
 
@@ -53,9 +51,13 @@ const Home = () => {
         setImagesLoaded(true);
     };
     
+    window.addEventListener('popstate', function(event) {
+      setImagesLoaded(true);
+  });
+    
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
-            {imagesLoaded && <div className='home-container'>
+            <div className='home-container'>
                 {/* <img className='home-image-mobile' src={mobileTop}/>
                 <img className='home-image-desktop' src={desktopTop}/> */}
                 <div className="gallery-container">
@@ -91,7 +93,7 @@ const Home = () => {
             </div>
         </div>
         </div>
-        }
+        
         <Footer/>
     </>
   )
