@@ -55,9 +55,6 @@ const Home = () => {
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
             <div className='home-container'>
                 <div className="gallery-container">
-                    {/* Todo:
-                        filter artifactArtist by artifactID rather than index
-                    */}
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {
                         let filteredArtists = [];
                         let reference = artifactArtist[index];

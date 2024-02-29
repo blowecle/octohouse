@@ -1,0 +1,41 @@
+.event-space-container {
+    width: 100%;
+}
+
+/* MOBILE-S */
+@media screen and (max-width: 375px){
+    .event-space-inner-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* MOBILE-L */
+@media screen and (min-width: 376px) and (max-width: 499px){
+
+}
+
+/* TABLET-S */
+@media screen and (min-width: 500px) and (max-width: 699px){
+
+}
+
+/* TABLET-L */
+@media screen and (min-width: 700px) and (max-width: 899px){
+
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+
+}
+
+/* WIDESCREEN */
+@media screen and (min-width: 1400px){
+
+}
