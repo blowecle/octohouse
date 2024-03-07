@@ -377,14 +377,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 1,
+                    duration: 2,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 1,
+                    duration: 2,
                     left: "0px",
                     right: "0px",
                 })
@@ -393,7 +393,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 1,
+                    duration: 2,
                     left: "0",
                     right: "0",
                 })
@@ -408,12 +408,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 })
                 .to('.bg-1', {
                     opacity: 0,
-                    duration: 1,
+                    duration: 2,
                 })
                 .to('.loading', {
                     delay: 2,
                     opacity: 0,
-                    duration: 1,
+                    duration: 2,
                 })
                 .to('.loading', {
                     delay: 2,
