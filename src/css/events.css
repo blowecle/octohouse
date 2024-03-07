@@ -1,41 +1,49 @@
-.evens-container{
+@font-face {
+    font-family: 'citrusGothic';
+    src: url('../../public/CitrusGothic-Regular.ttf');
+}
+
+.events-container{
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+.events-image-mobile{
     width: 100%;
+    height: auto;
 }
 
-.header-container{
+.events-image-tablet{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
 
-.header-inner-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.events-image-desktop{
+    width: 100%;
+    height: auto;
 }
 
-.header-title{
-    color: white;
+.events-header{
+    font-family: citrusGothic;
 }
 
-.header-content{
-    color: white;
+.events-blurb-container{
+    color: #1f78bd;
     text-align: center;
 }
-
 /* MOBILE-S */
 @media screen and (max-width: 375px){
-    .header-inner-container{
-        padding: 20px;
+    .events-header{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
-    .header-title{
-        font-size: 1rem;
-        margin-bottom: 10px;
+    .events-blurb{
+        font-size: .8rem;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 1rem;
     }
-
-    
 }
 
 /* MOBILE-L */
