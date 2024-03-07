@@ -16,7 +16,7 @@ body {
 @media screen and (max-width: 499px){
     .gallery-container {
         padding-top: 1000px;
-        background-size: cover;
+        background-size: 100% 100.001%;
         background-position: center;
         background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1709840199/octopus-house/mobile_bottom_zcpgks.jpg");
     }
@@ -25,7 +25,7 @@ body {
 @media screen and (min-width: 500px) and (max-width: 799px){
     .gallery-container {
         padding-top: 1400px;
-        background-size: cover;
+        background-size: 100% 100.001%;
         background-position: center;
         background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1709840199/octopus-house/mobile_bottom_zcpgks.jpg");
     }
