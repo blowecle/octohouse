@@ -75,7 +75,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             .to('.sun', {
                 top: "50%",
                 marginLeft: "200px",
-                duration: 3,
+                duration: 2,
             })
             .to('.bg-1', {
                 opacity: 0,
@@ -122,7 +122,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -169,7 +169,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -216,7 +216,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -263,7 +263,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -310,7 +310,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -357,7 +357,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -404,7 +404,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "70%",
                     marginLeft: "200px",
-                    duration: 3,
+                    duration: 2,
                 })
                 .to('.bg-1', {
                     opacity: 0,

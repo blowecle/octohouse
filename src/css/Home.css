@@ -17,6 +17,7 @@ body {
     .gallery-container {
         padding-top: 1000px;
         background-size: cover;
+        background-position: center;
         background-image: url("../images/mobile_bottom.jpg");
     }
 }
@@ -25,6 +26,7 @@ body {
     .gallery-container {
         padding-top: 1400px;
         background-size: cover;
+        background-position: center;
         background-image: url("../images/mobile_bottom.jpg");
     }
 }
@@ -32,6 +34,7 @@ body {
 @media screen and (min-width: 800px){
     .gallery-container {
         padding-top: 1000px;
+        background-position: center;
         background-image: url("../images/desktop_bottom.jpg");
         background-size: auto 100.0001%;
         /* This is 100.0001% because for some reason chrome does not render the background at 100% at very specific widths.  This is a work around */
