@@ -23,11 +23,13 @@
     height: auto;
 }
 
-.events-header{
+.events-header, .upgrades-header{
     font-family: citrusGothic;
+    color: #1f78bd;
+    text-align: center;
 }
 
-.events-blurb-container{
+.events-blurb{
     color: #1f78bd;
     text-align: center;
 }
@@ -43,6 +45,64 @@
         padding-right: 10px;
         padding-left: 10px;
         margin-bottom: 1rem;
+    }
+
+    .wave-break{
+        width: 80%;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-spaces-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        height: 1000px; /* This is a temporary fix */
+    }
+
+    .upgrades-header{
+        font-size: 1.5rem;
+        margin-top: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .upgrades-inner-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .upgrade{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upgrade-icon{
+        width: 80%;
+        height: auto;
+    }
+
+    .upgrade-info-container{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .upgrade-header{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color:#1f78bd;
+    }
+
+    .upgrade-blurb{
+        font-size: .8rem;
+        margin-bottom: 10px;
     }
 }
 
