@@ -1,5 +1,8 @@
 import React, { useState, useRef } from 'react';
+
 import EventSpace from './EventSpace';
+import Contact from './Contact';
+
 import '../../css/events.css'
 
 const Events = () => {
@@ -50,6 +53,38 @@ const Events = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="contact-container">
+            <form method="POST" data-netlify="true" name="contact" className='contact-form'>
+    <input
+    type="hidden"
+    name="form-name"
+    value="contact"
+    />
+    <input
+    className='name-input'
+    name="name"
+    type="text"
+    placeholder="Your name"
+    required
+    />
+    <input
+    className='email-input'
+    name="email"
+    type="email"
+    placeholder="Your email"
+    required
+    />
+    <textarea
+    className='message-input'
+    name="message"
+    placeholder="Further information"
+    required
+    ></textarea>
+    <div className='button-wrapper'>
+      <button type="submit">Send</button>
+    </div>
+</form>
             </div>
         </section>
     );
