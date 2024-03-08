@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../../css/contact.css'
+
 const Contact = () => {
   return (
 <form method="POST" data-netlify="true" name="contact" className='contact-form'>
@@ -12,23 +14,23 @@ const Contact = () => {
     className='name-input'
     name="name"
     type="text"
-    placeholder="Your name"
+    placeholder="name"
     required
     />
     <input
     className='email-input'
     name="email"
     type="email"
-    placeholder="Your email"
+    placeholder="email"
     required
     />
     <textarea
     className='message-input'
     name="message"
-    placeholder="Further information"
+    placeholder="further information"
     required
     ></textarea>
-    <div className='button-wrapper'>
+    <div className='form-button-wrapper'>
       <button type="submit">Send</button>
     </div>
 </form>

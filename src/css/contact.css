@@ -1,0 +1,87 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+/* MOBILE-S */
+@media screen and (max-width: 375px){
+    .contact-container{
+        width: 90%;
+    }
+
+    .contact-header{
+        width: 80%;
+        color: #1f78bd;
+        font-size: 1.5rem;
+    }
+
+    .contact-form{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .name-input, .email-input{
+        width: 50%;
+        position: absolute;
+    }
+
+    .message-input{
+        width: 100%;
+        position: absolute;
+    }
+
+    .name-input{
+        top: 0;
+        left: 0;
+    }
+
+    .email-input{
+        top: 45px;
+        left: 0;
+    }
+
+    .message-input{
+        top: 90px;
+        left: 0;
+        height: 100px;
+    }
+
+    .form-button-wrapper{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* MOBILE-L */
+@media screen and (min-width: 376px) and (max-width: 499px){
+
+}
+
+/* TABLET-S */
+@media screen and (min-width: 500px) and (max-width: 699px){
+
+}
+
+/* TABLET-L */
+@media screen and (min-width: 700px) and (max-width: 899px){
+
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+
+}
+
+/* WIDESCREEN */
+@media screen and (min-width: 1400px){
+
+}
