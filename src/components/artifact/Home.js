@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
-import { Link } from 'react-router-dom';
-
 import '../../css/Home.css';
 
 import Artifact from './Artifact';
@@ -88,9 +86,6 @@ const Home = () => {
         </div>
         
         <Footer/>
-        <Link to="/events">
-          <div className="test-div"></div>
-        </Link>
     </>
   )
 }
