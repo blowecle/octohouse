@@ -1,3 +1,5 @@
+
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -5,10 +7,18 @@
     position: relative;
 }
 
+.events-footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: citrusGothic;
+}
+
 /* MOBILE-S */
 @media screen and (max-width: 375px){
     .contact-container{
         width: 90%;
+        margin-bottom: 20px;
     }
 
     .contact-header{

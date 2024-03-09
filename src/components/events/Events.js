@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 
+import EventsFooter from './EventsFooter';
 import EventSpace from './EventSpace';
 import Contact from './Contact';
 
@@ -58,6 +59,25 @@ const Events = () => {
                 <div className="contact-header">CONTACT</div>
                 <Contact />
             </div>
+            <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
+            <div className="additional-info-container">
+                <div className="additional-inner-container">
+                    <div className="info-div">ADDITIONAL INFORMATION
+                        <ul className="package-list">
+                            <li className="list-item">Wifi</li>
+                            <li className="list-item">Grill</li>
+                            <li className="list-item">Restrooms</li>
+                            <li className="list-item">Hot Tub</li>
+                            <li className="list-item">Sound System</li>
+                            <li className="list-item">Party Light</li>
+                            <li className="list-item">Kitchen</li>
+                        </ul>
+                    </div>
+                    <div className="info-div">Max Capacity: 50 ppl</div>
+                    <div className="info-div">House Rules</div>
+                </div>
+            </div>
+            <EventsFooter />
         </section>
     );
 };
