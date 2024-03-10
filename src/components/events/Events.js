@@ -77,6 +77,35 @@ const Events = () => {
                     <div className="info-div">House Rules</div>
                 </div>
             </div>
+            <div className="additional-info-container">
+                <div className="additional-inner-container">
+                    <div className="additional-info-header">
+                        ADDITIONAL INFORMATION
+                    </div>
+                    <div className="additional-info-one">
+                        <div className="info-header">Included in this package:</div>
+                        <ul className="package-list">
+                            <li className="list-item">Wifi</li>
+                            <li className="list-item">Grill</li>
+                            <li className="list-item">Restrooms</li>
+                            <li className="list-item">Hot Tub</li>
+                            <li className="list-item">Sound System</li>
+                            <li className="list-item">Party Light</li>
+                            <li className="list-item">Kitchen</li>
+                        </ul>
+                    </div>
+                    <div className="additional-info-two">
+                        <div className="info-header">Max Capacity: 50 ppl</div>
+                    </div>
+                    <div className="additional-info-three">
+                        <div className="info-header">House Rules</div>
+                        <div className="rule">No Pets</div>
+                        <div className="rule">Do NOT block the neighbors driveway</div>
+                        <div className="rule">No Smoking indoors</div>
+                        <div className="rule">You break it you buy it</div>
+                    </div>
+                </div>
+            </div>
             <EventsFooter />
         </section>
     );
