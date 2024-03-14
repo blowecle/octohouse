@@ -2,9 +2,6 @@ import { useEffect, useState } from 'react'
 
 //importing images for loading screen
 import island from '../../images/Outlined_pieces/island@4x.png'
-import wave1 from '../../images/Outlined_pieces/wave1@4x.png'
-import wave2 from '../../images/Outlined_pieces/wave2@4x.png'
-import wave3 from '../../images/Outlined_pieces/wave3@4x.png'
 import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.png'
 import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.png'
 import octopus from '../../images/Outlined_pieces/Octopus@4x.png'
@@ -23,7 +20,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     
 
     useEffect(() => {
-        const imagesToLoad = [island, wave1, wave2, wave3, firstFloor, secondFloor, octopus, palmTree, treasure, sun];
+        const imagesToLoad = [island, firstFloor, secondFloor, octopus, palmTree, treasure, sun];
         let loadedImages = 0;
 
         imagesToLoad.forEach((src) => {

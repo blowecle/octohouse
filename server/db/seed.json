@@ -171,119 +171,119 @@
 	"artifacts": [{
 			"artifactID": 1,
 			"name": "THE FACE",
-			"images": ["face1.jpeg", "face2.jpeg", "face3.jpeg", "face4.jpeg"],
+			"images": ["face1.webp", "face2.webp", "face3.webp", "face4.webp"],
 			"blurb": "The integration of multiple mediums into a non-linear mural sets this beautiful Octopus art house apart from all others. ",
 			"artistDescription": ["DESIGNED BY", "PAINTED BY"]
 		},
 		{
 			"artifactID": 3,
 			"name": "THE MERMAID",
-			"images": ["mermaid1.jpeg", "mermaid2.jpeg", "mermaid3.jpeg", "mermaid4.jpeg"],
+			"images": ["mermaid1.webp", "mermaid2.webp", "mermaid3.webp", "mermaid4.webp"],
 			"blurb": "The mermaid, forged in fire, and patinaed with love, will last a lifetime. She’s perfectly balanced so that she can spin to see all that she encompasses. ",
 			"artistDescription": ["FORGED BY", "DESIGNED BY"]
 		},
 		{
 			"artifactID": 5,
 			"name": "THE DOOR",
-			"images": ["door1.jpeg","door2.jpeg","door3.jpeg"],
+			"images": ["door1.webp","door2.webp","door3.webp"],
 			"blurb": "Carving African Mahogany into waves on an irregular door is no easy feat but it was done so masterfully here.",
 			"artistDescription": ["CARVED BY"]
 		},
 		{
 			"artifactID":28,
 			"name": "THE STAINED GLASS",
-			"images": ["glass1.jpeg","glass2.jpeg","glass3.jpeg", "glass4.jpeg"],
+			"images": ["glass1.webp","glass2.webp","glass3.webp", "glass4.webp"],
 			"blurb": "The stained glass tentacle and front door starfish are truly works of art that bring beautiful light into my life daily. ",
 			"artistDescription": ["CRAFTED BY"]
 		},
 		{
 			"artifactID": 17,
 			"name": "NEON SEAHORSE",
-			"images": ["horse1.jpeg","horse2.jpeg","horse3.jpeg"],
+			"images": ["horse1.webp","horse2.webp","horse3.webp"],
 			"blurb": "The neon seahorse, which shines so brightly at night, watches over the house as the rest of the fish sleep. ",
 			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 10,
 			"name": "EYES OF TEXAS",
-			"images": ["eyes1.jpeg","eyes2.jpeg","eyes3.jpeg","eyes4.jpeg"],
+			"images": ["eyes1.webp","eyes2.webp","eyes3.webp","eyes4.webp"],
 			"blurb": "The longhorn is a Texas icon and what better way to show it then with thousands of beads under rainbow lights.",
 			"artistDescription": ["CREATED BY"]
 		},
 		{
 			"artifactID": 12,
 			"name": "SACRED SPACE",
-			"images": ["sacred1.jpeg","sacred2.jpeg","sacred3.jpeg","sacred4.jpeg"],
+			"images": ["sacred1.webp","sacred2.webp","sacred3.webp","sacred4.webp"],
 			"blurb": "Walking under this piece of art as I head to bed each night brings me joy and serenity. What a joy to behold 19,000 beads perfectly arranged. ",
 			"artistDescription": ["WOVEN BY"]
 		},
 		{
 			"artifactID": 8,
 			"name": "MOTHER NATURE",
-			"images": ["mother1.jpeg","mother2.jpeg","mother3.jpeg"],
+			"images": ["mother1.webp","mother2.webp","mother3.webp"],
 			"blurb": "She started as two tons of Texas limestone and eight months later we had a true goddess on our hands.",
 			"artistDescription": ["SCULPTED BY"]
 		},
 		{
 			"artifactID": 30,
 			"name": "THE WATERFALLS",
-			"images": ["water1.jpeg","water2.jpeg","water3.jpeg"],
+			"images": ["water1.webp","water2.webp","water3.webp"],
 			"blurb": "Flowing water is a soothing sound and these water features are no exception.",
 			"artistDescription": ["DESIGNED AND INSTALLED BY"]
 		},
 		{
 			"artifactID": 29,
 			"name": "THE THRONE",
-			"images": ["throne1.jpeg", "throne2.jpeg"],
+			"images": ["throne1.webp", "throne2.webp"],
 			"blurb": "What originated as an ugly stump most would turn into woodchips, became a throne built for Mother Nature herself.",
 			"artistDescription": ["CARVED BY"]
 		},
 		{
 			"artifactID": 20,
 			"name": "THE TILING",
-			"images": ["tiling1.jpeg", "tiling2.jpeg"],
+			"images": ["tiling1.webp", "tiling2.webp"],
 			"blurb": "Most tiling is relatively easy but if you want custom beauty nothing matches Moroccan.",
 			"artistDescription": ["TILEWORK BY"]
 		},
 		{
 			"artifactID": 19,
 			"name": "THE LIGHTS",
-			"images": ["lights1.jpeg", "lights2.jpeg", "lights3.jpeg"],
+			"images": ["lights1.webp", "lights2.webp", "lights3.webp"],
 			"blurb": "The Ketra lights are gorgeous, bright and highly customizable: push one button and your whole house is rainbow colored!",
 			"artistDescription": ["ILLUMINATED BY"]
 		},
 		{
 			"artifactID": 23,
 			"name": "THE BOOKCASE",
-			"images": ["books1.jpeg", "books2.jpeg"],
+			"images": ["books1.webp", "books2.webp"],
 			"blurb": "Why just store books when you can create a work of art and play music at the same time?",
 			"artistDescription": ["DESIGNED BY","PAINTED BY","BUILT BY"]
 		},
 		{
 			"artifactID": 25,
 			"name": "THE BRAIN",
-			"images": ["brains3.jpeg", "brains2.jpeg", "brains1.jpeg"],
+			"images": ["brains3.webp", "brains2.webp", "brains1.webp"],
 			"blurb": "How many brains does an octopus have? Way more than humans. That’s the only way we could build this thing!",
 			"artistDescription": ["CONTRACTING BY"]
 		},
 		{
 			"artifactID": 26,
 			"name": "THE STYLIST",
-			"images": ["interior1.jpeg", "interior2.jpeg", "interior3.jpeg"],
+			"images": ["interior1.webp", "interior2.webp", "interior3.webp"],
 			"blurb": "Did you know that octopi have stylists? I don’t wake up in the morning looking like this, guys. It takes effort and style.",
 			"artistDescription": ["INTERIOR DESIGN BY"]
 		},
 		{
 			"artifactID": 6,
 			"name": "THE GARDENER",
-			"images": ["garden1.jpeg"],
+			"images": ["garden1.webp"],
 			"blurb": "Did you know that octopi have gardens? Oh right, The Beatles told you so.",
 			"artistDescription": ["LANDSCAPING BY"]
 		},
 		{
 			"artifactID": 27,
 			"name": "THE NINJA PAINTER",
-			"images": ["painter1.jpeg", "painter2.jpeg"],
+			"images": ["painter1.webp", "painter2.webp"],
 			"blurb": "Take a look at my ceiling sometime. It’s a painted work of art. How about the bookcase? Wow!",
 			"artistDescription": ["PAINTING BY"]
 		}
