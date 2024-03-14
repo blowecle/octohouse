@@ -14,6 +14,7 @@ import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
 const Home = () => {
+  //current version comment
     const dispatch = useDispatch();
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
