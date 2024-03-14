@@ -6,7 +6,7 @@ import '../../css/artist.css'
 import { fetchArtifactArtist } from "../../store/reducers/artifactArtistSlice";
 import { fetchArtifacts } from "../../store/reducers/artifactSlice";
 
-const imagesReq = require.context('../../../public/images', true, /\.webp$/);
+const imagesReq = require.context(`${process.env.PUBLIC_URL}/images`, true, /\.webp$/);
 
 const ArtistView = () => {
     // const basePath = `${process.env.PUBLIC_URL}/images`;
