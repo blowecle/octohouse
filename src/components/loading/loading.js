@@ -13,6 +13,8 @@ import '../../css/loading.css';
 import { gsap } from 'gsap';
 
 const Loading = ({onLoadingComplete, onImagesLoaded}) => {
+    window.scrollTo(0, 0);
+    
     const basePath = `${process.env.PUBLIC_URL}/images/Outlined_pieces`;
 
     const firstFloor = `${basePath}/firstfloor@4x.webp`;
