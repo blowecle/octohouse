@@ -13,6 +13,7 @@ import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
+const imagesReq = require.context('../../images', true, /\.webp$/);
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -52,6 +53,7 @@ const Home = () => {
         setImagesLoaded(true);
     };
 
+    console.log(artifacts)
     
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
