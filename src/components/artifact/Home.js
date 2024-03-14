@@ -53,8 +53,6 @@ const Home = () => {
       const handleImagesLoaded = () => {
         setImagesLoaded(true);
     };
-
-    console.log(artifacts)
     
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
