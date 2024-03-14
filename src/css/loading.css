@@ -628,7 +628,7 @@
     }
 }
 
-@keyframes wiggle {
+@keyframes wiggle2 {
     0%, 40%, 60%, 100% {
       transform: rotate(0deg);
     }
@@ -639,8 +639,64 @@
       transform: rotate(-10deg);
     }
   }
+
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+    }
+
+    15% {
+    }
+
+    20% {
+        transform: translate(0, -20px);
+    }
+
+    30% {
+        transform: rotate(-10deg);
+    }
+
+    35% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    55% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: translate(0, 0);
+    }
+  }
   
-  .treasure {
+  .active {
     animation: wiggle 1s infinite;
     cursor: pointer;
   }

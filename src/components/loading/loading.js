@@ -14,7 +14,7 @@ import { gsap } from 'gsap';
 
 const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     window.scrollTo(0, 0);
-    
+
     const basePath = `${process.env.PUBLIC_URL}/images/Outlined_pieces`;
 
     const firstFloor = `${basePath}/firstfloor@4x.webp`;
@@ -23,7 +23,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     const treasure = `${basePath}/treasure.webp`;
     const sun = `${basePath}/sun.webp`;
     const [imagesPreloaded, setImagesPreloaded] = useState(false);
-    
+    const [active, setActive] = useState(true);
 
     useEffect(() => {
         const imagesToLoad = [firstFloor, secondFloor, octopus, treasure, sun];
@@ -45,6 +45,10 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     const mm = gsap.matchMedia();
 
     const clickHandler = () => {
+        if(active){
+            setActive(false);
+        }
+
         const timeline = gsap.timeline({
             onComplete: onLoadingComplete,
         });
@@ -429,7 +433,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     return (
         <div className="loading">
             <div className="loading-wrapper"/>
-                <img src={treasure} alt="treasure" className="treasure loading-img" onClick={clickHandler}/>
+                <img src={treasure} alt="treasure" className={active ? "treasure loading-img active" : "treasure loading-img"} onClick={clickHandler}/>
                 <img src={sun} alt="sun" className="sun loading-img"/>
                 <div className="house-wrapper">
                     <img src={firstFloor} alt="firstFloor" className="firstFloor loading-img"/>
