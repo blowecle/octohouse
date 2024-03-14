@@ -6,6 +6,7 @@ const init = async () => {
     // Uncomment the line below to reseed the database
     await conn.syncAndSeed();
     
+    //listen on port
     app.listen(port, () => console.log(`listening on port ${port}`));
 };
 
