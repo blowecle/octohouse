@@ -1,13 +1,11 @@
 import { useEffect, useState } from 'react'
 
 //importing images for loading screen
-import island from '../../images/Outlined_pieces/island@4x.png'
-import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.png'
-import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.png'
-import octopus from '../../images/Outlined_pieces/Octopus@4x.png'
-import palmTree from '../../images/Outlined_pieces/fullpalm@4x.png'
-import treasure from '../../images/Outlined_pieces/treasure.png'
-import sun from '../../images/Outlined_pieces/sun.png'
+import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.webp'
+import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.webp'
+import octopus from '../../images/Outlined_pieces/Octopus@4x.webp'
+import treasure from '../../images/Outlined_pieces/treasure.webp'
+import sun from '../../images/Outlined_pieces/sun.webp'
 
 import '../../css/Home.css';
 import '../../css/loading.css';
@@ -20,7 +18,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     
 
     useEffect(() => {
-        const imagesToLoad = [island, firstFloor, secondFloor, octopus, palmTree, treasure, sun];
+        const imagesToLoad = [firstFloor, secondFloor, octopus, treasure, sun];
         let loadedImages = 0;
 
         imagesToLoad.forEach((src) => {

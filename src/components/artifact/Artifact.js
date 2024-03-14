@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "@fortawesome/fontawesome-free/js/all"
 
+// This line is necessary to import the images from the images folder, it gives webpack context to the images path
 const imagesReq = require.context('../../images', true, /\.webp$/);
 
 const Artifact = ({artifact, artists, reference}) => {

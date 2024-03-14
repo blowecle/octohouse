@@ -52,7 +52,6 @@ const Home = () => {
         setImagesLoaded(true);
     };
 
-    console.log('test', artifacts)
     
     return (<>
             {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}

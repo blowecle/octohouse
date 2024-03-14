@@ -3,7 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 import '../../css/eventspace.css';
 
 const EventSpace = () => {
-    console.log('ping')
   return (
     <div className="event-space-container">
         <div className="event-space-inner-container">
