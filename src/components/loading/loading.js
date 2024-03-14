@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 
 //importing images for loading screen
-import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.webp'
-import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.webp'
-import octopus from '../../images/Outlined_pieces/Octopus@4x.webp'
-import treasure from '../../images/Outlined_pieces/treasure.webp'
-import sun from '../../images/Outlined_pieces/sun.webp'
+// import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.webp'
+// import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.webp'
+// import octopus from '../../images/Outlined_pieces/Octopus@4x.webp'
+// import treasure from '../../images/Outlined_pieces/treasure.webp'
+// import sun from '../../images/Outlined_pieces/sun.webp'
 
 import '../../css/Home.css';
 import '../../css/loading.css';
@@ -13,7 +13,13 @@ import '../../css/loading.css';
 import { gsap } from 'gsap';
 
 const Loading = ({onLoadingComplete, onImagesLoaded}) => {
+    const basePath = `${process.env.PUBLIC_URL}/images/Outlined_pieces`;
 
+    const firstFloor = `${basePath}/firstfloor@4x.webp`;
+    const secondFloor = `${basePath}/secondfloor@4x.webp`;
+    const octopus = `${basePath}/Octopus@4x.webp`;
+    const treasure = `${basePath}/treasure.webp`;
+    const sun = `${basePath}/sun.webp`;
     const [imagesPreloaded, setImagesPreloaded] = useState(false);
     
 

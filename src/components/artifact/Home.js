@@ -13,15 +13,16 @@ import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
-const imagesReq = require.context('../../images', true, /\.webp$/);
+// const imagesReq = require.context('../../images', true, /\.webp$/);
 
 const Home = () => {
+    const basePath = `${process.env.PUBLIC_URL}/images`;
     const dispatch = useDispatch();
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
 
-    const afterImage = require('../../images/jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
-    const beforeImage = require('../../images/before.jpeg')
+    const afterImage = require('./jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
+    const beforeImage = require('./before.jpeg')
 
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
