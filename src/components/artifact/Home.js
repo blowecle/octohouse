@@ -13,10 +13,7 @@ import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
 import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
-// const imagesReq = require.context('../../images', true, /\.webp$/);
-
 const Home = () => {
-    const basePath = `${process.env.PUBLIC_URL}/images`;
     const dispatch = useDispatch();
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
