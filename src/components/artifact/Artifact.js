@@ -5,6 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "@fortawesome/fontawesome-free/js/all"
 
+const imagesReq = require.context('../../images', true, /\.webp$/);
+
 const Artifact = ({artifact, artists, reference}) => {
     return (
       <>
@@ -26,7 +28,7 @@ const Artifact = ({artifact, artists, reference}) => {
                 );
               }}>
                 {artifact.images.map((image, index) => {
-                  const imagePath = require(`../../images/${image}`)
+                  const imagePath = imagesReq(`./${image}`)
                     return (
                     <div key={index} className='inner-wrapper'>
                         <img src={imagePath} alt='artifactImage' className='artifact-image'/>
