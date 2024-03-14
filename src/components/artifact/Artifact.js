@@ -10,7 +10,6 @@ const imagesReq = require.context('../../images', true, /\.webp$/);
 
 
 const Artifact = ({artifact, artists, reference}) => {
-  console.log(imagesReq.keys())
     return (
       <>
       {artifact ? (
@@ -32,7 +31,6 @@ const Artifact = ({artifact, artists, reference}) => {
               }}>
                 {artifact.images.map((image, index) => {
                   const imagePath = imagesReq(`./${image}`)
-                  console.log(imagePath)
                     return (
                     <div key={index} className='inner-wrapper'>
                         <img src={imagePath} alt='artifactImage' className='artifact-image'/>
