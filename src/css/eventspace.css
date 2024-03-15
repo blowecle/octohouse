@@ -44,8 +44,8 @@
 /* MOBILE-L */
 @media screen and (min-width: 376px) and (max-width: 499px){
     .event-space-inner-container{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .event-space-name, .event-space-nickname{
