@@ -56,14 +56,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             timeline.to('.firstFloor',{
                 left: "0px",
                 right: "0px",
-                duration: 2,
+                duration: 1,
             })
             .to('.firstFloor',{
                 bottom: "0",
                 duration: .5,
             })
             .to('.secondFloor',{
-                duration: 2,
+                duration: 1,
                 left: "0px",
                 right: "0px",
             })
@@ -72,7 +72,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 duration: .5,
             })
             .to('.octopus',{
-                duration: 2,
+                duration: 1,
                 left: "0",
                 right: "0",
             })
@@ -83,7 +83,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             .to('.sun', {
                 top: "50%",
                 marginLeft: "200px",
-                duration: 2,
+                duration: 1,
             })
             .to('.bg-1', {
                 opacity: 0,
@@ -103,14 +103,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -119,7 +119,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -130,7 +130,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -150,14 +150,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -166,7 +166,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -177,7 +177,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -197,14 +197,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -213,7 +213,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -224,7 +224,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -244,14 +244,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -260,7 +260,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -271,7 +271,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -291,14 +291,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -307,7 +307,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -318,7 +318,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -338,14 +338,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -354,7 +354,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -365,7 +365,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -385,14 +385,14 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 timeline.to('.firstFloor',{
                     left: "0px",
                     right: "0px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.firstFloor',{
                     bottom: "0",
                     duration: .5,
                 })
                 .to('.secondFloor',{
-                    duration: 2,
+                    duration: 1,
                     left: "0px",
                     right: "0px",
                 })
@@ -401,7 +401,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: .5,
                 })
                 .to('.octopus',{
-                    duration: 2,
+                    duration: 1,
                     left: "0",
                     right: "0",
                 })
@@ -412,7 +412,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "70%",
                     marginLeft: "200px",
-                    duration: 2,
+                    duration: 1,
                 })
                 .to('.bg-1', {
                     opacity: 0,
