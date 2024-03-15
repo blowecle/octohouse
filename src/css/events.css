@@ -36,7 +36,7 @@
 /* MOBILE-S */
 @media screen and (max-width: 375px){
     .events-header{
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
 
@@ -48,7 +48,7 @@
     }
 
     .wave-break{
-        width: 80%;
+        width: 90%;
         height: 10px;
         display: flex;
         justify-content: center;
@@ -62,7 +62,7 @@
     }
 
     .upgrades-header{
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
@@ -170,7 +170,7 @@
 /* MOBILE-L */
 @media screen and (min-width: 376px) and (max-width: 499px){
     .events-header{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         margin-bottom: 1rem;
     }
 
@@ -183,7 +183,7 @@
     }
 
     .wave-break{
-        width: 80%;
+        width: 90%;
         height: 10px;
         display: flex;
         justify-content: center;
@@ -197,7 +197,7 @@
     }
 
     .upgrades-header{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
@@ -228,14 +228,14 @@
     }
 
     .upgrade-header{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: .8rem;
+        font-size: 1rem;
         margin-bottom: 10px;
     }
 
@@ -256,14 +256,14 @@
     }
 
     .additional-info-header{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: .8rem;
+        font-size: 1.2rem;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -276,7 +276,7 @@
     }
 
     .list-item{
-        font-size: .8rem;
+        font-size: 1rem;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -290,7 +290,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .events-image-tablet{
@@ -318,7 +318,7 @@
     }
 
     .wave-break{
-        width: 80%;
+        width: 90%;
         height: 10px;
         display: flex;
         justify-content: center;
