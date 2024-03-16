@@ -1,12 +1,5 @@
 import { useEffect, useState } from 'react'
 
-//importing images for loading screen
-// import firstFloor from '../../images/Outlined_pieces/firstfloor@4x.webp'
-// import secondFloor from '../../images/Outlined_pieces/secondfloor@4x.webp'
-// import octopus from '../../images/Outlined_pieces/Octopus@4x.webp'
-// import treasure from '../../images/Outlined_pieces/treasure.webp'
-// import sun from '../../images/Outlined_pieces/sun.webp'
-
 import '../../css/Home.css';
 import '../../css/loading.css';
 
@@ -90,12 +83,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 duration: 2,
             })
             .to('.loading', {
-                delay: 2,
+                delay: 0,
                 opacity: 0,
-                duration: 2,
+                duration: 3,
             })
             .to('.loading', {
-                delay: 2,
+                delay: 0,
                 zIndex: -1,
             })
             })
@@ -137,12 +130,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -184,12 +177,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -231,12 +224,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -278,12 +271,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -325,12 +318,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -372,12 +365,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
@@ -419,12 +412,12 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                     duration: 2,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                 })
                 .to('.loading', {
-                    delay: 2,
+                    delay: 0,
                     zIndex: -1,
                 })
             })
