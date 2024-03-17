@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react'
-
+import { useDispatch } from 'react-redux'
 import '../../css/Home.css';
 import '../../css/loading.css';
+import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
 import { gsap } from 'gsap';
 
 const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     window.scrollTo(0, 0);
+
+    const dispatch = useDispatch();
 
     const basePath = `${process.env.PUBLIC_URL}/images/Outlined_pieces`;
 
@@ -15,31 +18,17 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
     const octopus = `${basePath}/Octopus@4x.webp`;
     const treasure = `${basePath}/treasure.webp`;
     const sun = `${basePath}/sun.webp`;
-    const [imagesPreloaded, setImagesPreloaded] = useState(false);
     const [active, setActive] = useState(true);
-
-    useEffect(() => {
-        const imagesToLoad = [firstFloor, secondFloor, octopus, treasure, sun];
-        let loadedImages = 0;
-
-        imagesToLoad.forEach((src) => {
-            const img = new Image();
-            img.src = src;
-            img.onload = () => {
-                loadedImages++;
-                if (loadedImages === imagesToLoad.length) {
-                    setImagesPreloaded(true);
-                    onImagesLoaded();
-                }
-            };
-        });
-    }, []);
 
     const mm = gsap.matchMedia();
 
     const clickHandler = () => {
         if(active){
             setActive(false);
+        }
+
+        const onLoadingComplete = () => {
+            dispatch(setInitialDataLoaded(true));
         }
 
         const timeline = gsap.timeline({
@@ -76,7 +65,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
             .to('.sun', {
                 top: "50%",
                 marginLeft: "200px",
-                duration: 1,
+                duration: 1.6,
             })
             .to('.bg-1', {
                 opacity: 0,
@@ -123,7 +112,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -170,7 +159,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -217,7 +206,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -264,7 +253,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -311,7 +300,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -358,7 +347,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "50%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,
@@ -405,7 +394,7 @@ const Loading = ({onLoadingComplete, onImagesLoaded}) => {
                 .to('.sun', {
                     top: "70%",
                     marginLeft: "200px",
-                    duration: 1,
+                    duration: 1.6,
                 })
                 .to('.bg-1', {
                     opacity: 0,

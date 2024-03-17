@@ -31,7 +31,6 @@ const Artifact = ({artifact, artists, reference}) => {
               }}>
                 {artifact.images.map((image, index) => {
                   const imagePath = imagesReq(`./${image}`);
-                  // const imagePath = `${process.env.PUBLIC_URL}/${image}`;
                     return (
                     <div key={index} className='inner-wrapper'>
                         <img src={imagePath} alt='artifactImage' className='artifact-image'/>

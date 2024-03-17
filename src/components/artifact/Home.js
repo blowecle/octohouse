@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
@@ -11,29 +11,23 @@ import Loading from '../loading/loading';
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
 import { fetchArtifactArtist } from '../../store/reducers/artifactArtistSlice';
-import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
-
-    const [imagesLoaded, setImagesLoaded] = useState(false);
 
     const afterImage = require('./jpeg-optimizer_PXL_20230808_003617536-_1_.jpeg')
     const beforeImage = require('./before.jpeg')
 
     useEffect(() => {
         const asyncFetchArtifacts = async () => {
-          //only fetch data if loading screen images are loaded
-          if(imagesLoaded){
           await Promise.all([
             dispatch(fetchArtifacts()),
             dispatch(fetchArtists()),
             dispatch(fetchArtifactArtist())
           ]);
-        }
         };
         asyncFetchArtifacts();
-      }, [dispatch, imagesLoaded]);
+      }, [dispatch]);
 
 
       const { artifacts, artists, artifactArtist, isDataLoaded } = useSelector((state) => ({
@@ -42,17 +36,9 @@ const Home = () => {
         artifactArtist: state.artifactArtist.artifactArtist,
         isDataLoaded: state.artifact.isInitialDataLoaded,
       }));
-
-      const handleLoadingComplete = () => {
-        dispatch(setInitialDataLoaded(true));
-      };
-
-      const handleImagesLoaded = () => {
-        setImagesLoaded(true);
-    };
     
     return (<>
-            {!isDataLoaded && <Loading onImagesLoaded={handleImagesLoaded} onLoadingComplete={handleLoadingComplete}/>}
+            {!isDataLoaded && <Loading />}
             <div className='home-container'>
                 <div className="gallery-container">
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {

@@ -579,7 +579,7 @@ a { color: white; text-decoration: none; cursor: pointer;}
     margin-left: 5%;
     font-family: montserrat;
     font-style: italic;
-    padding-right: 32%;
+    padding-right: 20%;
   }
   
   .last-artifact-container {
@@ -744,7 +744,7 @@ a { color: white; text-decoration: none; cursor: pointer;}
     .artifact-container {
         display: flex;
         flex-direction: column;
-        max-width: 55%;
+        max-width: 45%;
         margin-bottom: 32%;
         font-family: montserrat;
         position: relative;
