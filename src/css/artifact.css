@@ -970,7 +970,7 @@ a { color: white; text-decoration: none; cursor: pointer;}
         display: flex;
         flex-direction: column;
         max-width: 35%;
-        margin-bottom: 50%;
+        margin-bottom: 45%;
         font-family: montserrat;
         position: relative;
     }
