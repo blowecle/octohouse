@@ -2,6 +2,7 @@ import React from 'react'
 
 import '../../css/contact.css'
 
+//any modificationis here must also be made to form.html in the public folder
 const Contact = () => {
   return (
     <form method="POST" data-netlify="true" name="contact" className='contact-form'>
