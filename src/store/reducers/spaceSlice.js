@@ -44,7 +44,7 @@ export const fetchSpaces = createAsyncThunk(
     async () => {
         try {
             const { data } = await axios.get(
-                "https://octopus-house.herokuapp.com/api/spaces"
+                "https://octopus-house.herokuapp.com/api/events"
             );
             return data;
         } catch (e) {
