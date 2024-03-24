@@ -55,4 +55,5 @@ module.exports = {
 	Artifact,
   Artist,
   Post,
+  Space
 };

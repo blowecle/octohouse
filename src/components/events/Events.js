@@ -1,4 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchSpaces } from '../../store/reducers/spaceSlice';
 
 import EventsFooter from './EventsFooter';
 import EventSpace from './EventSpace';
@@ -7,6 +9,16 @@ import Contact from './Contact';
 import '../../css/events.css'
 
 const Events = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        const asyncFetchSpaces = async () => {
+            await dispatch(fetchSpaces());
+        }
+        asyncFetchSpaces();
+    }, [])
+
+    const spaces = useSelector((state) => state);
 
     return (
         <section className="events-container">
