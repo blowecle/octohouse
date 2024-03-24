@@ -45,7 +45,6 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build",
     "client-dev": "cross-env PORT=3001 nodemon node_modules/.bin/react-scripts start"
   },
-  "proxy": "https://octopus-house.herokuapp.com",
   "engines": {
     "name": "octopus-house",
     "description": "A website dedicated to the Octopus House of Austin, TX.",
