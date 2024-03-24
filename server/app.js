@@ -13,9 +13,9 @@ app.use(express.json());
 // };
 
 // Enable CORS only for specific origins
-app.use(cors({
-  origin: 'https://octopushouse.com'
-}));
+// app.use(cors({
+//   origin: 'https://octopushouse.com'
+// }));
 
 app.use(volleyball);
 app.use(express.urlencoded({ extended: true }));
