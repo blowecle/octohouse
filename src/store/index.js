@@ -4,6 +4,7 @@ import { artistSliceReducer } from './reducers/artistSlice';
 import { postSliceReducer } from './reducers/postSlice';
 import { storySliceReducer } from './reducers/storySlice';
 import { artifactArtistSliceReducer } from './reducers/artifactArtistSlice';
+import { spaceSliceReducer } from './reducers/spaceSlice';
 
 export default configureStore({
     reducer: {
@@ -12,5 +13,6 @@ export default configureStore({
         post: postSliceReducer,
         story: storySliceReducer,
         artifactArtist: artifactArtistSliceReducer,
+        spaces: spaceSliceReducer,
     }
 })
