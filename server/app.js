@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, "../build")));
 app.use('/', express.static(path.join(__dirname, 'src', 'images')));
 app.use(express.json());
 const corsOptions = {
-  origin: ['https://www.octopushouse.com', 'https://main--octopushouse.netlify.app', 'http://localhost:3000', 'http://localhost:3001'],
+  origin: ['https://www.octopushouse.com', 'https://main--octopushouse.netlify.app'],
 };
 
 // Enable CORS only for specific origins
