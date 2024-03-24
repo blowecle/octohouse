@@ -46,7 +46,7 @@
 }
 
 /* MOBILE-L */
-@media screen and (min-width: 376px) and (max-width: 499px){
+@media screen and (min-width: 376px) and (max-width: 599px){
     .event-space-container {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -84,10 +84,10 @@
 }
 
 /* TABLET-S */
-@media screen and (min-width: 500px) and (max-width: 699px){
+@media screen and (min-width: 600px) and (max-width: 699px){
     .event-space-inner-container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .event-space-name, .event-space-nickname{
