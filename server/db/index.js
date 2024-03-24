@@ -6,12 +6,14 @@ const axios = require('axios');
 const Artifact = require('./Artifact');
 const Artist = require('./Artist');
 const Post = require('./Post');
+const Space = require('./Space');
 const Story = require('./Story');
 const ArtifactArtist = require('./crossReference');
 
 //seed data imported from seed.json
 const {
     artists,
+    spaces,
     // posts,
     artifacts,
     artifactArtist,
@@ -35,6 +37,7 @@ const syncAndSeed = async (closeConn=false) => {
         //seeding db with artists, posts, artifacts, and story arrays imported from seed.json
         await Artist.bulkCreate(artists);
         // await Post.bulkCreate(posts);
+        await Space.bulkCreate(spaces);
         await Artifact.bulkCreate(artifacts);
         await ArtifactArtist.bulkCreate(artifactArtist);
         // await Story.bulkCreate(story);

@@ -8,9 +8,13 @@
 
 /* MOBILE-S */
 @media screen and (max-width: 375px){
+    .event-space-container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .event-space-inner-container{
-        padding-left: 30px;
-        padding-right: 30px;
+        width: 90%;
     }
 
     .event-space-name, .event-space-nickname{
@@ -43,6 +47,44 @@
 
 /* MOBILE-L */
 @media screen and (min-width: 376px) and (max-width: 499px){
+    .event-space-container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .event-space-inner-container{
+        width: 90%;
+    }
+
+    .event-space-name, .event-space-nickname{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .event-space-content-title{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #1f78bd;
+    }
+
+    .event-space-content-item{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .event-space-content{
+        margin-bottom: 20px;
+    }
+
+    .event-space-image{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* TABLET-S */
+@media screen and (min-width: 500px) and (max-width: 699px){
     .event-space-inner-container{
         padding-left: 60px;
         padding-right: 60px;
@@ -72,31 +114,141 @@
     .event-space-image{
         width: 100%;
         height: auto;
-    
     }
-}
-
-/* TABLET-S */
-@media screen and (min-width: 500px) and (max-width: 699px){
-
 }
 
 /* TABLET-L */
 @media screen and (min-width: 700px) and (max-width: 899px){
+    .event-space-inner-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
+    .event-space-name, .event-space-nickname{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .event-space-content-title{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #1f78bd;
+    }
+
+    .event-space-content-item{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .event-space-content{
+        margin-bottom: 20px;
+    }
+
+    .event-space-image{
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* LAPTOP */
-@media screen and (min-width: 1000px) and (max-width: 1199px){
+@media screen and (min-width: 900px) and (max-width: 1199px){
+    .event-space-inner-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
+    .event-space-name, .event-space-nickname{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .event-space-content-title{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #1f78bd;
+    }
+
+    .event-space-content-item{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .event-space-content{
+        margin-bottom: 20px;
+    }
+
+    .event-space-image{
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) and (max-width: 1399px){
+    .event-space-inner-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
+    .event-space-name, .event-space-nickname{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .event-space-content-title{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #1f78bd;
+    }
+
+    .event-space-content-item{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .event-space-content{
+        margin-bottom: 20px;
+    }
+
+    .event-space-image{
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* WIDESCREEN */
 @media screen and (min-width: 1400px){
+    .event-space-inner-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
+    .event-space-name, .event-space-nickname{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .event-space-content-title{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #1f78bd;
+    }
+
+    .event-space-content-item{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .event-space-content{
+        margin-bottom: 20px;
+    }
+
+    .event-space-image{
+        width: 100%;
+        height: auto;
+    }
 }
