@@ -364,7 +364,8 @@
 			"title": "MAIN ROOM",
 			"subtitle": "(Under The Eyes of Texas)",
 			"blurb": "Great space for conversation, catching a game, or a party!",
-			"features": ["Restrooms available", "Bar & Lounge Seating", "Seats 8-12", "TV + Music System", "Party Lights"]
+			"features": ["Restrooms available", "Bar & Lounge Seating", "Seats 8-12", "TV + Music System", "Party Lights"],
+			"images": ["main1.webp"]
 		}
 	]
 }

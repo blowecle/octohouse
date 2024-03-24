@@ -21,6 +21,10 @@ const Space = conn.define('space', {
     features: {
         type: Sequelize.ARRAY(Sequelize.TEXT),
         allowNull: false,
+    },
+    images: {
+        type: Sequelize.ARRAY(Sequelize.STRING),
+        allowNull: false,
     }
 });
 

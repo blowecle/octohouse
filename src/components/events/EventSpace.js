@@ -2,30 +2,33 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import '../../css/eventspace.css';
 
-const EventSpace = () => {
+const imagesReq = require.context('../../../public/images', true, /\.webp$/);
+
+const EventSpace = ({space}) => {
+    console.log(space)
+    const imagePath = imagesReq(`./${space.images[0]}`);
   return (
     <div className="event-space-container">
         <div className="event-space-inner-container">
             <div className="event-space-header">
                 <div className="event-space-name">
-                    <strong>MAIN ROOM</strong>
+                    <strong>{`${space.name}`}</strong>
                 </div>
                 <div className="event-space-nickname">
-                    <strong>{`(Under The Eyes of Texas)`}</strong>
+                    <strong>{`${space.subtitle}`}</strong>
                 </div>
             </div>
             <div className="event-space-content-container">
-                <img src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1710435898/octopus-house/OctopusHouse_PH_368-min_gd4ejp.jpg" alt="main-room" className="event-space-image"/>
+                <img src={imagePath} alt="main-room" className="event-space-image"/>
                 <div className="event-space-content-container">
                     <div className="event-space-content-title">
-                    Great space for conversation, catching a game, or a party!
+                    {`${space.blurb}`}
                     </div>
                     <div className="event-space-content">
-                        <div className="event-space-content-item">{`*  Restrooms available`}</div>
-                        <div className="event-space-content-item">{`*  Bar & Lounge Seating`}</div>
-                        <div className="event-space-content-item">{`*  Seats 8-12`}</div>
-                        <div className="event-space-content-item">{`*  TV + Music System`}</div>
-                        <div className="event-space-content-item">{`*  Party Lights`}</div>
+                        {space.features.map((feature, index) => {
+                            return <div key={index} className="event-space-content-item">{`*  ${feature}`}</div>
+                            }
+                        )}
                     </div>
                 </div>
             </div>

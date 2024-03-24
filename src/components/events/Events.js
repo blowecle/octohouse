@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchSpaces } from '../../store/reducers/spaceSlice';
 
@@ -8,18 +8,23 @@ import Contact from './Contact';
 
 import '../../css/events.css'
 
+
 const Events = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
         const asyncFetchSpaces = async () => {
-            await dispatch(fetchSpaces());
+            await Promise.all([
+                dispatch(fetchSpaces())
+            ]);
         }
         asyncFetchSpaces();
-    }, [])
+    }, [dispatch])
 
-    const spaces = useSelector((state) => state);
+    const spaces = useSelector((state) => state.spaces.spaces);
 
+    console.log(spaces);
+    
     return (
         <section className="events-container">
             <img className="events-image-mobile" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709836127/octopus-house/eventsHeaderMobile_vpgznw.jpg"/>
@@ -33,7 +38,11 @@ const Events = () => {
             </div>
             <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
             <div className="event-spaces-container">
-                <EventSpace />
+                {spaces.map((space, index) => {
+                    return <EventSpace key={index} space={space}/>
+                    }
+                )
+                }
             </div>
             <div className="upgrades-container">
                 <div className="upgrades-header">{`* UPGRADE YOUR STAY *`}</div>
