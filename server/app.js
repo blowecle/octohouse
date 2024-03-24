@@ -8,14 +8,12 @@ const app = express();
 app.use(express.static(path.join(__dirname, "../build")));
 app.use('/', express.static(path.join(__dirname, 'src', 'images')));
 app.use(express.json());
-// const corsOptions = {
-//   origin: ['https://www.octopushouse.com', 'https://main--octopushouse.netlify.app'],
-// };
+const corsOptions = {
+  origin: ['https://www.octopushouse.com', 'https://main--octopushouse.netlify.app', 'http://localhost:3000', 'http://localhost:3001'],
+};
 
 // Enable CORS only for specific origins
-app.use(cors({
-  origin: 'https://octopushouse.com'
-}));
+app.use(cors(corsOptions));
 
 app.use(volleyball);
 app.use(express.urlencoded({ extended: true }));
