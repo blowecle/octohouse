@@ -57,7 +57,7 @@
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 5px;
     }
 
@@ -80,6 +80,11 @@
     .event-space-image{
         width: 100%;
         height: auto;
+    }
+
+    .event-space-content-title, .event-space-content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

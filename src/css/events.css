@@ -176,10 +176,10 @@
 
     .events-blurb{
         font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
         margin-bottom: 1rem;
-        width: 80%;
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .wave-break{
