@@ -22,8 +22,6 @@ const Events = () => {
     }, [dispatch])
 
     const spaces = useSelector((state) => state.spaces.spaces);
-
-    console.log(spaces);
     
     return (
         <section className="events-container">

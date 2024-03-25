@@ -370,15 +370,15 @@
 		{
 			"spaceID": 2,
 			"title": "INDOOR LOUNGE",
-			"subtitle": "The Moroccan Corner",
+			"subtitle": "(The Moroccan Corner)",
 			"blurb": "Get away from Austin and into Morocco! Authentic Moroccan furniture creates a bright environment for cocktails and stories.",
-			"features": ["Loung Seating", "Seats 6-8"],
+			"features": ["Loung Seating", "Seats 6-8", "Party Lights", "Music System"],
 			"images": ["moroccan1.webp"]
 		},
 		{
 			"spaceID": 3,
 			"title": "BACK DECK",
-			"subtitle": "Party Time",
+			"subtitle": "(Party Time)",
 			"blurb": "A view of the city skyline with a private, escape surrounded by nature.",
 			"features": ["Covered", "Seats 12-14", "Holds up to 30", "Music System", "Party Lights", "Heating and Cooling"],
 			"images": ["deck1.webp"]
