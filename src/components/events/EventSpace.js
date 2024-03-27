@@ -34,7 +34,6 @@ const EventSpace = ({space}) => {
                     </div>
                 </div>
             </div>
-            <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
         </div>
     )
 }

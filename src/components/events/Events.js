@@ -37,8 +37,10 @@ const Events = () => {
             <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
             <div className="event-spaces-container">
                 {spaces.map((space, index) => {
-                    return <EventSpace key={index} space={space}/>
-                    }
+                return <>
+                    <EventSpace key={index} space={space}/>
+                <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
+                </>}
                 )
                 }
             </div>

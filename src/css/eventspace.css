@@ -95,6 +95,7 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
     .event-space-inner-container{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -129,25 +130,31 @@
 
 /* TABLET-L */
 @media screen and (min-width: 700px) and (max-width: 899px){
+    .event-space-container{
+        width: 60%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .event-space-inner-container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 1.2rem;
+        font-size: 4vw;
         margin-bottom: 5px;
     }
 
     .event-space-content-title{
-        font-size: 1.2rem;
+        font-size: 3vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
         border-bottom: 1px solid #1f78bd;
     }
 
     .event-space-content-item{
-        font-size: 1rem;
+        font-size: 2vw;
         margin-bottom: 10px;
     }
 
@@ -163,25 +170,31 @@
 
 /* LAPTOP */
 @media screen and (min-width: 900px) and (max-width: 1199px){
+    .event-space-container{
+        width: 60%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .event-space-inner-container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 1.2rem;
+        font-size: 3vw;
         margin-bottom: 5px;
     }
 
     .event-space-content-title{
-        font-size: 1.2rem;
+        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
         border-bottom: 1px solid #1f78bd;
     }
 
     .event-space-content-item{
-        font-size: 1rem;
+        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 
@@ -197,25 +210,31 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) and (max-width: 1399px){
+    .event-space-container{
+        width: 60%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .event-space-inner-container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 1.2rem;
+        font-size: 3vw;
         margin-bottom: 5px;
     }
 
     .event-space-content-title{
-        font-size: 1.2rem;
+        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
         border-bottom: 1px solid #1f78bd;
     }
 
     .event-space-content-item{
-        font-size: 1rem;
+        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 
@@ -231,25 +250,31 @@
 
 /* WIDESCREEN */
 @media screen and (min-width: 1400px){
+    .event-space-container{
+        width: 60%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .event-space-inner-container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 1.2rem;
+        font-size: 3vw;
         margin-bottom: 5px;
     }
 
     .event-space-content-title{
-        font-size: 1.2rem;
+        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
         border-bottom: 1px solid #1f78bd;
     }
 
     .event-space-content-item{
-        font-size: 1rem;
+        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 

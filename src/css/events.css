@@ -49,7 +49,6 @@
 
     .wave-break{
         width: 90%;
-        height: 10px;
         display: flex;
         justify-content: center;
     }
@@ -138,6 +137,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
@@ -184,7 +184,6 @@
 
     .wave-break{
         width: 90%;
-        height: 10px;
         display: flex;
         justify-content: center;
     }
@@ -273,6 +272,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
@@ -305,21 +305,20 @@
 /* TABLET-S */
 @media screen and (min-width: 600px) and (max-width: 699px){
     .events-header{
-        font-size: 2.2rem;
+        font-size: 7vw;
         margin-bottom: 1rem;
     }
 
     .events-blurb{
-        font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 2.5vw;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
         margin-bottom: 1rem;
         width: 80%;
     }
 
     .wave-break{
-        width: 90%;
-        height: 10px;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
@@ -332,21 +331,20 @@
     }
 
     .upgrades-header{
-        font-size: 2.5rem;
+        font-size: 8vw;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
 
     .upgrades-inner-container{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         padding-top: 40px;
         padding-bottom: 40px;
     }
 
     .upgrade{
-        width: 90%;
+        width: 40%;
         display: flex;
         flex-direction: column;
     }
@@ -363,14 +361,14 @@
     }
 
     .upgrade-header{
-        font-size: 1.7rem;
+        font-size: 3.8vw;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: 1rem;
+        font-size: 2.5vw;
         margin-bottom: 4rem;
     }
 
@@ -380,25 +378,25 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 6vw;
         height: 80px;
         color: white;
         background-color: #1f78bd;
     }
 
     .additional-info-container{
-        width: 80%;
+        width: 70%;
     }
 
     .additional-info-header{
-        font-size: 1.7rem;
+        font-size: 3.8vw;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: 1.2rem;
+        font-size: 3.1vw;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -408,10 +406,11 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
-        font-size: 1rem;
+        font-size: 2.55vw;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -425,7 +424,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 1rem;
+        font-size: 2.55vw;
     }
 
     .events-image-mobile{
@@ -440,21 +439,20 @@
 /* TABLET-L */
 @media screen and (min-width: 700px) and (max-width: 899px){
     .events-header{
-        font-size: 2.2rem;
+        font-size: 7vw;
         margin-bottom: 1rem;
     }
 
     .events-blurb{
-        font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 2.5vw;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
         margin-bottom: 1rem;
         width: 80%;
     }
 
     .wave-break{
-        width: 90%;
-        height: 10px;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
@@ -467,7 +465,7 @@
     }
 
     .upgrades-header{
-        font-size: 2.5rem;
+        font-size: 8vw;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
@@ -475,19 +473,19 @@
     .upgrades-inner-container{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         padding-top: 40px;
         padding-bottom: 40px;
+        width: 80%;
     }
 
     .upgrade{
-        width: 45%;
+        width: 50%;
         display: flex;
         flex-direction: column;
     }
 
     .upgrade-icon{
-        width: 100%;
+        width: 60%;
         height: auto;
     }
 
@@ -498,15 +496,15 @@
     }
 
     .upgrade-header{
-        font-size: 1.7rem;
+        font-size: 3.8vw;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: 1rem;
-        margin-bottom: 10px;
+        font-size: 2.5vw;
+        margin-bottom: 4rem;
     }
 
     .events-footer{
@@ -515,25 +513,25 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 6vw;
         height: 80px;
         color: white;
         background-color: #1f78bd;
     }
 
     .additional-info-container{
-        width: 80%;
+        width: 70%;
     }
 
     .additional-info-header{
-        font-size: 1.7rem;
+        font-size: 3.8vw;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: 1.2rem;
+        font-size: 3.1vw;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -543,10 +541,11 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
-        font-size: 1rem;
+        font-size: 2.55vw;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -560,7 +559,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 1rem;
+        font-size: 2.55vw;
     }
 
     .events-image-tablet{
@@ -575,21 +574,20 @@
 /* LAPTOP */
 @media screen and (min-width: 900px) and (max-width: 1199px){
     .events-header{
-        font-size: 2.2rem;
+        font-size: 6vw;
         margin-bottom: 1rem;
     }
 
     .events-blurb{
-        font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 2vw;
+        padding-right: 10vw;
+        padding-left: 10vw;
         margin-bottom: 1rem;
         width: 80%;
     }
 
     .wave-break{
-        width: 90%;
-        height: 10px;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
@@ -602,21 +600,21 @@
     }
 
     .upgrades-header{
-        font-size: 2.5rem;
+        font-size: 6vw;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
 
     .upgrades-inner-container{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         padding-top: 40px;
         padding-bottom: 40px;
+        width: 80%;
     }
 
     .upgrade{
-        width: 90%;
+        width: 33%;
         display: flex;
         flex-direction: column;
     }
@@ -633,15 +631,15 @@
     }
 
     .upgrade-header{
-        font-size: 1.7rem;
+        font-size: 2.4vw;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: 1rem;
-        margin-bottom: 10px;
+        font-size: 1.3vw;
+        margin-bottom: 4rem;
     }
 
     .events-footer{
@@ -650,25 +648,25 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 6vw;
         height: 80px;
         color: white;
         background-color: #1f78bd;
     }
 
     .additional-info-container{
-        width: 80%;
+        width: 70%;
     }
 
     .additional-info-header{
-        font-size: 1.7rem;
+        font-size: 3vw;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: 1.2rem;
+        font-size: 2.3vw;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -678,10 +676,11 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
-        font-size: 1rem;
+        font-size: 2vw;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -695,7 +694,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 1rem;
+        font-size: 2vw;
     }
 
     .events-image-tablet{
@@ -710,21 +709,20 @@
 /* DESKTOP */
 @media screen and (min-width: 1200px) and (max-width: 1399px){
     .events-header{
-        font-size: 2.2rem;
+        font-size: 6vw;
         margin-bottom: 1rem;
     }
 
     .events-blurb{
-        font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 1.7vw;
+        padding-right: 10vw;
+        padding-left: 10vw;
         margin-bottom: 1rem;
         width: 80%;
     }
 
     .wave-break{
-        width: 90%;
-        height: 10px;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
@@ -737,21 +735,21 @@
     }
 
     .upgrades-header{
-        font-size: 2.5rem;
+        font-size: 6vw;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
 
     .upgrades-inner-container{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         padding-top: 40px;
         padding-bottom: 40px;
+        width: 80%;
     }
 
     .upgrade{
-        width: 90%;
+        width: 33%;
         display: flex;
         flex-direction: column;
     }
@@ -768,15 +766,15 @@
     }
 
     .upgrade-header{
-        font-size: 1.7rem;
+        font-size: 2.4vw;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: 1rem;
-        margin-bottom: 10px;
+        font-size: 1.3vw;
+        margin-bottom: 4rem;
     }
 
     .events-footer{
@@ -785,25 +783,25 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 6vw;
         height: 80px;
         color: white;
         background-color: #1f78bd;
     }
 
     .additional-info-container{
-        width: 80%;
+        width: 70%;
     }
 
     .additional-info-header{
-        font-size: 1.7rem;
+        font-size: 2.4vw;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: 1.2rem;
+        font-size: 2vw;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -813,10 +811,11 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
-        font-size: 1rem;
+        font-size: 1.3vw;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -830,7 +829,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 1rem;
+        font-size: 1.3vw;
     }
 
     .events-image-tablet{
@@ -845,21 +844,20 @@
 /* WIDESCREEN */
 @media screen and (min-width: 1400px){
     .events-header{
-        font-size: 2.2rem;
+        font-size: 6vw;
         margin-bottom: 1rem;
     }
 
     .events-blurb{
-        font-size: .8rem;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 2vw;
+        padding-right: 10vw;
+        padding-left: 10vw;
         margin-bottom: 1rem;
         width: 80%;
     }
 
     .wave-break{
-        width: 90%;
-        height: 10px;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
@@ -872,21 +870,21 @@
     }
 
     .upgrades-header{
-        font-size: 2.5rem;
+        font-size: 6vw;
         margin-top: 40px;
         margin-bottom: 1rem;
     }
 
     .upgrades-inner-container{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         padding-top: 40px;
         padding-bottom: 40px;
+        width: 80%;
     }
 
     .upgrade{
-        width: 90%;
+        width: 33%;
         display: flex;
         flex-direction: column;
     }
@@ -903,15 +901,15 @@
     }
 
     .upgrade-header{
-        font-size: 1.7rem;
+        font-size: 2.4vw;
         margin-bottom: 10px;
         font-weight: bold;
         color:#1f78bd;
     }
 
     .upgrade-blurb{
-        font-size: 1rem;
-        margin-bottom: 10px;
+        font-size: 1.3vw;
+        margin-bottom: 4rem;
     }
 
     .events-footer{
@@ -920,25 +918,25 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 6vw;
         height: 80px;
         color: white;
         background-color: #1f78bd;
     }
 
     .additional-info-container{
-        width: 80%;
+        width: 70%;
     }
 
     .additional-info-header{
-        font-size: 1.7rem;
+        font-size: 3vw;
         margin-top: 20px;
         font-weight: bold;
         color: #1f78bd;
     }
 
     .info-header{
-        font-size: 1.2rem;
+        font-size: 2.3vw;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: bold;
@@ -948,10 +946,11 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .list-item{
-        font-size: 1rem;
+        font-size: 2vw;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 50%;
@@ -965,7 +964,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 1rem;
+        font-size: 2vw;
     }
 
     .events-image-tablet{

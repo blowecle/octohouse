@@ -14,6 +14,19 @@
     font-family: citrusGothic;
 }
 
+.submit-button{
+    background-color: #1f78bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: citrusGothic;
+    letter-spacing: 1px;
+}
+
 /* MOBILE-S */
 @media screen and (max-width: 375px){
     .contact-container{
@@ -175,20 +188,212 @@
 
 /* TABLET-L */
 @media screen and (min-width: 700px) and (max-width: 899px){
+    .contact-container{
+        width: 90%;
+        margin-bottom: 20px;
+    }
 
+    .contact-header{
+        width: 80%;
+        color: #1f78bd;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .contact-form{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .name-input, .email-input{
+        width: 50%;
+        position: absolute;
+    }
+
+    .message-input{
+        width: 70%;
+        position: absolute;
+    }
+
+    .name-input{
+        top: 0;
+        left: 0;
+    }
+
+    .email-input{
+        top: 45px;
+        left: 0;
+    }
+
+    .message-input{
+        top: 90px;
+        left: 0;
+        height: 100px;
+    }
+
+    .form-button-wrapper{
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /* LAPTOP */
-@media screen and (min-width: 1000px) and (max-width: 1199px){
+@media screen and (min-width: 900px) and (max-width: 1199px){
+    .contact-container{
+        width: 70%;
+        margin-bottom: 20px;
+    }
 
+    .contact-header{
+        width: 80%;
+        color: #1f78bd;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .contact-form{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .name-input, .email-input{
+        width: 50%;
+        position: absolute;
+    }
+
+    .message-input{
+        width: 70%;
+        position: absolute;
+    }
+
+    .name-input{
+        top: 0;
+        left: 0;
+    }
+
+    .email-input{
+        top: 45px;
+        left: 0;
+    }
+
+    .message-input{
+        top: 90px;
+        left: 0;
+        height: 100px;
+    }
+
+    .form-button-wrapper{
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) and (max-width: 1399px){
+    .contact-container{
+        width: 70%;
+        margin-bottom: 20px;
+    }
 
+    .contact-header{
+        width: 80%;
+        color: #1f78bd;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+    .contact-form{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .name-input, .email-input{
+        width: 50%;
+        position: absolute;
+    }
+
+    .message-input{
+        width: 70%;
+        position: absolute;
+    }
+
+    .name-input{
+        top: 0;
+        left: 0;
+    }
+
+    .email-input{
+        top: 45px;
+        left: 0;
+    }
+
+    .message-input{
+        top: 90px;
+        left: 0;
+        height: 100px;
+    }
+
+    .form-button-wrapper{
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /* WIDESCREEN */
 @media screen and (min-width: 1400px){
+    .contact-container{
+        width: 70%;
+        margin-bottom: 20px;
+    }
 
+    .contact-header{
+        width: 80%;
+        color: #1f78bd;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .contact-form{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .name-input, .email-input{
+        width: 50%;
+        position: absolute;
+    }
+
+    .message-input{
+        width: 70%;
+        position: absolute;
+    }
+
+    .name-input{
+        top: 0;
+        left: 0;
+    }
+
+    .email-input{
+        top: 45px;
+        left: 0;
+    }
+
+    .message-input{
+        top: 90px;
+        left: 0;
+        height: 100px;
+    }
+
+    .form-button-wrapper{
+        position: absolute;
+        bottom: 0;
+    }
 }

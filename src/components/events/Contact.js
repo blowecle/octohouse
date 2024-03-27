@@ -32,7 +32,7 @@ const Contact = () => {
         required
         ></textarea>
         <div className='form-button-wrapper'>
-          <button type="submit">Send</button>
+          <button className="submit-button" type="submit">Send</button>
         </div>
     </form>
   )
