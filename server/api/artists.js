@@ -1,11 +1,9 @@
 const router = require('express').Router();
-const Sequelize = require('sequelize');
-const Op = Sequelize.Op;
-const { Artist, Post, Artifact } = require('../db');
+const { Artist, Artifact } = require('../db');
 
 
 //GET all artists and eagerly load the artist model
-router.get('/', async(req, res, next) => {
+router.get('/', async(res, next) => {
     try {
         const artistList = await Artist.findAll();
         res.send(artistList)
