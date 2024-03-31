@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", require("./api"));
 
 // catch-all
-app.use("*", (req, res) => {
+app.use("*", (res) => {
   res.sendFile(path.resolve(__dirname, "../build", "index.html"));
 });
 

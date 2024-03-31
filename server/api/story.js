@@ -3,7 +3,7 @@ const Story = require('../db/Story');
 
 
 //GET all story objects
-router.get('/', async(req, res, next) => {
+router.get('/', async(res, next) => {
     try {
         const story = await Story.findAll();
         res.send(story)

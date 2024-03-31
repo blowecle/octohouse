@@ -19,15 +19,20 @@ const Home = () => {
     const beforeImage = require('./before.jpeg')
 
     useEffect(() => {
-        const asyncFetchArtifacts = async () => {
-          await Promise.all([
-            dispatch(fetchArtifacts()),
-            dispatch(fetchArtists()),
-            dispatch(fetchArtifactArtist())
-          ]);
+        const asyncFetchData = async () => {
+          try {
+            await Promise.all([
+              dispatch(fetchArtifacts()),
+              dispatch(fetchArtists()),
+              dispatch(fetchArtifactArtist())
+            ]);
+          }
+          catch (e) {
+            console.error(e);
+          }
         };
-        asyncFetchArtifacts();
-      }, [dispatch]);
+        asyncFetchData();
+      }, []);
 
 
       const { artifacts, artists, artifactArtist, isDataLoaded } = useSelector((state) => ({
