@@ -6,7 +6,7 @@ import { setInitialDataLoaded } from '../../store/reducers/artifactSlice';
 
 import { gsap } from 'gsap';
 
-const Loading = ({onLoadingComplete, onImagesLoaded}) => {
+const Loading = () => {
     window.scrollTo(0, 0);
 
     const dispatch = useDispatch();

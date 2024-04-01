@@ -19,5 +19,4 @@ app.use("*", (res) => {
   res.sendFile(path.resolve(__dirname, "../build", "index.html"));
 });
 
-// error handling here
 module.exports = app;

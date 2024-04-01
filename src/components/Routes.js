@@ -7,7 +7,6 @@ import Events from "./events/Events";
 const Router = () => {
 
     return (
-
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/artists/:id" element={<ArtistView/>} />
