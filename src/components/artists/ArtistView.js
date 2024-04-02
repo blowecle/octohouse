@@ -6,10 +6,7 @@ import '../../css/artist.css'
 import { fetchArtifactArtist } from "../../store/reducers/artifactArtistSlice";
 import { fetchArtifacts } from "../../store/reducers/artifactSlice";
 
-// const imagesReq = require.context('../../../public/images', true, /\.webp$/);
-
 const ArtistView = () => {
-    const basePath = `${process.env.PUBLIC_URL}/images`;
 
     const params = useParams();
     const dispatch = useDispatch();
@@ -30,8 +27,6 @@ const ArtistView = () => {
             artistsArtifacts = artifactArtist.filter((artifact) => artifact.artistID.includes(parseInt(artist.artistID)))
             singleArtifact = artifacts.filter((artifact) => artifact.artifactID === artistsArtifacts[0].artifactID)
             if(singleArtifact[0]){
-                // imagePath = imagesReq(`./${singleArtifact[0].images[0]}`);
-                // imagePath = require(`../../images/${singleArtifact[0].images[0]}`)
                 imagePath = `${process.env.PUBLIC_URL}/images/${singleArtifact[0].images[0]}`;
             }
         }
