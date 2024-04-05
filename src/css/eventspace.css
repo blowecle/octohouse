@@ -2,8 +2,17 @@
     width: 100%;
 }
 
-.event-space-name, .event-space-nickname, .event-space-content-container{
+.event-space-name, .event-space-nickname, .event-space-content-container, .upgrade-blurb{
     color: #1f78bd;
+}
+
+.event-space-image{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.event-space-content-title{
+    border-bottom: 2px solid #1f78bd;
 }
 
 /* MOBILE-S */
@@ -19,18 +28,19 @@
 
     .event-space-name, .event-space-nickname{
         font-size: 6vw;
-        margin-bottom: 5px;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 4vw;
     }
 
     .event-space-content-title{
-        font-size: 4vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 3vw;
         margin-bottom: 10px;
     }
 
@@ -63,18 +73,19 @@
 
     .event-space-name, .event-space-nickname{
         font-size: 5vw;
-        margin-bottom: 5px;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 4vw;
     }
 
     .event-space-content-title{
-        font-size: 4vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 3vw;
         margin-bottom: 10px;
     }
 
@@ -103,18 +114,19 @@
 
     .event-space-name, .event-space-nickname{
         font-size: 4vw;
-        margin-bottom: 5px;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 3vw;
     }
 
     .event-space-content-title{
-        font-size: 3vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 2vw;
         margin-bottom: 10px;
     }
 
@@ -142,19 +154,20 @@
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 4vw;
-        margin-bottom: 5px;
+        font-size: 3vw;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 2.5vw;
     }
 
     .event-space-content-title{
-        font-size: 3vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 2vw;
         margin-bottom: 10px;
     }
 
@@ -183,18 +196,19 @@
 
     .event-space-name, .event-space-nickname{
         font-size: 3vw;
-        margin-bottom: 5px;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 2vw;
     }
 
     .event-space-content-title{
-        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 
@@ -223,18 +237,19 @@
 
     .event-space-name, .event-space-nickname{
         font-size: 3vw;
-        margin-bottom: 5px;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 2vw;
     }
 
     .event-space-content-title{
-        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 
@@ -251,7 +266,7 @@
 /* WIDESCREEN */
 @media screen and (min-width: 1400px){
     .event-space-container{
-        width: 60%;
+        width: 50%;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -262,19 +277,20 @@
     }
 
     .event-space-name, .event-space-nickname{
-        font-size: 3vw;
-        margin-bottom: 5px;
+        font-size: 2vw;
+    }
+
+    .event-space-content-title, .event-space-content-item, .upgrade-header{
+        font-size: 1.5vw;
     }
 
     .event-space-content-title{
-        font-size: 2vw;
         padding-bottom: 15px;
         margin-bottom: 15px;
-        border-bottom: 1px solid #1f78bd;
+
     }
 
     .event-space-content-item{
-        font-size: 1.6vw;
         margin-bottom: 10px;
     }
 
@@ -285,5 +301,9 @@
     .event-space-image{
         width: 100%;
         height: auto;
+    }
+
+    .event-space-content-title{
+        border-width: 3px;
     }
 }

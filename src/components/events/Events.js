@@ -51,8 +51,7 @@ const Events = () => {
                         <img className="upgrade-icon" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709838380/octopus-house/Chef_icon_nus3ig.png" alt="upgrade-icon"/>
                         <div className="upgrade-info-container">
                             <div className="upgrade-header">PRIVATE CHEF</div>
-                            <div className="upgrade-blurb">Raise the Steaks with a private chef. <br/>
-                            This upgrade includes...</div>
+                            <div className="upgrade-blurb">Raise the Steaks with a private chef.</div>
                         </div>
                     </div>
                     <div className="upgrade">
