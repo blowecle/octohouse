@@ -31,7 +31,16 @@
 @media screen and (max-width: 375px){
     .contact-container{
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -84,7 +93,16 @@
 @media screen and (min-width: 376px) and (max-width: 499px){
     .contact-container{
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -137,7 +155,16 @@
 @media screen and (min-width: 500px) and (max-width: 699px){
     .contact-container{
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -190,7 +217,16 @@
 @media screen and (min-width: 700px) and (max-width: 899px){
     .contact-container{
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -243,7 +279,16 @@
 @media screen and (min-width: 900px) and (max-width: 1199px){
     .contact-container{
         width: 70%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -296,7 +341,16 @@
 @media screen and (min-width: 1200px) and (max-width: 1399px){
     .contact-container{
         width: 70%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
@@ -349,7 +403,16 @@
 @media screen and (min-width: 1400px){
     .contact-container{
         width: 70%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-container{
+        margin-top: 40px;
     }
 
     .contact-header{
