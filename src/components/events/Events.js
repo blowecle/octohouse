@@ -66,7 +66,7 @@ const Events = () => {
                         <img className="upgrade-icon" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709838380/octopus-house/Stay_the_Night_icon_h3aruu.png" alt="upgrade-icon"/>
                         <div className="upgrade-info-container">
                             <div className="upgrade-header">STAY THE NIGHT</div>
-                            <div className="upgrade-blurb">Are you from out-of-town or not ready for the fun to end after 1 day? 4 bedrooms available for your extended-stay needs.</div>
+                            <div className="upgrade-blurb">Are you from out-of-town or not ready for the fun to end after one day? Three bedrooms available for your extended-stay needs.</div>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const Events = () => {
             <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
             <div className="contact-container">
                 <div className="contact-header">CONTACT</div>
-                <Contact />
+                <Contact /> 
             </div>
             <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
             <div className="additional-info-container">
@@ -88,19 +88,12 @@ const Events = () => {
                             <li className="list-item">Restrooms</li>
                             <li className="list-item">Hot Tub</li>
                             <li className="list-item">Sound System</li>
-                            <li className="list-item">Party Light</li>
+                            <li className="list-item">Party Lights</li>
                             <li className="list-item last-item">Kitchen</li>
                         </ul>
                     </div>
                     <div className="additional-info-two">
                         <div className="info-header">Max Capacity: 50 ppl</div>
-                    </div>
-                    <div className="additional-info-three">
-                        <div className="info-header">House Rules</div>
-                        <div className="rule">No Pets</div>
-                        <div className="rule">Do NOT block the neighbors driveway</div>
-                        <div className="rule">No Smoking indoors</div>
-                        <div className="rule">You break it you buy it</div>
                     </div>
                 </div>
             </div>
