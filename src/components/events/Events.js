@@ -32,7 +32,7 @@ const Events = () => {
                 <div className="events-header">RENT THE OCTOPUS HOUSE!</div>
                 <div className="events-blurb">Impress your friends, family and colleagues by hosting an
                 experience they will never forget.  This playful home caters to a wide variety
-                of gatherings with 4 unique spaces and options to upgrade your stay.</div>
+                of gatherings with four unique spaces and options to upgrade your stay.</div>
             </div>
             <img className="wave-break" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709837172/octopus-house/Wave_line_break_ibyp0o.png" alt="wave-break"/>
             <div className="event-spaces-container">
