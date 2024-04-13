@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../../css/contact.css'
 
 //any modifications here must also be made to form.html in the public folder
