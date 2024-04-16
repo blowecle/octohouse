@@ -48,14 +48,14 @@ const Events = () => {
                 <div className="upgrades-header">{`* UPGRADE YOUR STAY *`}</div>
                 <div className="upgrades-inner-container">
                     <div className="upgrade">
-                        <img className="upgrade-icon" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709838380/octopus-house/Chef_icon_nus3ig.png" alt="upgrade-icon"/>
+                        <img className="upgrade-icon" src="https://res.cloudinary.com/ddqp7dojc/image/upload/v1713231548/octo-house/Private_Chef_kfiyfk.png" alt="upgrade-icon"/>
                         <div className="upgrade-info-container">
                             <div className="upgrade-header">PRIVATE CHEF</div>
                             <div className="upgrade-blurb">Raise the Steaks with a private chef.</div>
                         </div>
                     </div>
                     <div className="upgrade">
-                        <img className="upgrade-icon" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709838380/octopus-house/Entertainment_icon_nobo6j.png" alt="upgrade-icon"/>
+                        <img className="upgrade-icon" src="https://res.cloudinary.com/ddqp7dojc/image/upload/v1713231547/octo-house/Entertainment_d5axg7.png" alt="upgrade-icon"/>
                         <div className="upgrade-info-container">
                             <div className="upgrade-header">ENTERTAINMENT</div>
                             <div className="upgrade-blurb">Want to add some flare to your event?
@@ -63,7 +63,7 @@ const Events = () => {
                         </div>
                     </div>
                     <div className="upgrade">
-                        <img className="upgrade-icon" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709838380/octopus-house/Stay_the_Night_icon_h3aruu.png" alt="upgrade-icon"/>
+                        <img className="upgrade-icon" src="https://res.cloudinary.com/ddqp7dojc/image/upload/v1713231548/octo-house/Stay_the_Night_fxfi1m.png" alt="upgrade-icon"/>
                         <div className="upgrade-info-container">
                             <div className="upgrade-header">STAY THE NIGHT</div>
                             <div className="upgrade-blurb">Are you from out-of-town or not ready for the fun to end after one day? Three bedrooms available for your extended-stay needs.</div>
