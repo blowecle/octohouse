@@ -1,6 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
+console.log('inside spaces slice')
+
 const spaceSlice = createSlice({
     name: "spaceList",
     initialState: {
@@ -40,12 +42,11 @@ export const { getSpaceList, setErrorMsg } =
 
 //async thunk for fetching all space data
 export const fetchSpaces = createAsyncThunk(
-    "events/fetchSpaces",
+    "spaces/fetchSpaces",
     async () => {
         try {
-            console.log('inside slice')
             const { data } = await axios.get(
-                "https://octopus-house.herokuapp.com/api/events"
+                "https://octopus-house.herokuapp.com/api/spaces"
             );
             return data;
         } catch (e) {

@@ -10,7 +10,7 @@ import '../../css/events.css'
 
 
 const Events = () => {
-    console.log('inside events component')
+    console.log('inside events')
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -24,8 +24,10 @@ const Events = () => {
 
     const spaces = useSelector((state) => state.spaces.spaces);
     
+    console.log(spaces)
     return (
         <section className="events-container">
+            {spaces.length ? ( <>
             <img className="events-image-mobile" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1709836127/octopus-house/eventsHeaderMobile_vpgznw.jpg"/>
             <img className="events-image-tablet" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1710433847/octopus-house/eventsHeaderTablet_ie6zkw.jpg"/>
             <img className="events-image-desktop" src="https://res.cloudinary.com/dyjzfdguj/image/upload/v1710433872/octopus-house/eventsHeaderDesktop_pw8qki.jpg"/>
@@ -98,7 +100,7 @@ const Events = () => {
                     </div>
                 </div>
             </div>
-            <EventsFooter />
+            <EventsFooter /> </>) : null}
         </section>
     );
 };
