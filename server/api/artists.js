@@ -3,7 +3,7 @@ const { Artist, Artifact } = require('../db');
 
 
 //GET all artists and eagerly load the artist model
-router.get('/', async(res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artistList = await Artist.findAll();
         res.send(artistList)

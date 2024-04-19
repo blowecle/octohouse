@@ -3,7 +3,7 @@ const { Artist, Post } = require('../db');
 
 
 //GET all posts and eagerly load the associated artists
-router.get('/', async(res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const postList = await Post.findAll({
             include: {

@@ -4,7 +4,7 @@ const Op = Sequelize.Op;
 const { Artist, Artifact } = require('../db');
 
 //GET /api/artifacts all artifacts
-router.get('/', async(res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artifactList = await Artifact.findAll();
         res.send(artifactList)
