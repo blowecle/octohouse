@@ -1,5 +1,7 @@
 const router = require('express').Router();
-const { Artist, Artifact } = require('../db');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
+const { Artist, Post, Artifact } = require('../db');
 
 
 //GET all artists and eagerly load the artist model

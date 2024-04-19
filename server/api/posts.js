@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Artist, Post } = require('../db');
+const { Artist, Post, Artifact } = require('../db');
 
 
 //GET all posts and eagerly load the associated artists

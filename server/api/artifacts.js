@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
-const { Artist, Artifact } = require('../db');
+const { Artist, Post, Artifact } = require('../db');
 
 //GET /api/artifacts all artifacts
 router.get('/', async(req, res, next) => {
