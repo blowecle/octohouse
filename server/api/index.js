@@ -6,7 +6,7 @@ router.use('/story', require('./story'));
 router.use('/posts', require('./posts'));
 router.use('/artists', require('./artists'));
 router.use('/artifactartist', require('./artifactartists'));
-router.use('/spaces', require('./spaces'));
+router.use('/events', require('./spaces'));
 
 
 router.use((req, res, next) => {

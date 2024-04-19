@@ -10,6 +10,7 @@ import '../../css/events.css'
 
 
 const Events = () => {
+    console.log('inside events component')
     const dispatch = useDispatch();
 
     useEffect(() => {
