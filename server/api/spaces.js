@@ -1,11 +1,14 @@
 const router = require('express').Router();
-const { Space } = require('../db');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
+const { Spaces } = require('../db');
 
 
 //GET all spaces
 router.get('/', async(req, res, next) => {
     try {
-        const spaceList = await Space.findAll();
+        console.log('inside api')
+        const spaceList = await Spaces.findAll();
         res.send(spaceList);
     } catch (e) {
         next(e);
