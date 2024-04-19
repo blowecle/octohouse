@@ -379,7 +379,7 @@
 			"spaceID": 3,
 			"title": "BACK DECK",
 			"subtitle": "(Party Time)",
-			"blurb": "A view of the city skyline with a private, escape surrounded by nature.",
+			"blurb": "A view of the city skyline with a private escape surrounded by nature.",
 			"features": ["Covered", "Seats 12-14", "Holds up to 30", "Music System", "Party Lights", "Heating and Cooling"],
 			"images": ["deck1.webp"]
 		},
@@ -387,7 +387,7 @@
 			"spaceID": 4,
 			"title": "HOT TUB",
 			"subtitle": "(The Oasis)",
-			"blurb": "Finish the night with a luxurious dip in the hot tub. This spot is located in a shady garden surrounded by flowing waterfalls.",
+			"blurb": "Finish the night with a luxurious dip in the hot tub, or cool plunge in summer. This spot is located in a shady garden surrounded by flowing waterfalls.",
 			"features": ["Tub seats 6-10", "Outdoor Shower", "Robes and Slippers", "Filtered Water", "Ambient Water Features"],
 			"images": ["tub1.webp"]
 		}
