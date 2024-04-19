@@ -3,7 +3,7 @@ const crossReference = require('../db/crossReference');
 
 
 //GET /api/artifactartist cross-reference table
-router.get('/', async(res, next) => {
+router.get('/', async(req, res, next) => {
     try {
         const artifactArtist = await crossReference.findAll();
         res.send(artifactArtist)
