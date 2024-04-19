@@ -42,7 +42,7 @@ export const { getSpaceList, setErrorMsg } =
 
 //async thunk for fetching all space data
 export const fetchSpaces = createAsyncThunk(
-    "spaces/fetchSpaces",
+    "/spaces/fetchSpaces",
     async () => {
         try {
             const { data } = await axios.get(
