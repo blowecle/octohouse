@@ -87,7 +87,7 @@ const Events = () => {
                         <div className="info-header">Included in this package:</div>
                         <ul className="package-list">
                             <li className="list-item">Wifi</li>
-                            <li className="list-item">Grill</li>
+                            <li className="list-item">XLarge Green Egg Grill</li>
                             <li className="list-item">Restrooms</li>
                             <li className="list-item">Hot Tub</li>
                             <li className="list-item">Sound System</li>
