@@ -89,7 +89,7 @@ const Events = () => {
                             <li className="list-item">Wifi</li>
                             <li className="list-item">XLarge Green Egg Grill</li>
                             <li className="list-item">Restrooms</li>
-                            <li className="list-item">Hot Tub</li>
+                            <li className="list-item">{`Hot Tub (Cool plunge in the summer)`}</li>
                             <li className="list-item">Sound System</li>
                             <li className="list-item">Party Lights</li>
                             <li className="list-item last-item">Kitchen</li>
