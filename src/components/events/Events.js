@@ -23,7 +23,6 @@ const Events = () => {
 
     const spaces = useSelector((state) => state.spaces.spaces);
     
-    console.log(spaces)
     return (
         <section className="events-container">
             {spaces.length ? ( <>
