@@ -43,7 +43,7 @@ const Home = () => {
       }));
     
     return (<>
-            {!isDataLoaded && <Loading />}
+            {/* {!isDataLoaded && <Loading />} */}
             <div className='home-container'>
                 <div className="gallery-container">
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {
