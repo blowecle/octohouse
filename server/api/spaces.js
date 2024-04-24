@@ -7,7 +7,6 @@ const { Space } = require('../db');
 //GET all spaces
 router.get('/', async(req, res, next) => {
     try {
-        console.log('inside api')
         const spaceList = await Space.findAll();
         res.send(spaceList);
     } catch (e) {
