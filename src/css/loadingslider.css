@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'citrusGothic';
+    src: url('../../public/CitrusGothic-Regular.ttf');
+}
+
+.loading-container{
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+    position: fixed;
+    background-color: #004c8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: citrusGothic;
+    color: white;
+}
+
+.enter-button{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 479px){
+    .enter-button{
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .slider-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px){
+    .enter-button{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+    .slider-container{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+    .enter-button{
+        font-size: 3.5rem;
+        margin-top: 20px;
+    }
+
+    .slider-container{
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .enter-button{
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .slider-container{
+        width: 450px;
+        height: auto;
+    }
+}

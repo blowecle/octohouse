@@ -6,7 +6,7 @@ import '../../css/Home.css';
 
 import Artifact from './Artifact';
 import Footer from '../footer/Footer';
-import Loading from '../loading/loading';
+import LoadingSlider from '../loading/LoadingSlider';
 
 import { fetchArtifacts } from '../../store/reducers/artifactSlice';
 import { fetchArtists } from '../../store/reducers/artistSlice';
@@ -43,7 +43,7 @@ const Home = () => {
       }));
     
     return (<>
-            {/* {!isDataLoaded && <Loading />} */}
+          <LoadingSlider/>
             <div className='home-container'>
                 <div className="gallery-container">
                     {artifactArtist.length ? (artifacts ? (artifacts.map((artifact, index) => {
