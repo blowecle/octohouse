@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import '../../css/loadingslider.css';
 
@@ -8,6 +8,14 @@ const LoadingSlider = () => {
   const [position, setPosition] = useState(0);
   const [active, setActive] = useState(false);
   const loadingContainerRef = useRef(null);
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
 
   const handleClick = () => {
     setActive(true);
@@ -36,6 +44,7 @@ const LoadingSlider = () => {
     loadingContainer.style.opacity = '0';
     setTimeout(() => {
       loadingContainer.style.zIndex = '-1';
+      document.body.style.overflow = 'auto';
     }, 1500);
   };
 
@@ -50,7 +59,7 @@ const LoadingSlider = () => {
       </div>
       <div className="button-container">
         <div className="enter-button" onClick={handleClick} disabled={active}>
-          ENTER
+          Enter
         </div>
       </div>
     </div>
